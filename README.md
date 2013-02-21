@@ -11,7 +11,7 @@ App42 Cloud API Client SDK files for PHP
 
 On the success of registration you will receieve the API KEY and SECRET KEYs for dummy application created for quick start. Intention of dummy application is to makeuser experience seamless to use the APIs.
 
-Downlload the SDK and Unzip the file which contains the Sample App and API Docs
+Download the SDK and Unzip the file which contains the Sample App and API Docs
 
 How to use PHP SDK :
 
@@ -21,4 +21,10 @@ Copy the SampleApp.php into App42_PHP_SDK_x.x.x Folder
 
 NOTE : You have to open curl settings in php.ini file
 
-Steps: Open php.ini ---> search with keyword "curl" ---> remove ";" before "extension=php_curl.dll"
+Steps: 
+
+1. Open php.ini and search with keyword "curl" 
+
+2. remove ";" before "extension=php_curl.dll"
+
+3. ready to go.
