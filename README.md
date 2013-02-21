@@ -27,4 +27,6 @@ Steps:
 
 2. remove ";" before "extension=php_curl.dll"
 
-3. ready to go.
+3. restart your xampp panel.
+
+4. ready to use.
