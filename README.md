@@ -3,7 +3,7 @@ App42_PHP_SDK
 
 App42 Cloud API Client SDK files for PHP
 
-[Download the latest App42 PHP SDK] (https://github.com/shephertz/App42_PHP_SDK/blob/master/0.8.3/app42_php_0.8.3.zip)
+[Download the latest App42 PHP SDK] (https://github.com/shephertz/App42_PHP_SDK/raw/master/0.8.3/app42_php_0.8.3.zip)
 
 [Documentation and API guide] (http://api.shephertz.com/cloudapidocs/index.php)
 
