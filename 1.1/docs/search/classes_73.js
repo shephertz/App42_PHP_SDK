@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['sampleapp',['SampleApp',['../class_sample_app.html',1,'']]],
+  ['score',['Score',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1game_1_1_score.html',1,'com::shephertz::app42::paas::sdk::php::game']]],
+  ['scoreboardservice',['ScoreBoardService',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1game_1_1_score_board_service.html',1,'com::shephertz::app42::paas::sdk::php::game']]],
+  ['scoreservice',['ScoreService',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1game_1_1_score_service.html',1,'com::shephertz::app42::paas::sdk::php::game']]],
+  ['serviceapi',['ServiceAPI',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1_service_a_p_i.html',1,'com::shephertz::app42::paas::sdk::php']]],
+  ['session',['Session',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1session_1_1_session.html',1,'com::shephertz::app42::paas::sdk::php::session']]],
+  ['sessionresponsebuilder',['SessionResponseBuilder',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1session_1_1_session_response_builder.html',1,'com::shephertz::app42::paas::sdk::php::session']]],
+  ['sessionservice',['SessionService',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1session_1_1_session_service.html',1,'com::shephertz::app42::paas::sdk::php::session']]],
+  ['social',['Social',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1social_1_1_social.html',1,'com::shephertz::app42::paas::sdk::php::social']]],
+  ['socialresponsebuilder',['SocialResponseBuilder',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1social_1_1_social_response_builder.html',1,'com::shephertz::app42::paas::sdk::php::social']]],
+  ['socialservice',['SocialService',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1social_1_1_social_service.html',1,'com::shephertz::app42::paas::sdk::php::social']]],
+  ['storage',['Storage',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1storage_1_1_storage.html',1,'com::shephertz::app42::paas::sdk::php::storage']]],
+  ['storage',['Storage',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1app_tab_1_1_storage.html',1,'com::shephertz::app42::paas::sdk::php::appTab']]],
+  ['storageresponsebuilder',['StorageResponseBuilder',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1storage_1_1_storage_response_builder.html',1,'com::shephertz::app42::paas::sdk::php::storage']]],
+  ['storageservice',['StorageService',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1storage_1_1_storage_service.html',1,'com::shephertz::app42::paas::sdk::php::storage']]],
+  ['storagetransaction',['StorageTransaction',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1app_tab_1_1_storage_transaction.html',1,'com::shephertz::app42::paas::sdk::php::appTab']]],
+  ['storageunit',['StorageUnit',['../classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1php_1_1app_tab_1_1_storage_unit.html',1,'com::shephertz::app42::paas::sdk::php::appTab']]]
+];
