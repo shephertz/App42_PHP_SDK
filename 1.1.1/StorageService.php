@@ -974,7 +974,56 @@ class StorageService {
         }
         return $storageObj;
     }
+ 
+    function deleteDocumentsByKeyValue($dbName, $collectionName, $key, $value) {
 
+        Util::throwExceptionIfNullOrBlank($dbName, "DataBase Name");
+        Util::throwExceptionIfNullOrBlank($collectionName, "Collection Name");
+        Util::throwExceptionIfNullOrBlank($key, "Key");
+        Util::throwExceptionIfNullOrBlank($value, "Value");
+        $encodedDbName = Util::encodeParams($dbName);
+        $encodedCollectionName = Util::encodeParams($collectionName);
+        $encodedKey = Util::encodeParams($key);
+        $responseObj = new App42Response();
+        $objUtil = new Util($this->apiKey, $this->secretKey);
+        try {
+            $params = array();
+            $params['apiKey'] = $this->apiKey;
+            $params['version'] = $this->version;
+            $sessionId = $this->sessionId;
+            if ($sessionId != null) {
+                $params['sessionId'] = $this->sessionId;
+            }
+            $adminKey = $this->adminKey;
+            if ($adminKey != null) {
+                $params['adminKey'] = $this->adminKey;
+            }
+            date_default_timezone_set('UTC');
+            $json = new JSONObject();
+            $json->put("key", $value);
+            
+            $params['dbName'] = $dbName;
+            $params['collectionName'] = $collectionName;
+            $params['value'] = $json;
+            $params['key'] = $key;
+            $params['timeStamp'] = date("Y-m-d\TG:i:s") . substr((string) microtime(), 1, 4) . "Z";
+            $signature = urlencode($objUtil->sign($params)); //die();
+            $params['signature'] = $signature;
+            $contentType = $this->content_type;
+            $accept = $this->accept;
+            $this->url = $this->url . "/deletebykey" . "/dbName" . "/" . $encodedDbName . "/collectionName" . "/" . $encodedCollectionName . "/" . $encodedKey;
+            $response = RestClient::delete($this->url, $params, null, null, $contentType, $accept);
+            print_r($response);
+            $responseObj->setStrResponse($response);
+            $responseObj->setResponseSuccess(true);
+        } catch (App42Exception $e) {
+            throw $e;
+        } catch (Exception $e) {
+            throw new App42Exception($e);
+        }
+        return $responseObj;
+    }
+	
     public function getSessionId() {
         return $this->sessionId;
     }
