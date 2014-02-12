@@ -502,8 +502,8 @@ class RestClient {
                         ->setContentType($contentType)
                         ->setAccept($accept)
                         ->setpostBody($postBody)
-                        ->setAdminKey($body["adminKey"])
-                        ->setSessionId($body["sessionId"])
+                        ->setAdminKey(array_key_exists('adminKey', $body) ? $body["adminKey"] : null)
+                        ->setSessionId(array_key_exists('sessionId', $body) ? $body["sessionId"] : null)
                         ->execute()
                         ->close();
     }
