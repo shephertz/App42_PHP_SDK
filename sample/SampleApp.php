@@ -7,11 +7,11 @@ use com\shephertz\app42\paas\sdk\php\App42SecurityException;
 use com\shephertz\app42\paas\sdk\php\App42Exception;
 
 
-include_once '../1.1.1/ServiceAPI.php';
-include_once '../1.1.1/App42BadParameterException.php';
-include_once '../1.1.1/App42NotFoundException.php';
-include_once '../1.1.1/App42SecurityException.php';
-include_once '../1.1.1/App42Exception.php';
+include_once '../1.2/ServiceAPI.php';
+include_once '../1.2/App42BadParameterException.php';
+include_once '../1.2/App42NotFoundException.php';
+include_once '../1.2/App42SecurityException.php';
+include_once '../1.2/App42Exception.php';
 
 
 /**
