@@ -1,17 +1,13 @@
 <?php
 
-use com\shephertz\app42\paas\sdk\php\ServiceAPI;
-use com\shephertz\app42\paas\sdk\php\App42BadParameterException;
-use com\shephertz\app42\paas\sdk\php\App42NotFoundException;
-use com\shephertz\app42\paas\sdk\php\App42SecurityException;
-use com\shephertz\app42\paas\sdk\php\App42Exception;
 
-
-include_once '../1.2/ServiceAPI.php';
-include_once '../1.2/App42BadParameterException.php';
-include_once '../1.2/App42NotFoundException.php';
-include_once '../1.2/App42SecurityException.php';
-include_once '../1.2/App42Exception.php';
+include_once '../2.0/UserService.php'; 
+include_once '../2.0/App42Response.php';  
+include_once '../2.0/App42Log.php';
+include_once '../2.0/App42BadParameterException.php';
+include_once '../2.0/App42NotFoundException.php';
+include_once '../2.0/App42SecurityException.php';
+include_once '../2.0/App42Exception.php';
 
 
 /**
@@ -28,11 +24,11 @@ class SampleApp{
 	
     public function createUser()
     {
-        $api = new ServiceAPI("API KEY", "SECRET KEY");
+		App42API::initialize("API KEY", "SECRET KEY");
 		$response = null;
 
         // FOR  Test Create USER
-        $objUser = $api->buildUserService();
+        $objUser = App42API::buildUserService();
 
         try {
             print(" Starting User Creation test");
