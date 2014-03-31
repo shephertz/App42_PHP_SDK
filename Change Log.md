@@ -1,4 +1,136 @@
+* [Release Version 2.0](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-20)
 * [Release Version 1.2](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-12)
+
+
+
+## Version 2.0
+
+**Release Date:** 31-03-2014
+
+**Release Version:** 2.0
+
+**The following features have been changed :**
+
+```
+If you are upgrading from previous version of App42_PHP_SDK_2.0 and have removed namespaces. 
+```
+
+
+**The following Services have been pushed to the latest :**
+
+```
+Avatar Service
+Buddy Service
+Achievement Service
+ABTest Service
+```
+
+**The following features have been pushed :**
+
+```
+Meta info in UserService (getUser,getUsersByRole,getUserByEmailId) and ScoreBoardService(getTopNRankers,getTopNTargetRankers).
+```
+
+**The following features have been pushed to the services :**
+
+**USER SERVICE**
+
+```
+resetUserPassword
+logout
+addJSONObject(Add Extra Information while creating user)
+```
+**SCOREBOARD SERVICE**
+
+```
+getTopRankersFromBuddyGroup
+getTopNRankersFromFacebook
+getTopNRankersFromFacebookByDateRange
+getTopNTargetRankers
+addJSONObject(Add Extra Information of user while saves score)
+```
+**REWARD SERVICE**
+
+```
+getUserRankingOnReward
+```
+
+**UPLOAD SERVICE**
+
+```
+uploadFileForGroup
+uploadFileForFriend
+uploadFileForFriends
+```
+
+**STORAGE SERVICE**
+
+```
+findAllCollections
+deleteAllDocuments
+updateDocumentByQuery
+addOrUpdateKeys
+findDocumentsByLocation
+saveOrUpdateDocumentByKeyValue
+```
+**REVIEW SERVICE**
+
+```
+deleteReviewByReviewId
+deleteCommentByCommentId
+getReviewsCountByItemAndRating
+getAllReviewsByUser
+```
+
+**SOCIAL SERVICE**
+
+```
+facebookPublishStream
+facebookLinkPost
+facebookLinkPostWithCustomThumbnail
+getFacebookProfile
+getFacebookProfilesFromIds
+```
+
+**LOG SERVICE**
+
+```
+setEvent
+setEventWithModuleName
+```
+
+**CATALOUGE SERVICE**
+
+```
+deleteCategory
+```
+
+**GALLERY SERVICE**
+
+```
+updatePhoto
+```
+
+**PUSH NOTIFICATION SERVICE**
+
+```
+registerAndSubscribe
+unsubscribeDeviceToChannel
+deleteDeviceToken
+sendPushMessageToGroup
+sendPushToTargetUsers
+sendMessageToInActiveUsers
+scheduleMessageToUser
+unsubscribeDevice
+resubscribeDevice
+```
+
+**This release contains the following bug fix:**
+
+```
+None
+```
+
 
 ## Version 1.2
 
