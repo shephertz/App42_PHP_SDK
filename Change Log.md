@@ -1,6 +1,36 @@
+* [Release Version 2.1](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-21)
 * [Release Version 2.0](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-20)
 * [Release Version 1.2](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-12)
 
+## Version 2.1
+
+**Release Date:** 09-04-2014
+
+**Release Version:** 2.1
+
+
+
+**The following features have been pushed to the services :**
+
+**User SERVICE**
+
+```
+createUserWithProfile
+getUsersByGroup
+```
+
+**PUSH NOTIFICATION SERVICE**
+
+```
+deleteAllDevices
+sendPushMessageToDevice
+```
+
+**This release contains the following bug fix:**
+
+```
+Warning Remove 
+```
 
 
 ## Version 2.0
