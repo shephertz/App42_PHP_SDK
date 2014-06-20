@@ -1,13 +1,13 @@
 <?php
 
 
-include_once '../2.1.1/UserService.php'; 
-include_once '../2.1.1/App42Response.php';  
-include_once '../2.1.1/App42Log.php';
-include_once '../2.1.1/App42BadParameterException.php';
-include_once '../2.1.1/App42NotFoundException.php';
-include_once '../2.1.1/App42SecurityException.php';
-include_once '../2.1.1/App42Exception.php';
+include_once '../2.2/UserService.php'; 
+include_once '../2.2/App42Response.php';  
+include_once '../2.2/App42Log.php';
+include_once '../2.2/App42BadParameterException.php';
+include_once '../2.2/App42NotFoundException.php';
+include_once '../2.2/App42SecurityException.php';
+include_once '../2.2/App42Exception.php';
 
 
 /**
