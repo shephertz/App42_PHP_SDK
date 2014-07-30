@@ -1,0 +1,399 @@
+\hypertarget{class_upload_service}{\section{Upload\+Service Class Reference}
+\label{class_upload_service}\index{Upload\+Service@{Upload\+Service}}
+}
+Inheritance diagram for Upload\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_upload_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_upload_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_upload_service_a06c78fcedab128228ce78283a818926e}{upload\+File\+For\+User} (\$file\+Name, \$user\+Name, \$file\+Path, \$upload\+File\+Type, \$description)
+\item 
+\hyperlink{class_upload_service_ac002034415239ce67478bd8f218cabcf}{get\+All\+Files} (\$max=null, \$offset=null)
+\item 
+\hyperlink{class_upload_service_a96c99c9230eeed2eb028faa021f07a60}{get\+All\+Files\+Count} ()
+\item 
+\hyperlink{class_upload_service_a5e32e3ca630ce960eba47a0e73b5a918}{get\+File\+By\+User} (\$file\+Name, \$user\+Name)
+\item 
+\hyperlink{class_upload_service_a3a9f5e68c0a8babd8da8314095b40a6c}{get\+All\+Files\+By\+User} (\$user\+Name, \$max=null, \$offset=null)
+\item 
+\hyperlink{class_upload_service_a2d2d47748ce7f6dc1c6cf33f4ea161db}{get\+All\+Files\+Count\+By\+User} (\$user\+Name)
+\item 
+\hyperlink{class_upload_service_a98fe2cf6081b4bd75732914d713df855}{remove\+File\+By\+User} (\$file\+Name, \$user\+Name)
+\item 
+\hyperlink{class_upload_service_ae3257388af72157f33f6b4569b2ca9e0}{remove\+All\+Files\+By\+User} (\$user\+Name)
+\item 
+\hyperlink{class_upload_service_a28747d3c807c86d68e593cc522298a81}{remove\+All\+Files} ()
+\item 
+\hyperlink{class_upload_service_ab87862c57c2a39d86fadc65fb7a16f07}{get\+Files\+By\+Type} (\$upload\+File\+Type, \$max=null, \$offset=null)
+\item 
+\hyperlink{class_upload_service_a2a7dcb0ae07b32893be7a7e3751f2348}{get\+Files\+Count\+By\+Type} (\$upload\+File\+Type)
+\item 
+\hyperlink{class_upload_service_af7dce3b417e719967b27f50fecc5261b}{upload\+File} (\$file\+Name, \$file\+Path, \$upload\+File\+Type, \$description)
+\item 
+\hyperlink{class_upload_service_aedda3716ba85afbe3be89ad01a6a2acd}{get\+File\+By\+Name} (\$file\+Name)
+\item 
+\hyperlink{class_upload_service_ae9776e90401158c03d727c41a92ab5c8}{remove\+File\+By\+Name} (\$file\+Name)
+\item 
+\hypertarget{class_upload_service_a428c6232b83e71f0b7158a2b3dd5e956}{{\bfseries upload\+File\+For\+Group} (\$name, \$user\+Name, \$owner\+Name, \$group\+Name, \$file\+Path, \$file\+Type, \$description)}\label{class_upload_service_a428c6232b83e71f0b7158a2b3dd5e956}
+
+\item 
+\hypertarget{class_upload_service_a1e5ff8aeb75d04ed9aedae255f50cfb0}{{\bfseries upload\+File\+For\+Friend} (\$name, \$user\+Name, \$buddy\+Name, \$file\+Path, \$file\+Type, \$description)}\label{class_upload_service_a1e5ff8aeb75d04ed9aedae255f50cfb0}
+
+\item 
+\hypertarget{class_upload_service_a51effa802b9d9611667208cf5d6f1c1f}{{\bfseries upload\+File\+For\+Friends} (\$name, \$user\+Name, \$file\+Path, \$file\+Type, \$description)}\label{class_upload_service_a51effa802b9d9611667208cf5d6f1c1f}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_upload_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}upload\char`\"{}}\label{class_upload_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_upload_service_a084e3db37d1b117a3cc7212cf2eed533}{{\bfseries \$api\+Key}}\label{class_upload_service_a084e3db37d1b117a3cc7212cf2eed533}
+
+\item 
+\hypertarget{class_upload_service_a766bfb236de2f29a3680976ca22790d4}{{\bfseries \$secret\+Key}}\label{class_upload_service_a766bfb236de2f29a3680976ca22790d4}
+
+\item 
+\hypertarget{class_upload_service_acf215f34a917d014776ce684a9ee8909}{{\bfseries \$url}}\label{class_upload_service_acf215f34a917d014776ce684a9ee8909}
+
+\item 
+\hypertarget{class_upload_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_upload_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_upload_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_upload_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_upload_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_upload_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Uploads file on the cloud. Allows access to the files through url. Its especially useful for Mobile/\+Device apps. It minimizes the \hyperlink{class_app}{App} footprint on the device. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_upload_service_a49f2ad222e06420736d750e167d55d7c}{\index{Upload\+Service@{Upload\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_a49f2ad222e06420736d750e167d55d7c}
+This is a constructor that takes
+
+api\+Key  secret\+Key  base\+U\+R\+L 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_upload_service_ac002034415239ce67478bd8f218cabcf}{\index{Upload\+Service@{Upload\+Service}!get\+All\+Files@{get\+All\+Files}}
+\index{get\+All\+Files@{get\+All\+Files}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{get\+All\+Files}]{\setlength{\rightskip}{0pt plus 5cm}get\+All\+Files (
+\begin{DoxyParamCaption}
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_ac002034415239ce67478bd8f218cabcf}
+Gets all the files for the \hyperlink{class_app}{App}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_upload}{Upload} object 
+\end{DoxyReturn}
+Gets all the files By Paging for the \hyperlink{class_app}{App}
+
+
+\begin{DoxyParams}{Parameters}
+{\em max} & 
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em offset} & 
+\begin{DoxyItemize}
+\item From where the records are to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_upload}{Upload} object
+\end{DoxyReturn}
+\hypertarget{class_upload_service_a3a9f5e68c0a8babd8da8314095b40a6c}{\index{Upload\+Service@{Upload\+Service}!get\+All\+Files\+By\+User@{get\+All\+Files\+By\+User}}
+\index{get\+All\+Files\+By\+User@{get\+All\+Files\+By\+User}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{get\+All\+Files\+By\+User}]{\setlength{\rightskip}{0pt plus 5cm}get\+All\+Files\+By\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Name, }
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_a3a9f5e68c0a8babd8da8314095b40a6c}
+Get all the file based on user name.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item The name of the user for which file has to be retrieved
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_upload}{Upload} object 
+\end{DoxyReturn}
+Get all the files based on user name by Paging.
+
+user\+Name
+\begin{DoxyItemize}
+\item The name of the user for which file has to be retrieved  max
+\item Maximum number of records to be fetched  offset
+\item From where the records are to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_upload}{Upload} object
+\end{DoxyReturn}
+\hypertarget{class_upload_service_a96c99c9230eeed2eb028faa021f07a60}{\index{Upload\+Service@{Upload\+Service}!get\+All\+Files\+Count@{get\+All\+Files\+Count}}
+\index{get\+All\+Files\+Count@{get\+All\+Files\+Count}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{get\+All\+Files\+Count}]{\setlength{\rightskip}{0pt plus 5cm}get\+All\+Files\+Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_a96c99c9230eeed2eb028faa021f07a60}
+Gets count of all the files for the \hyperlink{class_app}{App}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object 
+\end{DoxyReturn}
+\hypertarget{class_upload_service_a2d2d47748ce7f6dc1c6cf33f4ea161db}{\index{Upload\+Service@{Upload\+Service}!get\+All\+Files\+Count\+By\+User@{get\+All\+Files\+Count\+By\+User}}
+\index{get\+All\+Files\+Count\+By\+User@{get\+All\+Files\+Count\+By\+User}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{get\+All\+Files\+Count\+By\+User}]{\setlength{\rightskip}{0pt plus 5cm}get\+All\+Files\+Count\+By\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_a2d2d47748ce7f6dc1c6cf33f4ea161db}
+Gets the count of file based on user name.
+
+user\+Name
+\begin{DoxyItemize}
+\item The name of the user for which count of the file has to be retrieved
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object 
+\end{DoxyReturn}
+\hypertarget{class_upload_service_aedda3716ba85afbe3be89ad01a6a2acd}{\index{Upload\+Service@{Upload\+Service}!get\+File\+By\+Name@{get\+File\+By\+Name}}
+\index{get\+File\+By\+Name@{get\+File\+By\+Name}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{get\+File\+By\+Name}]{\setlength{\rightskip}{0pt plus 5cm}get\+File\+By\+Name (
+\begin{DoxyParamCaption}
+\item[{}]{\$file\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_aedda3716ba85afbe3be89ad01a6a2acd}
+Gets the file based on file name.
+
+name
+\begin{DoxyItemize}
+\item The name of the file which has to be retrieved
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_upload}{Upload} object 
+\end{DoxyReturn}
+\hypertarget{class_upload_service_a5e32e3ca630ce960eba47a0e73b5a918}{\index{Upload\+Service@{Upload\+Service}!get\+File\+By\+User@{get\+File\+By\+User}}
+\index{get\+File\+By\+User@{get\+File\+By\+User}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{get\+File\+By\+User}]{\setlength{\rightskip}{0pt plus 5cm}get\+File\+By\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$file\+Name, }
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_a5e32e3ca630ce960eba47a0e73b5a918}
+Gets the file based on user and file name.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & 
+\begin{DoxyItemize}
+\item The name of the file which has to be retrieved 
+\end{DoxyItemize}\\
+\hline
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item The name of the user for which file has to be retrieved
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_upload}{Upload} object 
+\end{DoxyReturn}
+\hypertarget{class_upload_service_ab87862c57c2a39d86fadc65fb7a16f07}{\index{Upload\+Service@{Upload\+Service}!get\+Files\+By\+Type@{get\+Files\+By\+Type}}
+\index{get\+Files\+By\+Type@{get\+Files\+By\+Type}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{get\+Files\+By\+Type}]{\setlength{\rightskip}{0pt plus 5cm}get\+Files\+By\+Type (
+\begin{DoxyParamCaption}
+\item[{}]{\$upload\+File\+Type, }
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_ab87862c57c2a39d86fadc65fb7a16f07}
+Get the files based on file type.
+
+
+\begin{DoxyParams}{Parameters}
+{\em upload\+File\+Type} & 
+\begin{DoxyItemize}
+\item Type of the file e.\+g. Upload.\+A\+U\+D\+I\+O, Upload.\+X\+M\+L etc.
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_upload}{Upload} object 
+\end{DoxyReturn}
+Get the files based on file type by Paging.
+
+upload\+File\+Type
+\begin{DoxyItemize}
+\item Type of the file e.\+g. Upload.\+A\+U\+D\+I\+O, Upload.\+X\+M\+L etc.  max
+\item Maximum number of records to be fetched  offset
+\item From where the records are to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_upload}{Upload} object
+\end{DoxyReturn}
+\hypertarget{class_upload_service_a2a7dcb0ae07b32893be7a7e3751f2348}{\index{Upload\+Service@{Upload\+Service}!get\+Files\+Count\+By\+Type@{get\+Files\+Count\+By\+Type}}
+\index{get\+Files\+Count\+By\+Type@{get\+Files\+Count\+By\+Type}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{get\+Files\+Count\+By\+Type}]{\setlength{\rightskip}{0pt plus 5cm}get\+Files\+Count\+By\+Type (
+\begin{DoxyParamCaption}
+\item[{}]{\$upload\+File\+Type}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_a2a7dcb0ae07b32893be7a7e3751f2348}
+Get the count of files based on file type.
+
+upload\+File\+Type
+\begin{DoxyItemize}
+\item Type of the file e.\+g. Upload.\+A\+U\+D\+I\+O, Upload.\+X\+M\+L etc.
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object 
+\end{DoxyReturn}
+\hypertarget{class_upload_service_a28747d3c807c86d68e593cc522298a81}{\index{Upload\+Service@{Upload\+Service}!remove\+All\+Files@{remove\+All\+Files}}
+\index{remove\+All\+Files@{remove\+All\+Files}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{remove\+All\+Files}]{\setlength{\rightskip}{0pt plus 5cm}remove\+All\+Files (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_a28747d3c807c86d68e593cc522298a81}
+Removes all the files for the \hyperlink{class_app}{App}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} if deleted successfully 
+\end{DoxyReturn}
+\hypertarget{class_upload_service_ae3257388af72157f33f6b4569b2ca9e0}{\index{Upload\+Service@{Upload\+Service}!remove\+All\+Files\+By\+User@{remove\+All\+Files\+By\+User}}
+\index{remove\+All\+Files\+By\+User@{remove\+All\+Files\+By\+User}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{remove\+All\+Files\+By\+User}]{\setlength{\rightskip}{0pt plus 5cm}remove\+All\+Files\+By\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_ae3257388af72157f33f6b4569b2ca9e0}
+Removes the files based on user name.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item The name of the user for which files has to be removed
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} if deleted successfully 
+\end{DoxyReturn}
+\hypertarget{class_upload_service_ae9776e90401158c03d727c41a92ab5c8}{\index{Upload\+Service@{Upload\+Service}!remove\+File\+By\+Name@{remove\+File\+By\+Name}}
+\index{remove\+File\+By\+Name@{remove\+File\+By\+Name}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{remove\+File\+By\+Name}]{\setlength{\rightskip}{0pt plus 5cm}remove\+File\+By\+Name (
+\begin{DoxyParamCaption}
+\item[{}]{\$file\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_ae9776e90401158c03d727c41a92ab5c8}
+Removes the file based on file name.
+
+name
+\begin{DoxyItemize}
+\item The name of the file which has to be removed
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} if deleted successfully 
+\end{DoxyReturn}
+\hypertarget{class_upload_service_a98fe2cf6081b4bd75732914d713df855}{\index{Upload\+Service@{Upload\+Service}!remove\+File\+By\+User@{remove\+File\+By\+User}}
+\index{remove\+File\+By\+User@{remove\+File\+By\+User}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{remove\+File\+By\+User}]{\setlength{\rightskip}{0pt plus 5cm}remove\+File\+By\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$file\+Name, }
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_a98fe2cf6081b4bd75732914d713df855}
+Removes the file based on file name and user name.
+
+name
+\begin{DoxyItemize}
+\item The name of the file which has to be removed  user\+Name
+\item The name of the user for which file has to be removed
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} if deleted successfully 
+\end{DoxyReturn}
+\hypertarget{class_upload_service_af7dce3b417e719967b27f50fecc5261b}{\index{Upload\+Service@{Upload\+Service}!upload\+File@{upload\+File}}
+\index{upload\+File@{upload\+File}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{upload\+File}]{\setlength{\rightskip}{0pt plus 5cm}upload\+File (
+\begin{DoxyParamCaption}
+\item[{}]{\$file\+Name, }
+\item[{}]{\$file\+Path, }
+\item[{}]{\$upload\+File\+Type, }
+\item[{}]{\$description}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_af7dce3b417e719967b27f50fecc5261b}
+Uploads file on the cloud via Stream.
+
+name
+\begin{DoxyItemize}
+\item The name of the file which has to be saved. It is used to retrieve the file  input\+Stream
+\item Input\+Stream of the file to be uploaded.  file\+Type
+\item The type of the file. \hyperlink{class_file}{File} can be either Audio, Video, \hyperlink{class_image}{Image}, Binary, Txt, xml, json, csv or other Use the static constants e.\+g. Upload.\+A\+U\+D\+I\+O, Upload.\+X\+M\+L etc.  description
+\item Description of the file to be uploaded.
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_upload}{Upload} object 
+\end{DoxyReturn}
+\hypertarget{class_upload_service_a06c78fcedab128228ce78283a818926e}{\index{Upload\+Service@{Upload\+Service}!upload\+File\+For\+User@{upload\+File\+For\+User}}
+\index{upload\+File\+For\+User@{upload\+File\+For\+User}!Upload\+Service@{Upload\+Service}}
+\subsubsection[{upload\+File\+For\+User}]{\setlength{\rightskip}{0pt plus 5cm}upload\+File\+For\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$file\+Name, }
+\item[{}]{\$user\+Name, }
+\item[{}]{\$file\+Path, }
+\item[{}]{\$upload\+File\+Type, }
+\item[{}]{\$description}
+\end{DoxyParamCaption}
+)}}\label{class_upload_service_a06c78fcedab128228ce78283a818926e}
+Uploads file on the cloud for given user.
+
+name
+\begin{DoxyItemize}
+\item The name of the file which has to be saved. It is used to retrieve the file  user\+Name
+\item The name of the user for which file has to be saved.  file\+Path
+\item The local path for the file  file\+Type
+\item The type of the file. \hyperlink{class_file}{File} can be either Audio, Video, \hyperlink{class_image}{Image}, Binary, Txt, xml, json, csv or other Use the static constants e.\+g. Upload.\+A\+U\+D\+I\+O, Upload.\+X\+M\+L etc.  description
+\item Description of the file to be uploaded.
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_upload}{Upload} object 
+\end{DoxyReturn}

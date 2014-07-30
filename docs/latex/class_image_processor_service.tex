@@ -1,0 +1,376 @@
+\hypertarget{class_image_processor_service}{\section{Image\+Processor\+Service Class Reference}
+\label{class_image_processor_service}\index{Image\+Processor\+Service@{Image\+Processor\+Service}}
+}
+Inheritance diagram for Image\+Processor\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_image_processor_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_image_processor_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_image_processor_service_a1e39ecb4efe12af4ac7ff3ef91438c84}{resize} (\$name, \$image\+Path, \$width, \$height)
+\item 
+\hyperlink{class_image_processor_service_ac471620745d08e2a537cdc9a4df30c40}{thumbnail} (\$name, \$image\+Path, \$width, \$height)
+\item 
+\hyperlink{class_image_processor_service_a32e4399c5d63bab312cd0e9006d73c75}{scale} (\$name, \$image\+Path, \$width, \$height)
+\item 
+\hyperlink{class_image_processor_service_a41a262e76b699b7373dff531ad4e1a74}{crop} (\$name, \$image\+Path, \$width, \$height, \$x, \$y)
+\item 
+\hyperlink{class_image_processor_service_a9cd2ff744224fdd1f017846395061ade}{resize\+By\+Percentage} (\$name, \$image\+Path, \$percentage)
+\item 
+\hyperlink{class_image_processor_service_af338aa16f1f3804bebbc169c81488feb}{thumbnail\+By\+Percentage} (\$name, \$image\+Path, \$percentage)
+\item 
+\hyperlink{class_image_processor_service_a1f619c45372ce453fc15fff50d114df9}{scale\+By\+Percentage} (\$name, \$image\+Path, \$percentage)
+\item 
+\hyperlink{class_image_processor_service_acd6f29b135b92a443c5a48352c09e342}{convert\+Format} (\$name, \$image\+Path, \$format\+To\+Convert)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_image_processor_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_image_processor_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_image_processor_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}image\char`\"{}}\label{class_image_processor_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_image_processor_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_image_processor_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_image_processor_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_image_processor_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The Image\+Processor service is a \hyperlink{class_image}{Image} utility service on the Cloud. Developers can upload files on the cloud and perform various \hyperlink{class_image}{Image} Manipulation operations on the Uploaded Images e.\+g. resize, scale, thumbnail, crop etc. It is especially useful for Mobile Apps when they dont want to store Images locally and dont want to perform processor intensive operations. It is also useful for web applications who want to perform complex \hyperlink{class_image}{Image} Operations
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_image}{Image} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_image_processor_service_a49f2ad222e06420736d750e167d55d7c}{\index{Image\+Processor\+Service@{Image\+Processor\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Image\+Processor\+Service@{Image\+Processor\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_image_processor_service_a49f2ad222e06420736d750e167d55d7c}
+this is a constructor that takes
+
+
+\begin{DoxyParams}{Parameters}
+{\em api\+Key} & \\
+\hline
+{\em secret\+Key} & \\
+\hline
+{\em base\+U\+R\+L} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_image_processor_service_acd6f29b135b92a443c5a48352c09e342}{\index{Image\+Processor\+Service@{Image\+Processor\+Service}!convert\+Format@{convert\+Format}}
+\index{convert\+Format@{convert\+Format}!Image\+Processor\+Service@{Image\+Processor\+Service}}
+\subsubsection[{convert\+Format}]{\setlength{\rightskip}{0pt plus 5cm}convert\+Format (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$image\+Path, }
+\item[{}]{\$format\+To\+Convert}
+\end{DoxyParamCaption}
+)}}\label{class_image_processor_service_acd6f29b135b92a443c5a48352c09e342}
+Converts the format of the image. Returns the original image url and converted image url. Images are stored on the cloud and can be accessed through the urls Conversion is done based on the format\+To\+Convert provided
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & 
+\begin{DoxyItemize}
+\item Name of the image to convert 
+\end{DoxyItemize}\\
+\hline
+{\em image\+Path} & 
+\begin{DoxyItemize}
+\item Path of the local file to convert 
+\end{DoxyItemize}\\
+\hline
+{\em format\+To\+Convert} & 
+\begin{DoxyItemize}
+\item To which file needs to be converted 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_image}{Image} object containing urls for the original and converted images
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_app42_exception}{App42\+Exception}} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_image_processor_service_a41a262e76b699b7373dff531ad4e1a74}{\index{Image\+Processor\+Service@{Image\+Processor\+Service}!crop@{crop}}
+\index{crop@{crop}!Image\+Processor\+Service@{Image\+Processor\+Service}}
+\subsubsection[{crop}]{\setlength{\rightskip}{0pt plus 5cm}crop (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$image\+Path, }
+\item[{}]{\$width, }
+\item[{}]{\$height, }
+\item[{}]{\$x, }
+\item[{}]{\$y}
+\end{DoxyParamCaption}
+)}}\label{class_image_processor_service_a41a262e76b699b7373dff531ad4e1a74}
+Crops image based on width, height and x, y coordinates. Returns the original image url and converted image url. Images are stored in the cloud and can be accessed through the urls Resizing is done based on the width and height provided.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & 
+\begin{DoxyItemize}
+\item Name of the image to crop 
+\end{DoxyItemize}\\
+\hline
+{\em image\+Path} & 
+\begin{DoxyItemize}
+\item Path of the local file to crop 
+\end{DoxyItemize}\\
+\hline
+{\em width} & 
+\begin{DoxyItemize}
+\item Width of the image to crop 
+\end{DoxyItemize}\\
+\hline
+{\em height} & 
+\begin{DoxyItemize}
+\item Height of the image to crop 
+\end{DoxyItemize}\\
+\hline
+{\em x} & 
+\begin{DoxyItemize}
+\item Coordinate X 
+\end{DoxyItemize}\\
+\hline
+{\em y} & 
+\begin{DoxyItemize}
+\item Coordinate Y
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_image}{Image} object containing urls for the original and converted images 
+\end{DoxyReturn}
+\hypertarget{class_image_processor_service_a1e39ecb4efe12af4ac7ff3ef91438c84}{\index{Image\+Processor\+Service@{Image\+Processor\+Service}!resize@{resize}}
+\index{resize@{resize}!Image\+Processor\+Service@{Image\+Processor\+Service}}
+\subsubsection[{resize}]{\setlength{\rightskip}{0pt plus 5cm}resize (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$image\+Path, }
+\item[{}]{\$width, }
+\item[{}]{\$height}
+\end{DoxyParamCaption}
+)}}\label{class_image_processor_service_a1e39ecb4efe12af4ac7ff3ef91438c84}
+Resize image. Returns the original image url and converted image url. Images are stored on the cloud and can be accessed through the urls Resizing is done based on the width and height provided
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & 
+\begin{DoxyItemize}
+\item Name of the image to resize 
+\end{DoxyItemize}\\
+\hline
+{\em image\+Path} & 
+\begin{DoxyItemize}
+\item Path of the local file to resize 
+\end{DoxyItemize}\\
+\hline
+{\em width} & 
+\begin{DoxyItemize}
+\item Width of the image to resize 
+\end{DoxyItemize}\\
+\hline
+{\em height} & 
+\begin{DoxyItemize}
+\item Height of the image to resize
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_image}{Image} object containing urls for the original and converted images 
+\end{DoxyReturn}
+\hypertarget{class_image_processor_service_a9cd2ff744224fdd1f017846395061ade}{\index{Image\+Processor\+Service@{Image\+Processor\+Service}!resize\+By\+Percentage@{resize\+By\+Percentage}}
+\index{resize\+By\+Percentage@{resize\+By\+Percentage}!Image\+Processor\+Service@{Image\+Processor\+Service}}
+\subsubsection[{resize\+By\+Percentage}]{\setlength{\rightskip}{0pt plus 5cm}resize\+By\+Percentage (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$image\+Path, }
+\item[{}]{\$percentage}
+\end{DoxyParamCaption}
+)}}\label{class_image_processor_service_a9cd2ff744224fdd1f017846395061ade}
+Resize image by Percentage. Returns the original image url and converted image url. Images are stored in the cloud and can be accessed through the urls Resizing is done based on the width and height provided
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & 
+\begin{DoxyItemize}
+\item Name of the image to resize 
+\end{DoxyItemize}\\
+\hline
+{\em image\+Path} & 
+\begin{DoxyItemize}
+\item Path of the local file to resize 
+\end{DoxyItemize}\\
+\hline
+{\em percentage} & 
+\begin{DoxyItemize}
+\item Percentage to which image has to be resized
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_image}{Image} object containing urls for the original and converted images 
+\end{DoxyReturn}
+\hypertarget{class_image_processor_service_a32e4399c5d63bab312cd0e9006d73c75}{\index{Image\+Processor\+Service@{Image\+Processor\+Service}!scale@{scale}}
+\index{scale@{scale}!Image\+Processor\+Service@{Image\+Processor\+Service}}
+\subsubsection[{scale}]{\setlength{\rightskip}{0pt plus 5cm}scale (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$image\+Path, }
+\item[{}]{\$width, }
+\item[{}]{\$height}
+\end{DoxyParamCaption}
+)}}\label{class_image_processor_service_a32e4399c5d63bab312cd0e9006d73c75}
+Scales the image based on width and height. Returns the original image url and converted image url. Images are stored in the cloud and can be accessed through the urls Resizing is done based on the width and height provided.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & 
+\begin{DoxyItemize}
+\item Name of the image to scale 
+\end{DoxyItemize}\\
+\hline
+{\em image\+Path} & 
+\begin{DoxyItemize}
+\item Path of the local file to scale 
+\end{DoxyItemize}\\
+\hline
+{\em width} & 
+\begin{DoxyItemize}
+\item Width of the image to scale 
+\end{DoxyItemize}\\
+\hline
+{\em height} & 
+\begin{DoxyItemize}
+\item Height of the image to scale
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_image}{Image} object containing urls for the original and converted images 
+\end{DoxyReturn}
+\hypertarget{class_image_processor_service_a1f619c45372ce453fc15fff50d114df9}{\index{Image\+Processor\+Service@{Image\+Processor\+Service}!scale\+By\+Percentage@{scale\+By\+Percentage}}
+\index{scale\+By\+Percentage@{scale\+By\+Percentage}!Image\+Processor\+Service@{Image\+Processor\+Service}}
+\subsubsection[{scale\+By\+Percentage}]{\setlength{\rightskip}{0pt plus 5cm}scale\+By\+Percentage (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$image\+Path, }
+\item[{}]{\$percentage}
+\end{DoxyParamCaption}
+)}}\label{class_image_processor_service_a1f619c45372ce453fc15fff50d114df9}
+Scales the image by Percentage. Returns the original image url and converted image url. Images are stored in the cloud and can be accessed through the urls Resizing is done based on the width and height provided
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & 
+\begin{DoxyItemize}
+\item Name of the image file to scale 
+\end{DoxyItemize}\\
+\hline
+{\em image\+Path} & 
+\begin{DoxyItemize}
+\item Path of the local file to scale 
+\end{DoxyItemize}\\
+\hline
+{\em percentage} & 
+\begin{DoxyItemize}
+\item Percentage to which image has to be scaled
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_image}{Image} object containing urls for the original and converted images 
+\end{DoxyReturn}
+\hypertarget{class_image_processor_service_ac471620745d08e2a537cdc9a4df30c40}{\index{Image\+Processor\+Service@{Image\+Processor\+Service}!thumbnail@{thumbnail}}
+\index{thumbnail@{thumbnail}!Image\+Processor\+Service@{Image\+Processor\+Service}}
+\subsubsection[{thumbnail}]{\setlength{\rightskip}{0pt plus 5cm}thumbnail (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$image\+Path, }
+\item[{}]{\$width, }
+\item[{}]{\$height}
+\end{DoxyParamCaption}
+)}}\label{class_image_processor_service_ac471620745d08e2a537cdc9a4df30c40}
+Creates a thumbnail of the image. There is a difference between thumbnail and resize The thumbnail operation is optimized for speed, it removes information of the image which is not necessary for a thumbnail e.\+g header information. Returns the original image url and converted image url. Images are stored on the cloud and can be accessed through the urls Resizing is done based on the width and height provided
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & 
+\begin{DoxyItemize}
+\item Name of the image file for which thumbnail has to be created 
+\end{DoxyItemize}\\
+\hline
+{\em image\+Path} & 
+\begin{DoxyItemize}
+\item Path of the local file whose thumbnail has to be created 
+\end{DoxyItemize}\\
+\hline
+{\em width} & 
+\begin{DoxyItemize}
+\item Width of the image for thumbnail 
+\end{DoxyItemize}\\
+\hline
+{\em height} & 
+\begin{DoxyItemize}
+\item Height of the image for thumbnail
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_image}{Image} object containing urls for the original and converted images 
+\end{DoxyReturn}
+\hypertarget{class_image_processor_service_af338aa16f1f3804bebbc169c81488feb}{\index{Image\+Processor\+Service@{Image\+Processor\+Service}!thumbnail\+By\+Percentage@{thumbnail\+By\+Percentage}}
+\index{thumbnail\+By\+Percentage@{thumbnail\+By\+Percentage}!Image\+Processor\+Service@{Image\+Processor\+Service}}
+\subsubsection[{thumbnail\+By\+Percentage}]{\setlength{\rightskip}{0pt plus 5cm}thumbnail\+By\+Percentage (
+\begin{DoxyParamCaption}
+\item[{}]{\$name, }
+\item[{}]{\$image\+Path, }
+\item[{}]{\$percentage}
+\end{DoxyParamCaption}
+)}}\label{class_image_processor_service_af338aa16f1f3804bebbc169c81488feb}
+Creates a thumbnail of the image by Percentage. There is a difference between thumbnail and resize The thumbnail operation is optimized for speed removes information of the image which is not necessary for a thumbnail to reduce size e.\+g header information. Returns the original image url and converted image url. Images are stored in the cloud and can be accessed through the urls Resizing is done based on the width and height provided
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & 
+\begin{DoxyItemize}
+\item Name of the image file for which thumbnail has to be created 
+\end{DoxyItemize}\\
+\hline
+{\em image\+Path} & 
+\begin{DoxyItemize}
+\item Path of the local file whose thumbnail has to be created 
+\end{DoxyItemize}\\
+\hline
+{\em percentage} & 
+\begin{DoxyItemize}
+\item Percentage for thumbnail
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_image}{Image} object containing urls for the original and converted images 
+\end{DoxyReturn}

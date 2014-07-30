@@ -1,0 +1,81 @@
+\hypertarget{class_game_response_builder}{\section{Game\+Response\+Builder Class Reference}
+\label{class_game_response_builder}\index{Game\+Response\+Builder@{Game\+Response\+Builder}}
+}
+Inheritance diagram for Game\+Response\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game_response_builder}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_game_response_builder_a8bc94acdaada04a52b74b8f9afb25c4c}{build\+Response} (\$json)
+\item 
+\hyperlink{class_game_response_builder_a901d0fc914904a6314c201378ce5f763}{build\+Array\+Response} (\$json)
+\item 
+\hyperlink{class_game_response_builder_abd1e199858fbe0a024d8e83319e3e618}{build\+Game\+Object} (\$game\+J\+S\+O\+N\+Object)
+\item 
+\hypertarget{class_game_response_builder_aa4376e59cd7a74858e26c8f3bdae6c7c}{{\bfseries build\+Json\+Document} (\$document, \$json\+Obj\+Doc)}\label{class_game_response_builder_aa4376e59cd7a74858e26c8f3bdae6c7c}
+
+\item 
+\hypertarget{class_game_response_builder_a407ce44f9d28d031a70ec14144326e5a}{{\bfseries build\+Json\+Facebook\+Profile} (\$me, \$friend\+J\+S\+O\+N\+Obj)}\label{class_game_response_builder_a407ce44f9d28d031a70ec14144326e5a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_game_response_builder}{Game\+Response\+Builder} class converts the J\+S\+O\+N response retrieved from the server to the value object i.\+e \hyperlink{class_game}{Game} 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_game_response_builder_a901d0fc914904a6314c201378ce5f763}{\index{Game\+Response\+Builder@{Game\+Response\+Builder}!build\+Array\+Response@{build\+Array\+Response}}
+\index{build\+Array\+Response@{build\+Array\+Response}!Game\+Response\+Builder@{Game\+Response\+Builder}}
+\subsubsection[{build\+Array\+Response}]{\setlength{\rightskip}{0pt plus 5cm}build\+Array\+Response (
+\begin{DoxyParamCaption}
+\item[{}]{\$json}
+\end{DoxyParamCaption}
+)}}\label{class_game_response_builder_a901d0fc914904a6314c201378ce5f763}
+Converts the response in J\+S\+O\+N format to the list of value objects i.\+e \hyperlink{class_game}{Game}
+
+json
+\begin{DoxyItemize}
+\item response in J\+S\+O\+N format
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_game}{Game} object filled with json data 
+\end{DoxyReturn}
+\hypertarget{class_game_response_builder_abd1e199858fbe0a024d8e83319e3e618}{\index{Game\+Response\+Builder@{Game\+Response\+Builder}!build\+Game\+Object@{build\+Game\+Object}}
+\index{build\+Game\+Object@{build\+Game\+Object}!Game\+Response\+Builder@{Game\+Response\+Builder}}
+\subsubsection[{build\+Game\+Object}]{\setlength{\rightskip}{0pt plus 5cm}build\+Game\+Object (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+J\+S\+O\+N\+Object}
+\end{DoxyParamCaption}
+)}}\label{class_game_response_builder_abd1e199858fbe0a024d8e83319e3e618}
+Converts the \hyperlink{class_game}{Game} J\+S\+O\+N object to the value object i.\+e \hyperlink{class_game}{Game}
+
+game\+J\+S\+O\+N\+Object
+\begin{DoxyItemize}
+\item \hyperlink{class_game}{Game} data as \hyperlink{class_j_s_o_n_object}{J\+S\+O\+N\+Object}
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_game}{Game} object filled with json data 
+\end{DoxyReturn}
+\hypertarget{class_game_response_builder_a8bc94acdaada04a52b74b8f9afb25c4c}{\index{Game\+Response\+Builder@{Game\+Response\+Builder}!build\+Response@{build\+Response}}
+\index{build\+Response@{build\+Response}!Game\+Response\+Builder@{Game\+Response\+Builder}}
+\subsubsection[{build\+Response}]{\setlength{\rightskip}{0pt plus 5cm}build\+Response (
+\begin{DoxyParamCaption}
+\item[{}]{\$json}
+\end{DoxyParamCaption}
+)}}\label{class_game_response_builder_a8bc94acdaada04a52b74b8f9afb25c4c}
+Converts the response in J\+S\+O\+N format to the value object i.\+e \hyperlink{class_game}{Game}
+
+json
+\begin{DoxyItemize}
+\item response in J\+S\+O\+N format
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_game}{Game} object filled with json data 
+\end{DoxyReturn}

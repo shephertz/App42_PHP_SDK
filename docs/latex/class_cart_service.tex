@@ -1,0 +1,443 @@
+\hypertarget{class_cart_service}{\section{Cart\+Service Class Reference}
+\label{class_cart_service}\index{Cart\+Service@{Cart\+Service}}
+}
+Inheritance diagram for Cart\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_cart_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cart_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_cart_service_a8d3e000e20e420c9319514edf5799f91}{create\+Cart} (\$user)
+\item 
+\hyperlink{class_cart_service_a053d64dd52b3d25178370ed237d63e71}{get\+Cart\+Details} (\$cart\+Id)
+\item 
+\hyperlink{class_cart_service_a681ec91e10e412828b2a0cbe762d66ae}{add\+Item} (\$cart\+I\+D, \$item\+I\+D, \$item\+Quantity, \$price)
+\item 
+\hyperlink{class_cart_service_a722a832e305223acf4cce810914c769a}{get\+Items} (\$cart\+Id)
+\item 
+\hyperlink{class_cart_service_abe1e9bfa16445ccfeb1a7d31aebe3572}{get\+Item} (\$cart\+Id, \$item\+Id)
+\item 
+\hyperlink{class_cart_service_a806f2debb6c778488622049e61c65445}{remove\+Item} (\$cart\+Id, \$item\+Id)
+\item 
+\hyperlink{class_cart_service_a334dd3558351b5b6efd10b3e98a2a76a}{remove\+All\+Items} (\$cart\+Id)
+\item 
+\hyperlink{class_cart_service_a8bb3b9e014273a695a2eba1437597f5a}{is\+Empty} (\$cart\+Id)
+\item 
+\hyperlink{class_cart_service_ad04fbb47a6c4d23bdba2a81c36fae536}{check\+Out} (\$cart\+I\+D)
+\item 
+\hyperlink{class_cart_service_a9b025b6fa1ad69b332168bb5161e8712}{payment} (\$cart\+I\+D, \$transaction\+I\+D, \$payment\+Status)
+\item 
+\hyperlink{class_cart_service_acfad04e6064d8ec02d81828ba0e2a043}{increase\+Quantity} (\$cart\+I\+D, \$item\+I\+D, \$quant)
+\item 
+\hyperlink{class_cart_service_a52b92a1e9621ade18ae387b0f8a83657}{decrease\+Quantity} (\$cart\+I\+D, \$item\+I\+D, \$quant)
+\item 
+\hyperlink{class_cart_service_a0b074871b48dfbd111fa1abafaf52127}{get\+Payments\+By\+User} (\$user\+Id)
+\item 
+\hyperlink{class_cart_service_acc29ff8c51dbdc5cc4fedd0bccedd6e5}{get\+Payments\+By\+Cart} (\$cart\+Id)
+\item 
+\hyperlink{class_cart_service_a596571b50eef106130ad60e0c97e1b11}{get\+Payments\+By\+User\+And\+Status} (\$user\+Id, \$payment\+Status)
+\item 
+\hyperlink{class_cart_service_a5be28175c0615ac0b471b52ae231fea3}{get\+Payments\+By\+Status} (\$payment\+Status)
+\item 
+\hyperlink{class_cart_service_ab06f64799f564c95dbd61fb9ecdf4db8}{get\+Payment\+History\+By\+User} (\$user\+Id)
+\item 
+\hyperlink{class_cart_service_a03b2ed3bfb499643dfed706a4bd96ff5}{get\+Payment\+History\+All} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_cart_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}cart\char`\"{}}\label{class_cart_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_cart_service_a084e3db37d1b117a3cc7212cf2eed533}{{\bfseries \$api\+Key}}\label{class_cart_service_a084e3db37d1b117a3cc7212cf2eed533}
+
+\item 
+\hypertarget{class_cart_service_a766bfb236de2f29a3680976ca22790d4}{{\bfseries \$secret\+Key}}\label{class_cart_service_a766bfb236de2f29a3680976ca22790d4}
+
+\item 
+\hypertarget{class_cart_service_acf215f34a917d014776ce684a9ee8909}{{\bfseries \$url}}\label{class_cart_service_acf215f34a917d014776ce684a9ee8909}
+
+\item 
+\hypertarget{class_cart_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_cart_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_cart_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_cart_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_cart_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_cart_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This is Cloud Persistent Shopping \hyperlink{class_cart}{Cart} Service. \hyperlink{class_app}{App} Developers can use this to create a Shopping \hyperlink{class_cart}{Cart}. Add Items and Check Out items. It also maintains the transactions and the corresponding \hyperlink{class_payment}{Payment} Status. The \hyperlink{class_payment}{Payment} Gateway interface is not provided by the Platform. It is left to the \hyperlink{class_app}{App} developer how he wants to do the \hyperlink{class_payment}{Payment} Integration. This can be used along with \hyperlink{class_catalogue}{Catalogue} or used independently
+
+\begin{DoxySeeAlso}{See also}
+Catalgoue 
+
+\hyperlink{class_cart}{Cart} 
+
+\hyperlink{class_app42_response}{App42\+Response} 
+
+\hyperlink{class_item_data}{Item\+Data} 
+
+\hyperlink{class_payment_status}{Payment\+Status} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_cart_service_a49f2ad222e06420736d750e167d55d7c}{\index{Cart\+Service@{Cart\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_a49f2ad222e06420736d750e167d55d7c}
+Constructor that takes
+
+
+\begin{DoxyParams}{Parameters}
+{\em api\+Key} & \\
+\hline
+{\em secret\+Key} & \\
+\hline
+{\em base\+U\+R\+L} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_cart_service_a681ec91e10e412828b2a0cbe762d66ae}{\index{Cart\+Service@{Cart\+Service}!add\+Item@{add\+Item}}
+\index{add\+Item@{add\+Item}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{add\+Item}]{\setlength{\rightskip}{0pt plus 5cm}add\+Item (
+\begin{DoxyParamCaption}
+\item[{}]{\$cart\+I\+D, }
+\item[{}]{\$item\+I\+D, }
+\item[{}]{\$item\+Quantity, }
+\item[{}]{\$price}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_a681ec91e10e412828b2a0cbe762d66ae}
+Adds an \hyperlink{class_item}{Item} in the \hyperlink{class_cart}{Cart} with quantity and price. This method does not take currency. Its the bonus of the \hyperlink{class_app}{App} developer to maintainthe currency. It takes only the price.
+
+cart\+I\+D
+\begin{DoxyItemize}
+\item The \hyperlink{class_cart}{Cart} Id into which item has to be added  item\+I\+D
+\item The \hyperlink{class_item}{Item} id which has to be added in the cart. If the \hyperlink{class_catalogue}{Catalogue} Service is used along with the \hyperlink{class_cart}{Cart} Service then the \hyperlink{class_item}{Item} ids should be same.  item\+Quantity
+\item Quantity of the \hyperlink{class_item}{Item} to be purchased  price
+\item Price of the item
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_cart}{Cart} object containing added item. 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_ad04fbb47a6c4d23bdba2a81c36fae536}{\index{Cart\+Service@{Cart\+Service}!check\+Out@{check\+Out}}
+\index{check\+Out@{check\+Out}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{check\+Out}]{\setlength{\rightskip}{0pt plus 5cm}check\+Out (
+\begin{DoxyParamCaption}
+\item[{}]{\$cart\+I\+D}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_ad04fbb47a6c4d23bdba2a81c36fae536}
+Checks out the \hyperlink{class_cart}{Cart} and put it in Check\+Out Stage and returns the Transaction Id The transaction id has to be used in future to update the \hyperlink{class_payment}{Payment} Status.
+
+cart\+I\+D
+\begin{DoxyItemize}
+\item The cart id that has to be checked\+Out.
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_cart}{Cart} object containing Checked Out \hyperlink{class_cart}{Cart} Information with the Transaction Id 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_a8d3e000e20e420c9319514edf5799f91}{\index{Cart\+Service@{Cart\+Service}!create\+Cart@{create\+Cart}}
+\index{create\+Cart@{create\+Cart}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{create\+Cart}]{\setlength{\rightskip}{0pt plus 5cm}create\+Cart (
+\begin{DoxyParamCaption}
+\item[{}]{\$user}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_a8d3e000e20e420c9319514edf5799f91}
+Creates a \hyperlink{class_cart}{Cart} \hyperlink{class_session}{Session} for the specified \hyperlink{class_user}{User}
+
+user
+\begin{DoxyItemize}
+\item \hyperlink{class_user}{User} for whom \hyperlink{class_cart}{Cart} \hyperlink{class_session}{Session} has to be created
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_cart}{Cart} Object containing \hyperlink{class_cart}{Cart} Id with Creation Time. The id has to be used in subsequent calls for adding and checking out 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_a52b92a1e9621ade18ae387b0f8a83657}{\index{Cart\+Service@{Cart\+Service}!decrease\+Quantity@{decrease\+Quantity}}
+\index{decrease\+Quantity@{decrease\+Quantity}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{decrease\+Quantity}]{\setlength{\rightskip}{0pt plus 5cm}decrease\+Quantity (
+\begin{DoxyParamCaption}
+\item[{}]{\$cart\+I\+D, }
+\item[{}]{\$item\+I\+D, }
+\item[{}]{\$quant}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_a52b92a1e9621ade18ae387b0f8a83657}
+To decrease quantity of existing item in the cart..
+
+cart\+I\+D
+\begin{DoxyItemize}
+\item The \hyperlink{class_cart}{Cart} Id from where item quantity has to be reduced  item\+I\+D
+\item The \hyperlink{class_item}{Item} id from where item quantity has to be reduced. If the \hyperlink{class_catalogue}{Catalogue} Service is used along with the \hyperlink{class_cart}{Cart} Service then the \hyperlink{class_item}{Item} ids should be same.  item\+Quantity
+\item Quantity of the \hyperlink{class_item}{Item} has to be reduced
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_cart}{Cart} object containing updated item. 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_a053d64dd52b3d25178370ed237d63e71}{\index{Cart\+Service@{Cart\+Service}!get\+Cart\+Details@{get\+Cart\+Details}}
+\index{get\+Cart\+Details@{get\+Cart\+Details}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{get\+Cart\+Details}]{\setlength{\rightskip}{0pt plus 5cm}get\+Cart\+Details (
+\begin{DoxyParamCaption}
+\item[{}]{\$cart\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_a053d64dd52b3d25178370ed237d63e71}
+Fetch \hyperlink{class_cart}{Cart} details. Can be used by the \hyperlink{class_app}{App} developer to display \hyperlink{class_cart}{Cart} Details i.\+e. Items in a \hyperlink{class_cart}{Cart}.
+
+cart\+Id
+\begin{DoxyItemize}
+\item The \hyperlink{class_cart}{Cart} Id that has to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_cart}{Cart} object containing cart details with all the items which are in it. It also tells the state of the \hyperlink{class_cart}{Cart} 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_abe1e9bfa16445ccfeb1a7d31aebe3572}{\index{Cart\+Service@{Cart\+Service}!get\+Item@{get\+Item}}
+\index{get\+Item@{get\+Item}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{get\+Item}]{\setlength{\rightskip}{0pt plus 5cm}get\+Item (
+\begin{DoxyParamCaption}
+\item[{}]{\$cart\+Id, }
+\item[{}]{\$item\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_abe1e9bfa16445ccfeb1a7d31aebe3572}
+Fetches the specified \hyperlink{class_item}{Item} from the specified \hyperlink{class_cart}{Cart}
+
+cart\+Id
+\begin{DoxyItemize}
+\item The cart id from which item has to be fetched  item\+Id
+\item The item for which the information has to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_cart}{Cart} Object 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_a722a832e305223acf4cce810914c769a}{\index{Cart\+Service@{Cart\+Service}!get\+Items@{get\+Items}}
+\index{get\+Items@{get\+Items}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{get\+Items}]{\setlength{\rightskip}{0pt plus 5cm}get\+Items (
+\begin{DoxyParamCaption}
+\item[{}]{\$cart\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_a722a832e305223acf4cce810914c769a}
+Fetches the Items from the specified \hyperlink{class_cart}{Cart}
+
+cart\+Id
+\begin{DoxyItemize}
+\item The cart id from which items have to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_cart}{Cart} object which contains all items in the cart 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_a03b2ed3bfb499643dfed706a4bd96ff5}{\index{Cart\+Service@{Cart\+Service}!get\+Payment\+History\+All@{get\+Payment\+History\+All}}
+\index{get\+Payment\+History\+All@{get\+Payment\+History\+All}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{get\+Payment\+History\+All}]{\setlength{\rightskip}{0pt plus 5cm}get\+Payment\+History\+All (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_a03b2ed3bfb499643dfed706a4bd96ff5}
+History of all carts. It gives all the carts which are in A\+U\+T\+H\+O\+R\+I\+Z\+E\+D, D\+E\+C\+L\+I\+N\+E\+D, P\+E\+N\+D\+I\+N\+G state.
+
+\begin{DoxyReturn}{Returns}
+List containing \hyperlink{class_cart}{Cart} objects. \hyperlink{class_payment}{Payment} history can be retrieved from individual \hyperlink{class_cart}{Cart} object. 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_ab06f64799f564c95dbd61fb9ecdf4db8}{\index{Cart\+Service@{Cart\+Service}!get\+Payment\+History\+By\+User@{get\+Payment\+History\+By\+User}}
+\index{get\+Payment\+History\+By\+User@{get\+Payment\+History\+By\+User}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{get\+Payment\+History\+By\+User}]{\setlength{\rightskip}{0pt plus 5cm}get\+Payment\+History\+By\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_ab06f64799f564c95dbd61fb9ecdf4db8}
+History of Carts and Payments for a \hyperlink{class_user}{User}. It gives all the carts which are in A\+U\+T\+H\+O\+R\+I\+Z\+E\+D, D\+E\+C\+L\+I\+N\+E\+D, P\+E\+N\+D\+I\+N\+G state.
+
+user\+Id
+\begin{DoxyItemize}
+\item \hyperlink{class_user}{User} Id for whom payment history has to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+List containing \hyperlink{class_cart}{Cart} objects. \hyperlink{class_payment}{Payment} history can be retrieved from individual \hyperlink{class_cart}{Cart} object. 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_acc29ff8c51dbdc5cc4fedd0bccedd6e5}{\index{Cart\+Service@{Cart\+Service}!get\+Payments\+By\+Cart@{get\+Payments\+By\+Cart}}
+\index{get\+Payments\+By\+Cart@{get\+Payments\+By\+Cart}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{get\+Payments\+By\+Cart}]{\setlength{\rightskip}{0pt plus 5cm}get\+Payments\+By\+Cart (
+\begin{DoxyParamCaption}
+\item[{}]{\$cart\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_acc29ff8c51dbdc5cc4fedd0bccedd6e5}
+Fetches \hyperlink{class_payment}{Payment} information for the specified \hyperlink{class_cart}{Cart} Id
+
+cart\+I\+D
+\begin{DoxyItemize}
+\item \hyperlink{class_cart}{Cart} Id for which the payment information has to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_cart}{Cart} object which contains \hyperlink{class_payment}{Payment} History for the specified \hyperlink{class_cart}{Cart} 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_a5be28175c0615ac0b471b52ae231fea3}{\index{Cart\+Service@{Cart\+Service}!get\+Payments\+By\+Status@{get\+Payments\+By\+Status}}
+\index{get\+Payments\+By\+Status@{get\+Payments\+By\+Status}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{get\+Payments\+By\+Status}]{\setlength{\rightskip}{0pt plus 5cm}get\+Payments\+By\+Status (
+\begin{DoxyParamCaption}
+\item[{}]{\$payment\+Status}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_a5be28175c0615ac0b471b52ae231fea3}
+Fetches \hyperlink{class_payment}{Payment} information based on Status
+
+payment\+Status
+\begin{DoxyItemize}
+\item Status of type which payment information has to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+List containing \hyperlink{class_cart}{Cart} objects. \hyperlink{class_payment}{Payment} history can be retrieved from individual \hyperlink{class_cart}{Cart} object. 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_a0b074871b48dfbd111fa1abafaf52127}{\index{Cart\+Service@{Cart\+Service}!get\+Payments\+By\+User@{get\+Payments\+By\+User}}
+\index{get\+Payments\+By\+User@{get\+Payments\+By\+User}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{get\+Payments\+By\+User}]{\setlength{\rightskip}{0pt plus 5cm}get\+Payments\+By\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_a0b074871b48dfbd111fa1abafaf52127}
+Fetches \hyperlink{class_payment}{Payment} information for a \hyperlink{class_user}{User}. This can be used to display Order and \hyperlink{class_payment}{Payment} History
+
+user\+Id
+\begin{DoxyItemize}
+\item \hyperlink{class_user}{User} Id for whom payment information has to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+List containing \hyperlink{class_cart}{Cart} objects. \hyperlink{class_payment}{Payment} history can be retrieved from individual \hyperlink{class_cart}{Cart} object. 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_a596571b50eef106130ad60e0c97e1b11}{\index{Cart\+Service@{Cart\+Service}!get\+Payments\+By\+User\+And\+Status@{get\+Payments\+By\+User\+And\+Status}}
+\index{get\+Payments\+By\+User\+And\+Status@{get\+Payments\+By\+User\+And\+Status}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{get\+Payments\+By\+User\+And\+Status}]{\setlength{\rightskip}{0pt plus 5cm}get\+Payments\+By\+User\+And\+Status (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Id, }
+\item[{}]{\$payment\+Status}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_a596571b50eef106130ad60e0c97e1b11}
+Fetches \hyperlink{class_payment}{Payment} information based on \hyperlink{class_user}{User} Id and Status
+
+user\+Id
+\begin{DoxyItemize}
+\item \hyperlink{class_user}{User} Id for whom payment information has to be fetched  payment\+Status
+\item Status of type which payment information has to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+List containing \hyperlink{class_cart}{Cart} objects. \hyperlink{class_payment}{Payment} history can be retrieved from individual \hyperlink{class_cart}{Cart} object.
+
+\hyperlink{class_payment}{Payment} History 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_acfad04e6064d8ec02d81828ba0e2a043}{\index{Cart\+Service@{Cart\+Service}!increase\+Quantity@{increase\+Quantity}}
+\index{increase\+Quantity@{increase\+Quantity}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{increase\+Quantity}]{\setlength{\rightskip}{0pt plus 5cm}increase\+Quantity (
+\begin{DoxyParamCaption}
+\item[{}]{\$cart\+I\+D, }
+\item[{}]{\$item\+I\+D, }
+\item[{}]{\$quant}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_acfad04e6064d8ec02d81828ba0e2a043}
+To increase quantity of existing item in the cart.
+
+cart\+I\+D
+\begin{DoxyItemize}
+\item The \hyperlink{class_cart}{Cart} Id into which item has to be added  item\+I\+D
+\item The \hyperlink{class_item}{Item} id which has to be added in the cart. If the \hyperlink{class_catalogue}{Catalogue} Service is used along with the \hyperlink{class_cart}{Cart} Service then the \hyperlink{class_item}{Item} ids should be same.  item\+Quantity
+\item Quantity of the \hyperlink{class_item}{Item} to be purchased
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_cart}{Cart} object containing updated item. 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_a8bb3b9e014273a695a2eba1437597f5a}{\index{Cart\+Service@{Cart\+Service}!is\+Empty@{is\+Empty}}
+\index{is\+Empty@{is\+Empty}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{is\+Empty}]{\setlength{\rightskip}{0pt plus 5cm}is\+Empty (
+\begin{DoxyParamCaption}
+\item[{}]{\$cart\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_a8bb3b9e014273a695a2eba1437597f5a}
+Checks whether the \hyperlink{class_cart}{Cart} is Empty or not
+
+cart\+Id
+\begin{DoxyItemize}
+\item The cart id to check for empty
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_cart}{Cart} object (is\+Empty method on \hyperlink{class_cart}{Cart} object can be used to check status) 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_a9b025b6fa1ad69b332168bb5161e8712}{\index{Cart\+Service@{Cart\+Service}!payment@{payment}}
+\index{payment@{payment}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{payment}]{\setlength{\rightskip}{0pt plus 5cm}payment (
+\begin{DoxyParamCaption}
+\item[{}]{\$cart\+I\+D, }
+\item[{}]{\$transaction\+I\+D, }
+\item[{}]{\$payment\+Status}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_a9b025b6fa1ad69b332168bb5161e8712}
+Update \hyperlink{class_payment}{Payment} Status of the \hyperlink{class_cart}{Cart}. When a \hyperlink{class_cart}{Cart} is checkout, it is in Checkout state. The payment status has to be updated based on the \hyperlink{class_payment}{Payment} Gateway interaction
+
+cart\+I\+D
+\begin{DoxyItemize}
+\item The cart id for which the payment status has to be updated  transaction\+I\+D
+\item Transaction id for which the payment status has to be updated  payment\+Status
+\item \hyperlink{class_payment}{Payment} Status to be updated. The probable values are Payment\+Status.\+D\+E\+C\+L\+I\+N\+E\+D, Payment\+Status.\+A\+U\+T\+H\+O\+R\+I\+Z\+E\+D, Payment\+Status.\+P\+E\+N\+D\+I\+N\+G
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_cart}{Cart} object which contains \hyperlink{class_payment}{Payment} Status 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_a334dd3558351b5b6efd10b3e98a2a76a}{\index{Cart\+Service@{Cart\+Service}!remove\+All\+Items@{remove\+All\+Items}}
+\index{remove\+All\+Items@{remove\+All\+Items}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{remove\+All\+Items}]{\setlength{\rightskip}{0pt plus 5cm}remove\+All\+Items (
+\begin{DoxyParamCaption}
+\item[{}]{\$cart\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_a334dd3558351b5b6efd10b3e98a2a76a}
+Removes all Items from the specified \hyperlink{class_cart}{Cart}
+
+cart\+Id
+\begin{DoxyItemize}
+\item The cart id from which items have to be removed
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} if removed successfully 
+\end{DoxyReturn}
+\hypertarget{class_cart_service_a806f2debb6c778488622049e61c65445}{\index{Cart\+Service@{Cart\+Service}!remove\+Item@{remove\+Item}}
+\index{remove\+Item@{remove\+Item}!Cart\+Service@{Cart\+Service}}
+\subsubsection[{remove\+Item}]{\setlength{\rightskip}{0pt plus 5cm}remove\+Item (
+\begin{DoxyParamCaption}
+\item[{}]{\$cart\+Id, }
+\item[{}]{\$item\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_cart_service_a806f2debb6c778488622049e61c65445}
+Removes the specified item from the specified \hyperlink{class_cart}{Cart}
+
+cart\+Id
+\begin{DoxyItemize}
+\item The cart id from which the item has to be removed  item\+Id
+\item Id of the \hyperlink{class_item}{Item} which has to be removed
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} if removed successfully 
+\end{DoxyReturn}

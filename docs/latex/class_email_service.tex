@@ -1,0 +1,143 @@
+\hypertarget{class_email_service}{\section{Email\+Service Class Reference}
+\label{class_email_service}\index{Email\+Service@{Email\+Service}}
+}
+Inheritance diagram for Email\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_email_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_email_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_email_service_a2a52e05f8a0dae9264fcecca809b2b5e}{create\+Mail\+Configuration} (\$email\+Host, \$email\+Port, \$mail\+Id, \$email\+Password, \$is\+S\+S\+L)
+\item 
+\hyperlink{class_email_service_ab173fb63800214851d5f4f9799886103}{remove\+Email\+Configuration} (\$email\+Id)
+\item 
+\hyperlink{class_email_service_a97e62399a978f9492280b8dcc8d58e11}{get\+Email\+Configurations} ()
+\item 
+\hyperlink{class_email_service_a94e38b5d97aac3e743674ce956218911}{send\+Mail} (\$from\+Email, \$send\+To, \$send\+Subject, \$send\+Msg, \$email\+M\+I\+M\+E)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_email_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_email_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_email_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}email\char`\"{}}\label{class_email_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_email_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_email_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_email_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_email_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This Service is used to send Emails. This service can be used by app to send mail to one or multiple recipients. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_email_service_a49f2ad222e06420736d750e167d55d7c}{\index{Email\+Service@{Email\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Email\+Service@{Email\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_email_service_a49f2ad222e06420736d750e167d55d7c}
+this is a constructor that takes 
+\begin{DoxyParams}{Parameters}
+{\em api\+Key} & \\
+\hline
+{\em secret\+Key} & \\
+\hline
+{\em base\+U\+R\+L} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_email_service_a2a52e05f8a0dae9264fcecca809b2b5e}{\index{Email\+Service@{Email\+Service}!create\+Mail\+Configuration@{create\+Mail\+Configuration}}
+\index{create\+Mail\+Configuration@{create\+Mail\+Configuration}!Email\+Service@{Email\+Service}}
+\subsubsection[{create\+Mail\+Configuration}]{\setlength{\rightskip}{0pt plus 5cm}create\+Mail\+Configuration (
+\begin{DoxyParamCaption}
+\item[{}]{\$email\+Host, }
+\item[{}]{\$email\+Port, }
+\item[{}]{\$mail\+Id, }
+\item[{}]{\$email\+Password, }
+\item[{}]{\$is\+S\+S\+L}
+\end{DoxyParamCaption}
+)}}\label{class_email_service_a2a52e05f8a0dae9264fcecca809b2b5e}
+Creates \hyperlink{class_email}{Email} \hyperlink{class_configuration}{Configuration} using which in future the \hyperlink{class_app}{App} developer can send mail
+
+email\+Host
+\begin{DoxyItemize}
+\item \hyperlink{class_email}{Email} Host to be used for sending mail  email\+Port
+\item \hyperlink{class_email}{Email} Port to be used for sending mail  mail\+Id
+\item \hyperlink{class_email}{Email} id to be used for sending mail  email\+Password
+\item \hyperlink{class_email}{Email} Password to be used for sending mail  is\+S\+S\+L
+\item Should be send using S\+S\+L or not
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_email}{Email} object containing the email configuration which has been created 
+\end{DoxyReturn}
+\hypertarget{class_email_service_a97e62399a978f9492280b8dcc8d58e11}{\index{Email\+Service@{Email\+Service}!get\+Email\+Configurations@{get\+Email\+Configurations}}
+\index{get\+Email\+Configurations@{get\+Email\+Configurations}!Email\+Service@{Email\+Service}}
+\subsubsection[{get\+Email\+Configurations}]{\setlength{\rightskip}{0pt plus 5cm}get\+Email\+Configurations (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_email_service_a97e62399a978f9492280b8dcc8d58e11}
+Gets all \hyperlink{class_email}{Email} Configurations for the app
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_email}{Email} object containing all \hyperlink{class_email}{Email} Configurations 
+\end{DoxyReturn}
+\hypertarget{class_email_service_ab173fb63800214851d5f4f9799886103}{\index{Email\+Service@{Email\+Service}!remove\+Email\+Configuration@{remove\+Email\+Configuration}}
+\index{remove\+Email\+Configuration@{remove\+Email\+Configuration}!Email\+Service@{Email\+Service}}
+\subsubsection[{remove\+Email\+Configuration}]{\setlength{\rightskip}{0pt plus 5cm}remove\+Email\+Configuration (
+\begin{DoxyParamCaption}
+\item[{}]{\$email\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_email_service_ab173fb63800214851d5f4f9799886103}
+Removes email configuration for the given email id. Note\+: In future the developer wont be able to send mails through this id
+
+email\+Id
+\begin{DoxyItemize}
+\item The email id for which the configuration has to be removed
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing the email id which has been removed 
+\end{DoxyReturn}
+\hypertarget{class_email_service_a94e38b5d97aac3e743674ce956218911}{\index{Email\+Service@{Email\+Service}!send\+Mail@{send\+Mail}}
+\index{send\+Mail@{send\+Mail}!Email\+Service@{Email\+Service}}
+\subsubsection[{send\+Mail}]{\setlength{\rightskip}{0pt plus 5cm}send\+Mail (
+\begin{DoxyParamCaption}
+\item[{}]{\$from\+Email, }
+\item[{}]{\$send\+To, }
+\item[{}]{\$send\+Subject, }
+\item[{}]{\$send\+Msg, }
+\item[{}]{\$email\+M\+I\+M\+E}
+\end{DoxyParamCaption}
+)}}\label{class_email_service_a94e38b5d97aac3e743674ce956218911}
+This Service is used to send Emails. This service can be used by app to send mail to one or multiple recipients.
+
+send\+To
+\begin{DoxyItemize}
+\item The email ids to which the email has to be sent. \hyperlink{class_email}{Email} can be sent to multiple email ids. Multiple email ids can be passed using comma as the separator e.\+g. \href{mailto:sid@shephertz.com}{\tt sid@shephertz.\+com}, \href{mailto:info@shephertz.com}{\tt info@shephertz.\+com}  send\+Subject
+\item Subject of the \hyperlink{class_email}{Email} which to be sent  send\+Msg
+\item \hyperlink{class_email}{Email} body which has to be sent  from\+Email
+\item The \hyperlink{class_email}{Email} Id using which the mail(s) has to be sent  email\+Mime
+\item M\+I\+M\+E Type to be used for sending mail. \hyperlink{class_email_m_i_m_e}{Email\+M\+I\+M\+E} available options are P\+L\+A\+I\+N\+\_\+\+T\+E\+X\+T\+\_\+\+M\+I\+M\+E\+\_\+\+T\+Y\+P\+E or H\+T\+M\+L\+\_\+\+T\+E\+X\+T\+\_\+\+M\+I\+M\+E\+\_\+\+T\+Y\+P\+E
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_email}{Email} object containing all the details used for sending mail 
+\end{DoxyReturn}

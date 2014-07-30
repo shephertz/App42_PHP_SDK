@@ -1,0 +1,590 @@
+\hypertarget{class_recommender_service}{\section{Recommender\+Service Class Reference}
+\label{class_recommender_service}\index{Recommender\+Service@{Recommender\+Service}}
+}
+Inheritance diagram for Recommender\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_recommender_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_recommender_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_recommender_service_aa9fa1e0f1c13a62e700758ee712ab7f3}{load\+Preference\+File} (\$preference\+File\+Path)
+\item 
+\hyperlink{class_recommender_service_a6b0a05622d648137b98a8420a8b8f962}{user\+Based\+Neighborhood} (\$user\+Id, \$size, \$how\+Many)
+\item 
+\hyperlink{class_recommender_service_a6fbd17dd1bee9eae210329dc86062056}{user\+Based\+Threshold} (\$user\+Id, \$threshold, \$how\+Many)
+\item 
+\hyperlink{class_recommender_service_ad9c20c85436efd7e59e043e9256ce674}{user\+Based\+Neighborhood\+By\+Similarity} (\$recommender\+Similarity, \$user\+Id, \$size, \$how\+Many)
+\item 
+\hyperlink{class_recommender_service_a60c5c1f7dee5838b4a060c195a7163a2}{user\+Based\+Threshold\+By\+Similarity} (\$recommender\+Similarity, \$user\+Id, \$threshold, \$how\+Many)
+\item 
+\hyperlink{class_recommender_service_ae7c3a8fce710cd368b3bee89d3d483b4}{item\+Based} (\$user\+Id, \$how\+Many)
+\item 
+\hyperlink{class_recommender_service_ac7f301e7f8dbf82191df1841a7f681e5}{item\+Based\+By\+Similarity} (\$recommender\+Similarity, \$user\+Id, \$how\+Many)
+\item 
+\hyperlink{class_recommender_service_a9a7cb768977b4b9e4bb53a70fb389565}{slope\+One} (\$user\+Id, \$how\+Many)
+\item 
+\hyperlink{class_recommender_service_a7c79fa393b4db3b2c889c9e00ebca448}{user\+Based\+Neighborhood\+For\+All} (\$size, \$how\+Many)
+\item 
+\hyperlink{class_recommender_service_a4bee5e97f1e2f9e103382434a80a054b}{user\+Based\+Threshold\+For\+All} (\$threshold, \$how\+Many)
+\item 
+\hyperlink{class_recommender_service_a3cce15d649d791df400747420fbea104}{user\+Based\+Neighborhood\+By\+Similarity\+For\+All} (\$recommender\+Similarity, \$size, \$how\+Many)
+\item 
+\hyperlink{class_recommender_service_a48380cad6fdaa903b6cca5851a9a7773}{user\+Based\+Threshold\+By\+Similarity\+For\+All} (\$recommender\+Similarity, \$threshold, \$how\+Many)
+\item 
+\hyperlink{class_recommender_service_a582e11c8eb97f147b42decbd8489ebba}{item\+Based\+For\+All} (\$how\+Many)
+\item 
+\hyperlink{class_recommender_service_acf8966b192cb06cc2eda1b44952145a9}{item\+Based\+By\+Similarity\+For\+All} (\$recommender\+Similarity, \$how\+Many)
+\item 
+\hyperlink{class_recommender_service_a09de61f0c73f9c1ffdca5a8a2707628c}{slope\+One\+For\+All} (\$how\+Many)
+\item 
+\hyperlink{class_recommender_service_a468ae67c8db20494d0197d4887c5668a}{delete\+All\+Preferences} ()
+\item 
+\hyperlink{class_recommender_service_a02ab0bbcd370c828014625648116fa9f}{add\+Or\+Update\+Preference} (\$preference\+Data\+List)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_recommender_service_a86b935c20acf30139beed35f18dadea0}{static {\bfseries \$\+E\+U\+C\+L\+I\+D\+E\+A\+N\+\_\+\+D\+I\+S\+T\+A\+N\+C\+E} = \char`\"{}Euclidean\+Distance\+Similarity\char`\"{}}\label{class_recommender_service_a86b935c20acf30139beed35f18dadea0}
+
+\item 
+\hypertarget{class_recommender_service_a486491a10ef72bb767cff5cc1cd1b6a9}{static {\bfseries \$\+P\+E\+A\+R\+S\+O\+N\+\_\+\+C\+O\+R\+R\+E\+L\+A\+T\+I\+O\+N} = \char`\"{}Pearson\+Correlation\+Similarity\char`\"{}}\label{class_recommender_service_a486491a10ef72bb767cff5cc1cd1b6a9}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_recommender_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}recommend\char`\"{}}\label{class_recommender_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_recommender_service_acf215f34a917d014776ce684a9ee8909}{{\bfseries \$url}}\label{class_recommender_service_acf215f34a917d014776ce684a9ee8909}
+
+\item 
+\hypertarget{class_recommender_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_recommender_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_recommender_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_recommender_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_recommender_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_recommender_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Recommendation engine which provides recommendation based on customer id, item id and the preference of the customer for a particular \hyperlink{class_item}{Item}. Recommendations can be fetched based on \hyperlink{class_user}{User} Similarity which finds similarity based on Users and \hyperlink{class_item}{Item} Similarity which finds similarity based on Items. The Recommendation Engine currently supports two types of Similarity Algorithms i.\+e. Euclidean\+Distance\+Similarity and Pearson\+Correlation\+Similarity. By default when similarity is not specified Pearson\+Correlation\+Similarity is used e.\+g. in the method item\+Based(long user\+Id, int how\+Many), it uses Pearson\+Correlation\+Similarity. In the method item\+Based\+By\+Similarity(String similarity,long user\+Id, int how\+Many) one can specify which similarity algorithm has to be used e.\+g. Recommender.\+E\+U\+C\+L\+I\+D\+E\+A\+N\+\_\+\+D\+I\+S\+T\+A\+N\+C\+E or Recommender.\+P\+E\+A\+R\+S\+O\+N\+\_\+\+C\+O\+R\+R\+E\+L\+A\+T\+I\+O\+N.
+
+Preference file can be loaded using the method load\+Preference\+File( String preference\+File\+Path) in csv format. This preferencefile has to be uploaded once which can be a batch process The csv format for the file is given below. customer\+Id, item\+Id, preference e.\+g. 1,101,5.\+0 1,102,3.\+0 1,103,2.\+5
+
+2,101,2.\+0 2,102,2.\+5 2,103,5.\+0 2,104,2.\+0
+
+3,101,2.\+5 3,104,4.\+0 3,105,4.\+5 3,107,5.\+0
+
+4,101,5.\+0 4,103,3.\+0 4,104,4.\+5 4,106,4.\+0
+
+5,101,4.\+0 5,102,3.\+0 5,103,2.\+0 5,104,4.\+0 5,105,3.\+5 5,106,4.\+0 The customer Id and item id can be any alphanumaric character(s) and preference values can be in any range.
+
+If app developers have used the \hyperlink{class_review}{Review} Service. The Recommendation Engine can be used in conjunction with \hyperlink{class_review}{Review}. In this case a C\+S\+V preference file need not be uploaded. The customer\+Id, item\+Id and preference will be taken from \hyperlink{class_review}{Review} where customer\+Id is mapped with user\+Name, item\+Id is mapped with item\+Id and preference with rating. The methods for recommendations based on Reviews are part of the \hyperlink{class_review}{Review} service
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_review_service}{Review\+Service} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_recommender_service_a49f2ad222e06420736d750e167d55d7c}{\index{Recommender\+Service@{Recommender\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_a49f2ad222e06420736d750e167d55d7c}
+The costructor for the Service 
+\begin{DoxyParams}{Parameters}
+{\em api\+Key} & \\
+\hline
+{\em secret\+Key} & \\
+\hline
+{\em base\+U\+R\+L} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_recommender_service_a02ab0bbcd370c828014625648116fa9f}{\index{Recommender\+Service@{Recommender\+Service}!add\+Or\+Update\+Preference@{add\+Or\+Update\+Preference}}
+\index{add\+Or\+Update\+Preference@{add\+Or\+Update\+Preference}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{add\+Or\+Update\+Preference}]{\setlength{\rightskip}{0pt plus 5cm}add\+Or\+Update\+Preference (
+\begin{DoxyParamCaption}
+\item[{}]{\$preference\+Data\+List}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_a02ab0bbcd370c828014625648116fa9f}
+Add or Update preference list on the cloud.
+
+
+\begin{DoxyParams}{Parameters}
+{\em preference\+Data\+List} & 
+\begin{DoxyItemize}
+\item List of \hyperlink{class_preference_data}{Preference\+Data} which contains customer\+Id, item\+Id, preference
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_a468ae67c8db20494d0197d4887c5668a}{\index{Recommender\+Service@{Recommender\+Service}!delete\+All\+Preferences@{delete\+All\+Preferences}}
+\index{delete\+All\+Preferences@{delete\+All\+Preferences}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{delete\+All\+Preferences}]{\setlength{\rightskip}{0pt plus 5cm}delete\+All\+Preferences (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_a468ae67c8db20494d0197d4887c5668a}
+Delete existing preference file.
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} Object. 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_ae7c3a8fce710cd368b3bee89d3d483b4}{\index{Recommender\+Service@{Recommender\+Service}!item\+Based@{item\+Based}}
+\index{item\+Based@{item\+Based}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{item\+Based}]{\setlength{\rightskip}{0pt plus 5cm}item\+Based (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Id, }
+\item[{}]{\$how\+Many}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_ae7c3a8fce710cd368b3bee89d3d483b4}
+\hyperlink{class_item}{Item} based recommendations. Recommendations and found based item similarity of the given user. The size of the neighborhood can be found.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Id} & 
+\begin{DoxyItemize}
+\item The user Id for whom recommendations have to be found 
+\end{DoxyItemize}\\
+\hline
+{\em how\+Many} & 
+\begin{DoxyItemize}
+\item Specifies that how many recommendations have to be found
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_recommender}{Recommender} Object 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_ac7f301e7f8dbf82191df1841a7f681e5}{\index{Recommender\+Service@{Recommender\+Service}!item\+Based\+By\+Similarity@{item\+Based\+By\+Similarity}}
+\index{item\+Based\+By\+Similarity@{item\+Based\+By\+Similarity}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{item\+Based\+By\+Similarity}]{\setlength{\rightskip}{0pt plus 5cm}item\+Based\+By\+Similarity (
+\begin{DoxyParamCaption}
+\item[{}]{\$recommender\+Similarity, }
+\item[{}]{\$user\+Id, }
+\item[{}]{\$how\+Many}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_ac7f301e7f8dbf82191df1841a7f681e5}
+\hyperlink{class_item}{Item} based recommendations. Recommendations and found based one item similarity. Similarity algorithm can be specified. of the given user. The size of the neighborhood can be found.
+
+
+\begin{DoxyParams}{Parameters}
+{\em recommender\+Similarity} & 
+\begin{DoxyItemize}
+\item Similarity algorithm e.\+g. Recommender.\+E\+U\+C\+L\+I\+D\+E\+A\+N\+\_\+\+D\+I\+S\+T\+A\+N\+C\+E and Recommender.\+P\+E\+A\+R\+S\+O\+N\+\_\+\+C\+O\+R\+R\+E\+L\+A\+T\+I\+O\+N 
+\end{DoxyItemize}\\
+\hline
+{\em user\+Id} & 
+\begin{DoxyItemize}
+\item The user Id for whom recommendations have to be found 
+\end{DoxyItemize}\\
+\hline
+{\em how\+Many} & 
+\begin{DoxyItemize}
+\item Specifies that how many recommendations have to be found
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_recommender}{Recommender} Object 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_acf8966b192cb06cc2eda1b44952145a9}{\index{Recommender\+Service@{Recommender\+Service}!item\+Based\+By\+Similarity\+For\+All@{item\+Based\+By\+Similarity\+For\+All}}
+\index{item\+Based\+By\+Similarity\+For\+All@{item\+Based\+By\+Similarity\+For\+All}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{item\+Based\+By\+Similarity\+For\+All}]{\setlength{\rightskip}{0pt plus 5cm}item\+Based\+By\+Similarity\+For\+All (
+\begin{DoxyParamCaption}
+\item[{}]{\$recommender\+Similarity, }
+\item[{}]{\$how\+Many}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_acf8966b192cb06cc2eda1b44952145a9}
+\hyperlink{class_item}{Item} based recommendations for all Users. Recommendations and found based one item similarity. Similarity algorithm can be specified. of the given user. The size of the neighborhood can be found.
+
+
+\begin{DoxyParams}{Parameters}
+{\em recommender\+Similarity} & 
+\begin{DoxyItemize}
+\item Similarity algorithm e.\+g. Recommender.\+E\+U\+C\+L\+I\+D\+E\+A\+N\+\_\+\+D\+I\+S\+T\+A\+N\+C\+E and Recommender.\+P\+E\+A\+R\+S\+O\+N\+\_\+\+C\+O\+R\+R\+E\+L\+A\+T\+I\+O\+N 
+\end{DoxyItemize}\\
+\hline
+{\em how\+Many} & 
+\begin{DoxyItemize}
+\item Specifies that how many recommendations have to be found
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_recommender}{Recommender} Object for all Users 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_a582e11c8eb97f147b42decbd8489ebba}{\index{Recommender\+Service@{Recommender\+Service}!item\+Based\+For\+All@{item\+Based\+For\+All}}
+\index{item\+Based\+For\+All@{item\+Based\+For\+All}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{item\+Based\+For\+All}]{\setlength{\rightskip}{0pt plus 5cm}item\+Based\+For\+All (
+\begin{DoxyParamCaption}
+\item[{}]{\$how\+Many}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_a582e11c8eb97f147b42decbd8489ebba}
+\hyperlink{class_item}{Item} based recommendations for all Users. Recommendations and found based item similarity of the given user. The size of the neighborhood can be found.
+
+
+\begin{DoxyParams}{Parameters}
+{\em how\+Many} & 
+\begin{DoxyItemize}
+\item Specifies that how many recommendations have to be found
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_recommender}{Recommender} Object for all Users 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_aa9fa1e0f1c13a62e700758ee712ab7f3}{\index{Recommender\+Service@{Recommender\+Service}!load\+Preference\+File@{load\+Preference\+File}}
+\index{load\+Preference\+File@{load\+Preference\+File}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{load\+Preference\+File}]{\setlength{\rightskip}{0pt plus 5cm}load\+Preference\+File (
+\begin{DoxyParamCaption}
+\item[{}]{\$preference\+File\+Path}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_aa9fa1e0f1c13a62e700758ee712ab7f3}
+Uploads peference file on the cloud. The preference file should be in C\+S\+V format. This preferencefile has to be uploaded once which can be a batch process. New versions of preference file either can be uploaded in a different name or the older one has to be removed and the uploaded in the same name. The csv format for the file is given below. customer\+Id, item\+Id, preference e.\+g. 1,101,5.\+0 1,102,3.\+0 1,103,2.\+5
+
+2,101,2.\+0 2,102,2.\+5 2,103,5.\+0 2,104,2.\+0
+
+3,101,2.\+5 3,104,4.\+0 3,105,4.\+5 3,107,5.\+0
+
+4,101,5.\+0 4,103,3.\+0 4,104,4.\+5 4,106,4.\+0
+
+5,101,4.\+0 5,102,3.\+0 5,103,2.\+0 5,104,4.\+0 5,105,3.\+5 5,106,4.\+0 The customer Id and item id can be any alphanumaric character(s) and preference values can be in any range. If the recommendations have to be done based on Reviews then this file need not be uploaded.
+
+
+\begin{DoxyParams}{Parameters}
+{\em preference\+File\+Path} & 
+\begin{DoxyItemize}
+\item Path of the preference file to be loaded
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_app42_exception}{App42\+Exception}} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_recommender_service_a9a7cb768977b4b9e4bb53a70fb389565}{\index{Recommender\+Service@{Recommender\+Service}!slope\+One@{slope\+One}}
+\index{slope\+One@{slope\+One}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{slope\+One}]{\setlength{\rightskip}{0pt plus 5cm}slope\+One (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Id, }
+\item[{}]{\$how\+Many}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_a9a7cb768977b4b9e4bb53a70fb389565}
+Recommendations based on Slope\+One Algorithm
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Id} & 
+\begin{DoxyItemize}
+\item The user Id for whom recommendations have to be found 
+\end{DoxyItemize}\\
+\hline
+{\em how\+Many} & 
+\begin{DoxyItemize}
+\item Specifies that how many recommendations have to be found
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_recommender}{Recommender} Object 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_a09de61f0c73f9c1ffdca5a8a2707628c}{\index{Recommender\+Service@{Recommender\+Service}!slope\+One\+For\+All@{slope\+One\+For\+All}}
+\index{slope\+One\+For\+All@{slope\+One\+For\+All}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{slope\+One\+For\+All}]{\setlength{\rightskip}{0pt plus 5cm}slope\+One\+For\+All (
+\begin{DoxyParamCaption}
+\item[{}]{\$how\+Many}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_a09de61f0c73f9c1ffdca5a8a2707628c}
+Recommendations based on Slope\+One Algorithm for all Users
+
+
+\begin{DoxyParams}{Parameters}
+{\em how\+Many} & 
+\begin{DoxyItemize}
+\item Specifies that how many recommendations have to be found
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_recommender}{Recommender} Object for all Users 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_a6b0a05622d648137b98a8420a8b8f962}{\index{Recommender\+Service@{Recommender\+Service}!user\+Based\+Neighborhood@{user\+Based\+Neighborhood}}
+\index{user\+Based\+Neighborhood@{user\+Based\+Neighborhood}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{user\+Based\+Neighborhood}]{\setlength{\rightskip}{0pt plus 5cm}user\+Based\+Neighborhood (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Id, }
+\item[{}]{\$size, }
+\item[{}]{\$how\+Many}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_a6b0a05622d648137b98a8420a8b8f962}
+\hyperlink{class_user}{User} based recommendations based on Neighborhood. Recommendations are found based on similar users in the Neighborhood of the given user. The size of the neighborhood can be found.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Id} & 
+\begin{DoxyItemize}
+\item The user Id for whom recommendations have to be found 
+\end{DoxyItemize}\\
+\hline
+{\em size} & 
+\begin{DoxyItemize}
+\item Size of the Neighborhood 
+\end{DoxyItemize}\\
+\hline
+{\em how\+Many} & 
+\begin{DoxyItemize}
+\item Specifies that how many recommendations have to be found
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_recommender}{Recommender} Object 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_ad9c20c85436efd7e59e043e9256ce674}{\index{Recommender\+Service@{Recommender\+Service}!user\+Based\+Neighborhood\+By\+Similarity@{user\+Based\+Neighborhood\+By\+Similarity}}
+\index{user\+Based\+Neighborhood\+By\+Similarity@{user\+Based\+Neighborhood\+By\+Similarity}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{user\+Based\+Neighborhood\+By\+Similarity}]{\setlength{\rightskip}{0pt plus 5cm}user\+Based\+Neighborhood\+By\+Similarity (
+\begin{DoxyParamCaption}
+\item[{}]{\$recommender\+Similarity, }
+\item[{}]{\$user\+Id, }
+\item[{}]{\$size, }
+\item[{}]{\$how\+Many}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_ad9c20c85436efd7e59e043e9256ce674}
+\hyperlink{class_user}{User} based recommendations based on Neighborhood and Similarity. Recommendations and found based on the similar users in the Neighborhood with the specified Similarity Algorithm. Algorithm can be specified using the constants Recommender.\+E\+U\+C\+L\+I\+D\+E\+A\+N\+\_\+\+D\+I\+S\+T\+A\+N\+C\+E and Recommender.\+P\+E\+A\+R\+S\+O\+N\+\_\+\+C\+O\+R\+R\+E\+L\+A\+T\+I\+O\+N
+
+
+\begin{DoxyParams}{Parameters}
+{\em recommender\+Similarity} & 
+\begin{DoxyItemize}
+\item Similarity algorithm e.\+g. Recommender.\+E\+U\+C\+L\+I\+D\+E\+A\+N\+\_\+\+D\+I\+S\+T\+A\+N\+C\+E and Recommender.\+P\+E\+A\+R\+S\+O\+N\+\_\+\+C\+O\+R\+R\+E\+L\+A\+T\+I\+O\+N 
+\end{DoxyItemize}\\
+\hline
+{\em user\+Id} & 
+\begin{DoxyItemize}
+\item The user Id for whom recommendations have to be found 
+\end{DoxyItemize}\\
+\hline
+{\em size} & 
+\begin{DoxyItemize}
+\item Size of the Neighborhood 
+\end{DoxyItemize}\\
+\hline
+{\em how\+Many} & 
+\begin{DoxyItemize}
+\item Specifies that how many recommendations have to be found
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_recommender}{Recommender} Object 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_a3cce15d649d791df400747420fbea104}{\index{Recommender\+Service@{Recommender\+Service}!user\+Based\+Neighborhood\+By\+Similarity\+For\+All@{user\+Based\+Neighborhood\+By\+Similarity\+For\+All}}
+\index{user\+Based\+Neighborhood\+By\+Similarity\+For\+All@{user\+Based\+Neighborhood\+By\+Similarity\+For\+All}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{user\+Based\+Neighborhood\+By\+Similarity\+For\+All}]{\setlength{\rightskip}{0pt plus 5cm}user\+Based\+Neighborhood\+By\+Similarity\+For\+All (
+\begin{DoxyParamCaption}
+\item[{}]{\$recommender\+Similarity, }
+\item[{}]{\$size, }
+\item[{}]{\$how\+Many}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_a3cce15d649d791df400747420fbea104}
+\hyperlink{class_user}{User} based recommendations based on Neighborhood and Similarity for all Users. Recommendations and found based similar users in the Neighborhood with the specified Similarity Algorithm. Algorithm can be specified using the constants Recommender.\+E\+U\+C\+L\+I\+D\+E\+A\+N\+\_\+\+D\+I\+S\+T\+A\+N\+C\+E and Recommender.\+P\+E\+A\+R\+S\+O\+N\+\_\+\+C\+O\+R\+R\+E\+L\+A\+T\+I\+O\+N
+
+
+\begin{DoxyParams}{Parameters}
+{\em recommender\+Similarity} & 
+\begin{DoxyItemize}
+\item Similarity algorithm e.\+g. Recommender.\+E\+U\+C\+L\+I\+D\+E\+A\+N\+\_\+\+D\+I\+S\+T\+A\+N\+C\+E and Recommender.\+P\+E\+A\+R\+S\+O\+N\+\_\+\+C\+O\+R\+R\+E\+L\+A\+T\+I\+O\+N 
+\end{DoxyItemize}\\
+\hline
+{\em size} & 
+\begin{DoxyItemize}
+\item Size of the Neighborhood 
+\end{DoxyItemize}\\
+\hline
+{\em how\+Many} & 
+\begin{DoxyItemize}
+\item Specifies that how many recommendations have to be found
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_recommender}{Recommender} Object for all Users 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_a7c79fa393b4db3b2c889c9e00ebca448}{\index{Recommender\+Service@{Recommender\+Service}!user\+Based\+Neighborhood\+For\+All@{user\+Based\+Neighborhood\+For\+All}}
+\index{user\+Based\+Neighborhood\+For\+All@{user\+Based\+Neighborhood\+For\+All}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{user\+Based\+Neighborhood\+For\+All}]{\setlength{\rightskip}{0pt plus 5cm}user\+Based\+Neighborhood\+For\+All (
+\begin{DoxyParamCaption}
+\item[{}]{\$size, }
+\item[{}]{\$how\+Many}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_a7c79fa393b4db3b2c889c9e00ebca448}
+\hyperlink{class_user}{User} based recommendations based on Neighborhood for All Users. Recommendations and found based similar users in the Neighborhood of the given user. The size of the neighborhood can be found.
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & 
+\begin{DoxyItemize}
+\item Size of the Neighborhood 
+\end{DoxyItemize}\\
+\hline
+{\em how\+Many} & 
+\begin{DoxyItemize}
+\item Specifies that how many recommendations have to be found
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_recommender}{Recommender} Object for All users 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_a6fbd17dd1bee9eae210329dc86062056}{\index{Recommender\+Service@{Recommender\+Service}!user\+Based\+Threshold@{user\+Based\+Threshold}}
+\index{user\+Based\+Threshold@{user\+Based\+Threshold}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{user\+Based\+Threshold}]{\setlength{\rightskip}{0pt plus 5cm}user\+Based\+Threshold (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Id, }
+\item[{}]{\$threshold, }
+\item[{}]{\$how\+Many}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_a6fbd17dd1bee9eae210329dc86062056}
+\hyperlink{class_user}{User} based neighborhood recommendations based on Threshold. Recommendations are found based on Threshold where thereshold represents similarity threshold where user are at least that similar. Threshold values can vary from -\/1 to 1
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Id} & 
+\begin{DoxyItemize}
+\item The user Id for whom recommendations have to be found 
+\end{DoxyItemize}\\
+\hline
+{\em threshold} & 
+\begin{DoxyItemize}
+\item Threshold size. Values can vary from -\/1 to 1 
+\end{DoxyItemize}\\
+\hline
+{\em how\+Many} & 
+\begin{DoxyItemize}
+\item Specifies that how many recommendations have to be found
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_recommender}{Recommender} Object 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_a60c5c1f7dee5838b4a060c195a7163a2}{\index{Recommender\+Service@{Recommender\+Service}!user\+Based\+Threshold\+By\+Similarity@{user\+Based\+Threshold\+By\+Similarity}}
+\index{user\+Based\+Threshold\+By\+Similarity@{user\+Based\+Threshold\+By\+Similarity}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{user\+Based\+Threshold\+By\+Similarity}]{\setlength{\rightskip}{0pt plus 5cm}user\+Based\+Threshold\+By\+Similarity (
+\begin{DoxyParamCaption}
+\item[{}]{\$recommender\+Similarity, }
+\item[{}]{\$user\+Id, }
+\item[{}]{\$threshold, }
+\item[{}]{\$how\+Many}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_a60c5c1f7dee5838b4a060c195a7163a2}
+\hyperlink{class_user}{User} based neighbourhood recommendations based on Threshold. Recommendations are found based on Threshold where threshold represents similarity threshold where user are at least that similar. Threshold values can vary from -\/1 to 1
+
+
+\begin{DoxyParams}{Parameters}
+{\em recommender\+Similarity} & 
+\begin{DoxyItemize}
+\item Similarity algorithm e.\+g. Recommender.\+E\+U\+C\+L\+I\+D\+E\+A\+N\+\_\+\+D\+I\+S\+T\+A\+N\+C\+E and Recommender.\+P\+E\+A\+R\+S\+O\+N\+\_\+\+C\+O\+R\+R\+E\+L\+A\+T\+I\+O\+N 
+\end{DoxyItemize}\\
+\hline
+{\em user\+Id} & 
+\begin{DoxyItemize}
+\item The user Id for whom recommendations have to be found 
+\end{DoxyItemize}\\
+\hline
+{\em threshold} & 
+\begin{DoxyItemize}
+\item Threshold size. Values can vary from -\/1 to 1 
+\end{DoxyItemize}\\
+\hline
+{\em how\+Many} & 
+\begin{DoxyItemize}
+\item Specifies that how many recommendations have to be found
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_recommender}{Recommender} Object 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_a48380cad6fdaa903b6cca5851a9a7773}{\index{Recommender\+Service@{Recommender\+Service}!user\+Based\+Threshold\+By\+Similarity\+For\+All@{user\+Based\+Threshold\+By\+Similarity\+For\+All}}
+\index{user\+Based\+Threshold\+By\+Similarity\+For\+All@{user\+Based\+Threshold\+By\+Similarity\+For\+All}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{user\+Based\+Threshold\+By\+Similarity\+For\+All}]{\setlength{\rightskip}{0pt plus 5cm}user\+Based\+Threshold\+By\+Similarity\+For\+All (
+\begin{DoxyParamCaption}
+\item[{}]{\$recommender\+Similarity, }
+\item[{}]{\$threshold, }
+\item[{}]{\$how\+Many}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_a48380cad6fdaa903b6cca5851a9a7773}
+\hyperlink{class_user}{User} based neighbourhood recommendations based on Threshold for All. Recommendations are found based on Threshold where threshold represents similarity threshold where user are at least that similar. Threshold values can vary from -\/1 to 1
+
+
+\begin{DoxyParams}{Parameters}
+{\em recommender\+Similarity} & 
+\begin{DoxyItemize}
+\item Similarity algorithm e.\+g. Recommender.\+E\+U\+C\+L\+I\+D\+E\+A\+N\+\_\+\+D\+I\+S\+T\+A\+N\+C\+E and Recommender.\+P\+E\+A\+R\+S\+O\+N\+\_\+\+C\+O\+R\+R\+E\+L\+A\+T\+I\+O\+N 
+\end{DoxyItemize}\\
+\hline
+{\em threshold} & 
+\begin{DoxyItemize}
+\item Threshold size. Values can vary from -\/1 to 1 
+\end{DoxyItemize}\\
+\hline
+{\em how\+Many} & 
+\begin{DoxyItemize}
+\item Specifies that how many recommendations have to be found
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_recommender}{Recommender} Object for All 
+\end{DoxyReturn}
+\hypertarget{class_recommender_service_a4bee5e97f1e2f9e103382434a80a054b}{\index{Recommender\+Service@{Recommender\+Service}!user\+Based\+Threshold\+For\+All@{user\+Based\+Threshold\+For\+All}}
+\index{user\+Based\+Threshold\+For\+All@{user\+Based\+Threshold\+For\+All}!Recommender\+Service@{Recommender\+Service}}
+\subsubsection[{user\+Based\+Threshold\+For\+All}]{\setlength{\rightskip}{0pt plus 5cm}user\+Based\+Threshold\+For\+All (
+\begin{DoxyParamCaption}
+\item[{}]{\$threshold, }
+\item[{}]{\$how\+Many}
+\end{DoxyParamCaption}
+)}}\label{class_recommender_service_a4bee5e97f1e2f9e103382434a80a054b}
+\hyperlink{class_user}{User} based neighbourhood recommendations based on Threshold for all Users. Recommendations are found based on Threshold where threshold represents similarity threshold where user are at least that similar. Threshold values can vary from -\/1 to 1
+
+
+\begin{DoxyParams}{Parameters}
+{\em threshold} & 
+\begin{DoxyItemize}
+\item Threshold size. Values can vary from -\/1 to 1 
+\end{DoxyItemize}\\
+\hline
+{\em how\+Many} & 
+\begin{DoxyItemize}
+\item Specifies that how many recommendations have to be found
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_recommender}{Recommender} Object for all Users 
+\end{DoxyReturn}

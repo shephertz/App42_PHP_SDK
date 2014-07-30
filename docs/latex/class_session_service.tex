@@ -1,0 +1,261 @@
+\hypertarget{class_session_service}{\section{Session\+Service Class Reference}
+\label{class_session_service}\index{Session\+Service@{Session\+Service}}
+}
+Inheritance diagram for Session\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_session_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_session_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_session_service_ac4752721b0b171923abf1f5a0efc06d1}{get\+Session} (\$u\+Name, \$is\+Create=null)
+\item 
+\hyperlink{class_session_service_a697a8111faa848860cfb3ab13e04f76c}{invalidate} (\$session\+Id)
+\item 
+\hyperlink{class_session_service_a7d023ef7579508c65abc9f4e310e683d}{set\+Attribute} (\$session\+Id, \$attribute\+Name, \$attribute\+Value)
+\item 
+\hyperlink{class_session_service_a4150511baf159e5b71e024089fbd786f}{get\+Attribute} (\$session\+Id, \$attribute\+Name)
+\item 
+\hyperlink{class_session_service_a779ee7003ef981cd40eac075162956b2}{get\+All\+Attributes} (\$session\+Id)
+\item 
+\hyperlink{class_session_service_ac31819f9282a4a832dc3bd27dc4b6da6}{remove\+Attribute} (\$session\+Id, \$attribute\+Name)
+\item 
+\hyperlink{class_session_service_aa7800e6c1d927c1c6036bd19b437e28d}{remove\+All\+Attributes} (\$session\+Id)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_session_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}session\char`\"{}}\label{class_session_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_session_service_acf215f34a917d014776ce684a9ee8909}{{\bfseries \$url}}\label{class_session_service_acf215f34a917d014776ce684a9ee8909}
+
+\item 
+\hypertarget{class_session_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_session_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_session_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_session_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_session_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_session_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_session}{Session} Manager manages user sessions on the server side. It is a persistent \hyperlink{class_session}{Session} Manager. It allows to save attributes in the session and retrieve them. This \hyperlink{class_session}{Session} Manager is especially useful for Mobile/\+Device Apps which want to do session management.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_session}{Session} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_session_service_a49f2ad222e06420736d750e167d55d7c}{\index{Session\+Service@{Session\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Session\+Service@{Session\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_session_service_a49f2ad222e06420736d750e167d55d7c}
+This is a constructor that takes 
+\begin{DoxyParams}{Parameters}
+{\em api\+Key} & \\
+\hline
+{\em secret\+Key} & \\
+\hline
+{\em base\+U\+R\+L} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_session_service_a779ee7003ef981cd40eac075162956b2}{\index{Session\+Service@{Session\+Service}!get\+All\+Attributes@{get\+All\+Attributes}}
+\index{get\+All\+Attributes@{get\+All\+Attributes}!Session\+Service@{Session\+Service}}
+\subsubsection[{get\+All\+Attributes}]{\setlength{\rightskip}{0pt plus 5cm}get\+All\+Attributes (
+\begin{DoxyParamCaption}
+\item[{}]{\$session\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_session_service_a779ee7003ef981cd40eac075162956b2}
+Gets all the attributes for a given session id
+
+
+\begin{DoxyParams}{Parameters}
+{\em session\+Id} & 
+\begin{DoxyItemize}
+\item The session id for which the attribute has to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_session}{Session} object containing all the attributes and values which are stored for the session id 
+\end{DoxyReturn}
+\hypertarget{class_session_service_a4150511baf159e5b71e024089fbd786f}{\index{Session\+Service@{Session\+Service}!get\+Attribute@{get\+Attribute}}
+\index{get\+Attribute@{get\+Attribute}!Session\+Service@{Session\+Service}}
+\subsubsection[{get\+Attribute}]{\setlength{\rightskip}{0pt plus 5cm}get\+Attribute (
+\begin{DoxyParamCaption}
+\item[{}]{\$session\+Id, }
+\item[{}]{\$attribute\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_session_service_a4150511baf159e5b71e024089fbd786f}
+Gets the attribute value in a session whose session id is provided.
+
+
+\begin{DoxyParams}{Parameters}
+{\em session\+Id} & 
+\begin{DoxyItemize}
+\item The session id for which the attribute has to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em attribute\+Name} & 
+\begin{DoxyItemize}
+\item The attribute key that has to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_session}{Session} object containing the attribute and value which is stored for the session id and attribute name 
+\end{DoxyReturn}
+\hypertarget{class_session_service_ac4752721b0b171923abf1f5a0efc06d1}{\index{Session\+Service@{Session\+Service}!get\+Session@{get\+Session}}
+\index{get\+Session@{get\+Session}!Session\+Service@{Session\+Service}}
+\subsubsection[{get\+Session}]{\setlength{\rightskip}{0pt plus 5cm}get\+Session (
+\begin{DoxyParamCaption}
+\item[{}]{\$u\+Name, }
+\item[{}]{\$is\+Create = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_session_service_ac4752721b0b171923abf1f5a0efc06d1}
+Create \hyperlink{class_session}{Session} for the \hyperlink{class_user}{User}. If the session does not exist it will create a new session
+
+
+\begin{DoxyParams}{Parameters}
+{\em u\+Name} & 
+\begin{DoxyItemize}
+\item User\+Name for which the session has to be created.
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_session}{Session} object containing the session id of the created session. This id has to be used for storing or retrieving attributes. 
+\end{DoxyReturn}
+Create \hyperlink{class_user}{User} \hyperlink{class_session}{Session} based on the is\+Create boolean parameter. If is\+Create is true and there is an existing session for the user, the existing session is returned. If there is no existing session for the user a new one is created. If is\+Create is false and there is an existing session, the existing session is returned if there is no existing session new one is not created
+
+
+\begin{DoxyParams}{Parameters}
+{\em u\+Name} & 
+\begin{DoxyItemize}
+\item User\+Name for which the session has to be created. 
+\end{DoxyItemize}\\
+\hline
+{\em is\+Create} & 
+\begin{DoxyItemize}
+\item A boolean value for specifying if an existing session is not there, should a new one is to be created or not.
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_session}{Session} object containing the session id of the created session. This id has to be used for storing or retrieving attributes.
+\end{DoxyReturn}
+\hypertarget{class_session_service_a697a8111faa848860cfb3ab13e04f76c}{\index{Session\+Service@{Session\+Service}!invalidate@{invalidate}}
+\index{invalidate@{invalidate}!Session\+Service@{Session\+Service}}
+\subsubsection[{invalidate}]{\setlength{\rightskip}{0pt plus 5cm}invalidate (
+\begin{DoxyParamCaption}
+\item[{}]{\$session\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_session_service_a697a8111faa848860cfb3ab13e04f76c}
+Invalidate a session based on the session id. All the attributes store in the session will be lost.
+
+
+\begin{DoxyParams}{Parameters}
+{\em session\+Id} & 
+\begin{DoxyItemize}
+\item The session id for which the session has to be invalidated.
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} if invalidated successfully 
+\end{DoxyReturn}
+\hypertarget{class_session_service_aa7800e6c1d927c1c6036bd19b437e28d}{\index{Session\+Service@{Session\+Service}!remove\+All\+Attributes@{remove\+All\+Attributes}}
+\index{remove\+All\+Attributes@{remove\+All\+Attributes}!Session\+Service@{Session\+Service}}
+\subsubsection[{remove\+All\+Attributes}]{\setlength{\rightskip}{0pt plus 5cm}remove\+All\+Attributes (
+\begin{DoxyParamCaption}
+\item[{}]{\$session\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_session_service_aa7800e6c1d927c1c6036bd19b437e28d}
+Removes all the attributes for a given session id
+
+
+\begin{DoxyParams}{Parameters}
+{\em session\+Id} & 
+\begin{DoxyItemize}
+\item The session id for which the attributes has to be removed
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} if removed successfully 
+\end{DoxyReturn}
+\hypertarget{class_session_service_ac31819f9282a4a832dc3bd27dc4b6da6}{\index{Session\+Service@{Session\+Service}!remove\+Attribute@{remove\+Attribute}}
+\index{remove\+Attribute@{remove\+Attribute}!Session\+Service@{Session\+Service}}
+\subsubsection[{remove\+Attribute}]{\setlength{\rightskip}{0pt plus 5cm}remove\+Attribute (
+\begin{DoxyParamCaption}
+\item[{}]{\$session\+Id, }
+\item[{}]{\$attribute\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_session_service_ac31819f9282a4a832dc3bd27dc4b6da6}
+Removes the attribute from a session whose session id is provided.
+
+
+\begin{DoxyParams}{Parameters}
+{\em session\+Id} & 
+\begin{DoxyItemize}
+\item The session id for which the attribute has to be removed 
+\end{DoxyItemize}\\
+\hline
+{\em attribute\+Name} & 
+\begin{DoxyItemize}
+\item The attribute key that has to be removed
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} if removed successfully 
+\end{DoxyReturn}
+\hypertarget{class_session_service_a7d023ef7579508c65abc9f4e310e683d}{\index{Session\+Service@{Session\+Service}!set\+Attribute@{set\+Attribute}}
+\index{set\+Attribute@{set\+Attribute}!Session\+Service@{Session\+Service}}
+\subsubsection[{set\+Attribute}]{\setlength{\rightskip}{0pt plus 5cm}set\+Attribute (
+\begin{DoxyParamCaption}
+\item[{}]{\$session\+Id, }
+\item[{}]{\$attribute\+Name, }
+\item[{}]{\$attribute\+Value}
+\end{DoxyParamCaption}
+)}}\label{class_session_service_a7d023ef7579508c65abc9f4e310e683d}
+Sets attribute in a session whose session id is provided. Attributes are stored in a key value pair.
+
+
+\begin{DoxyParams}{Parameters}
+{\em session\+Id} & 
+\begin{DoxyItemize}
+\item \hyperlink{class_session}{Session} id for which the attribute has to be saved. 
+\end{DoxyItemize}\\
+\hline
+{\em attribute\+Name} & 
+\begin{DoxyItemize}
+\item The attribute key that needs to be stored 
+\end{DoxyItemize}\\
+\hline
+{\em attribute\+Value} & 
+\begin{DoxyItemize}
+\item The attribute value that needs to be stored
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_session}{Session} object containing the attribute and value which is stored 
+\end{DoxyReturn}

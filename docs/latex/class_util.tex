@@ -1,0 +1,118 @@
+\hypertarget{class_util}{\section{Util Class Reference}
+\label{class_util}\index{Util@{Util}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_util_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_util_aa37702d993eaa917ef46f1751dcee902}{sign} (\$params)
+\item 
+\hyperlink{class_util_ae2103f7166f0cb8a71b58453d7e6829e}{sort\+And\+Convert\+Table\+To\+String} (\$params)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_util_aed0318e18b5ba31f7100912883beb556}{static {\bfseries throw\+Exception\+If\+Null\+Or\+Blank} (\$obj, \$name)}\label{class_util_aed0318e18b5ba31f7100912883beb556}
+
+\item 
+static \hyperlink{class_util_a9494b483ab756dc9b70c6eaea29dc62d}{validate\+Date} (\$date, \$format= 'Y\+Y\+Y\+Y-\/M\+M-\/D\+D')
+\item 
+\hypertarget{class_util_a6c462f515699699033b67922641f3273}{static {\bfseries validate\+Max} (\$max)}\label{class_util_a6c462f515699699033b67922641f3273}
+
+\item 
+static \hyperlink{class_util_a2acd93887ed9df760deb6dadae0e1bc2}{throw\+Exception\+If\+Email\+Not\+Valid} (\$email)
+\item 
+\hypertarget{class_util_a39bff3577b4794efd90304b5e3ae5dd9}{static {\bfseries encode\+Params} (\$object)}\label{class_util_a39bff3577b4794efd90304b5e3ae5dd9}
+
+\item 
+static \hyperlink{class_util_a3450daac414f5bc1bf222640f8ab6079}{throw\+Exception\+If\+Not\+Valid\+Image\+Extension} (\$image\+Path, \$name)
+\item 
+\hypertarget{class_util_ad509cd3200204c988b12f93822df19a1}{static {\bfseries throw\+Exception\+If\+How\+Many\+Not\+Valid} (\$how\+Many)}\label{class_util_ad509cd3200204c988b12f93822df19a1}
+
+\item 
+\hypertarget{class_util_a517f121e47b1c7fc4738599e29ece725}{static {\bfseries get\+U\+T\+C\+Formatted\+Timestamp} ()}\label{class_util_a517f121e47b1c7fc4738599e29ece725}
+
+\item 
+\hypertarget{class_util_a63a3a4b8f9a5cdb3755fdc3e2724ea97}{static {\bfseries get\+U\+T\+C\+Formatted\+Timestamps} (\$date)}\label{class_util_a63a3a4b8f9a5cdb3755fdc3e2724ea97}
+
+\item 
+\hypertarget{class_util_a1468a1168693d0951e9a69d52ab13b73}{static {\bfseries throw\+Exception\+If\+Long\+Value\+Is\+Negative\+Or\+Equal\+To\+Zero} (\$obj, \$name)}\label{class_util_a1468a1168693d0951e9a69d52ab13b73}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A Singleton class which holds all the configuration. Users of the App42 Cloud A\+P\+I. should never need to use it directly. All methods which are required for the user are available on \hyperlink{class_service_a_p_i}{Service\+A\+P\+I} 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_util_a49f2ad222e06420736d750e167d55d7c}{\index{Util@{Util}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Util@{Util}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_util_a49f2ad222e06420736d750e167d55d7c}
+this is a constructor that takes 
+\begin{DoxyParams}{Parameters}
+{\em api\+Key} & \\
+\hline
+{\em secret\+Key} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_util_aa37702d993eaa917ef46f1751dcee902}{\index{Util@{Util}!sign@{sign}}
+\index{sign@{sign}!Util@{Util}}
+\subsubsection[{sign}]{\setlength{\rightskip}{0pt plus 5cm}sign (
+\begin{DoxyParamCaption}
+\item[{}]{\$params}
+\end{DoxyParamCaption}
+)}}\label{class_util_aa37702d993eaa917ef46f1751dcee902}
+Signs the request using Hmac\+Sha1
+
+
+\begin{DoxyParams}{Parameters}
+{\em secret\+Key} & The key using which the signing has to be done \\
+\hline
+{\em params} & The parameters which have to be signed \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_util_ae2103f7166f0cb8a71b58453d7e6829e}{\index{Util@{Util}!sort\+And\+Convert\+Table\+To\+String@{sort\+And\+Convert\+Table\+To\+String}}
+\index{sort\+And\+Convert\+Table\+To\+String@{sort\+And\+Convert\+Table\+To\+String}!Util@{Util}}
+\subsubsection[{sort\+And\+Convert\+Table\+To\+String}]{\setlength{\rightskip}{0pt plus 5cm}sort\+And\+Convert\+Table\+To\+String (
+\begin{DoxyParamCaption}
+\item[{}]{\$params}
+\end{DoxyParamCaption}
+)}}\label{class_util_ae2103f7166f0cb8a71b58453d7e6829e}
+Sorts the table keys alphatabically 
+\begin{DoxyParams}{Parameters}
+{\em table} & Key Value pairs which are sent as a payload to the R\+E\+S\+T App42 Cloud A\+P\+I Server \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_util_a2acd93887ed9df760deb6dadae0e1bc2}{\index{Util@{Util}!throw\+Exception\+If\+Email\+Not\+Valid@{throw\+Exception\+If\+Email\+Not\+Valid}}
+\index{throw\+Exception\+If\+Email\+Not\+Valid@{throw\+Exception\+If\+Email\+Not\+Valid}!Util@{Util}}
+\subsubsection[{throw\+Exception\+If\+Email\+Not\+Valid}]{\setlength{\rightskip}{0pt plus 5cm}static throw\+Exception\+If\+Email\+Not\+Valid (
+\begin{DoxyParamCaption}
+\item[{}]{\$email}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_util_a2acd93887ed9df760deb6dadae0e1bc2}
+Validate \hyperlink{class_email}{Email} \hypertarget{class_util_a3450daac414f5bc1bf222640f8ab6079}{\index{Util@{Util}!throw\+Exception\+If\+Not\+Valid\+Image\+Extension@{throw\+Exception\+If\+Not\+Valid\+Image\+Extension}}
+\index{throw\+Exception\+If\+Not\+Valid\+Image\+Extension@{throw\+Exception\+If\+Not\+Valid\+Image\+Extension}!Util@{Util}}
+\subsubsection[{throw\+Exception\+If\+Not\+Valid\+Image\+Extension}]{\setlength{\rightskip}{0pt plus 5cm}static throw\+Exception\+If\+Not\+Valid\+Image\+Extension (
+\begin{DoxyParamCaption}
+\item[{}]{\$image\+Path, }
+\item[{}]{\$name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_util_a3450daac414f5bc1bf222640f8ab6079}
+Validate Extension \hypertarget{class_util_a9494b483ab756dc9b70c6eaea29dc62d}{\index{Util@{Util}!validate\+Date@{validate\+Date}}
+\index{validate\+Date@{validate\+Date}!Util@{Util}}
+\subsubsection[{validate\+Date}]{\setlength{\rightskip}{0pt plus 5cm}static validate\+Date (
+\begin{DoxyParamCaption}
+\item[{}]{\$date, }
+\item[{}]{\$format = {\ttfamily 'YYYY-\/MM-\/DD'}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_util_a9494b483ab756dc9b70c6eaea29dc62d}
+Validate Date 

@@ -1,0 +1,158 @@
+\hypertarget{class_game_service}{\section{Game\+Service Class Reference}
+\label{class_game_service}\index{Game\+Service@{Game\+Service}}
+}
+Inheritance diagram for Game\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_game_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_game_service_a0cc7c4e59588f9a72642fa6c4bb9961a}{create\+Game} (\$game\+Name, \$game\+Description)
+\item 
+\hyperlink{class_game_service_af2a2e485f298fdd02404f143d7fe2647}{get\+All\+Games} (\$max=null, \$offset=null)
+\item 
+\hyperlink{class_game_service_a163be10ed0287d40818313f52b8b0ffb}{get\+All\+Games\+Count} ()
+\item 
+\hyperlink{class_game_service_afb9df56b00f8449e3be59543599a39f6}{get\+Game\+By\+Name} (\$game\+Name)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_game_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_game_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_game_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}game\char`\"{}}\label{class_game_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_game_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_game_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_game_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_game_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_game}{Game} service allows \hyperlink{class_game}{Game}, \hyperlink{class_user}{User}, \hyperlink{class_score}{Score} and Score\+Board Management on the Cloud. The service allows \hyperlink{class_game}{Game} Developer to create a \hyperlink{class_game}{Game} and then do in \hyperlink{class_game}{Game} Scoring using the \hyperlink{class_score}{Score} service. It also allows to maintain a \hyperlink{class_score}{Score} board across game sessions using the Score\+Board service. One can query for average or highest score for user for a \hyperlink{class_game}{Game} and highest and average score across users for a \hyperlink{class_game}{Game}. It also gives ranking of the user against other users for a particular game. The \hyperlink{class_reward}{Reward} and Reward\+Points allows the \hyperlink{class_game}{Game} Developer to assign rewards to a user and redeem the rewards. E.\+g. One can give Swords or Energy etc. The services \hyperlink{class_game}{Game}, \hyperlink{class_score}{Score}, Score\+Board, \hyperlink{class_reward}{Reward}, Reward\+Points can be used in Conjunction for complete \hyperlink{class_game}{Game} Scoring and \hyperlink{class_reward}{Reward} Management.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_reward}{Reward}, Reward\+Point, \hyperlink{class_score}{Score}, Score\+Board 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_game_service_a49f2ad222e06420736d750e167d55d7c}{\index{Game\+Service@{Game\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Game\+Service@{Game\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_game_service_a49f2ad222e06420736d750e167d55d7c}
+Constructor that takes 
+\begin{DoxyParams}{Parameters}
+{\em api\+Key} & \\
+\hline
+{\em secret\+Key} & \\
+\hline
+{\em base\+U\+R\+L} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_game_service_a0cc7c4e59588f9a72642fa6c4bb9961a}{\index{Game\+Service@{Game\+Service}!create\+Game@{create\+Game}}
+\index{create\+Game@{create\+Game}!Game\+Service@{Game\+Service}}
+\subsubsection[{create\+Game}]{\setlength{\rightskip}{0pt plus 5cm}create\+Game (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$game\+Description}
+\end{DoxyParamCaption}
+)}}\label{class_game_service_a0cc7c4e59588f9a72642fa6c4bb9961a}
+Creates a game on the cloud
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game that has to be created 
+\end{DoxyItemize}\\
+\hline
+{\em game\+Description} & 
+\begin{DoxyItemize}
+\item Description of the game to be created
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_game}{Game} object containing the game which has been created 
+\end{DoxyReturn}
+\hypertarget{class_game_service_af2a2e485f298fdd02404f143d7fe2647}{\index{Game\+Service@{Game\+Service}!get\+All\+Games@{get\+All\+Games}}
+\index{get\+All\+Games@{get\+All\+Games}!Game\+Service@{Game\+Service}}
+\subsubsection[{get\+All\+Games}]{\setlength{\rightskip}{0pt plus 5cm}get\+All\+Games (
+\begin{DoxyParamCaption}
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_game_service_af2a2e485f298fdd02404f143d7fe2647}
+Fetches all games for the \hyperlink{class_app}{App}
+
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_game}{Game} object containing all the games for the \hyperlink{class_app}{App} 
+\end{DoxyReturn}
+Fetches all games for the \hyperlink{class_app}{App} by paging.
+
+
+\begin{DoxyParams}{Parameters}
+{\em max} & 
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em offset} & 
+\begin{DoxyItemize}
+\item From where the records are to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_game}{Game} object containing all the games for the \hyperlink{class_app}{App}
+\end{DoxyReturn}
+\hypertarget{class_game_service_a163be10ed0287d40818313f52b8b0ffb}{\index{Game\+Service@{Game\+Service}!get\+All\+Games\+Count@{get\+All\+Games\+Count}}
+\index{get\+All\+Games\+Count@{get\+All\+Games\+Count}!Game\+Service@{Game\+Service}}
+\subsubsection[{get\+All\+Games\+Count}]{\setlength{\rightskip}{0pt plus 5cm}get\+All\+Games\+Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_service_a163be10ed0287d40818313f52b8b0ffb}
+Fetches the count of all games for the \hyperlink{class_app}{App}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing count of all the \hyperlink{class_game}{Game} for the \hyperlink{class_app}{App} 
+\end{DoxyReturn}
+\hypertarget{class_game_service_afb9df56b00f8449e3be59543599a39f6}{\index{Game\+Service@{Game\+Service}!get\+Game\+By\+Name@{get\+Game\+By\+Name}}
+\index{get\+Game\+By\+Name@{get\+Game\+By\+Name}!Game\+Service@{Game\+Service}}
+\subsubsection[{get\+Game\+By\+Name}]{\setlength{\rightskip}{0pt plus 5cm}get\+Game\+By\+Name (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_game_service_afb9df56b00f8449e3be59543599a39f6}
+Retrieves the game by the specified name
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game that has to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_game}{Game} object containing the game which has been created 
+\end{DoxyReturn}

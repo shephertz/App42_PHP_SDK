@@ -1,0 +1,110 @@
+\hypertarget{class_score_service}{\section{Score\+Service Class Reference}
+\label{class_score_service}\index{Score\+Service@{Score\+Service}}
+}
+Inheritance diagram for Score\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_score_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_score_service_a49f2ad222e06420736d750e167d55d7c}{{\bfseries \+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)}\label{class_score_service_a49f2ad222e06420736d750e167d55d7c}
+
+\item 
+\hyperlink{class_score_service_a1967742ab084fd9c30cd13335399ac26}{add\+Score} (\$game\+Name, \$game\+User\+Name, \$game\+Score)
+\item 
+\hyperlink{class_score_service_a2899145623ded43fd85cbfd734e53f6d}{deduct\+Score} (\$game\+Name, \$game\+User\+Name, \$game\+Score)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_score_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_score_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_score_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}game/score\char`\"{}}\label{class_score_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_score_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_score_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_score_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_score_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Allows game scoring. It has to be used for scoring for a particular \hyperlink{class_game}{Game} \hyperlink{class_session}{Session}. If scores have to be stored across \hyperlink{class_game}{Game} sessions then the service Score\+Board has to be used. It is especially useful for Multiplayer online or mobile games. The \hyperlink{class_game}{Game} service allows \hyperlink{class_game}{Game}, \hyperlink{class_user}{User}, \hyperlink{class_score}{Score} and Score\+Board Management on the Cloud. The service allows \hyperlink{class_game}{Game} Developer to create a \hyperlink{class_game}{Game} and then do in \hyperlink{class_game}{Game} Scoring using the \hyperlink{class_score}{Score} service. It also allows to maintain a Scoreboard across game sessions using the Score\+Board service. One can query for average or highest score for user for a \hyperlink{class_game}{Game} and highest and average score across users for a \hyperlink{class_game}{Game}. It also gives ranking of the user against other users for a particular game. The \hyperlink{class_reward}{Reward} and Reward\+Points allows the \hyperlink{class_game}{Game} Developer to assign rewards to a user and redeem the rewards. E.\+g. One can give Swords or Energy etc. The services \hyperlink{class_game}{Game}, \hyperlink{class_score}{Score}, Score\+Board, \hyperlink{class_reward}{Reward}, Reward\+Points can be used in Conjunction for complete \hyperlink{class_game}{Game} Scoring and \hyperlink{class_reward}{Reward} Management.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_game}{Game}, Reward\+Point, Reward\+Point, Score\+Board 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_score_service_a1967742ab084fd9c30cd13335399ac26}{\index{Score\+Service@{Score\+Service}!add\+Score@{add\+Score}}
+\index{add\+Score@{add\+Score}!Score\+Service@{Score\+Service}}
+\subsubsection[{add\+Score}]{\setlength{\rightskip}{0pt plus 5cm}add\+Score (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$game\+User\+Name, }
+\item[{}]{\$game\+Score}
+\end{DoxyParamCaption}
+)}}\label{class_score_service_a1967742ab084fd9c30cd13335399ac26}
+Adds game score for the specified user.
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game for which scores have to be added 
+\end{DoxyItemize}\\
+\hline
+{\em game\+User\+Name} & 
+\begin{DoxyItemize}
+\item The user for whom scores have to be added 
+\end{DoxyItemize}\\
+\hline
+{\em game\+Score} & 
+\begin{DoxyItemize}
+\item The scores that have to be added
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_game}{Game} object containing the scores that has been added 
+\end{DoxyReturn}
+\hypertarget{class_score_service_a2899145623ded43fd85cbfd734e53f6d}{\index{Score\+Service@{Score\+Service}!deduct\+Score@{deduct\+Score}}
+\index{deduct\+Score@{deduct\+Score}!Score\+Service@{Score\+Service}}
+\subsubsection[{deduct\+Score}]{\setlength{\rightskip}{0pt plus 5cm}deduct\+Score (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$game\+User\+Name, }
+\item[{}]{\$game\+Score}
+\end{DoxyParamCaption}
+)}}\label{class_score_service_a2899145623ded43fd85cbfd734e53f6d}
+Deducts the score from users account for a particular \hyperlink{class_game}{Game}
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game for which scores have to be deducted 
+\end{DoxyItemize}\\
+\hline
+{\em game\+User\+Name} & 
+\begin{DoxyItemize}
+\item The user for whom scores have to be deducted 
+\end{DoxyItemize}\\
+\hline
+{\em game\+Score} & 
+\begin{DoxyItemize}
+\item The scores that have to be deducted
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_game}{Game} object containing the scores that has been deducted 
+\end{DoxyReturn}

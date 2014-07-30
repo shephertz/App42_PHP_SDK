@@ -1,0 +1,492 @@
+\hypertarget{class_score_board_service}{\section{Score\+Board\+Service Class Reference}
+\label{class_score_board_service}\index{Score\+Board\+Service@{Score\+Board\+Service}}
+}
+Inheritance diagram for Score\+Board\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_score_board_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_score_board_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_score_board_service_a7a085f59ec23e4043f61e14c0649c1b3}{save\+User\+Score} (\$game\+Name, \$game\+User\+Name, \$game\+Score)
+\item 
+\hyperlink{class_score_board_service_a0cd4f45da55f6ff70c687c1c71511387}{get\+Scores\+By\+User} (\$game\+Name, \$user\+Name)
+\item 
+\hyperlink{class_score_board_service_a6e66d1ab5efddab46c2c8b1320851fce}{get\+Highest\+Score\+By\+User} (\$game\+Name, \$user\+Name)
+\item 
+\hyperlink{class_score_board_service_a7d54be07a48a65d2d8fd5bc7e856cec4}{get\+Lowest\+Score\+By\+User} (\$game\+Name, \$user\+Name)
+\item 
+\hyperlink{class_score_board_service_a333c548c3731be4928bcce9919d5ef70}{get\+Top\+Rankings} (\$game\+Name, \$start\+Date=null, \$end\+Date=null)
+\item 
+\hyperlink{class_score_board_service_ae48afebf03f1e83ff8c07ce821d3f48a}{get\+Top\+N\+Rankings} (\$game\+Name, \$max)
+\item 
+\hyperlink{class_score_board_service_a4e12db96d04e039467bbbf3d38b3bc27}{get\+User\+Ranking} (\$game\+Name, \$user\+Name)
+\item 
+\hyperlink{class_score_board_service_a8c94ddec49518fc3deeb6d1bb2a7c150}{get\+Average\+Score\+By\+User} (\$game\+Name, \$user\+Name)
+\item 
+\hyperlink{class_score_board_service_ae7cd992c2639e5fd743527464688e86e}{get\+Top\+Rankings\+By\+Group} (\$game\+Name, \$user\+List)
+\item 
+\hyperlink{class_score_board_service_a444cd229dcde91f2f4c8955bd749e999}{get\+Last\+Game\+Score} (\$user\+Name)
+\item 
+\hyperlink{class_score_board_service_ac3df851d8083e5d023808356d6029d63}{get\+Last\+Score\+By\+User} (\$game\+Name, \$user\+Name)
+\item 
+\hyperlink{class_score_board_service_a6b8d0798d02130ed85c1d41363421751}{get\+Top\+N\+Rankers} (\$game\+Name, \$max, \$start\+Date=null, \$end\+Date=null)
+\item 
+\hyperlink{class_score_board_service_a06c1ef766638a16806f3d949f38ed91e}{get\+Top\+N\+Rankers\+By\+Group} (\$game\+Name, \$user\+List)
+\item 
+\hyperlink{class_score_board_service_a21e671fb8da8d2bbb798434ab7056b05}{edit\+Score\+Value\+By\+Id} (\$score\+Id, \$game\+Score)
+\item 
+\hypertarget{class_score_board_service_ad8bb6b840941d069c599348128cbfc32}{{\bfseries get\+Top\+Rankers\+From\+Buddy\+Group} (\$game\+Name, \$user\+Name, \$owner\+Name, \$group\+Name)}\label{class_score_board_service_ad8bb6b840941d069c599348128cbfc32}
+
+\item 
+\hypertarget{class_score_board_service_a83986af2a7966b96a93d361f2f00cf5a}{{\bfseries get\+Top\+N\+Rankers\+From\+Facebook} (\$game\+Name, \$fb\+Access\+Token, \$max)}\label{class_score_board_service_a83986af2a7966b96a93d361f2f00cf5a}
+
+\item 
+\hypertarget{class_score_board_service_a0bda0b03fd66202309c308491e69c770}{{\bfseries get\+Top\+N\+Rankers\+From\+Facebook\+By\+Date\+Range} (\$game\+Name, \$fb\+Access\+Token, \$start\+Date, \$end\+Date, \$max)}\label{class_score_board_service_a0bda0b03fd66202309c308491e69c770}
+
+\item 
+\hypertarget{class_score_board_service_ac4c81e49320391e02c79ad3bd69d15dd}{{\bfseries get\+Top\+N\+Target\+Rankers} (\$game\+Name, \$max)}\label{class_score_board_service_ac4c81e49320391e02c79ad3bd69d15dd}
+
+\item 
+\hypertarget{class_score_board_service_a5821bf72489c15b04e59a24c8beb4766}{{\bfseries add\+J\+S\+O\+N\+Object} (\$collection\+Name, \$obj)}\label{class_score_board_service_a5821bf72489c15b04e59a24c8beb4766}
+
+\item 
+\hypertarget{class_score_board_service_ae53051147c35a85f75e07bfa109bb1c6}{{\bfseries get\+Users\+With\+Score\+Range} (\$game\+Name, \$min\+Score, \$max\+Score)}\label{class_score_board_service_ae53051147c35a85f75e07bfa109bb1c6}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_score_board_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_score_board_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_score_board_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}game/scoreboard\char`\"{}}\label{class_score_board_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_score_board_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_score_board_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_score_board_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_score_board_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Score\+Board allows storing, retrieving, querying and ranking scores for users and Games across \hyperlink{class_game}{Game} \hyperlink{class_session}{Session}. The \hyperlink{class_game}{Game} service allows \hyperlink{class_game}{Game}, \hyperlink{class_user}{User}, \hyperlink{class_score}{Score} and Score\+Board Management on the Cloud. The service allows \hyperlink{class_game}{Game} Developer to create a \hyperlink{class_game}{Game} and then do in \hyperlink{class_game}{Game} Scoring using the \hyperlink{class_score}{Score} service. It also allows to maintain a Scoreboard across game sessions using the Score\+Board service. One can query for average or highest score for user for a \hyperlink{class_game}{Game} and highest and average score across users for a \hyperlink{class_game}{Game}. It also gives ranking of the user against other users for a particular game. The \hyperlink{class_reward}{Reward} and Reward\+Points allows the \hyperlink{class_game}{Game} Developer to assign rewards to a user and redeem the rewards. E.\+g. One can give Swords or Energy etc. The services \hyperlink{class_game}{Game}, \hyperlink{class_score}{Score}, Score\+Board, \hyperlink{class_reward}{Reward}, Reward\+Points can be used in Conjunction for complete \hyperlink{class_game}{Game} Scoring and \hyperlink{class_reward}{Reward} Management.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_game}{Game}, Reward\+Point, Reward\+Point, \hyperlink{class_score}{Score} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_score_board_service_a49f2ad222e06420736d750e167d55d7c}{\index{Score\+Board\+Service@{Score\+Board\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_a49f2ad222e06420736d750e167d55d7c}
+this is a constructor that takes 
+\begin{DoxyParams}{Parameters}
+{\em api\+Key} & \\
+\hline
+{\em secret\+Key} & \\
+\hline
+{\em base\+U\+R\+L} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_score_board_service_a21e671fb8da8d2bbb798434ab7056b05}{\index{Score\+Board\+Service@{Score\+Board\+Service}!edit\+Score\+Value\+By\+Id@{edit\+Score\+Value\+By\+Id}}
+\index{edit\+Score\+Value\+By\+Id@{edit\+Score\+Value\+By\+Id}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{edit\+Score\+Value\+By\+Id}]{\setlength{\rightskip}{0pt plus 5cm}edit\+Score\+Value\+By\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{\$score\+Id, }
+\item[{}]{\$game\+Score}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_a21e671fb8da8d2bbb798434ab7056b05}
+
+\begin{DoxyParams}{Parameters}
+{\em score\+Id} & \\
+\hline
+{\em game\+Score} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_app42_exception}{App42\+Exception}} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_score_board_service_a8c94ddec49518fc3deeb6d1bb2a7c150}{\index{Score\+Board\+Service@{Score\+Board\+Service}!get\+Average\+Score\+By\+User@{get\+Average\+Score\+By\+User}}
+\index{get\+Average\+Score\+By\+User@{get\+Average\+Score\+By\+User}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{get\+Average\+Score\+By\+User}]{\setlength{\rightskip}{0pt plus 5cm}get\+Average\+Score\+By\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_a8c94ddec49518fc3deeb6d1bb2a7c150}
+Retrieves the average game score for the specified user
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game for which average score has to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item The user for which average score has to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the average game score for the specified user 
+\end{DoxyReturn}
+\hypertarget{class_score_board_service_a6e66d1ab5efddab46c2c8b1320851fce}{\index{Score\+Board\+Service@{Score\+Board\+Service}!get\+Highest\+Score\+By\+User@{get\+Highest\+Score\+By\+User}}
+\index{get\+Highest\+Score\+By\+User@{get\+Highest\+Score\+By\+User}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{get\+Highest\+Score\+By\+User}]{\setlength{\rightskip}{0pt plus 5cm}get\+Highest\+Score\+By\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_a6e66d1ab5efddab46c2c8b1320851fce}
+Retrieves the highest game score for the specified user
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game for which highest score has to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item The user for which highest score has to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the highest game score for the specified user 
+\end{DoxyReturn}
+\hypertarget{class_score_board_service_a444cd229dcde91f2f4c8955bd749e999}{\index{Score\+Board\+Service@{Score\+Board\+Service}!get\+Last\+Game\+Score@{get\+Last\+Game\+Score}}
+\index{get\+Last\+Game\+Score@{get\+Last\+Game\+Score}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{get\+Last\+Game\+Score}]{\setlength{\rightskip}{0pt plus 5cm}get\+Last\+Game\+Score (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_a444cd229dcde91f2f4c8955bd749e999}
+This function returns the score attained by the specified user in the last game session.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item Name of the for which score has to retrieve. 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_game}{Game} Object 
+\end{DoxyReturn}
+\hypertarget{class_score_board_service_ac3df851d8083e5d023808356d6029d63}{\index{Score\+Board\+Service@{Score\+Board\+Service}!get\+Last\+Score\+By\+User@{get\+Last\+Score\+By\+User}}
+\index{get\+Last\+Score\+By\+User@{get\+Last\+Score\+By\+User}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{get\+Last\+Score\+By\+User}]{\setlength{\rightskip}{0pt plus 5cm}get\+Last\+Score\+By\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_ac3df851d8083e5d023808356d6029d63}
+This function returns the top score attained by the specified user in the game.
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game 
+\end{DoxyItemize}\\
+\hline
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item Name of the user for which score has to retrieve 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_game}{Game} Object 
+\end{DoxyReturn}
+\hypertarget{class_score_board_service_a7d54be07a48a65d2d8fd5bc7e856cec4}{\index{Score\+Board\+Service@{Score\+Board\+Service}!get\+Lowest\+Score\+By\+User@{get\+Lowest\+Score\+By\+User}}
+\index{get\+Lowest\+Score\+By\+User@{get\+Lowest\+Score\+By\+User}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{get\+Lowest\+Score\+By\+User}]{\setlength{\rightskip}{0pt plus 5cm}get\+Lowest\+Score\+By\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_a7d54be07a48a65d2d8fd5bc7e856cec4}
+Retrieves the lowest game score for the specified user
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game for which lowest score has to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item The user for which lowest score has to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the lowest game score for the specified user 
+\end{DoxyReturn}
+\hypertarget{class_score_board_service_a0cd4f45da55f6ff70c687c1c71511387}{\index{Score\+Board\+Service@{Score\+Board\+Service}!get\+Scores\+By\+User@{get\+Scores\+By\+User}}
+\index{get\+Scores\+By\+User@{get\+Scores\+By\+User}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{get\+Scores\+By\+User}]{\setlength{\rightskip}{0pt plus 5cm}get\+Scores\+By\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_a0cd4f45da55f6ff70c687c1c71511387}
+Retrieves the scores for a game for the specified name
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game for which score has to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item The user for which score has to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the game score for the specified user 
+\end{DoxyReturn}
+\hypertarget{class_score_board_service_a6b8d0798d02130ed85c1d41363421751}{\index{Score\+Board\+Service@{Score\+Board\+Service}!get\+Top\+N\+Rankers@{get\+Top\+N\+Rankers}}
+\index{get\+Top\+N\+Rankers@{get\+Top\+N\+Rankers}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{get\+Top\+N\+Rankers}]{\setlength{\rightskip}{0pt plus 5cm}get\+Top\+N\+Rankers (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$max, }
+\item[{}]{\$start\+Date = {\ttfamily null}, }
+\item[{}]{\$end\+Date = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_a6b8d0798d02130ed85c1d41363421751}
+This function returns the specified number of top rankers in a specific game.
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game 
+\end{DoxyItemize}\\
+\hline
+{\em max} & 
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_game}{Game} Object 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & \\
+\hline
+{\em start\+Date} & \\
+\hline
+{\em end\+Date} & \\
+\hline
+{\em max} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_score_board_service_a06c1ef766638a16806f3d949f38ed91e}{\index{Score\+Board\+Service@{Score\+Board\+Service}!get\+Top\+N\+Rankers\+By\+Group@{get\+Top\+N\+Rankers\+By\+Group}}
+\index{get\+Top\+N\+Rankers\+By\+Group@{get\+Top\+N\+Rankers\+By\+Group}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{get\+Top\+N\+Rankers\+By\+Group}]{\setlength{\rightskip}{0pt plus 5cm}get\+Top\+N\+Rankers\+By\+Group (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$user\+List}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_a06c1ef766638a16806f3d949f38ed91e}
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & \\
+\hline
+{\em user\+List} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_score_board_service_ae48afebf03f1e83ff8c07ce821d3f48a}{\index{Score\+Board\+Service@{Score\+Board\+Service}!get\+Top\+N\+Rankings@{get\+Top\+N\+Rankings}}
+\index{get\+Top\+N\+Rankings@{get\+Top\+N\+Rankings}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{get\+Top\+N\+Rankings}]{\setlength{\rightskip}{0pt plus 5cm}get\+Top\+N\+Rankings (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$max}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_ae48afebf03f1e83ff8c07ce821d3f48a}
+Retrieves the Top Rankings for the specified game
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game for which ranks have to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em max} & 
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the Top rankings for a game 
+\end{DoxyReturn}
+\hypertarget{class_score_board_service_a333c548c3731be4928bcce9919d5ef70}{\index{Score\+Board\+Service@{Score\+Board\+Service}!get\+Top\+Rankings@{get\+Top\+Rankings}}
+\index{get\+Top\+Rankings@{get\+Top\+Rankings}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{get\+Top\+Rankings}]{\setlength{\rightskip}{0pt plus 5cm}get\+Top\+Rankings (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$start\+Date = {\ttfamily null}, }
+\item[{}]{\$end\+Date = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_a333c548c3731be4928bcce9919d5ef70}
+Retrieves the Top Rankings for the specified game
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game for which ranks have to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the Top rankings for a game 
+\end{DoxyReturn}
+Retrieves the Top Rankings for the specified game
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game for which ranks have to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em start\+Date} & -\/\+Start date from which the ranking have to be fetched \\
+\hline
+{\em end\+Date} & 
+\begin{DoxyItemize}
+\item End date up to which the ranking have to be fetched 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the Top rankings for a game
+\end{DoxyReturn}
+\hypertarget{class_score_board_service_ae7cd992c2639e5fd743527464688e86e}{\index{Score\+Board\+Service@{Score\+Board\+Service}!get\+Top\+Rankings\+By\+Group@{get\+Top\+Rankings\+By\+Group}}
+\index{get\+Top\+Rankings\+By\+Group@{get\+Top\+Rankings\+By\+Group}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{get\+Top\+Rankings\+By\+Group}]{\setlength{\rightskip}{0pt plus 5cm}get\+Top\+Rankings\+By\+Group (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$user\+List}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_ae7cd992c2639e5fd743527464688e86e}
+This function returns the top ranking based on user score
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game 
+\end{DoxyItemize}\\
+\hline
+{\em user\+List} & 
+\begin{DoxyItemize}
+\item List of the user for which ranking has to retrieve 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_game}{Game} o\+Object 
+\end{DoxyReturn}
+\hypertarget{class_score_board_service_a4e12db96d04e039467bbbf3d38b3bc27}{\index{Score\+Board\+Service@{Score\+Board\+Service}!get\+User\+Ranking@{get\+User\+Ranking}}
+\index{get\+User\+Ranking@{get\+User\+Ranking}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{get\+User\+Ranking}]{\setlength{\rightskip}{0pt plus 5cm}get\+User\+Ranking (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_a4e12db96d04e039467bbbf3d38b3bc27}
+Retrieves the \hyperlink{class_user}{User} Ranking for the specified game
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game for which ranks have to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item Name of the user for which ranks have to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the rank of the \hyperlink{class_user}{User} 
+\end{DoxyReturn}
+\hypertarget{class_score_board_service_a7a085f59ec23e4043f61e14c0649c1b3}{\index{Score\+Board\+Service@{Score\+Board\+Service}!save\+User\+Score@{save\+User\+Score}}
+\index{save\+User\+Score@{save\+User\+Score}!Score\+Board\+Service@{Score\+Board\+Service}}
+\subsubsection[{save\+User\+Score}]{\setlength{\rightskip}{0pt plus 5cm}save\+User\+Score (
+\begin{DoxyParamCaption}
+\item[{}]{\$game\+Name, }
+\item[{}]{\$game\+User\+Name, }
+\item[{}]{\$game\+Score}
+\end{DoxyParamCaption}
+)}}\label{class_score_board_service_a7a085f59ec23e4043f61e14c0649c1b3}
+Saves the \hyperlink{class_user}{User} score for a game
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Name} & 
+\begin{DoxyItemize}
+\item Name of the game for which score has to be saved 
+\end{DoxyItemize}\\
+\hline
+{\em game\+User\+Name} & 
+\begin{DoxyItemize}
+\item The user for which score has to be saved 
+\end{DoxyItemize}\\
+\hline
+{\em game\+Score} & 
+\begin{DoxyItemize}
+\item The sore that has to be saved
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the saved score for a game 
+\end{DoxyReturn}

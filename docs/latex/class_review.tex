@@ -1,0 +1,314 @@
+\hypertarget{class_review}{\section{Review Class Reference}
+\label{class_review}\index{Review@{Review}}
+}
+Inheritance diagram for Review\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_review}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_review_a05f6aa1ffae6295260d9f1cca016bf33}{get\+User\+Id} ()
+\item 
+\hyperlink{class_review_aad3264e2196ea03403e62460cd62ff96}{set\+User\+Id} (\$user\+Id)
+\item 
+\hyperlink{class_review_a5b01110117f0cd71a5a115dc8b9eab6f}{get\+Item\+Id} ()
+\item 
+\hyperlink{class_review_a22de7a673c95892b16b497788139add1}{set\+Item\+Id} (\$item\+Id)
+\item 
+\hypertarget{class_review_aeeb8d5147e17f9279f3aadd016383861}{{\bfseries get\+Comment\+Id} ()}\label{class_review_aeeb8d5147e17f9279f3aadd016383861}
+
+\item 
+\hyperlink{class_review_ab1357beaf9d27129c7d766ff66e0d6b8}{set\+Comment\+Id} (\$comment\+Id)
+\item 
+\hyperlink{class_review_a9d21636071f529e2154051d3ea6e5921}{get\+Status} ()
+\item 
+\hyperlink{class_review_afeb58bbf45f3571f34d5046f1b7bf827}{set\+Status} (\$tatus)
+\item 
+\hyperlink{class_review_ad7d76fed59573da85882409bdfb81a6d}{get\+Review\+Id} ()
+\item 
+\hyperlink{class_review_aa0f3bdfbc68d77b40c69fd257368fad7}{set\+Review\+Id} (\$review\+Id)
+\item 
+\hyperlink{class_review_adb57c3d1b74c19589ba1d641ea1a390e}{get\+Comment} ()
+\item 
+\hyperlink{class_review_a169d67ad53abdd4e6d1cd931fe15e839}{set\+Comment} (\$comment)
+\item 
+\hyperlink{class_review_a209cc2a79146f673389564ea1315c2a2}{get\+Rating} ()
+\item 
+\hyperlink{class_review_a0bda8a5142a1c40476109d41ffac7fa6}{set\+Rating} (\$rating)
+\item 
+\hyperlink{class_review_a346b90b05b25684ab3d2c62566270551}{get\+Created\+On} ()
+\item 
+\hyperlink{class_review_adff89ef96f7c1e0f0752caca8ccc750b}{set\+Created\+On} (\$created\+On)
+\item 
+\hyperlink{class_review_a4d5198c3929ebdaa2e71d41bb529d70b}{get\+String\+View} ()
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_review_a84651f4070d04080f6c5fd3c98cc9104}{{\bfseries \$user\+Id}}\label{class_review_a84651f4070d04080f6c5fd3c98cc9104}
+
+\item 
+\hypertarget{class_review_aa4c0908542b0acc0aaa0aadee3df7ae5}{{\bfseries \$item\+Id}}\label{class_review_aa4c0908542b0acc0aaa0aadee3df7ae5}
+
+\item 
+\hypertarget{class_review_a58391ea75f2d29d5d708d7050b641c33}{{\bfseries \$status}}\label{class_review_a58391ea75f2d29d5d708d7050b641c33}
+
+\item 
+\hypertarget{class_review_a20db85f30a58306b84a1edff65e1954e}{{\bfseries \$review\+Id}}\label{class_review_a20db85f30a58306b84a1edff65e1954e}
+
+\item 
+\hypertarget{class_review_a536677acc0163c53c067316a97456e6c}{{\bfseries \$comment}}\label{class_review_a536677acc0163c53c067316a97456e6c}
+
+\item 
+\hypertarget{class_review_a44118acf7e954a3bc096a4af6b059c23}{{\bfseries \$rating}}\label{class_review_a44118acf7e954a3bc096a4af6b059c23}
+
+\item 
+\hypertarget{class_review_a980da9bfdce6ade7abd3568e89f80013}{{\bfseries \$created\+On}}\label{class_review_a980da9bfdce6ade7abd3568e89f80013}
+
+\item 
+\hypertarget{class_review_a49916819068e77eb9292d7abd4136c54}{{\bfseries \$comment\+Id}}\label{class_review_a49916819068e77eb9292d7abd4136c54}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The service is a \hyperlink{class_review}{Review} \& Rating manager for any item. The item can be anything which has an id e.\+g. \hyperlink{class_app}{App} on a App\+Store/\+Marketplace, items in a catalogue, articles, blogs etc. It manages the comments and its associated rating. It also provides methods to fetch average, highest etc. Reviews. Reviews can be also be muted or unmuted if it has any objectionable content.
+
+This \hyperlink{class_review}{Review} object is the value object which contains the properties of \hyperlink{class_review}{Review} along with the setter \& getter for those properties. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_review_adb57c3d1b74c19589ba1d641ea1a390e}{\index{Review@{Review}!get\+Comment@{get\+Comment}}
+\index{get\+Comment@{get\+Comment}!Review@{Review}}
+\subsubsection[{get\+Comment}]{\setlength{\rightskip}{0pt plus 5cm}get\+Comment (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_review_adb57c3d1b74c19589ba1d641ea1a390e}
+Returns the comment of the \hyperlink{class_user}{User}.
+
+\begin{DoxyReturn}{Returns}
+the comment of the \hyperlink{class_user}{User}. 
+\end{DoxyReturn}
+\hypertarget{class_review_a346b90b05b25684ab3d2c62566270551}{\index{Review@{Review}!get\+Created\+On@{get\+Created\+On}}
+\index{get\+Created\+On@{get\+Created\+On}!Review@{Review}}
+\subsubsection[{get\+Created\+On}]{\setlength{\rightskip}{0pt plus 5cm}get\+Created\+On (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_review_a346b90b05b25684ab3d2c62566270551}
+Returns the time, day and date of the review when it was created by the \hyperlink{class_user}{User}.
+
+\begin{DoxyReturn}{Returns}
+the created\+On information of the review by the \hyperlink{class_user}{User}. 
+\end{DoxyReturn}
+\hypertarget{class_review_a5b01110117f0cd71a5a115dc8b9eab6f}{\index{Review@{Review}!get\+Item\+Id@{get\+Item\+Id}}
+\index{get\+Item\+Id@{get\+Item\+Id}!Review@{Review}}
+\subsubsection[{get\+Item\+Id}]{\setlength{\rightskip}{0pt plus 5cm}get\+Item\+Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_review_a5b01110117f0cd71a5a115dc8b9eab6f}
+Returns the item\+Id of the \hyperlink{class_user}{User}.
+
+\begin{DoxyReturn}{Returns}
+the item\+Id of the \hyperlink{class_user}{User}. 
+\end{DoxyReturn}
+\hypertarget{class_review_a209cc2a79146f673389564ea1315c2a2}{\index{Review@{Review}!get\+Rating@{get\+Rating}}
+\index{get\+Rating@{get\+Rating}!Review@{Review}}
+\subsubsection[{get\+Rating}]{\setlength{\rightskip}{0pt plus 5cm}get\+Rating (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_review_a209cc2a79146f673389564ea1315c2a2}
+Returns the rating given by the \hyperlink{class_user}{User}.
+
+\begin{DoxyReturn}{Returns}
+the rating given by the \hyperlink{class_user}{User}. 
+\end{DoxyReturn}
+\hypertarget{class_review_ad7d76fed59573da85882409bdfb81a6d}{\index{Review@{Review}!get\+Review\+Id@{get\+Review\+Id}}
+\index{get\+Review\+Id@{get\+Review\+Id}!Review@{Review}}
+\subsubsection[{get\+Review\+Id}]{\setlength{\rightskip}{0pt plus 5cm}get\+Review\+Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_review_ad7d76fed59573da85882409bdfb81a6d}
+Returns the review\+Id of the \hyperlink{class_user}{User}.
+
+\begin{DoxyReturn}{Returns}
+the review\+Id of the \hyperlink{class_user}{User}. 
+\end{DoxyReturn}
+\hypertarget{class_review_a9d21636071f529e2154051d3ea6e5921}{\index{Review@{Review}!get\+Status@{get\+Status}}
+\index{get\+Status@{get\+Status}!Review@{Review}}
+\subsubsection[{get\+Status}]{\setlength{\rightskip}{0pt plus 5cm}get\+Status (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_review_a9d21636071f529e2154051d3ea6e5921}
+Returns the status of the \hyperlink{class_user}{User}.
+
+\begin{DoxyReturn}{Returns}
+the status of the \hyperlink{class_user}{User}. 
+\end{DoxyReturn}
+\hypertarget{class_review_a4d5198c3929ebdaa2e71d41bb529d70b}{\index{Review@{Review}!get\+String\+View@{get\+String\+View}}
+\index{get\+String\+View@{get\+String\+View}!Review@{Review}}
+\subsubsection[{get\+String\+View}]{\setlength{\rightskip}{0pt plus 5cm}get\+String\+View (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_review_a4d5198c3929ebdaa2e71d41bb529d70b}
+Returns the \hyperlink{class_user}{User} Response in J\+S\+O\+N format.
+
+\begin{DoxyReturn}{Returns}
+the response in J\+S\+O\+N format. 
+\end{DoxyReturn}
+\hypertarget{class_review_a05f6aa1ffae6295260d9f1cca016bf33}{\index{Review@{Review}!get\+User\+Id@{get\+User\+Id}}
+\index{get\+User\+Id@{get\+User\+Id}!Review@{Review}}
+\subsubsection[{get\+User\+Id}]{\setlength{\rightskip}{0pt plus 5cm}get\+User\+Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_review_a05f6aa1ffae6295260d9f1cca016bf33}
+Returns the user Id.
+
+\begin{DoxyReturn}{Returns}
+the user\+Id of the \hyperlink{class_user}{User}. 
+\end{DoxyReturn}
+\hypertarget{class_review_a169d67ad53abdd4e6d1cd931fe15e839}{\index{Review@{Review}!set\+Comment@{set\+Comment}}
+\index{set\+Comment@{set\+Comment}!Review@{Review}}
+\subsubsection[{set\+Comment}]{\setlength{\rightskip}{0pt plus 5cm}set\+Comment (
+\begin{DoxyParamCaption}
+\item[{}]{\$comment}
+\end{DoxyParamCaption}
+)}}\label{class_review_a169d67ad53abdd4e6d1cd931fe15e839}
+Sets the comment of the \hyperlink{class_user}{User}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em comment} & 
+\begin{DoxyItemize}
+\item comment of the \hyperlink{class_user}{User} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_review_ab1357beaf9d27129c7d766ff66e0d6b8}{\index{Review@{Review}!set\+Comment\+Id@{set\+Comment\+Id}}
+\index{set\+Comment\+Id@{set\+Comment\+Id}!Review@{Review}}
+\subsubsection[{set\+Comment\+Id}]{\setlength{\rightskip}{0pt plus 5cm}set\+Comment\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{\$comment\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_review_ab1357beaf9d27129c7d766ff66e0d6b8}
+Sets the item\+Id of the \hyperlink{class_user}{User}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em item\+Id} & 
+\begin{DoxyItemize}
+\item item\+Id of the \hyperlink{class_user}{User} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_review_adff89ef96f7c1e0f0752caca8ccc750b}{\index{Review@{Review}!set\+Created\+On@{set\+Created\+On}}
+\index{set\+Created\+On@{set\+Created\+On}!Review@{Review}}
+\subsubsection[{set\+Created\+On}]{\setlength{\rightskip}{0pt plus 5cm}set\+Created\+On (
+\begin{DoxyParamCaption}
+\item[{}]{\$created\+On}
+\end{DoxyParamCaption}
+)}}\label{class_review_adff89ef96f7c1e0f0752caca8ccc750b}
+Sets the created\+On information of the review by the \hyperlink{class_user}{User}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em created\+On} & 
+\begin{DoxyItemize}
+\item created\+On information by the \hyperlink{class_user}{User} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_review_a22de7a673c95892b16b497788139add1}{\index{Review@{Review}!set\+Item\+Id@{set\+Item\+Id}}
+\index{set\+Item\+Id@{set\+Item\+Id}!Review@{Review}}
+\subsubsection[{set\+Item\+Id}]{\setlength{\rightskip}{0pt plus 5cm}set\+Item\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{\$item\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_review_a22de7a673c95892b16b497788139add1}
+Sets the item\+Id of the \hyperlink{class_user}{User}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em item\+Id} & 
+\begin{DoxyItemize}
+\item item\+Id of the \hyperlink{class_user}{User} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_review_a0bda8a5142a1c40476109d41ffac7fa6}{\index{Review@{Review}!set\+Rating@{set\+Rating}}
+\index{set\+Rating@{set\+Rating}!Review@{Review}}
+\subsubsection[{set\+Rating}]{\setlength{\rightskip}{0pt plus 5cm}set\+Rating (
+\begin{DoxyParamCaption}
+\item[{}]{\$rating}
+\end{DoxyParamCaption}
+)}}\label{class_review_a0bda8a5142a1c40476109d41ffac7fa6}
+Sets the rating given by the \hyperlink{class_user}{User}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em rating} & 
+\begin{DoxyItemize}
+\item rating given by the \hyperlink{class_user}{User} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_review_aa0f3bdfbc68d77b40c69fd257368fad7}{\index{Review@{Review}!set\+Review\+Id@{set\+Review\+Id}}
+\index{set\+Review\+Id@{set\+Review\+Id}!Review@{Review}}
+\subsubsection[{set\+Review\+Id}]{\setlength{\rightskip}{0pt plus 5cm}set\+Review\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{\$review\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_review_aa0f3bdfbc68d77b40c69fd257368fad7}
+Sets the review\+Id of the \hyperlink{class_user}{User}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em review\+Id} & 
+\begin{DoxyItemize}
+\item review\+Id of the \hyperlink{class_user}{User} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_review_afeb58bbf45f3571f34d5046f1b7bf827}{\index{Review@{Review}!set\+Status@{set\+Status}}
+\index{set\+Status@{set\+Status}!Review@{Review}}
+\subsubsection[{set\+Status}]{\setlength{\rightskip}{0pt plus 5cm}set\+Status (
+\begin{DoxyParamCaption}
+\item[{}]{\$tatus}
+\end{DoxyParamCaption}
+)}}\label{class_review_afeb58bbf45f3571f34d5046f1b7bf827}
+Sets the status of the \hyperlink{class_user}{User}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em status} & 
+\begin{DoxyItemize}
+\item status of the \hyperlink{class_user}{User} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_review_aad3264e2196ea03403e62460cd62ff96}{\index{Review@{Review}!set\+User\+Id@{set\+User\+Id}}
+\index{set\+User\+Id@{set\+User\+Id}!Review@{Review}}
+\subsubsection[{set\+User\+Id}]{\setlength{\rightskip}{0pt plus 5cm}set\+User\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_review_aad3264e2196ea03403e62460cd62ff96}
+Sets the user\+Id of the \hyperlink{class_user}{User}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Id} & 
+\begin{DoxyItemize}
+\item user\+Id of the \hyperlink{class_user}{User} 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}

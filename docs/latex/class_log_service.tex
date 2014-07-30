@@ -1,0 +1,615 @@
+\hypertarget{class_log_service}{\section{Log\+Service Class Reference}
+\label{class_log_service}\index{Log\+Service@{Log\+Service}}
+}
+Inheritance diagram for Log\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_log_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_log_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_log_service_a9112210c0e106ca687c01dad9b7d2ae5}{info} (\$msg, \$module)
+\item 
+\hyperlink{class_log_service_a49c41e3a2b535b938c7e14c000d5b472}{debug} (\$msg, \$module)
+\item 
+\hyperlink{class_log_service_a8a867975c4500ad512ccd7f04b92caa4}{fatal} (\$msg, \$module)
+\item 
+\hyperlink{class_log_service_a70f69f91510ca32aab59adddf0786aee}{error} (\$msg, \$module)
+\item 
+\hyperlink{class_log_service_ae4e851c9b665781617e9b4597332326f}{fetch\+Logs\+By\+Module} (\$module\+Name, \$max=null, \$offset=null)
+\item 
+\hyperlink{class_log_service_afb7253dbc6c9a0271ab37a71b8191a82}{fetch\+Logs\+Count\+By\+Module} (\$module\+Name)
+\item 
+\hyperlink{class_log_service_a309cfa39bc7445fe25fb7f4e60ad6077}{fetch\+Logs\+By\+Module\+And\+Text} (\$module\+Name, \$text, \$max=null, \$offset=null)
+\item 
+\hyperlink{class_log_service_afd6fd6250848f0be693ab075bddfecdb}{fetch\+Logs\+Count\+By\+Module\+And\+Text} (\$module\+Name, \$text)
+\item 
+\hyperlink{class_log_service_a542e4229f95868e64f376f0c8d372422}{fetch\+Logs\+Count\+By\+Info} ()
+\item 
+\hyperlink{class_log_service_aae89189768ddafa0df1bf893f61edc58}{fetch\+Logs\+Count\+By\+Debug} ()
+\item 
+\hyperlink{class_log_service_ab494ec366d538e38aee71d21b0f14b07}{fetch\+Logs\+Count\+By\+Error} ()
+\item 
+\hyperlink{class_log_service_a7723cac0b2650263263c7b72dcb8ed79}{fetch\+Logs\+Count\+By\+Fatal} ()
+\item 
+\hyperlink{class_log_service_a9446944057391c823bed1ad4ff0d8b0b}{fetch\+Logs\+By\+Info} (\$max=null, \$offset=null)
+\item 
+\hyperlink{class_log_service_aa7fdec94b682d0f289d6ae1cd9f88aaa}{fetch\+Logs\+By\+Debug} (\$max=null, \$offset=null)
+\item 
+\hyperlink{class_log_service_a88d6867d0a41ab835cda0c04e1e806cd}{fetch\+Logs\+By\+Error} (\$max=null, \$offset=null)
+\item 
+\hyperlink{class_log_service_a00030398115a30521018938aa7afd21f}{fetch\+Logs\+By\+Fatal} (\$max=null, \$offset=null)
+\item 
+\hyperlink{class_log_service_aee1936ded7bc9cd5d706c5a2499ce160}{fetch\+Log\+By\+Date\+Range} (\$start\+Date, \$end\+Date, \$max=null, \$offset=null)
+\item 
+\hyperlink{class_log_service_ae906b97075e3c2985a4b7f7b4dfd82a7}{fetch\+Log\+Count\+By\+Date\+Range} (\$start\+Date, \$end\+Date)
+\item 
+\hypertarget{class_log_service_a3f05ae22de792ac69493a82137b05ad9}{{\bfseries set\+Event\+With\+Module\+Name} (\$module\+Name, \$event\+Name)}\label{class_log_service_a3f05ae22de792ac69493a82137b05ad9}
+
+\item 
+\hypertarget{class_log_service_a3183068628956d205b9df5228c4b4551}{{\bfseries set\+Event} (\$event\+Name)}\label{class_log_service_a3183068628956d205b9df5228c4b4551}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_log_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_log_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_log_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}log\char`\"{}}\label{class_log_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_log_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_log_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_log_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_log_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Centralize logging for your \hyperlink{class_app}{App}. This service allows different levels e.\+g. info, debug, fatal, error etc. to log a message and query the messages based on different parameters. You can fetch logs based on module, level, message, date range etc.
+
+\begin{DoxySeeAlso}{See also}
+Log 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_log_service_a49f2ad222e06420736d750e167d55d7c}{\index{Log\+Service@{Log\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Log\+Service@{Log\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_a49f2ad222e06420736d750e167d55d7c}
+this is a constructor that takes
+
+
+\begin{DoxyParams}{Parameters}
+{\em api\+Key} & \\
+\hline
+{\em secret\+Key} & \\
+\hline
+{\em base\+U\+R\+L} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_log_service_a49c41e3a2b535b938c7e14c000d5b472}{\index{Log\+Service@{Log\+Service}!debug@{debug}}
+\index{debug@{debug}!Log\+Service@{Log\+Service}}
+\subsubsection[{debug}]{\setlength{\rightskip}{0pt plus 5cm}debug (
+\begin{DoxyParamCaption}
+\item[{}]{\$msg, }
+\item[{}]{\$module}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_a49c41e3a2b535b938c7e14c000d5b472}
+Logs the debug message
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & 
+\begin{DoxyItemize}
+\item \hyperlink{class_message}{Message} to be logged 
+\end{DoxyItemize}\\
+\hline
+{\em module} & 
+\begin{DoxyItemize}
+\item Module name for which the message is getting logged
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Log object containing logged message 
+\end{DoxyReturn}
+\hypertarget{class_log_service_a70f69f91510ca32aab59adddf0786aee}{\index{Log\+Service@{Log\+Service}!error@{error}}
+\index{error@{error}!Log\+Service@{Log\+Service}}
+\subsubsection[{error}]{\setlength{\rightskip}{0pt plus 5cm}error (
+\begin{DoxyParamCaption}
+\item[{}]{\$msg, }
+\item[{}]{\$module}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_a70f69f91510ca32aab59adddf0786aee}
+Logs the error message
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & 
+\begin{DoxyItemize}
+\item \hyperlink{class_message}{Message} to be logged 
+\end{DoxyItemize}\\
+\hline
+{\em module} & 
+\begin{DoxyItemize}
+\item Module name for which the message is getting logged
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Log object containing logged message 
+\end{DoxyReturn}
+\hypertarget{class_log_service_a8a867975c4500ad512ccd7f04b92caa4}{\index{Log\+Service@{Log\+Service}!fatal@{fatal}}
+\index{fatal@{fatal}!Log\+Service@{Log\+Service}}
+\subsubsection[{fatal}]{\setlength{\rightskip}{0pt plus 5cm}fatal (
+\begin{DoxyParamCaption}
+\item[{}]{\$msg, }
+\item[{}]{\$module}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_a8a867975c4500ad512ccd7f04b92caa4}
+Logs the fatal message
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & 
+\begin{DoxyItemize}
+\item \hyperlink{class_message}{Message} to be logged 
+\end{DoxyItemize}\\
+\hline
+{\em module} & 
+\begin{DoxyItemize}
+\item Module name for which the message is getting logged
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Log object containing logged message 
+\end{DoxyReturn}
+\hypertarget{class_log_service_aee1936ded7bc9cd5d706c5a2499ce160}{\index{Log\+Service@{Log\+Service}!fetch\+Log\+By\+Date\+Range@{fetch\+Log\+By\+Date\+Range}}
+\index{fetch\+Log\+By\+Date\+Range@{fetch\+Log\+By\+Date\+Range}!Log\+Service@{Log\+Service}}
+\subsubsection[{fetch\+Log\+By\+Date\+Range}]{\setlength{\rightskip}{0pt plus 5cm}fetch\+Log\+By\+Date\+Range (
+\begin{DoxyParamCaption}
+\item[{}]{\$start\+Date, }
+\item[{}]{\$end\+Date, }
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_aee1936ded7bc9cd5d706c5a2499ce160}
+Fetch log messages based on Date range
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+Date} & 
+\begin{DoxyItemize}
+\item Start date from which the log messages have to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em end\+Date} & 
+\begin{DoxyItemize}
+\item End date upto which the log messages have to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Log object containing fetched messages 
+\end{DoxyReturn}
+Fetch log messages based on Date range by paging.
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+Date} & 
+\begin{DoxyItemize}
+\item Start date from which the log messages have to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em end\+Date} & 
+\begin{DoxyItemize}
+\item End date upto which the log messages have to be fetched
+\end{DoxyItemize}\\
+\hline
+{\em max} & 
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em offset} & 
+\begin{DoxyItemize}
+\item From where the records are to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Log object containing fetched messages
+\end{DoxyReturn}
+\hypertarget{class_log_service_ae906b97075e3c2985a4b7f7b4dfd82a7}{\index{Log\+Service@{Log\+Service}!fetch\+Log\+Count\+By\+Date\+Range@{fetch\+Log\+Count\+By\+Date\+Range}}
+\index{fetch\+Log\+Count\+By\+Date\+Range@{fetch\+Log\+Count\+By\+Date\+Range}!Log\+Service@{Log\+Service}}
+\subsubsection[{fetch\+Log\+Count\+By\+Date\+Range}]{\setlength{\rightskip}{0pt plus 5cm}fetch\+Log\+Count\+By\+Date\+Range (
+\begin{DoxyParamCaption}
+\item[{}]{\$start\+Date, }
+\item[{}]{\$end\+Date}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_ae906b97075e3c2985a4b7f7b4dfd82a7}
+Fetch count of log messages based on Date range
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+Date} & 
+\begin{DoxyItemize}
+\item Start date from which the count of log messages have to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em end\+Date} & 
+\begin{DoxyItemize}
+\item End date upto which the count of log messages have to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing count of fetched messages 
+\end{DoxyReturn}
+\hypertarget{class_log_service_aa7fdec94b682d0f289d6ae1cd9f88aaa}{\index{Log\+Service@{Log\+Service}!fetch\+Logs\+By\+Debug@{fetch\+Logs\+By\+Debug}}
+\index{fetch\+Logs\+By\+Debug@{fetch\+Logs\+By\+Debug}!Log\+Service@{Log\+Service}}
+\subsubsection[{fetch\+Logs\+By\+Debug}]{\setlength{\rightskip}{0pt plus 5cm}fetch\+Logs\+By\+Debug (
+\begin{DoxyParamCaption}
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_aa7fdec94b682d0f289d6ae1cd9f88aaa}
+Fetch log messages based on Debug Level
+
+\begin{DoxyReturn}{Returns}
+Log object containing fetched debug messages 
+\end{DoxyReturn}
+Fetch log messages based on Debug Level by paging.
+
+
+\begin{DoxyParams}{Parameters}
+{\em max} & 
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em offset} & 
+\begin{DoxyItemize}
+\item From where the records are to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Log object containing fetched debug messages
+\end{DoxyReturn}
+\hypertarget{class_log_service_a88d6867d0a41ab835cda0c04e1e806cd}{\index{Log\+Service@{Log\+Service}!fetch\+Logs\+By\+Error@{fetch\+Logs\+By\+Error}}
+\index{fetch\+Logs\+By\+Error@{fetch\+Logs\+By\+Error}!Log\+Service@{Log\+Service}}
+\subsubsection[{fetch\+Logs\+By\+Error}]{\setlength{\rightskip}{0pt plus 5cm}fetch\+Logs\+By\+Error (
+\begin{DoxyParamCaption}
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_a88d6867d0a41ab835cda0c04e1e806cd}
+Fetch log messages based on Error Level
+
+\begin{DoxyReturn}{Returns}
+Log object containing fetched error messages 
+\end{DoxyReturn}
+Fetch log messages based on Error Level by paging.
+
+
+\begin{DoxyParams}{Parameters}
+{\em max} & 
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em offset} & 
+\begin{DoxyItemize}
+\item From where the records are to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Log object containing fetched error messages
+\end{DoxyReturn}
+\hypertarget{class_log_service_a00030398115a30521018938aa7afd21f}{\index{Log\+Service@{Log\+Service}!fetch\+Logs\+By\+Fatal@{fetch\+Logs\+By\+Fatal}}
+\index{fetch\+Logs\+By\+Fatal@{fetch\+Logs\+By\+Fatal}!Log\+Service@{Log\+Service}}
+\subsubsection[{fetch\+Logs\+By\+Fatal}]{\setlength{\rightskip}{0pt plus 5cm}fetch\+Logs\+By\+Fatal (
+\begin{DoxyParamCaption}
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_a00030398115a30521018938aa7afd21f}
+Fetch log messages based on Fatal Level
+
+\begin{DoxyReturn}{Returns}
+Log object containing fetched Fatal messages 
+\end{DoxyReturn}
+Fetch log messages based on Fatal Level by paging.
+
+
+\begin{DoxyParams}{Parameters}
+{\em max} & 
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em offset} & 
+\begin{DoxyItemize}
+\item From where the records are to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Log object containing fetched Fatal messages
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_app42_exception}{App42\+Exception}} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_log_service_a9446944057391c823bed1ad4ff0d8b0b}{\index{Log\+Service@{Log\+Service}!fetch\+Logs\+By\+Info@{fetch\+Logs\+By\+Info}}
+\index{fetch\+Logs\+By\+Info@{fetch\+Logs\+By\+Info}!Log\+Service@{Log\+Service}}
+\subsubsection[{fetch\+Logs\+By\+Info}]{\setlength{\rightskip}{0pt plus 5cm}fetch\+Logs\+By\+Info (
+\begin{DoxyParamCaption}
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_a9446944057391c823bed1ad4ff0d8b0b}
+Fetch log messages based on Info Level
+
+\begin{DoxyReturn}{Returns}
+Log object containing fetched info messages 
+\end{DoxyReturn}
+Fetch log messages based on Info Level by paging.
+
+
+\begin{DoxyParams}{Parameters}
+{\em max} & 
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em offset} & 
+\begin{DoxyItemize}
+\item From where the records are to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Log object containing fetched info messages
+\end{DoxyReturn}
+\hypertarget{class_log_service_ae4e851c9b665781617e9b4597332326f}{\index{Log\+Service@{Log\+Service}!fetch\+Logs\+By\+Module@{fetch\+Logs\+By\+Module}}
+\index{fetch\+Logs\+By\+Module@{fetch\+Logs\+By\+Module}!Log\+Service@{Log\+Service}}
+\subsubsection[{fetch\+Logs\+By\+Module}]{\setlength{\rightskip}{0pt plus 5cm}fetch\+Logs\+By\+Module (
+\begin{DoxyParamCaption}
+\item[{}]{\$module\+Name, }
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_ae4e851c9b665781617e9b4597332326f}
+Fetch the log messages based on the Module
+
+
+\begin{DoxyParams}{Parameters}
+{\em module\+Name} & 
+\begin{DoxyItemize}
+\item Module name for which the messages has to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Log object containing fetched messages 
+\end{DoxyReturn}
+Fetch the log messages based on the Module by paging.
+
+
+\begin{DoxyParams}{Parameters}
+{\em module\+Name} & 
+\begin{DoxyItemize}
+\item Module name for which the messages has to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em max} & 
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em offset} & 
+\begin{DoxyItemize}
+\item From where the records are to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Log object containing fetched messages
+\end{DoxyReturn}
+\hypertarget{class_log_service_a309cfa39bc7445fe25fb7f4e60ad6077}{\index{Log\+Service@{Log\+Service}!fetch\+Logs\+By\+Module\+And\+Text@{fetch\+Logs\+By\+Module\+And\+Text}}
+\index{fetch\+Logs\+By\+Module\+And\+Text@{fetch\+Logs\+By\+Module\+And\+Text}!Log\+Service@{Log\+Service}}
+\subsubsection[{fetch\+Logs\+By\+Module\+And\+Text}]{\setlength{\rightskip}{0pt plus 5cm}fetch\+Logs\+By\+Module\+And\+Text (
+\begin{DoxyParamCaption}
+\item[{}]{\$module\+Name, }
+\item[{}]{\$text, }
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_a309cfa39bc7445fe25fb7f4e60ad6077}
+Fetch log messages based on the Module and \hyperlink{class_message}{Message} Text
+
+
+\begin{DoxyParams}{Parameters}
+{\em module\+Name} & 
+\begin{DoxyItemize}
+\item Module name for which the messages has to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em text} & 
+\begin{DoxyItemize}
+\item The log message on which logs have to be searched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Log object containing fetched messages 
+\end{DoxyReturn}
+Fetch log messages based on the Module and \hyperlink{class_message}{Message} Text by paging.
+
+
+\begin{DoxyParams}{Parameters}
+{\em module\+Name} & 
+\begin{DoxyItemize}
+\item Module name for which the messages has to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em text} & 
+\begin{DoxyItemize}
+\item The log message on which logs have to be searched
+\end{DoxyItemize}\\
+\hline
+{\em max} & 
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em offset} & 
+\begin{DoxyItemize}
+\item From where the records are to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Log object containing fetched messages
+\end{DoxyReturn}
+\hypertarget{class_log_service_aae89189768ddafa0df1bf893f61edc58}{\index{Log\+Service@{Log\+Service}!fetch\+Logs\+Count\+By\+Debug@{fetch\+Logs\+Count\+By\+Debug}}
+\index{fetch\+Logs\+Count\+By\+Debug@{fetch\+Logs\+Count\+By\+Debug}!Log\+Service@{Log\+Service}}
+\subsubsection[{fetch\+Logs\+Count\+By\+Debug}]{\setlength{\rightskip}{0pt plus 5cm}fetch\+Logs\+Count\+By\+Debug (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_aae89189768ddafa0df1bf893f61edc58}
+Fetch count of log messages based on Debug Level
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing count of fetched debug messages 
+\end{DoxyReturn}
+\hypertarget{class_log_service_ab494ec366d538e38aee71d21b0f14b07}{\index{Log\+Service@{Log\+Service}!fetch\+Logs\+Count\+By\+Error@{fetch\+Logs\+Count\+By\+Error}}
+\index{fetch\+Logs\+Count\+By\+Error@{fetch\+Logs\+Count\+By\+Error}!Log\+Service@{Log\+Service}}
+\subsubsection[{fetch\+Logs\+Count\+By\+Error}]{\setlength{\rightskip}{0pt plus 5cm}fetch\+Logs\+Count\+By\+Error (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_ab494ec366d538e38aee71d21b0f14b07}
+Fetch count of log messages based on Error Level
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing count of fetched error messages 
+\end{DoxyReturn}
+\hypertarget{class_log_service_a7723cac0b2650263263c7b72dcb8ed79}{\index{Log\+Service@{Log\+Service}!fetch\+Logs\+Count\+By\+Fatal@{fetch\+Logs\+Count\+By\+Fatal}}
+\index{fetch\+Logs\+Count\+By\+Fatal@{fetch\+Logs\+Count\+By\+Fatal}!Log\+Service@{Log\+Service}}
+\subsubsection[{fetch\+Logs\+Count\+By\+Fatal}]{\setlength{\rightskip}{0pt plus 5cm}fetch\+Logs\+Count\+By\+Fatal (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_a7723cac0b2650263263c7b72dcb8ed79}
+Fetch count of log messages based on Fatal Level
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing count of fetched Fatal messages 
+\end{DoxyReturn}
+\hypertarget{class_log_service_a542e4229f95868e64f376f0c8d372422}{\index{Log\+Service@{Log\+Service}!fetch\+Logs\+Count\+By\+Info@{fetch\+Logs\+Count\+By\+Info}}
+\index{fetch\+Logs\+Count\+By\+Info@{fetch\+Logs\+Count\+By\+Info}!Log\+Service@{Log\+Service}}
+\subsubsection[{fetch\+Logs\+Count\+By\+Info}]{\setlength{\rightskip}{0pt plus 5cm}fetch\+Logs\+Count\+By\+Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_a542e4229f95868e64f376f0c8d372422}
+Fetch count of log messages based on Info Level
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing count of fetched info messages 
+\end{DoxyReturn}
+\hypertarget{class_log_service_afb7253dbc6c9a0271ab37a71b8191a82}{\index{Log\+Service@{Log\+Service}!fetch\+Logs\+Count\+By\+Module@{fetch\+Logs\+Count\+By\+Module}}
+\index{fetch\+Logs\+Count\+By\+Module@{fetch\+Logs\+Count\+By\+Module}!Log\+Service@{Log\+Service}}
+\subsubsection[{fetch\+Logs\+Count\+By\+Module}]{\setlength{\rightskip}{0pt plus 5cm}fetch\+Logs\+Count\+By\+Module (
+\begin{DoxyParamCaption}
+\item[{}]{\$module\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_afb7253dbc6c9a0271ab37a71b8191a82}
+Fetch the count of log messages based on the Module
+
+
+\begin{DoxyParams}{Parameters}
+{\em module\+Name} & 
+\begin{DoxyItemize}
+\item Module name for which the count of messages has to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing count of fetched messages 
+\end{DoxyReturn}
+\hypertarget{class_log_service_afd6fd6250848f0be693ab075bddfecdb}{\index{Log\+Service@{Log\+Service}!fetch\+Logs\+Count\+By\+Module\+And\+Text@{fetch\+Logs\+Count\+By\+Module\+And\+Text}}
+\index{fetch\+Logs\+Count\+By\+Module\+And\+Text@{fetch\+Logs\+Count\+By\+Module\+And\+Text}!Log\+Service@{Log\+Service}}
+\subsubsection[{fetch\+Logs\+Count\+By\+Module\+And\+Text}]{\setlength{\rightskip}{0pt plus 5cm}fetch\+Logs\+Count\+By\+Module\+And\+Text (
+\begin{DoxyParamCaption}
+\item[{}]{\$module\+Name, }
+\item[{}]{\$text}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_afd6fd6250848f0be693ab075bddfecdb}
+Fetch count of log messages based on the Module and \hyperlink{class_message}{Message} Text
+
+
+\begin{DoxyParams}{Parameters}
+{\em module\+Name} & 
+\begin{DoxyItemize}
+\item Module name for which the count of messages has to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em text} & 
+\begin{DoxyItemize}
+\item The log message on which count of logs have to be searched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing count of fetched messages 
+\end{DoxyReturn}
+\hypertarget{class_log_service_a9112210c0e106ca687c01dad9b7d2ae5}{\index{Log\+Service@{Log\+Service}!info@{info}}
+\index{info@{info}!Log\+Service@{Log\+Service}}
+\subsubsection[{info}]{\setlength{\rightskip}{0pt plus 5cm}info (
+\begin{DoxyParamCaption}
+\item[{}]{\$msg, }
+\item[{}]{\$module}
+\end{DoxyParamCaption}
+)}}\label{class_log_service_a9112210c0e106ca687c01dad9b7d2ae5}
+Logs the info message
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & 
+\begin{DoxyItemize}
+\item \hyperlink{class_message}{Message} to be logged 
+\end{DoxyItemize}\\
+\hline
+{\em module} & 
+\begin{DoxyItemize}
+\item Module name for which the message is getting logged
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Log object containing logged message 
+\end{DoxyReturn}

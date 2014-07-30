@@ -1,0 +1,343 @@
+\hypertarget{class_storage_service}{\section{Storage\+Service Class Reference}
+\label{class_storage_service}\index{Storage\+Service@{Storage\+Service}}
+}
+Inheritance diagram for Storage\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_storage_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_storage_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_storage_service_a56b0b73e5128872c3cc1ea5b701f082b}{insert\+J\+S\+O\+N\+Document} (\$db\+Name, \$collection\+Name, \$json)
+\item 
+\hyperlink{class_storage_service_a973209c01e5e068dae12eb1e4ee791c6}{find\+All\+Documents} (\$db\+Name, \$collection\+Name, \$max=null, \$offset=null)
+\item 
+\hyperlink{class_storage_service_ab106cf34e02fc0185d365e1ce22d7254}{find\+Document\+By\+Id} (\$db\+Name, \$collection\+Name, \$doc\+Id)
+\item 
+\hyperlink{class_storage_service_a83d76db91117a2e1dda2b0ff09cefa43}{find\+Document\+By\+Key\+Value} (\$db\+Name, \$collection\+Name, \$key, \$value)
+\item 
+\hyperlink{class_storage_service_a2a5605529ce0e045650a58f9fc691a25}{update\+Document\+By\+Key\+Value} (\$db\+Name, \$collection\+Name, \$key, \$value, \$new\+Json\+Doc)
+\item 
+\hyperlink{class_storage_service_af13827eeb888e031c9147dea3fef213e}{update\+Document\+By\+Doc\+Id} (\$db\+Name, \$collection\+Name, \$doc\+Id, \$new\+Json\+Doc)
+\item 
+\hyperlink{class_storage_service_abbf6f3d1aa976cd2fab02a37af34cb8c}{delete\+Document\+By\+Id} (\$db\+Name, \$collection\+Name, \$doc\+Id)
+\item 
+\hyperlink{class_storage_service_a2c95b1ca9754d616b3af34636f663c44}{map\+Reduce} (\$db\+Name, \$collection\+Name, \$map\+Function, \$reduce\+Function)
+\item 
+\hyperlink{class_storage_service_abb4ee11f0edbef6f4cf26006b5ab6f42}{insert\+Json\+Doc\+Using\+Map} (\$db\+Name, \$collection\+Name, \$map)
+\item 
+\hyperlink{class_storage_service_a44dec4d67d7350668d02b9974c264445}{find\+All\+Documents\+Count} (\$db\+Name, \$collection\+Name)
+\item 
+\hypertarget{class_storage_service_adda30f6e13d467fe582303964c532c67}{{\bfseries find\+Documents\+By\+Query} (\$db\+Name, \$collection\+Name, \$query)}\label{class_storage_service_adda30f6e13d467fe582303964c532c67}
+
+\item 
+\hypertarget{class_storage_service_a3117f4c4548f48353ff0f999ee4ce1d4}{{\bfseries find\+Documents\+By\+Query\+With\+Paging} (\$db\+Name, \$collection\+Name, \$query, \$max, \$offset)}\label{class_storage_service_a3117f4c4548f48353ff0f999ee4ce1d4}
+
+\item 
+\hypertarget{class_storage_service_a52f1ffb1943eda1903779639be12b8be}{{\bfseries find\+Docs\+With\+Query\+Paging\+Order\+By} (\$db\+Name, \$collection\+Name, \$query, \$max, \$offset, \$order\+By\+Key, \$type)}\label{class_storage_service_a52f1ffb1943eda1903779639be12b8be}
+
+\item 
+\hypertarget{class_storage_service_ab575a1da200f28730ef8cc4632853558}{{\bfseries grant\+Access\+On\+Doc} (\$db\+Name, \$collection\+Name, \$doc\+Id, \$acl\+List)}\label{class_storage_service_ab575a1da200f28730ef8cc4632853558}
+
+\item 
+\hypertarget{class_storage_service_ae7f920435a58600e5162ca434d224f13}{{\bfseries revoke\+Access\+On\+Doc} (\$db\+Name, \$collection\+Name, \$doc\+Id, \$acl\+List)}\label{class_storage_service_ae7f920435a58600e5162ca434d224f13}
+
+\item 
+\hypertarget{class_storage_service_a97b4ba5d61217201e6d39121096b2b87}{{\bfseries delete\+Documents\+By\+Key\+Value} (\$db\+Name, \$collection\+Name, \$key, \$value)}\label{class_storage_service_a97b4ba5d61217201e6d39121096b2b87}
+
+\item 
+\hypertarget{class_storage_service_abcee14be831c54b55d6bc3508b62983b}{{\bfseries find\+All\+Collections} (\$db\+Name)}\label{class_storage_service_abcee14be831c54b55d6bc3508b62983b}
+
+\item 
+\hypertarget{class_storage_service_ad49aafe42c71ab624f743af9e837f9ae}{{\bfseries delete\+All\+Documents} (\$db\+Name, \$collection\+Name)}\label{class_storage_service_ad49aafe42c71ab624f743af9e837f9ae}
+
+\item 
+\hypertarget{class_storage_service_ac5284402ac5d88f3b93884b780b7ef85}{{\bfseries update\+Document\+By\+Query} (\$db\+Name, \$collection\+Name, \$query, \$new\+Json\+Doc)}\label{class_storage_service_ac5284402ac5d88f3b93884b780b7ef85}
+
+\item 
+\hypertarget{class_storage_service_ae002de8c6b0a123c3e44461c4b5effcf}{{\bfseries add\+Or\+Update\+Keys} (\$db\+Name, \$collection\+Name, \$doc\+Id, \$keys)}\label{class_storage_service_ae002de8c6b0a123c3e44461c4b5effcf}
+
+\item 
+\hypertarget{class_storage_service_aafcb85d5e08612078ac1ca3d74a1f2cf}{{\bfseries find\+Documents\+By\+Location} (\$db\+Name, \$collection\+Name, \$query)}\label{class_storage_service_aafcb85d5e08612078ac1ca3d74a1f2cf}
+
+\item 
+\hypertarget{class_storage_service_a12ca0f6e2ad987ce2803643075fd34b5}{{\bfseries save\+Or\+Update\+Document\+By\+Key\+Value} (\$db\+Name, \$collection\+Name, \$key, \$value, \$new\+Json\+Doc)}\label{class_storage_service_a12ca0f6e2ad987ce2803643075fd34b5}
+
+\item 
+\hypertarget{class_storage_service_a614349318d2bb2342d175189098910a4}{{\bfseries get\+Count\+By\+Query} (\$db\+Name, \$collection\+Name, \$query)}\label{class_storage_service_a614349318d2bb2342d175189098910a4}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_storage_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_storage_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_storage_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_storage_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_storage_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_storage_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_storage}{Storage} service on cloud provides the way to store the J\+S\+O\+N document in No\+S\+Q\+L database running on cloud. One can store the J\+S\+O\+N document, update it , searchit and can apply the map-\/reduce search on stored documents. Example \+: If one will store J\+S\+O\+N doc \{\char`\"{}date\char`\"{}\+:\char`\"{}5\+Feb\char`\"{}\} it will be stored with unique Object Id and stored J\+S\+O\+N object will looklike \{ \char`\"{}date\char`\"{} \+: \char`\"{}5\+Feb\char`\"{} , \char`\"{}\+\_\+id\char`\"{} \+: \{ \char`\"{}\$oid\char`\"{} \+: \char`\"{}4f423dcce1603b3f0bd560cf\char`\"{}\}\}. This oid can further be used to access/search the document.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_storage}{Storage} 
+
+\hyperlink{class_app42_response}{App42\+Response} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_storage_service_a49f2ad222e06420736d750e167d55d7c}{\index{Storage\+Service@{Storage\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Storage\+Service@{Storage\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_storage_service_a49f2ad222e06420736d750e167d55d7c}
+this is a constructor that takes
+
+api\+Key  secret\+Key  base\+U\+R\+L 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_storage_service_abbf6f3d1aa976cd2fab02a37af34cb8c}{\index{Storage\+Service@{Storage\+Service}!delete\+Document\+By\+Id@{delete\+Document\+By\+Id}}
+\index{delete\+Document\+By\+Id@{delete\+Document\+By\+Id}!Storage\+Service@{Storage\+Service}}
+\subsubsection[{delete\+Document\+By\+Id}]{\setlength{\rightskip}{0pt plus 5cm}delete\+Document\+By\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{\$db\+Name, }
+\item[{}]{\$collection\+Name, }
+\item[{}]{\$doc\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_storage_service_abbf6f3d1aa976cd2fab02a37af34cb8c}
+Delete target document using Object Id from given db and collection. The Object Id will be searched in the J\+S\+O\+N doc stored on the cloud and matching Doc will be deleted.
+
+db\+Name
+\begin{DoxyItemize}
+\item Unique handler for storage name  collection\+Name
+\item Name of collection under which J\+S\+O\+N doc needs to be searched  doc\+Id
+\item Unique Object Id handler
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object if deleted successfully 
+\end{DoxyReturn}
+\hypertarget{class_storage_service_a973209c01e5e068dae12eb1e4ee791c6}{\index{Storage\+Service@{Storage\+Service}!find\+All\+Documents@{find\+All\+Documents}}
+\index{find\+All\+Documents@{find\+All\+Documents}!Storage\+Service@{Storage\+Service}}
+\subsubsection[{find\+All\+Documents}]{\setlength{\rightskip}{0pt plus 5cm}find\+All\+Documents (
+\begin{DoxyParamCaption}
+\item[{}]{\$db\+Name, }
+\item[{}]{\$collection\+Name, }
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_storage_service_a973209c01e5e068dae12eb1e4ee791c6}
+Find all documents stored in given database and collection.
+
+db\+Name
+\begin{DoxyItemize}
+\item Unique handler for storage name  collection\+Name
+\item Name of collection under which J\+S\+O\+N doc needs to be searched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_storage}{Storage} object 
+\end{DoxyReturn}
+Find all documents stored in given database and collection.
+
+db\+Name
+\begin{DoxyItemize}
+\item Unique handler for storage name  collection\+Name
+\item Name of collection under which J\+S\+O\+N doc needs to be searched  max
+\item Maximum number of records to be fetched  offset
+\item From where the records are to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_storage}{Storage} object
+\end{DoxyReturn}
+\hypertarget{class_storage_service_a44dec4d67d7350668d02b9974c264445}{\index{Storage\+Service@{Storage\+Service}!find\+All\+Documents\+Count@{find\+All\+Documents\+Count}}
+\index{find\+All\+Documents\+Count@{find\+All\+Documents\+Count}!Storage\+Service@{Storage\+Service}}
+\subsubsection[{find\+All\+Documents\+Count}]{\setlength{\rightskip}{0pt plus 5cm}find\+All\+Documents\+Count (
+\begin{DoxyParamCaption}
+\item[{}]{\$db\+Name, }
+\item[{}]{\$collection\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_storage_service_a44dec4d67d7350668d02b9974c264445}
+Gets the count of all documents stored in given database and collection.
+
+db\+Name
+\begin{DoxyItemize}
+\item Unique handler for storage name  collection\+Name
+\item Name of collection under which J\+S\+O\+N doc needs to be searched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object 
+\end{DoxyReturn}
+\hypertarget{class_storage_service_ab106cf34e02fc0185d365e1ce22d7254}{\index{Storage\+Service@{Storage\+Service}!find\+Document\+By\+Id@{find\+Document\+By\+Id}}
+\index{find\+Document\+By\+Id@{find\+Document\+By\+Id}!Storage\+Service@{Storage\+Service}}
+\subsubsection[{find\+Document\+By\+Id}]{\setlength{\rightskip}{0pt plus 5cm}find\+Document\+By\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{\$db\+Name, }
+\item[{}]{\$collection\+Name, }
+\item[{}]{\$doc\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_storage_service_ab106cf34e02fc0185d365e1ce22d7254}
+Find target document by given unique object id.
+
+db\+Name
+\begin{DoxyItemize}
+\item Unique handler for storage name  collection\+Name
+\item Name of collection under which J\+S\+O\+N doc needs to be searched  doc\+Id
+\item Unique Object Id handler
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_storage}{Storage} object 
+\end{DoxyReturn}
+\hypertarget{class_storage_service_a83d76db91117a2e1dda2b0ff09cefa43}{\index{Storage\+Service@{Storage\+Service}!find\+Document\+By\+Key\+Value@{find\+Document\+By\+Key\+Value}}
+\index{find\+Document\+By\+Key\+Value@{find\+Document\+By\+Key\+Value}!Storage\+Service@{Storage\+Service}}
+\subsubsection[{find\+Document\+By\+Key\+Value}]{\setlength{\rightskip}{0pt plus 5cm}find\+Document\+By\+Key\+Value (
+\begin{DoxyParamCaption}
+\item[{}]{\$db\+Name, }
+\item[{}]{\$collection\+Name, }
+\item[{}]{\$key, }
+\item[{}]{\$value}
+\end{DoxyParamCaption}
+)}}\label{class_storage_service_a83d76db91117a2e1dda2b0ff09cefa43}
+Find target document using key value search parameter. This key value pair will be searched in the J\+S\+O\+N doc stored on the cloud and matching Doc will be returned as a result of this method.
+
+db\+Name
+\begin{DoxyItemize}
+\item Unique handler for storage name  collection\+Name
+\item Name of collection under which J\+S\+O\+N doc needs to be searched  key
+\item Key to be searched for target J\+S\+O\+N doc  value
+\item Value to be searched for target J\+S\+O\+N doc
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_storage}{Storage} object 
+\end{DoxyReturn}
+\hypertarget{class_storage_service_a56b0b73e5128872c3cc1ea5b701f082b}{\index{Storage\+Service@{Storage\+Service}!insert\+J\+S\+O\+N\+Document@{insert\+J\+S\+O\+N\+Document}}
+\index{insert\+J\+S\+O\+N\+Document@{insert\+J\+S\+O\+N\+Document}!Storage\+Service@{Storage\+Service}}
+\subsubsection[{insert\+J\+S\+O\+N\+Document}]{\setlength{\rightskip}{0pt plus 5cm}insert\+J\+S\+O\+N\+Document (
+\begin{DoxyParamCaption}
+\item[{}]{\$db\+Name, }
+\item[{}]{\$collection\+Name, }
+\item[{}]{\$json}
+\end{DoxyParamCaption}
+)}}\label{class_storage_service_a56b0b73e5128872c3cc1ea5b701f082b}
+Save the J\+S\+O\+N document in given database name and collection name.
+
+db\+Name
+\begin{DoxyItemize}
+\item Unique handler for storage name  collection\+Name
+\item Name of collection under which J\+S\+O\+N doc has to be saved  json
+\item Target J\+S\+O\+N document to be saved
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_storage}{Storage} object 
+\end{DoxyReturn}
+\hypertarget{class_storage_service_abb4ee11f0edbef6f4cf26006b5ab6f42}{\index{Storage\+Service@{Storage\+Service}!insert\+Json\+Doc\+Using\+Map@{insert\+Json\+Doc\+Using\+Map}}
+\index{insert\+Json\+Doc\+Using\+Map@{insert\+Json\+Doc\+Using\+Map}!Storage\+Service@{Storage\+Service}}
+\subsubsection[{insert\+Json\+Doc\+Using\+Map}]{\setlength{\rightskip}{0pt plus 5cm}insert\+Json\+Doc\+Using\+Map (
+\begin{DoxyParamCaption}
+\item[{}]{\$db\+Name, }
+\item[{}]{\$collection\+Name, }
+\item[{}]{\$map}
+\end{DoxyParamCaption}
+)}}\label{class_storage_service_abb4ee11f0edbef6f4cf26006b5ab6f42}
+Save the J\+S\+O\+N document in given database name and collection name. It accepts the Hash\+Map containing key-\/value and convert it into J\+S\+O\+N. Converted J\+S\+O\+N doc further saved on the cloud using given db name and collection name.
+
+db\+Name
+\begin{DoxyItemize}
+\item Unique handler for storage name  collection\+Name
+\item Name of collection under which J\+S\+O\+N doc has to be saved  map
+\item Hash\+Map containing key-\/value pairs
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_storage}{Storage} object 
+\end{DoxyReturn}
+\hypertarget{class_storage_service_a2c95b1ca9754d616b3af34636f663c44}{\index{Storage\+Service@{Storage\+Service}!map\+Reduce@{map\+Reduce}}
+\index{map\+Reduce@{map\+Reduce}!Storage\+Service@{Storage\+Service}}
+\subsubsection[{map\+Reduce}]{\setlength{\rightskip}{0pt plus 5cm}map\+Reduce (
+\begin{DoxyParamCaption}
+\item[{}]{\$db\+Name, }
+\item[{}]{\$collection\+Name, }
+\item[{}]{\$map\+Function, }
+\item[{}]{\$reduce\+Function}
+\end{DoxyParamCaption}
+)}}\label{class_storage_service_a2c95b1ca9754d616b3af34636f663c44}
+Map reduce function to search the target document. Please see detail information on map-\/reduce \href{http://en.wikipedia.org/wiki/MapReduce}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Map\+Reduce}
+
+db\+Name
+\begin{DoxyItemize}
+\item Unique handler for storage name  collection\+Name
+\item Name of collection under which J\+S\+O\+N doc needs to be searched  map\+Function
+\item Map function to be used to search the document  reduce\+Function
+\item Reduce function to be used to search the document
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+Returns the target J\+S\+O\+N document. 
+\end{DoxyReturn}
+\hypertarget{class_storage_service_af13827eeb888e031c9147dea3fef213e}{\index{Storage\+Service@{Storage\+Service}!update\+Document\+By\+Doc\+Id@{update\+Document\+By\+Doc\+Id}}
+\index{update\+Document\+By\+Doc\+Id@{update\+Document\+By\+Doc\+Id}!Storage\+Service@{Storage\+Service}}
+\subsubsection[{update\+Document\+By\+Doc\+Id}]{\setlength{\rightskip}{0pt plus 5cm}update\+Document\+By\+Doc\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{\$db\+Name, }
+\item[{}]{\$collection\+Name, }
+\item[{}]{\$doc\+Id, }
+\item[{}]{\$new\+Json\+Doc}
+\end{DoxyParamCaption}
+)}}\label{class_storage_service_af13827eeb888e031c9147dea3fef213e}
+Update target document using the document id.
+
+db\+Name
+\begin{DoxyItemize}
+\item Unique handler for storage name  collection\+Name
+\item Name of collection under which J\+S\+O\+N doc needs to be searched  doc\+Id
+\item Id of the document to be searched for target J\+S\+O\+N doc  new\+Json\+Doc
+\item New Json document to be added
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_storage}{Storage} object 
+\end{DoxyReturn}
+\hypertarget{class_storage_service_a2a5605529ce0e045650a58f9fc691a25}{\index{Storage\+Service@{Storage\+Service}!update\+Document\+By\+Key\+Value@{update\+Document\+By\+Key\+Value}}
+\index{update\+Document\+By\+Key\+Value@{update\+Document\+By\+Key\+Value}!Storage\+Service@{Storage\+Service}}
+\subsubsection[{update\+Document\+By\+Key\+Value}]{\setlength{\rightskip}{0pt plus 5cm}update\+Document\+By\+Key\+Value (
+\begin{DoxyParamCaption}
+\item[{}]{\$db\+Name, }
+\item[{}]{\$collection\+Name, }
+\item[{}]{\$key, }
+\item[{}]{\$value, }
+\item[{}]{\$new\+Json\+Doc}
+\end{DoxyParamCaption}
+)}}\label{class_storage_service_a2a5605529ce0e045650a58f9fc691a25}
+Update target document using key value search parameter. This key value pair will be searched in the J\+S\+O\+N doc stored in the cloud and matching Doc will be updated with new value passed.
+
+db\+Name
+\begin{DoxyItemize}
+\item Unique handler for storage name  collection\+Name
+\item Name of collection under which J\+S\+O\+N doc needs to be searched  key
+\item Key to be searched for target J\+S\+O\+N doc  value
+\item Value to be searched for target J\+S\+O\+N doc  new\+Json\+Doc
+\item New Json document to be added
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_storage}{Storage} object 
+\end{DoxyReturn}

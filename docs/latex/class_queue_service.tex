@@ -1,0 +1,233 @@
+\hypertarget{class_queue_service}{\section{Queue\+Service Class Reference}
+\label{class_queue_service}\index{Queue\+Service@{Queue\+Service}}
+}
+Inheritance diagram for Queue\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_queue_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_queue_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_queue_service_ab72f0864a3d82cc3088d880de2435791}{create\+Pull\+Queue} (\$queue\+Name, \$queue\+Description)
+\item 
+\hyperlink{class_queue_service_a6888017f56f2be2e0b67dfb1427487fa}{delete\+Pull\+Queue} (\$queue\+Name)
+\item 
+\hyperlink{class_queue_service_a19dd1c9597dc35e1cc0bddb668c18f2f}{purge\+Pull\+Queue} (\$queue\+Name)
+\item 
+\hyperlink{class_queue_service_ab7cf5b2edb463d455ad2ea6ff6bf256e}{pending\+Messages} (\$queue\+Name)
+\item 
+\hyperlink{class_queue_service_a2306a286f86b3cebc4b7fc87be4b6765}{get\+Messages} (\$queue\+Name, \$receive\+Time\+Out)
+\item 
+\hyperlink{class_queue_service_a4249e96778bc83dec7297d4b70b4be5b}{send\+Message} (\$queue\+Name, \$msg, \$exp)
+\item 
+\hyperlink{class_queue_service_a32a08fa2c1ed1f2f17f55056369836fa}{receive\+Message} (\$queue\+Name, \$receive\+Time\+Out)
+\item 
+\hyperlink{class_queue_service_a533ce1d13f81991e3cae4e6413dff74c}{receive\+Message\+By\+Correlation\+Id} (\$queue\+Name, \$receive\+Time\+Out, \$correlation\+Id)
+\item 
+\hyperlink{class_queue_service_a4840c18a4c1a3f4cc4a0f7954a319a52}{remove\+Message} (\$queue\+Name, \$message\+Id)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_queue_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_queue_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_queue_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}queue\char`\"{}}\label{class_queue_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_queue_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_queue_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_queue_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_queue_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Manages Asynchronous queues. Allows to create, delete, purge messages, view pending messages and get all messages 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_queue_service_a49f2ad222e06420736d750e167d55d7c}{\index{Queue\+Service@{Queue\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Queue\+Service@{Queue\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_queue_service_a49f2ad222e06420736d750e167d55d7c}
+this is a constructor that takes 
+\begin{DoxyParams}{Parameters}
+{\em api\+Key} & \\
+\hline
+{\em secret\+Key} & \\
+\hline
+{\em base\+U\+R\+L} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_queue_service_ab72f0864a3d82cc3088d880de2435791}{\index{Queue\+Service@{Queue\+Service}!create\+Pull\+Queue@{create\+Pull\+Queue}}
+\index{create\+Pull\+Queue@{create\+Pull\+Queue}!Queue\+Service@{Queue\+Service}}
+\subsubsection[{create\+Pull\+Queue}]{\setlength{\rightskip}{0pt plus 5cm}create\+Pull\+Queue (
+\begin{DoxyParamCaption}
+\item[{}]{\$queue\+Name, }
+\item[{}]{\$queue\+Description}
+\end{DoxyParamCaption}
+)}}\label{class_queue_service_ab72f0864a3d82cc3088d880de2435791}
+Creates a type Pull \hyperlink{class_queue}{Queue} 
+\begin{DoxyParams}{Parameters}
+{\em queue\+Name} & The name of the queue which has to be created \\
+\hline
+{\em queue\+Description} & The description of the queue \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_queue}{Queue} object containing queue name which has been created 
+\end{DoxyReturn}
+\hypertarget{class_queue_service_a6888017f56f2be2e0b67dfb1427487fa}{\index{Queue\+Service@{Queue\+Service}!delete\+Pull\+Queue@{delete\+Pull\+Queue}}
+\index{delete\+Pull\+Queue@{delete\+Pull\+Queue}!Queue\+Service@{Queue\+Service}}
+\subsubsection[{delete\+Pull\+Queue}]{\setlength{\rightskip}{0pt plus 5cm}delete\+Pull\+Queue (
+\begin{DoxyParamCaption}
+\item[{}]{\$queue\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_queue_service_a6888017f56f2be2e0b67dfb1427487fa}
+Deletes the Pull type \hyperlink{class_queue}{Queue} 
+\begin{DoxyParams}{Parameters}
+{\em queue\+Name} & The name of the queue which has to be deleted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} if deleted successfully 
+\end{DoxyReturn}
+\hypertarget{class_queue_service_a2306a286f86b3cebc4b7fc87be4b6765}{\index{Queue\+Service@{Queue\+Service}!get\+Messages@{get\+Messages}}
+\index{get\+Messages@{get\+Messages}!Queue\+Service@{Queue\+Service}}
+\subsubsection[{get\+Messages}]{\setlength{\rightskip}{0pt plus 5cm}get\+Messages (
+\begin{DoxyParamCaption}
+\item[{}]{\$queue\+Name, }
+\item[{}]{\$receive\+Time\+Out}
+\end{DoxyParamCaption}
+)}}\label{class_queue_service_a2306a286f86b3cebc4b7fc87be4b6765}
+Messages are retrieved and dequeued from the \hyperlink{class_queue}{Queue}. 
+\begin{DoxyParams}{Parameters}
+{\em queue\+Name} & The name of the queue which have to be retrieved \\
+\hline
+{\em receive\+Time\+Out} & Receive time out \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_queue}{Queue} object containing messages in the \hyperlink{class_queue}{Queue} 
+\end{DoxyReturn}
+\hypertarget{class_queue_service_ab7cf5b2edb463d455ad2ea6ff6bf256e}{\index{Queue\+Service@{Queue\+Service}!pending\+Messages@{pending\+Messages}}
+\index{pending\+Messages@{pending\+Messages}!Queue\+Service@{Queue\+Service}}
+\subsubsection[{pending\+Messages}]{\setlength{\rightskip}{0pt plus 5cm}pending\+Messages (
+\begin{DoxyParamCaption}
+\item[{}]{\$queue\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_queue_service_ab7cf5b2edb463d455ad2ea6ff6bf256e}
+Messages which are pending to be dequeue. Note\+: Calling this method does not dequeue the messages in the \hyperlink{class_queue}{Queue}. The messages stay in the \hyperlink{class_queue}{Queue} till they are dequeued 
+\begin{DoxyParams}{Parameters}
+{\em queue\+Name} & The name of the queue from which pending messages have to be fetched \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_queue}{Queue} object containing pending messages in the \hyperlink{class_queue}{Queue} 
+\end{DoxyReturn}
+\hypertarget{class_queue_service_a19dd1c9597dc35e1cc0bddb668c18f2f}{\index{Queue\+Service@{Queue\+Service}!purge\+Pull\+Queue@{purge\+Pull\+Queue}}
+\index{purge\+Pull\+Queue@{purge\+Pull\+Queue}!Queue\+Service@{Queue\+Service}}
+\subsubsection[{purge\+Pull\+Queue}]{\setlength{\rightskip}{0pt plus 5cm}purge\+Pull\+Queue (
+\begin{DoxyParamCaption}
+\item[{}]{\$queue\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_queue_service_a19dd1c9597dc35e1cc0bddb668c18f2f}
+Purges message on the \hyperlink{class_queue}{Queue}. Note\+: once the \hyperlink{class_queue}{Queue} is purged the messages are removed from the \hyperlink{class_queue}{Queue} and wont be available for dequeueing. 
+\begin{DoxyParams}{Parameters}
+{\em queue\+Name} & The name of the queue which has to be purged \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_queue}{Queue} object containing queue name which has been purged 
+\end{DoxyReturn}
+\hypertarget{class_queue_service_a32a08fa2c1ed1f2f17f55056369836fa}{\index{Queue\+Service@{Queue\+Service}!receive\+Message@{receive\+Message}}
+\index{receive\+Message@{receive\+Message}!Queue\+Service@{Queue\+Service}}
+\subsubsection[{receive\+Message}]{\setlength{\rightskip}{0pt plus 5cm}receive\+Message (
+\begin{DoxyParamCaption}
+\item[{}]{\$queue\+Name, }
+\item[{}]{\$receive\+Time\+Out}
+\end{DoxyParamCaption}
+)}}\label{class_queue_service_a32a08fa2c1ed1f2f17f55056369836fa}
+Pulls all the message from the queue 
+\begin{DoxyParams}{Parameters}
+{\em queue\+Name} & The name of the queue from which messages have to be pulled \\
+\hline
+{\em receive\+Time\+Out} & Receive time out \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_queue}{Queue} object containing messages which have been pulled 
+\end{DoxyReturn}
+\hypertarget{class_queue_service_a533ce1d13f81991e3cae4e6413dff74c}{\index{Queue\+Service@{Queue\+Service}!receive\+Message\+By\+Correlation\+Id@{receive\+Message\+By\+Correlation\+Id}}
+\index{receive\+Message\+By\+Correlation\+Id@{receive\+Message\+By\+Correlation\+Id}!Queue\+Service@{Queue\+Service}}
+\subsubsection[{receive\+Message\+By\+Correlation\+Id}]{\setlength{\rightskip}{0pt plus 5cm}receive\+Message\+By\+Correlation\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{\$queue\+Name, }
+\item[{}]{\$receive\+Time\+Out, }
+\item[{}]{\$correlation\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_queue_service_a533ce1d13f81991e3cae4e6413dff74c}
+Pull message based on the correlation id 
+\begin{DoxyParams}{Parameters}
+{\em queue\+Name} & The name of the queue from which the message has to be pulled \\
+\hline
+{\em receive\+Time\+Out} & Receive time out \\
+\hline
+{\em correlation\+Id} & Correlation Id for which message has to be pulled \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_queue}{Queue} containing message which has pulled based on the correlation id 
+\end{DoxyReturn}
+\hypertarget{class_queue_service_a4840c18a4c1a3f4cc4a0f7954a319a52}{\index{Queue\+Service@{Queue\+Service}!remove\+Message@{remove\+Message}}
+\index{remove\+Message@{remove\+Message}!Queue\+Service@{Queue\+Service}}
+\subsubsection[{remove\+Message}]{\setlength{\rightskip}{0pt plus 5cm}remove\+Message (
+\begin{DoxyParamCaption}
+\item[{}]{\$queue\+Name, }
+\item[{}]{\$message\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_queue_service_a4840c18a4c1a3f4cc4a0f7954a319a52}
+Remove message from the queue based on the message id. Note\+: Once the message is removed it cannot be pulled 
+\begin{DoxyParams}{Parameters}
+{\em queue\+Name} & The name of the queue from which the message has to be removed \\
+\hline
+{\em message\+Id} & The message id of the message which has to be removed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} if removed successfully 
+\end{DoxyReturn}
+\hypertarget{class_queue_service_a4249e96778bc83dec7297d4b70b4be5b}{\index{Queue\+Service@{Queue\+Service}!send\+Message@{send\+Message}}
+\index{send\+Message@{send\+Message}!Queue\+Service@{Queue\+Service}}
+\subsubsection[{send\+Message}]{\setlength{\rightskip}{0pt plus 5cm}send\+Message (
+\begin{DoxyParamCaption}
+\item[{}]{\$queue\+Name, }
+\item[{}]{\$msg, }
+\item[{}]{\$exp}
+\end{DoxyParamCaption}
+)}}\label{class_queue_service_a4249e96778bc83dec7297d4b70b4be5b}
+Send message on the queue with an expiry. The message will expire if it is not pulled/dequeued before the expiry 
+\begin{DoxyParams}{Parameters}
+{\em queue\+Name} & The name of the queue to which the message has to be sent \\
+\hline
+{\em msg} & \hyperlink{class_message}{Message} that has to be sent \\
+\hline
+{\em exp} & \hyperlink{class_message}{Message} expiry time \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_queue}{Queue} object containing message which has been sent with its message id and correlation id 
+\end{DoxyReturn}

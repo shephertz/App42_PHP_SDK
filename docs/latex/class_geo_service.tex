@@ -1,0 +1,340 @@
+\hypertarget{class_geo_service}{\section{Geo\+Service Class Reference}
+\label{class_geo_service}\index{Geo\+Service@{Geo\+Service}}
+}
+Inheritance diagram for Geo\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_geo_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_geo_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_geo_service_a9af23846735b82cf60e3883975118cba}{create\+Geo\+Points} (\$geo\+Storage\+Name, \$geo\+Points\+List)
+\item 
+\hyperlink{class_geo_service_ab26ad53f002b9b96389994fd264b4adf}{get\+Near\+By\+Points\+By\+Max\+Distance} (\$storage\+Name, \$lat, \$lng, \$distance\+In\+K\+M)
+\item 
+\hyperlink{class_geo_service_a8c81e6d22081e2625dc6ac95748ce0df}{get\+Near\+By\+Point} (\$storage\+Name, \$lat, \$lng, \$result\+Limit)
+\item 
+\hyperlink{class_geo_service_aa222ca80559d182d864ac1b1f19428c5}{get\+Points\+With\+In\+Circle} (\$storage\+Name, \$lat, \$lng, \$radius\+In\+K\+M, \$result\+Limit)
+\item 
+\hyperlink{class_geo_service_aa5e4b70e464872aa3788a4c5b6d0b46e}{get\+All\+Points} (\$storage\+Name, \$max=null, \$offset=null)
+\item 
+\hyperlink{class_geo_service_a19a3967d8b6ec63b968f4a9b2af5e62c}{get\+All\+Storage} (\$max=null, \$offset=null)
+\item 
+\hyperlink{class_geo_service_a1fdf486ca1ba0834e3921ad6009a2768}{delete\+Storage} (\$storage\+Name)
+\item 
+\hyperlink{class_geo_service_a601a797b85ae174aaea5acf494c32640}{delete\+Geo\+Points} (\$geo\+Storage\+Name, \$geo\+Points\+List)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_geo_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_geo_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_geo_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}geo\char`\"{}}\label{class_geo_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_geo_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_geo_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_geo_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_geo_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_geo}{Geo} Spatial Service on cloud provides the storage, retrieval, querying and updating geo data. One can store the geo data by unique handler on the cloud and can apply search, update and query on it. \hyperlink{class_geo}{Geo} spatial query includes finding nearby/\+In circle target point from given point using geo points stored on the cloud.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_geo}{Geo} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_geo_service_a49f2ad222e06420736d750e167d55d7c}{\index{Geo\+Service@{Geo\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Geo\+Service@{Geo\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_geo_service_a49f2ad222e06420736d750e167d55d7c}
+this is a constructor that takes
+
+
+\begin{DoxyParams}{Parameters}
+{\em api\+Key} & \\
+\hline
+{\em secret\+Key} & \\
+\hline
+{\em base\+U\+R\+L} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_geo_service_a9af23846735b82cf60e3883975118cba}{\index{Geo\+Service@{Geo\+Service}!create\+Geo\+Points@{create\+Geo\+Points}}
+\index{create\+Geo\+Points@{create\+Geo\+Points}!Geo\+Service@{Geo\+Service}}
+\subsubsection[{create\+Geo\+Points}]{\setlength{\rightskip}{0pt plus 5cm}create\+Geo\+Points (
+\begin{DoxyParamCaption}
+\item[{}]{\$geo\+Storage\+Name, }
+\item[{}]{\$geo\+Points\+List}
+\end{DoxyParamCaption}
+)}}\label{class_geo_service_a9af23846735b82cf60e3883975118cba}
+Stores the geopints with unique handler on the cloud. \hyperlink{class_geo}{Geo} points data contains lat, lng and marker of the point.
+
+
+\begin{DoxyParams}{Parameters}
+{\em geo\+Storage\+Name} & 
+\begin{DoxyItemize}
+\item Unique handler for storage name 
+\end{DoxyItemize}\\
+\hline
+{\em geo\+Points\+List} & 
+\begin{DoxyItemize}
+\item List of \hyperlink{class_geo}{Geo} Points to be saved
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_geo}{Geo} object containing List of \hyperlink{class_geo}{Geo} Points that have been saved 
+\end{DoxyReturn}
+\hypertarget{class_geo_service_a601a797b85ae174aaea5acf494c32640}{\index{Geo\+Service@{Geo\+Service}!delete\+Geo\+Points@{delete\+Geo\+Points}}
+\index{delete\+Geo\+Points@{delete\+Geo\+Points}!Geo\+Service@{Geo\+Service}}
+\subsubsection[{delete\+Geo\+Points}]{\setlength{\rightskip}{0pt plus 5cm}delete\+Geo\+Points (
+\begin{DoxyParamCaption}
+\item[{}]{\$geo\+Storage\+Name, }
+\item[{}]{\$geo\+Points\+List}
+\end{DoxyParamCaption}
+)}}\label{class_geo_service_a601a797b85ae174aaea5acf494c32640}
+Delete the specified \hyperlink{class_geo}{Geo} points from Cloud.
+
+
+\begin{DoxyParams}{Parameters}
+{\em storage\+Name} & 
+\begin{DoxyItemize}
+\item Unique handler for storage name
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing the name of the storage that has been deleted
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_app42_exception}{App42\+Exception}} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_geo_service_a1fdf486ca1ba0834e3921ad6009a2768}{\index{Geo\+Service@{Geo\+Service}!delete\+Storage@{delete\+Storage}}
+\index{delete\+Storage@{delete\+Storage}!Geo\+Service@{Geo\+Service}}
+\subsubsection[{delete\+Storage}]{\setlength{\rightskip}{0pt plus 5cm}delete\+Storage (
+\begin{DoxyParamCaption}
+\item[{}]{\$storage\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_geo_service_a1fdf486ca1ba0834e3921ad6009a2768}
+Delete the specified \hyperlink{class_geo}{Geo} \hyperlink{class_storage}{Storage} from Cloud.
+
+
+\begin{DoxyParams}{Parameters}
+{\em storage\+Name} & 
+\begin{DoxyItemize}
+\item Unique handler for storage name
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing the name of the storage that has been deleted
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_app42_exception}{App42\+Exception}} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_geo_service_aa5e4b70e464872aa3788a4c5b6d0b46e}{\index{Geo\+Service@{Geo\+Service}!get\+All\+Points@{get\+All\+Points}}
+\index{get\+All\+Points@{get\+All\+Points}!Geo\+Service@{Geo\+Service}}
+\subsubsection[{get\+All\+Points}]{\setlength{\rightskip}{0pt plus 5cm}get\+All\+Points (
+\begin{DoxyParamCaption}
+\item[{}]{\$storage\+Name, }
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_geo_service_aa5e4b70e464872aa3788a4c5b6d0b46e}
+Get All \hyperlink{class_point}{Point} from storage.
+
+
+\begin{DoxyParams}{Parameters}
+{\em storage\+Name} & 
+\begin{DoxyItemize}
+\item Unique handler for storage name
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_geo}{Geo} object containing all the stored \hyperlink{class_geo}{Geo} Points for the specified storage 
+\end{DoxyReturn}
+Get All \hyperlink{class_point}{Point} from storage by paging
+
+
+\begin{DoxyParams}{Parameters}
+{\em max} & 
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em offset} & 
+\begin{DoxyItemize}
+\item From where the records are to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_geo}{Geo} object containing all the stored \hyperlink{class_geo}{Geo} Points for the specified storage
+\end{DoxyReturn}
+\hypertarget{class_geo_service_a19a3967d8b6ec63b968f4a9b2af5e62c}{\index{Geo\+Service@{Geo\+Service}!get\+All\+Storage@{get\+All\+Storage}}
+\index{get\+All\+Storage@{get\+All\+Storage}!Geo\+Service@{Geo\+Service}}
+\subsubsection[{get\+All\+Storage}]{\setlength{\rightskip}{0pt plus 5cm}get\+All\+Storage (
+\begin{DoxyParamCaption}
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_geo_service_a19a3967d8b6ec63b968f4a9b2af5e62c}
+Fetch the name of all storage stored on the cloud.
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_geo}{Geo} object containing List of all the storage created 
+\end{DoxyReturn}
+Fetch the name of all storage stored on the cloud by Paging.
+
+max
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched  offset
+\item From where the records are to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_geo}{Geo} object containing List of all the storage created
+\end{DoxyReturn}
+\hypertarget{class_geo_service_a8c81e6d22081e2625dc6ac95748ce0df}{\index{Geo\+Service@{Geo\+Service}!get\+Near\+By\+Point@{get\+Near\+By\+Point}}
+\index{get\+Near\+By\+Point@{get\+Near\+By\+Point}!Geo\+Service@{Geo\+Service}}
+\subsubsection[{get\+Near\+By\+Point}]{\setlength{\rightskip}{0pt plus 5cm}get\+Near\+By\+Point (
+\begin{DoxyParamCaption}
+\item[{}]{\$storage\+Name, }
+\item[{}]{\$lat, }
+\item[{}]{\$lng, }
+\item[{}]{\$result\+Limit}
+\end{DoxyParamCaption}
+)}}\label{class_geo_service_a8c81e6d22081e2625dc6ac95748ce0df}
+Search the near by point from specified source point. Points to be searched should already be stored on cloud using unique storage name handler.
+
+
+\begin{DoxyParams}{Parameters}
+{\em storage\+Name} & 
+\begin{DoxyItemize}
+\item Unique handler for storage name 
+\end{DoxyItemize}\\
+\hline
+{\em lat} & 
+\begin{DoxyItemize}
+\item Latitude of source point 
+\end{DoxyItemize}\\
+\hline
+{\em lng} & 
+\begin{DoxyItemize}
+\item Longitude of source point 
+\end{DoxyItemize}\\
+\hline
+{\em result\+Limit} & 
+\begin{DoxyItemize}
+\item Maximum number of results to be retrieved
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_geo}{Geo} object containing the target points in ascending order of distance from source point. 
+\end{DoxyReturn}
+\hypertarget{class_geo_service_ab26ad53f002b9b96389994fd264b4adf}{\index{Geo\+Service@{Geo\+Service}!get\+Near\+By\+Points\+By\+Max\+Distance@{get\+Near\+By\+Points\+By\+Max\+Distance}}
+\index{get\+Near\+By\+Points\+By\+Max\+Distance@{get\+Near\+By\+Points\+By\+Max\+Distance}!Geo\+Service@{Geo\+Service}}
+\subsubsection[{get\+Near\+By\+Points\+By\+Max\+Distance}]{\setlength{\rightskip}{0pt plus 5cm}get\+Near\+By\+Points\+By\+Max\+Distance (
+\begin{DoxyParamCaption}
+\item[{}]{\$storage\+Name, }
+\item[{}]{\$lat, }
+\item[{}]{\$lng, }
+\item[{}]{\$distance\+In\+K\+M}
+\end{DoxyParamCaption}
+)}}\label{class_geo_service_ab26ad53f002b9b96389994fd264b4adf}
+Search the near by point in given range(\+In K\+M) from specified source point. Points to be searched should already be stored on cloud using unique storage name handler.
+
+
+\begin{DoxyParams}{Parameters}
+{\em storage\+Name} & 
+\begin{DoxyItemize}
+\item Unique handler for storage name 
+\end{DoxyItemize}\\
+\hline
+{\em lat} & 
+\begin{DoxyItemize}
+\item Latitude of source point 
+\end{DoxyItemize}\\
+\hline
+{\em lng} & 
+\begin{DoxyItemize}
+\item Longitude of source point 
+\end{DoxyItemize}\\
+\hline
+{\em distance\+In\+K\+M} & 
+\begin{DoxyItemize}
+\item Range in K\+M
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_geo}{Geo} object containing the target points in ascending order of distance from source point. 
+\end{DoxyReturn}
+\hypertarget{class_geo_service_aa222ca80559d182d864ac1b1f19428c5}{\index{Geo\+Service@{Geo\+Service}!get\+Points\+With\+In\+Circle@{get\+Points\+With\+In\+Circle}}
+\index{get\+Points\+With\+In\+Circle@{get\+Points\+With\+In\+Circle}!Geo\+Service@{Geo\+Service}}
+\subsubsection[{get\+Points\+With\+In\+Circle}]{\setlength{\rightskip}{0pt plus 5cm}get\+Points\+With\+In\+Circle (
+\begin{DoxyParamCaption}
+\item[{}]{\$storage\+Name, }
+\item[{}]{\$lat, }
+\item[{}]{\$lng, }
+\item[{}]{\$radius\+In\+K\+M, }
+\item[{}]{\$result\+Limit}
+\end{DoxyParamCaption}
+)}}\label{class_geo_service_aa222ca80559d182d864ac1b1f19428c5}
+Search the near by point from specified source point with in specified radius. Points to be searched should already be stored on cloud using unique storage name handler.
+
+
+\begin{DoxyParams}{Parameters}
+{\em storage\+Name} & 
+\begin{DoxyItemize}
+\item Unique handler for storage name 
+\end{DoxyItemize}\\
+\hline
+{\em lat} & 
+\begin{DoxyItemize}
+\item Lattitude of source point 
+\end{DoxyItemize}\\
+\hline
+{\em lng} & 
+\begin{DoxyItemize}
+\item Longitude of source point 
+\end{DoxyItemize}\\
+\hline
+{\em radius\+In\+K\+M} & 
+\begin{DoxyItemize}
+\item Radius in K\+M 
+\end{DoxyItemize}\\
+\hline
+{\em result\+Limit} & 
+\begin{DoxyItemize}
+\item Maximum number of results to be retrieved
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_geo}{Geo} object containing the target points in ascending order of distance from source point. 
+\end{DoxyReturn}

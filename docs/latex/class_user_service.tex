@@ -1,0 +1,659 @@
+\hypertarget{class_user_service}{\section{User\+Service Class Reference}
+\label{class_user_service}\index{User\+Service@{User\+Service}}
+}
+Inheritance diagram for User\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_user_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_user_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_user_service_a2d19c5ab1596e9c4cc4a253654fcea23}{create\+User} (\$u\+Name, \$pwd, \$email\+Address, \$role\+List=null)
+\item 
+\hyperlink{class_user_service_ac892b43848dd337e5c3a061e083dae34}{assign\+Roles} (\$u\+Name, \$role\+List)
+\item 
+\hyperlink{class_user_service_a0124d32cb11b6abbb656bef29ed9843b}{get\+Roles\+By\+User} (\$user\+Name)
+\item 
+\hyperlink{class_user_service_abe4c3335ae7c1069496dce920ee95016}{get\+Users\+By\+Role} (\$role)
+\item 
+\hyperlink{class_user_service_a172bef4b570888f19cace199307d7ff9}{create\+Or\+Update\+Profile} (\hyperlink{class_user}{User} \$user)
+\item 
+\hyperlink{class_user_service_a0399a1547a735e805f32a78dfb0c6536}{authenticate} (\$u\+Name, \$pwd)
+\item 
+\hyperlink{class_user_service_a7b7f98f3ebdf1b742227dcf817ff383e}{update\+Email} (\$u\+Name, \$email\+Address)
+\item 
+\hyperlink{class_user_service_a9dde309a8616ea08b90afedc4cc0535b}{get\+User} (\$user\+Name)
+\item 
+\hyperlink{class_user_service_a7a7cb1fc1db34a0f256ecd8d400269a0}{get\+User\+By\+Email\+Id} (\$email\+Id)
+\item 
+\hyperlink{class_user_service_abf8a1ca4140b4ca6379eed1266625ecc}{get\+All\+Users} (\$max=null, \$offset=null)
+\item 
+\hyperlink{class_user_service_a9aa2ae795472c60841fbc5f285a2fd63}{get\+All\+Users\+Count} ()
+\item 
+\hyperlink{class_user_service_aad7ca18b49e223009c0759a5b02d3bc1}{get\+Locked\+Users} (\$max=null, \$offset=null)
+\item 
+\hyperlink{class_user_service_a2e776606f52f13787ae537ce25092ddb}{get\+Locked\+Users\+Count} ()
+\item 
+\hyperlink{class_user_service_a2686e125d02a182347c15dead8636740}{delete\+User} (\$user\+Name)
+\item 
+\hyperlink{class_user_service_a7651c03b89750f99981976ef7fd3725e}{unlock\+User} (\$u\+Name)
+\item 
+\hyperlink{class_user_service_a482854ed5da446e1249bc1919f688d6d}{lock\+User} (\$u\+Name)
+\item 
+\hyperlink{class_user_service_af17489c1b9cb60869820c197a123907d}{change\+User\+Password} (\$u\+Name, \$old\+Pwd, \$new\+Pwd)
+\item 
+\hyperlink{class_user_service_a1614e4a23175ff9fc041e4e0e28d8e42}{revoke\+Role} (\$user\+Name, \$role)
+\item 
+\hyperlink{class_user_service_a697bfef929fe31dbd34540bb096f88ef}{revoke\+All\+Roles} (\$user\+Name)
+\item 
+\hyperlink{class_user_service_a32b211833333d3eb2a867bd58d79113a}{reset\+User\+Password} (\$u\+Name)
+\item 
+\hyperlink{class_user_service_aa9f0031b88ff72c012208e05ea0fa230}{get\+Users\+By\+Profile\+Data} (\hyperlink{class_profile}{Profile} \$profile\+Data)
+\item 
+\hypertarget{class_user_service_a7fdad8528118567bdd587b37592c25b8}{{\bfseries logout} (\$session\+Id)}\label{class_user_service_a7fdad8528118567bdd587b37592c25b8}
+
+\item 
+\hypertarget{class_user_service_a5821bf72489c15b04e59a24c8beb4766}{{\bfseries add\+J\+S\+O\+N\+Object} (\$collection\+Name, \$obj)}\label{class_user_service_a5821bf72489c15b04e59a24c8beb4766}
+
+\item 
+\hyperlink{class_user_service_aed8ac40cf520379acad52833dc333fca}{fill\+Params\+With\+Profile\+Data} (\hyperlink{class_profile}{Profile} \$profile\+Data)
+\item 
+\hypertarget{class_user_service_a3b02edf7fc8f66f998acf2c3e7c0c135}{{\bfseries create\+User\+With\+Profile} (\$u\+Name, \$pwd, \$email\+Address, \hyperlink{class_profile}{Profile} \$profile)}\label{class_user_service_a3b02edf7fc8f66f998acf2c3e7c0c135}
+
+\item 
+\hypertarget{class_user_service_abcb905dd54bb435639a6184758a45b2c}{{\bfseries get\+Users\+By\+Group} (\$users)}\label{class_user_service_abcb905dd54bb435639a6184758a45b2c}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_user_service_a77bc41101672c1e89c8575238cf33550}{static {\bfseries \$\+M\+A\+L\+E} = \char`\"{}Male\char`\"{}}\label{class_user_service_a77bc41101672c1e89c8575238cf33550}
+
+\item 
+\hypertarget{class_user_service_a2fb4ccd0fab13c8c3c254201f7677d82}{static {\bfseries \$\+F\+E\+M\+A\+L\+E} = \char`\"{}Female\char`\"{}}\label{class_user_service_a2fb4ccd0fab13c8c3c254201f7677d82}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_user_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}user\char`\"{}}\label{class_user_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_user_service_acf215f34a917d014776ce684a9ee8909}{{\bfseries \$url}}\label{class_user_service_acf215f34a917d014776ce684a9ee8909}
+
+\item 
+\hypertarget{class_user_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_user_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_user_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_user_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_user_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_user_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\item 
+\hypertarget{class_user_service_aedf4e9ab2dfedd4d20ad1f15d08777d3}{{\bfseries \$session\+U\+R\+L}}\label{class_user_service_aedf4e9ab2dfedd4d20ad1f15d08777d3}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Creates \hyperlink{class_user}{User} for the \hyperlink{class_app}{App}. App42 Cloud A\+P\+I's provides a complete \hyperlink{class_user}{User} Management for any Mobile or Web \hyperlink{class_app}{App}. It supports \hyperlink{class_user}{User} registration, retrieval, state management e.\+g. lock, delete and Authentication. Along with \hyperlink{class_user}{User} management the platform provides A\+P\+I's for persistent Session\+Management \begin{DoxySeeAlso}{See also}
+Session\+Manager 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_user_service_a49f2ad222e06420736d750e167d55d7c}{\index{User\+Service@{User\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!User\+Service@{User\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a49f2ad222e06420736d750e167d55d7c}
+This is a constructor that takes
+
+
+\begin{DoxyParams}{Parameters}
+{\em api\+Key} & \\
+\hline
+{\em secret\+Key} & \\
+\hline
+{\em base\+U\+R\+L} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_user_service_ac892b43848dd337e5c3a061e083dae34}{\index{User\+Service@{User\+Service}!assign\+Roles@{assign\+Roles}}
+\index{assign\+Roles@{assign\+Roles}!User\+Service@{User\+Service}}
+\subsubsection[{assign\+Roles}]{\setlength{\rightskip}{0pt plus 5cm}assign\+Roles (
+\begin{DoxyParamCaption}
+\item[{}]{\$u\+Name, }
+\item[{}]{\$role\+List}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_ac892b43848dd337e5c3a061e083dae34}
+Assign Roles to the existing \hyperlink{class_user}{User}
+
+
+\begin{DoxyParams}{Parameters}
+{\em u\+Name} & 
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_user}{User} to whom the roles have to be assigned 
+\end{DoxyItemize}\\
+\hline
+{\em role\+List} & 
+\begin{DoxyItemize}
+\item List of roles to be added to \hyperlink{class_user}{User}
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The created \hyperlink{class_user}{User} object with assigned roles. 
+\end{DoxyReturn}
+\hypertarget{class_user_service_a0399a1547a735e805f32a78dfb0c6536}{\index{User\+Service@{User\+Service}!authenticate@{authenticate}}
+\index{authenticate@{authenticate}!User\+Service@{User\+Service}}
+\subsubsection[{authenticate}]{\setlength{\rightskip}{0pt plus 5cm}authenticate (
+\begin{DoxyParamCaption}
+\item[{}]{\$u\+Name, }
+\item[{}]{\$pwd}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a0399a1547a735e805f32a78dfb0c6536}
+Authenticate user based on user\+Name and password
+
+
+\begin{DoxyParams}{Parameters}
+{\em u\+Name} & 
+\begin{DoxyItemize}
+\item User\+Name which should be unique for the \hyperlink{class_app}{App} 
+\end{DoxyItemize}\\
+\hline
+{\em pwd} & 
+\begin{DoxyItemize}
+\item Password for the \hyperlink{class_user}{User}
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} Object if authenticated successfully. \begin{DoxyVerb}        if authentication fails or username/password is blank or null\end{DoxyVerb}
+ 
+\end{DoxyReturn}
+\hypertarget{class_user_service_af17489c1b9cb60869820c197a123907d}{\index{User\+Service@{User\+Service}!change\+User\+Password@{change\+User\+Password}}
+\index{change\+User\+Password@{change\+User\+Password}!User\+Service@{User\+Service}}
+\subsubsection[{change\+User\+Password}]{\setlength{\rightskip}{0pt plus 5cm}change\+User\+Password (
+\begin{DoxyParamCaption}
+\item[{}]{\$u\+Name, }
+\item[{}]{\$old\+Pwd, }
+\item[{}]{\$new\+Pwd}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_af17489c1b9cb60869820c197a123907d}
+Changes the password for user based on the user\+Name.
+
+
+\begin{DoxyParams}{Parameters}
+{\em u\+Name} & 
+\begin{DoxyItemize}
+\item User\+Name which should be unique for the \hyperlink{class_app}{App} 
+\end{DoxyItemize}\\
+\hline
+{\em old\+Pwd} & 
+\begin{DoxyItemize}
+\item Old Password for the user for authentication 
+\end{DoxyItemize}\\
+\hline
+{\em new\+Pwd} & 
+\begin{DoxyItemize}
+\item New Password for the user to change
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} Object if updated successfully 
+\end{DoxyReturn}
+\hypertarget{class_user_service_a172bef4b570888f19cace199307d7ff9}{\index{User\+Service@{User\+Service}!create\+Or\+Update\+Profile@{create\+Or\+Update\+Profile}}
+\index{create\+Or\+Update\+Profile@{create\+Or\+Update\+Profile}!User\+Service@{User\+Service}}
+\subsubsection[{create\+Or\+Update\+Profile}]{\setlength{\rightskip}{0pt plus 5cm}create\+Or\+Update\+Profile (
+\begin{DoxyParamCaption}
+\item[{{\bf User}}]{\$user}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a172bef4b570888f19cace199307d7ff9}
+Creates or Updates \hyperlink{class_user}{User} \hyperlink{class_profile}{Profile}. First time the \hyperlink{class_profile}{Profile} for the user is created and in future calls user profile will be updated. This will always update the profile with new value passed in profile object. Call to this method should have all the values you want to retain in user profile object, otherwise old values of profile will get updated with null. Method only updates the profile of user, passing email/password in user object does not have any significance for this method call.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & 
+\begin{DoxyItemize}
+\item \hyperlink{class_user}{User} for which profile has to be updated, this should contain the user\+Name and profile object in it.
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_user}{User} Object with updated \hyperlink{class_profile}{Profile} information
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_profile}{Profile} 
+\end{DoxySeeAlso}
+\hypertarget{class_user_service_a2d19c5ab1596e9c4cc4a253654fcea23}{\index{User\+Service@{User\+Service}!create\+User@{create\+User}}
+\index{create\+User@{create\+User}!User\+Service@{User\+Service}}
+\subsubsection[{create\+User}]{\setlength{\rightskip}{0pt plus 5cm}create\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$u\+Name, }
+\item[{}]{\$pwd, }
+\item[{}]{\$email\+Address, }
+\item[{}]{\$role\+List = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a2d19c5ab1596e9c4cc4a253654fcea23}
+Create a \hyperlink{class_user}{User} with user\+Name, password \& email\+Address
+
+
+\begin{DoxyParams}{Parameters}
+{\em u\+Name} & 
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_user}{User} 
+\end{DoxyItemize}\\
+\hline
+{\em pwd} & 
+\begin{DoxyItemize}
+\item Password for the \hyperlink{class_user}{User} 
+\end{DoxyItemize}\\
+\hline
+{\em email\+Address} & 
+\begin{DoxyItemize}
+\item \hyperlink{class_email}{Email} address of the user
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The created \hyperlink{class_user}{User} object. 
+\end{DoxyReturn}
+Create a \hyperlink{class_user}{User} with user\+Name, password \& email\+Address and assigns the roles to the created \hyperlink{class_user}{User}
+
+
+\begin{DoxyParams}{Parameters}
+{\em u\+Name} & 
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_user}{User} 
+\end{DoxyItemize}\\
+\hline
+{\em pwd} & 
+\begin{DoxyItemize}
+\item Password for the \hyperlink{class_user}{User} 
+\end{DoxyItemize}\\
+\hline
+{\em email\+Address} & 
+\begin{DoxyItemize}
+\item \hyperlink{class_email}{Email} address of the user 
+\end{DoxyItemize}\\
+\hline
+{\em role\+List} & 
+\begin{DoxyItemize}
+\item List of roles to be assigned to \hyperlink{class_user}{User}
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The created \hyperlink{class_user}{User} object with role list.
+\end{DoxyReturn}
+\hypertarget{class_user_service_a2686e125d02a182347c15dead8636740}{\index{User\+Service@{User\+Service}!delete\+User@{delete\+User}}
+\index{delete\+User@{delete\+User}!User\+Service@{User\+Service}}
+\subsubsection[{delete\+User}]{\setlength{\rightskip}{0pt plus 5cm}delete\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a2686e125d02a182347c15dead8636740}
+Deletes a particular user based on user\+Name.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item User\+Name which should be unique for the \hyperlink{class_app}{App}
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} Object if user deleted successfully 
+\end{DoxyReturn}
+\hypertarget{class_user_service_aed8ac40cf520379acad52833dc333fca}{\index{User\+Service@{User\+Service}!fill\+Params\+With\+Profile\+Data@{fill\+Params\+With\+Profile\+Data}}
+\index{fill\+Params\+With\+Profile\+Data@{fill\+Params\+With\+Profile\+Data}!User\+Service@{User\+Service}}
+\subsubsection[{fill\+Params\+With\+Profile\+Data}]{\setlength{\rightskip}{0pt plus 5cm}fill\+Params\+With\+Profile\+Data (
+\begin{DoxyParamCaption}
+\item[{{\bf Profile}}]{\$profile\+Data}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_aed8ac40cf520379acad52833dc333fca}
+Builds a Parameter string for the profile\+Data.
+
+
+\begin{DoxyParams}{Parameters}
+{\em profile\+Data} & 
+\begin{DoxyItemize}
+\item User.\+Profile object that contains profile information
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String Object which contains the parameter string. 
+\end{DoxyReturn}
+\hypertarget{class_user_service_abf8a1ca4140b4ca6379eed1266625ecc}{\index{User\+Service@{User\+Service}!get\+All\+Users@{get\+All\+Users}}
+\index{get\+All\+Users@{get\+All\+Users}!User\+Service@{User\+Service}}
+\subsubsection[{get\+All\+Users}]{\setlength{\rightskip}{0pt plus 5cm}get\+All\+Users (
+\begin{DoxyParamCaption}
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_abf8a1ca4140b4ca6379eed1266625ecc}
+Gets the details of all users
+
+\begin{DoxyReturn}{Returns}
+the List that contains all \hyperlink{class_user}{User} Object 
+\end{DoxyReturn}
+Gets all users by Paging
+
+
+\begin{DoxyParams}{Parameters}
+{\em max} & 
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em offset} & 
+\begin{DoxyItemize}
+\item From where the records are to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the List that contains all \hyperlink{class_user}{User} Object
+\end{DoxyReturn}
+\hypertarget{class_user_service_a9aa2ae795472c60841fbc5f285a2fd63}{\index{User\+Service@{User\+Service}!get\+All\+Users\+Count@{get\+All\+Users\+Count}}
+\index{get\+All\+Users\+Count@{get\+All\+Users\+Count}!User\+Service@{User\+Service}}
+\subsubsection[{get\+All\+Users\+Count}]{\setlength{\rightskip}{0pt plus 5cm}get\+All\+Users\+Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a9aa2ae795472c60841fbc5f285a2fd63}
+Gets the count of all the users
+
+\begin{DoxyReturn}{Returns}
+the count of all \hyperlink{class_user}{User} exists 
+\end{DoxyReturn}
+\hypertarget{class_user_service_aad7ca18b49e223009c0759a5b02d3bc1}{\index{User\+Service@{User\+Service}!get\+Locked\+Users@{get\+Locked\+Users}}
+\index{get\+Locked\+Users@{get\+Locked\+Users}!User\+Service@{User\+Service}}
+\subsubsection[{get\+Locked\+Users}]{\setlength{\rightskip}{0pt plus 5cm}get\+Locked\+Users (
+\begin{DoxyParamCaption}
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_aad7ca18b49e223009c0759a5b02d3bc1}
+Gets the details of all the locked users
+
+\begin{DoxyReturn}{Returns}
+the list containing locked \hyperlink{class_user}{User} Objects 
+\end{DoxyReturn}
+Gets the details of all the locked users By paging.
+
+
+\begin{DoxyParams}{Parameters}
+{\em max} & 
+\begin{DoxyItemize}
+\item Maximum number of records to be fetched 
+\end{DoxyItemize}\\
+\hline
+{\em offset} & 
+\begin{DoxyItemize}
+\item From where the records are to be fetched
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the List containing locked \hyperlink{class_user}{User} Objects
+\end{DoxyReturn}
+\hypertarget{class_user_service_a2e776606f52f13787ae537ce25092ddb}{\index{User\+Service@{User\+Service}!get\+Locked\+Users\+Count@{get\+Locked\+Users\+Count}}
+\index{get\+Locked\+Users\+Count@{get\+Locked\+Users\+Count}!User\+Service@{User\+Service}}
+\subsubsection[{get\+Locked\+Users\+Count}]{\setlength{\rightskip}{0pt plus 5cm}get\+Locked\+Users\+Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a2e776606f52f13787ae537ce25092ddb}
+Gets the count of all the locked users
+
+\begin{DoxyReturn}{Returns}
+the count of locked \hyperlink{class_user}{User} exists 
+\end{DoxyReturn}
+\hypertarget{class_user_service_a0124d32cb11b6abbb656bef29ed9843b}{\index{User\+Service@{User\+Service}!get\+Roles\+By\+User@{get\+Roles\+By\+User}}
+\index{get\+Roles\+By\+User@{get\+Roles\+By\+User}!User\+Service@{User\+Service}}
+\subsubsection[{get\+Roles\+By\+User}]{\setlength{\rightskip}{0pt plus 5cm}get\+Roles\+By\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a0124d32cb11b6abbb656bef29ed9843b}
+Get the assigned roles to the specified \hyperlink{class_user}{User}
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_user}{User} for whom roles have to be retrieved
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_user}{User} Object containing the role information 
+\end{DoxyReturn}
+\hypertarget{class_user_service_a9dde309a8616ea08b90afedc4cc0535b}{\index{User\+Service@{User\+Service}!get\+User@{get\+User}}
+\index{get\+User@{get\+User}!User\+Service@{User\+Service}}
+\subsubsection[{get\+User}]{\setlength{\rightskip}{0pt plus 5cm}get\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a9dde309a8616ea08b90afedc4cc0535b}
+Gets the \hyperlink{class_user}{User} details based on user\+Name
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_user}{User} to retrieve
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_user}{User} Object containing the profile information 
+\end{DoxyReturn}
+\hypertarget{class_user_service_a7a7cb1fc1db34a0f256ecd8d400269a0}{\index{User\+Service@{User\+Service}!get\+User\+By\+Email\+Id@{get\+User\+By\+Email\+Id}}
+\index{get\+User\+By\+Email\+Id@{get\+User\+By\+Email\+Id}!User\+Service@{User\+Service}}
+\subsubsection[{get\+User\+By\+Email\+Id}]{\setlength{\rightskip}{0pt plus 5cm}get\+User\+By\+Email\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{\$email\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a7a7cb1fc1db34a0f256ecd8d400269a0}
+Gets user details based on email\+Id
+
+
+\begin{DoxyParams}{Parameters}
+{\em email\+Id} & 
+\begin{DoxyItemize}
+\item Email\+Id of the user to be retrieved
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_user}{User} Object 
+\end{DoxyReturn}
+\hypertarget{class_user_service_aa9f0031b88ff72c012208e05ea0fa230}{\index{User\+Service@{User\+Service}!get\+Users\+By\+Profile\+Data@{get\+Users\+By\+Profile\+Data}}
+\index{get\+Users\+By\+Profile\+Data@{get\+Users\+By\+Profile\+Data}!User\+Service@{User\+Service}}
+\subsubsection[{get\+Users\+By\+Profile\+Data}]{\setlength{\rightskip}{0pt plus 5cm}get\+Users\+By\+Profile\+Data (
+\begin{DoxyParamCaption}
+\item[{{\bf Profile}}]{\$profile\+Data}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_aa9f0031b88ff72c012208e05ea0fa230}
+Gets the list of Users based on \hyperlink{class_profile}{Profile} Data
+
+
+\begin{DoxyParams}{Parameters}
+{\em profile\+Data} & 
+\begin{DoxyItemize}
+\item \hyperlink{class_profile}{Profile} Data key/value for which Users need to be retrieved
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_user}{User} Object for the specified profile data 
+\end{DoxyReturn}
+\hypertarget{class_user_service_abe4c3335ae7c1069496dce920ee95016}{\index{User\+Service@{User\+Service}!get\+Users\+By\+Role@{get\+Users\+By\+Role}}
+\index{get\+Users\+By\+Role@{get\+Users\+By\+Role}!User\+Service@{User\+Service}}
+\subsubsection[{get\+Users\+By\+Role}]{\setlength{\rightskip}{0pt plus 5cm}get\+Users\+By\+Role (
+\begin{DoxyParamCaption}
+\item[{}]{\$role}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_abe4c3335ae7c1069496dce920ee95016}
+Get all the Users who have the specified role assigned
+
+
+\begin{DoxyParams}{Parameters}
+{\em role} & 
+\begin{DoxyItemize}
+\item Role for which Users needs to be retrieved
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_user}{User} Object for that particular role 
+\end{DoxyReturn}
+\hypertarget{class_user_service_a482854ed5da446e1249bc1919f688d6d}{\index{User\+Service@{User\+Service}!lock\+User@{lock\+User}}
+\index{lock\+User@{lock\+User}!User\+Service@{User\+Service}}
+\subsubsection[{lock\+User}]{\setlength{\rightskip}{0pt plus 5cm}lock\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$u\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a482854ed5da446e1249bc1919f688d6d}
+Locks the user based on the user\+Name. Apps can use these feature to lock a user because of reasons specific to their usercase e.\+g. If payment not received and the \hyperlink{class_app}{App} wants the user to be inactive
+
+
+\begin{DoxyParams}{Parameters}
+{\em u\+Name} & 
+\begin{DoxyItemize}
+\item User\+Name which should be unique for the \hyperlink{class_app}{App}
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the locked \hyperlink{class_user}{User} Object 
+\end{DoxyReturn}
+\hypertarget{class_user_service_a32b211833333d3eb2a867bd58d79113a}{\index{User\+Service@{User\+Service}!reset\+User\+Password@{reset\+User\+Password}}
+\index{reset\+User\+Password@{reset\+User\+Password}!User\+Service@{User\+Service}}
+\subsubsection[{reset\+User\+Password}]{\setlength{\rightskip}{0pt plus 5cm}reset\+User\+Password (
+\begin{DoxyParamCaption}
+\item[{}]{\$u\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a32b211833333d3eb2a867bd58d79113a}
+Updates the \hyperlink{class_user}{User} password based on user\+Name. Username cannot be updated.
+
+
+\begin{DoxyParams}{Parameters}
+{\em u\+Name} & 
+\begin{DoxyItemize}
+\item User\+Name which should be unique for the \hyperlink{class_app}{App}
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} Object 
+\end{DoxyReturn}
+\hypertarget{class_user_service_a697bfef929fe31dbd34540bb096f88ef}{\index{User\+Service@{User\+Service}!revoke\+All\+Roles@{revoke\+All\+Roles}}
+\index{revoke\+All\+Roles@{revoke\+All\+Roles}!User\+Service@{User\+Service}}
+\subsubsection[{revoke\+All\+Roles}]{\setlength{\rightskip}{0pt plus 5cm}revoke\+All\+Roles (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a697bfef929fe31dbd34540bb096f88ef}
+Revokes all the roles from the user.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_user}{User} from whom Roles have to be revoked
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} of the object that contains the \hyperlink{class_user}{User} information 
+\end{DoxyReturn}
+\hypertarget{class_user_service_a1614e4a23175ff9fc041e4e0e28d8e42}{\index{User\+Service@{User\+Service}!revoke\+Role@{revoke\+Role}}
+\index{revoke\+Role@{revoke\+Role}!User\+Service@{User\+Service}}
+\subsubsection[{revoke\+Role}]{\setlength{\rightskip}{0pt plus 5cm}revoke\+Role (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Name, }
+\item[{}]{\$role}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a1614e4a23175ff9fc041e4e0e28d8e42}
+Revokes the specified role from the user.
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Name} & 
+\begin{DoxyItemize}
+\item User\+Name from whom the role has to be revoked 
+\end{DoxyItemize}\\
+\hline
+{\em role} & 
+\begin{DoxyItemize}
+\item Role that has to be revoked
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} of the object that contains the information about \hyperlink{class_user}{User} with its role 
+\end{DoxyReturn}
+\hypertarget{class_user_service_a7651c03b89750f99981976ef7fd3725e}{\index{User\+Service@{User\+Service}!unlock\+User@{unlock\+User}}
+\index{unlock\+User@{unlock\+User}!User\+Service@{User\+Service}}
+\subsubsection[{unlock\+User}]{\setlength{\rightskip}{0pt plus 5cm}unlock\+User (
+\begin{DoxyParamCaption}
+\item[{}]{\$u\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a7651c03b89750f99981976ef7fd3725e}
+Unlocks the user based on the user\+Name. \hyperlink{class_app}{App} developers can use this feature to unlock a user because of reasons specific to their usercase e.\+g. When payment received, the \hyperlink{class_app}{App} developer wants the user to be active.
+
+
+\begin{DoxyParams}{Parameters}
+{\em u\+Name} & 
+\begin{DoxyItemize}
+\item User\+Name which should be unique for the \hyperlink{class_app}{App}
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the unlocked \hyperlink{class_user}{User} Object 
+\end{DoxyReturn}
+\hypertarget{class_user_service_a7b7f98f3ebdf1b742227dcf817ff383e}{\index{User\+Service@{User\+Service}!update\+Email@{update\+Email}}
+\index{update\+Email@{update\+Email}!User\+Service@{User\+Service}}
+\subsubsection[{update\+Email}]{\setlength{\rightskip}{0pt plus 5cm}update\+Email (
+\begin{DoxyParamCaption}
+\item[{}]{\$u\+Name, }
+\item[{}]{\$email\+Address}
+\end{DoxyParamCaption}
+)}}\label{class_user_service_a7b7f98f3ebdf1b742227dcf817ff383e}
+Updates the \hyperlink{class_user}{User}'s \hyperlink{class_email}{Email} Address based on user\+Name. Note\+: Only email can be updated. Username cannot be updated.
+
+
+\begin{DoxyParams}{Parameters}
+{\em u\+Name} & 
+\begin{DoxyItemize}
+\item User\+Name which should be unique for the \hyperlink{class_app}{App} 
+\end{DoxyItemize}\\
+\hline
+{\em email\+Address} & 
+\begin{DoxyItemize}
+\item \hyperlink{class_email}{Email} address of the user
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+updated \hyperlink{class_user}{User} Object 
+\end{DoxyReturn}

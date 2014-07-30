@@ -1,0 +1,303 @@
+\hypertarget{class_catalogue_service}{\section{Catalogue\+Service Class Reference}
+\label{class_catalogue_service}\index{Catalogue\+Service@{Catalogue\+Service}}
+}
+Inheritance diagram for Catalogue\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_catalogue_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_catalogue_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_catalogue_service_a4e6acaab503733ea964ca81e729710b4}{create\+Catalogue} (\$catalogue\+Name, \$catalogue\+Description)
+\item 
+\hyperlink{class_catalogue_service_ac2e858576186ea350fa9f30fdd8b72fe}{create\+Category} (\$catalogue\+Name, \$category\+Name, \$category\+Description)
+\item 
+\hyperlink{class_catalogue_service_a9c8281af7e60514137e51b878c6c6f54}{add\+Item} (\$catalogue\+Name, \$category\+Name, \hyperlink{class_item_data}{Item\+Data} \$item\+Data)
+\item 
+\hyperlink{class_catalogue_service_a1d518446c7a5fdc91a6709b0a6d6fefc}{get\+Items} (\$catalogue\+Name)
+\item 
+\hyperlink{class_catalogue_service_a4b7d5d51e6b08177651e6a0b1a16c10b}{get\+Items\+By\+Category} (\$catalogue\+Name, \$category\+Name, \$max=null, \$offset=null)
+\item 
+\hyperlink{class_catalogue_service_ad94bd71cb796d8eb33811bad3f35c418}{get\+Items\+Count\+By\+Category} (\$catalogue\+Name, \$category\+Name)
+\item 
+\hyperlink{class_catalogue_service_aac043f1aed5e0ac36f7c59a233ae7309}{get\+Item\+By\+Id} (\$catalogue\+Name, \$category\+Name, \$item\+Id)
+\item 
+\hyperlink{class_catalogue_service_a89ad971ed81bc3b521626e29c59700a4}{remove\+All\+Items} (\$catalogue\+Name)
+\item 
+\hyperlink{class_catalogue_service_a8a1ffbb39e02f920ee27b209098ac63d}{remove\+Items\+By\+Category} (\$catalogue\+Name, \$category\+Name)
+\item 
+\hyperlink{class_catalogue_service_af70a701a86e1d1ac7a612498ed661ee0}{remove\+Item\+By\+Id} (\$catalogue\+Name, \$category\+Name, \$item\+Id)
+\item 
+\hypertarget{class_catalogue_service_a166ae7b84def7b8382fed1406547f081}{{\bfseries delete\+Category} (\$catalogue\+Name, \$category\+Name)}\label{class_catalogue_service_a166ae7b84def7b8382fed1406547f081}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_catalogue_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_catalogue_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_catalogue_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}catalogue\char`\"{}}\label{class_catalogue_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_catalogue_service_ae91e634b1fa0ad6e2ee3928982cbda2a}{{\bfseries \$base\+U\+R\+L}}\label{class_catalogue_service_ae91e634b1fa0ad6e2ee3928982cbda2a}
+
+\item 
+\hypertarget{class_catalogue_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_catalogue_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_catalogue_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_catalogue_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+This Service provides a complete cloud based catalogue management. An app can keep all its items based on category on the Cloud. This service provides several utility methods to manage catalogue on the cloud. One can add items with its related information in a particular category. And there can be several categories in a catalogue. The \hyperlink{class_app}{App} developer can create several catalogues if needed.
+
+The \hyperlink{class_cart}{Cart} service can be used along with \hyperlink{class_catalogue}{Catalogue} service to create an end to end Shopping feature for a Mobile and Web \hyperlink{class_app}{App}
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_cart}{Cart}, \hyperlink{class_item_data}{Item\+Data} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_catalogue_service_a49f2ad222e06420736d750e167d55d7c}{\index{Catalogue\+Service@{Catalogue\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Catalogue\+Service@{Catalogue\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_catalogue_service_a49f2ad222e06420736d750e167d55d7c}
+Constructor that takes
+
+
+\begin{DoxyParams}{Parameters}
+{\em api\+Key} & \\
+\hline
+{\em secret\+Key} & \\
+\hline
+{\em base\+U\+R\+L} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_catalogue_service_a9c8281af7e60514137e51b878c6c6f54}{\index{Catalogue\+Service@{Catalogue\+Service}!add\+Item@{add\+Item}}
+\index{add\+Item@{add\+Item}!Catalogue\+Service@{Catalogue\+Service}}
+\subsubsection[{add\+Item}]{\setlength{\rightskip}{0pt plus 5cm}add\+Item (
+\begin{DoxyParamCaption}
+\item[{}]{\$catalogue\+Name, }
+\item[{}]{\$category\+Name, }
+\item[{{\bf Item\+Data}}]{\$item\+Data}
+\end{DoxyParamCaption}
+)}}\label{class_catalogue_service_a9c8281af7e60514137e51b878c6c6f54}
+Creates a \hyperlink{class_item}{Item} in a \hyperlink{class_category}{Category} for a particular Catelogue
+
+catalogue\+Name
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_catalogue}{Catalogue} to which item has to be added  category\+Name
+\item Name of the \hyperlink{class_category}{Category} to which item has to be added  item\+Data
+\item \hyperlink{class_item}{Item} Information that has to be added
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_catalogue}{Catalogue} object containing added item. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_item_data}{Item\+Data} 
+\end{DoxySeeAlso}
+\hypertarget{class_catalogue_service_a4e6acaab503733ea964ca81e729710b4}{\index{Catalogue\+Service@{Catalogue\+Service}!create\+Catalogue@{create\+Catalogue}}
+\index{create\+Catalogue@{create\+Catalogue}!Catalogue\+Service@{Catalogue\+Service}}
+\subsubsection[{create\+Catalogue}]{\setlength{\rightskip}{0pt plus 5cm}create\+Catalogue (
+\begin{DoxyParamCaption}
+\item[{}]{\$catalogue\+Name, }
+\item[{}]{\$catalogue\+Description}
+\end{DoxyParamCaption}
+)}}\label{class_catalogue_service_a4e6acaab503733ea964ca81e729710b4}
+Creates a \hyperlink{class_catalogue}{Catalogue} for a particular \hyperlink{class_app}{App}. Categories can be added to the \hyperlink{class_catalogue}{Catalogue}
+
+catalogue\+Name
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_catalogue}{Catalogue} to be created  catalogue\+Description
+\item Description of the catalogue to be created
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_catalogue}{Catalogue} object 
+\end{DoxyReturn}
+\hypertarget{class_catalogue_service_ac2e858576186ea350fa9f30fdd8b72fe}{\index{Catalogue\+Service@{Catalogue\+Service}!create\+Category@{create\+Category}}
+\index{create\+Category@{create\+Category}!Catalogue\+Service@{Catalogue\+Service}}
+\subsubsection[{create\+Category}]{\setlength{\rightskip}{0pt plus 5cm}create\+Category (
+\begin{DoxyParamCaption}
+\item[{}]{\$catalogue\+Name, }
+\item[{}]{\$category\+Name, }
+\item[{}]{\$category\+Description}
+\end{DoxyParamCaption}
+)}}\label{class_catalogue_service_ac2e858576186ea350fa9f30fdd8b72fe}
+Creates a \hyperlink{class_category}{Category} for a particular \hyperlink{class_catalogue}{Catalogue} e.\+g. Books, Music etc.
+
+catalogue\+Name
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_catalogue}{Catalogue} for which \hyperlink{class_category}{Category} has to be created  category\+Name
+\item Name of the \hyperlink{class_category}{Category} that has to be created  category\+Description
+\item Description of the category to be created
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_catalogue}{Catalogue} object containing created category information 
+\end{DoxyReturn}
+\hypertarget{class_catalogue_service_aac043f1aed5e0ac36f7c59a233ae7309}{\index{Catalogue\+Service@{Catalogue\+Service}!get\+Item\+By\+Id@{get\+Item\+By\+Id}}
+\index{get\+Item\+By\+Id@{get\+Item\+By\+Id}!Catalogue\+Service@{Catalogue\+Service}}
+\subsubsection[{get\+Item\+By\+Id}]{\setlength{\rightskip}{0pt plus 5cm}get\+Item\+By\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{\$catalogue\+Name, }
+\item[{}]{\$category\+Name, }
+\item[{}]{\$item\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_catalogue_service_aac043f1aed5e0ac36f7c59a233ae7309}
+Fetches \hyperlink{class_item}{Item} by id for a \hyperlink{class_catalogue}{Catalogue} and \hyperlink{class_category}{Category}
+
+catalogue\+Name
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_catalogue}{Catalogue} from which item has to be fetched  category\+Name
+\item Name of the \hyperlink{class_category}{Category} from which item has to be fetched  item\+Id
+\item \hyperlink{class_item}{Item} id for which information has to be fetched.
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_catalogue}{Catalogue} object 
+\end{DoxyReturn}
+\hypertarget{class_catalogue_service_a1d518446c7a5fdc91a6709b0a6d6fefc}{\index{Catalogue\+Service@{Catalogue\+Service}!get\+Items@{get\+Items}}
+\index{get\+Items@{get\+Items}!Catalogue\+Service@{Catalogue\+Service}}
+\subsubsection[{get\+Items}]{\setlength{\rightskip}{0pt plus 5cm}get\+Items (
+\begin{DoxyParamCaption}
+\item[{}]{\$catalogue\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_catalogue_service_a1d518446c7a5fdc91a6709b0a6d6fefc}
+Fetches all items for a \hyperlink{class_catalogue}{Catalogue}
+
+catalogue\+Name
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_catalogue}{Catalogue} from which item has to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_catalogue}{Catalogue} object containing all Items 
+\end{DoxyReturn}
+\hypertarget{class_catalogue_service_a4b7d5d51e6b08177651e6a0b1a16c10b}{\index{Catalogue\+Service@{Catalogue\+Service}!get\+Items\+By\+Category@{get\+Items\+By\+Category}}
+\index{get\+Items\+By\+Category@{get\+Items\+By\+Category}!Catalogue\+Service@{Catalogue\+Service}}
+\subsubsection[{get\+Items\+By\+Category}]{\setlength{\rightskip}{0pt plus 5cm}get\+Items\+By\+Category (
+\begin{DoxyParamCaption}
+\item[{}]{\$catalogue\+Name, }
+\item[{}]{\$category\+Name, }
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_catalogue_service_a4b7d5d51e6b08177651e6a0b1a16c10b}
+Fetches all items for a \hyperlink{class_catalogue}{Catalogue} and \hyperlink{class_category}{Category}
+
+catalogue\+Name
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_catalogue}{Catalogue} from which item has to be fetched  category\+Name
+\item Name of the \hyperlink{class_category}{Category} from which item has to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_catalogue}{Catalogue} object 
+\end{DoxyReturn}
+Fetches all items for a \hyperlink{class_catalogue}{Catalogue} and \hyperlink{class_category}{Category} by paging.
+
+catalogue\+Name
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_catalogue}{Catalogue} from which item has to be fetched  category\+Name
+\item Name of the \hyperlink{class_category}{Category} from which item has to be fetched  max
+\item Maximum number of records to be fetched  offset
+\item From where the records are to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_catalogue}{Catalogue} object
+\end{DoxyReturn}
+\hypertarget{class_catalogue_service_ad94bd71cb796d8eb33811bad3f35c418}{\index{Catalogue\+Service@{Catalogue\+Service}!get\+Items\+Count\+By\+Category@{get\+Items\+Count\+By\+Category}}
+\index{get\+Items\+Count\+By\+Category@{get\+Items\+Count\+By\+Category}!Catalogue\+Service@{Catalogue\+Service}}
+\subsubsection[{get\+Items\+Count\+By\+Category}]{\setlength{\rightskip}{0pt plus 5cm}get\+Items\+Count\+By\+Category (
+\begin{DoxyParamCaption}
+\item[{}]{\$catalogue\+Name, }
+\item[{}]{\$category\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_catalogue_service_ad94bd71cb796d8eb33811bad3f35c418}
+Fetches count of all items for a \hyperlink{class_catalogue}{Catalogue} and \hyperlink{class_category}{Category}
+
+catalogue\+Name
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_catalogue}{Catalogue} from which count of item has to be fetched  category\+Name
+\item Name of the \hyperlink{class_category}{Category} from which count of item has to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object 
+\end{DoxyReturn}
+\hypertarget{class_catalogue_service_a89ad971ed81bc3b521626e29c59700a4}{\index{Catalogue\+Service@{Catalogue\+Service}!remove\+All\+Items@{remove\+All\+Items}}
+\index{remove\+All\+Items@{remove\+All\+Items}!Catalogue\+Service@{Catalogue\+Service}}
+\subsubsection[{remove\+All\+Items}]{\setlength{\rightskip}{0pt plus 5cm}remove\+All\+Items (
+\begin{DoxyParamCaption}
+\item[{}]{\$catalogue\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_catalogue_service_a89ad971ed81bc3b521626e29c59700a4}
+Removes all the Items of the given \hyperlink{class_catalogue}{Catalogue}.
+
+catalogue\+Name
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_catalogue}{Catalogue} from which item has to be removed
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing all removed items 
+\end{DoxyReturn}
+\hypertarget{class_catalogue_service_af70a701a86e1d1ac7a612498ed661ee0}{\index{Catalogue\+Service@{Catalogue\+Service}!remove\+Item\+By\+Id@{remove\+Item\+By\+Id}}
+\index{remove\+Item\+By\+Id@{remove\+Item\+By\+Id}!Catalogue\+Service@{Catalogue\+Service}}
+\subsubsection[{remove\+Item\+By\+Id}]{\setlength{\rightskip}{0pt plus 5cm}remove\+Item\+By\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{\$catalogue\+Name, }
+\item[{}]{\$category\+Name, }
+\item[{}]{\$item\+Id}
+\end{DoxyParamCaption}
+)}}\label{class_catalogue_service_af70a701a86e1d1ac7a612498ed661ee0}
+Removes the \hyperlink{class_item}{Item} for the given Id
+
+catalogue\+Name
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_catalogue}{Catalogue} from which item has to be removed  category\+Name
+\item Name of the \hyperlink{class_category}{Category} from which item has to be removed  item\+Id
+\item \hyperlink{class_item}{Item} id which has to be removed returns \hyperlink{class_app42_response}{App42\+Response} object containing removed items
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing removed items by I\+D 
+\end{DoxyReturn}
+\hypertarget{class_catalogue_service_a8a1ffbb39e02f920ee27b209098ac63d}{\index{Catalogue\+Service@{Catalogue\+Service}!remove\+Items\+By\+Category@{remove\+Items\+By\+Category}}
+\index{remove\+Items\+By\+Category@{remove\+Items\+By\+Category}!Catalogue\+Service@{Catalogue\+Service}}
+\subsubsection[{remove\+Items\+By\+Category}]{\setlength{\rightskip}{0pt plus 5cm}remove\+Items\+By\+Category (
+\begin{DoxyParamCaption}
+\item[{}]{\$catalogue\+Name, }
+\item[{}]{\$category\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_catalogue_service_a8a1ffbb39e02f920ee27b209098ac63d}
+Removes all the Items from a given \hyperlink{class_catalogue}{Catalogue} and \hyperlink{class_category}{Category}
+
+catalogue\+Name
+\begin{DoxyItemize}
+\item Name of the \hyperlink{class_catalogue}{Catalogue} from which item has to be removed  category\+Name
+\item Name of the \hyperlink{class_category}{Category} from which item has to be removed returns \hyperlink{class_app42_response}{App42\+Response} object containing removed items
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing removed items by category 
+\end{DoxyReturn}

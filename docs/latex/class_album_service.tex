@@ -1,0 +1,178 @@
+\hypertarget{class_album_service}{\section{Album\+Service Class Reference}
+\label{class_album_service}\index{Album\+Service@{Album\+Service}}
+}
+Inheritance diagram for Album\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_album_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_album_service_a49f2ad222e06420736d750e167d55d7c}{\+\_\+\+\_\+construct} (\$api\+Key, \$secret\+Key)
+\item 
+\hyperlink{class_album_service_a80a4a52fd7cb754bd477ec7711fd37c3}{create\+Album} (\$user\+Name, \$album\+Name, \$album\+Description)
+\item 
+\hyperlink{class_album_service_a55169ec09c147666edf8dfcf195fc378}{get\+Albums} (\$user\+Name, \$max=null, \$offset=null)
+\item 
+\hyperlink{class_album_service_abfbf081d8b32a13cd875cc679848f668}{get\+Albums\+Count} (\$user\+Name)
+\item 
+\hyperlink{class_album_service_a20cec6fa0702d575a9395857f964b51e}{get\+Album\+By\+Name} (\$user\+Name, \$album\+Name)
+\item 
+\hyperlink{class_album_service_ad049f1b9bc0888281203c364c1fdcd61}{remove\+Album} (\$user\+Name, \$album\+Name)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_album_service_a17c8948c68aa44fa9961ae169b6a8961}{{\bfseries \$version} = \char`\"{}1.\+0\char`\"{}}\label{class_album_service_a17c8948c68aa44fa9961ae169b6a8961}
+
+\item 
+\hypertarget{class_album_service_abd4c7b8b084214b8d2533ba07fce6b83}{{\bfseries \$resource} = \char`\"{}gallery\char`\"{}}\label{class_album_service_abd4c7b8b084214b8d2533ba07fce6b83}
+
+\item 
+\hypertarget{class_album_service_ae754d6373f275e781f47c8bc9b994b6d}{{\bfseries \$content\+\_\+type} = \char`\"{}application/json\char`\"{}}\label{class_album_service_ae754d6373f275e781f47c8bc9b994b6d}
+
+\item 
+\hypertarget{class_album_service_a75fc18c4ff06288ff9fdf8aba9bd1081}{{\bfseries \$accept} = \char`\"{}application/json\char`\"{}}\label{class_album_service_a75fc18c4ff06288ff9fdf8aba9bd1081}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Create \hyperlink{class_photo}{Photo} Gallery on the cloud. This service allows to manage i.\+e. create, retrieve and remove albums on the cloud. Its useful for Mobile/\+Device \hyperlink{class_app}{App} and Web \hyperlink{class_app}{App} developer who want \hyperlink{class_photo}{Photo} Gallery functionality. It gives them a complete \hyperlink{class_photo}{Photo} Gallery out of the box and reduces the footprint on the device. Developers can focus on how the \hyperlink{class_photo}{Photo} Gallery will be rendered and this Cloud A\+P\+I will manage the Gallery on the cloud thereby reducing development time.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_album}{Album} 
+
+\hyperlink{class_photo}{Photo} 
+\end{DoxySeeAlso}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_album_service_a49f2ad222e06420736d750e167d55d7c}{\index{Album\+Service@{Album\+Service}!\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}}
+\index{\+\_\+\+\_\+construct@{\+\_\+\+\_\+construct}!Album\+Service@{Album\+Service}}
+\subsubsection[{\+\_\+\+\_\+construct}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+\+\_\+construct (
+\begin{DoxyParamCaption}
+\item[{}]{\$api\+Key, }
+\item[{}]{\$secret\+Key}
+\end{DoxyParamCaption}
+)}}\label{class_album_service_a49f2ad222e06420736d750e167d55d7c}
+The costructor for the Service
+
+api\+Key  secret\+Key  base\+U\+R\+L 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_album_service_a80a4a52fd7cb754bd477ec7711fd37c3}{\index{Album\+Service@{Album\+Service}!create\+Album@{create\+Album}}
+\index{create\+Album@{create\+Album}!Album\+Service@{Album\+Service}}
+\subsubsection[{create\+Album}]{\setlength{\rightskip}{0pt plus 5cm}create\+Album (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Name, }
+\item[{}]{\$album\+Name, }
+\item[{}]{\$album\+Description}
+\end{DoxyParamCaption}
+)}}\label{class_album_service_a80a4a52fd7cb754bd477ec7711fd37c3}
+Creates \hyperlink{class_album}{Album} on the cloud
+
+user\+Name
+\begin{DoxyItemize}
+\item The user to which the album belongs  album\+Name
+\item Name of the album to be created on the cloud  album\+Description
+\item Description of the album to be created
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_album}{Album} object containing the album which has been created 
+\end{DoxyReturn}
+\hypertarget{class_album_service_a20cec6fa0702d575a9395857f964b51e}{\index{Album\+Service@{Album\+Service}!get\+Album\+By\+Name@{get\+Album\+By\+Name}}
+\index{get\+Album\+By\+Name@{get\+Album\+By\+Name}!Album\+Service@{Album\+Service}}
+\subsubsection[{get\+Album\+By\+Name}]{\setlength{\rightskip}{0pt plus 5cm}get\+Album\+By\+Name (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Name, }
+\item[{}]{\$album\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_album_service_a20cec6fa0702d575a9395857f964b51e}
+Fetch all Albums based on user\+Name and album\+Name
+
+user\+Name
+\begin{DoxyItemize}
+\item The user for which the album has to be fetched  album\+Name
+\item Name of the album that has to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_album}{Album} object containing album information for the given user\+Name and album\+Name 
+\end{DoxyReturn}
+\hypertarget{class_album_service_a55169ec09c147666edf8dfcf195fc378}{\index{Album\+Service@{Album\+Service}!get\+Albums@{get\+Albums}}
+\index{get\+Albums@{get\+Albums}!Album\+Service@{Album\+Service}}
+\subsubsection[{get\+Albums}]{\setlength{\rightskip}{0pt plus 5cm}get\+Albums (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Name, }
+\item[{}]{\$max = {\ttfamily null}, }
+\item[{}]{\$offset = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{class_album_service_a55169ec09c147666edf8dfcf195fc378}
+Fetches all the Albums based on the user\+Name
+
+user\+Name
+\begin{DoxyItemize}
+\item The user for which the albums have to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_album}{Album} object containing all the album for the given user\+Name
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{class_app42_exception}{App42\+Exception}} & \\
+\hline
+\end{DoxyExceptions}
+Fetches all the Albums based on the user\+Name by Paging.
+
+user\+Name
+\begin{DoxyItemize}
+\item The user for which the albums have to be fetched  max
+\item Maximum number of records to be fetched  offset
+\item From where the records are to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_album}{Album} object containing all the album for the given user\+Name
+\end{DoxyReturn}
+\hypertarget{class_album_service_abfbf081d8b32a13cd875cc679848f668}{\index{Album\+Service@{Album\+Service}!get\+Albums\+Count@{get\+Albums\+Count}}
+\index{get\+Albums\+Count@{get\+Albums\+Count}!Album\+Service@{Album\+Service}}
+\subsubsection[{get\+Albums\+Count}]{\setlength{\rightskip}{0pt plus 5cm}get\+Albums\+Count (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_album_service_abfbf081d8b32a13cd875cc679848f668}
+Fetches the count of all the Albums based on the user\+Name
+
+user\+Name
+\begin{DoxyItemize}
+\item The user for which the count of albums have to be fetched
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} object containing the count of all the albums for the given user\+Name 
+\end{DoxyReturn}
+\hypertarget{class_album_service_ad049f1b9bc0888281203c364c1fdcd61}{\index{Album\+Service@{Album\+Service}!remove\+Album@{remove\+Album}}
+\index{remove\+Album@{remove\+Album}!Album\+Service@{Album\+Service}}
+\subsubsection[{remove\+Album}]{\setlength{\rightskip}{0pt plus 5cm}remove\+Album (
+\begin{DoxyParamCaption}
+\item[{}]{\$user\+Name, }
+\item[{}]{\$album\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_album_service_ad049f1b9bc0888281203c364c1fdcd61}
+Removes a particular album based on the user\+Name and album\+Name. Note\+: All photos added to this \hyperlink{class_album}{Album} will also be removed
+
+user\+Name
+\begin{DoxyItemize}
+\item The user for which the album has to be removed  album\+Name
+\item Name of the album that has to be removed
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_app42_response}{App42\+Response} if removed successfully 
+\end{DoxyReturn}
