@@ -1,7 +1,40 @@
+* [Release Version 2.3](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-23)
 * [Release Version 2.2](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-22)
 * [Release Version 2.1](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-21)
 * [Release Version 2.0](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-20)
 * [Release Version 1.2](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-12)
+
+## Version 2.3
+
+**Release Date:** 30-07-2014 
+
+**Release Version:** 2.3
+
+**The following features have been pushed to the services :**
+
+
+**PUSH NOTIFICATION SERVICE**
+
+```
+deleteChannel
+getChannelUsersCount
+getChannelUsers
+getUserSubscribedChannelsCount
+getUserSubscribedChannels
+```
+**Avatar SERVICE**
+
+```
+updateAvatar
+deleteAvatarByName
+deleteAllAvatars
+```
+
+**This release contains the following bug fix:**
+
+```
+None
+```
 
 
 ## Version 2.2
