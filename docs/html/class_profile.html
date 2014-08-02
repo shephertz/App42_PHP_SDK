@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,7 +83,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_profile-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Profile Class Reference</div>  </div>
 </div><!--header-->
@@ -91,112 +92,99 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a449e259f0fcc2537e4ba6bc399e6a139"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a449e259f0fcc2537e4ba6bc399e6a139">__construct</a> (<a class="el" href="class_user.html">User</a> $user)</td></tr>
-<tr class="separator:a449e259f0fcc2537e4ba6bc399e6a139"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace5f32fc99c7c5989f7576755fc60972"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#ace5f32fc99c7c5989f7576755fc60972">getFirstName</a> ()</td></tr>
-<tr class="separator:ace5f32fc99c7c5989f7576755fc60972"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83e84c312d983f847f8e48d6e457d081"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a83e84c312d983f847f8e48d6e457d081">setFirstName</a> ($firstName)</td></tr>
-<tr class="separator:a83e84c312d983f847f8e48d6e457d081"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a717286a8348a6cf9f6d5fecb04a55fad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a717286a8348a6cf9f6d5fecb04a55fad">getLastName</a> ()</td></tr>
-<tr class="separator:a717286a8348a6cf9f6d5fecb04a55fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90ee65f53f523c6ec0abb74c014c3e2a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a90ee65f53f523c6ec0abb74c014c3e2a">setLastName</a> ($lastName)</td></tr>
-<tr class="separator:a90ee65f53f523c6ec0abb74c014c3e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef150744e8ecbd0744b4780727fe77bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#aef150744e8ecbd0744b4780727fe77bb">getSex</a> ()</td></tr>
-<tr class="separator:aef150744e8ecbd0744b4780727fe77bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa45bf435ea91fa8f5a52e63a69e11fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#aaa45bf435ea91fa8f5a52e63a69e11fd">setSex</a> ($userGender)</td></tr>
-<tr class="separator:aaa45bf435ea91fa8f5a52e63a69e11fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6cda0470722fc55f19e6352e771bbd8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#ad6cda0470722fc55f19e6352e771bbd8">getMobile</a> ()</td></tr>
-<tr class="separator:ad6cda0470722fc55f19e6352e771bbd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73d18139c1f54fbb0d00e1c633b0ff0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a73d18139c1f54fbb0d00e1c633b0ff0f">setMobile</a> ($mobile)</td></tr>
-<tr class="separator:a73d18139c1f54fbb0d00e1c633b0ff0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e252e7cda0f0824185643364c3d01db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a6e252e7cda0f0824185643364c3d01db">getLine1</a> ()</td></tr>
-<tr class="separator:a6e252e7cda0f0824185643364c3d01db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae34b6cbb779cf4a0b673c39fe1afe26a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#ae34b6cbb779cf4a0b673c39fe1afe26a">setLine1</a> ($line1)</td></tr>
-<tr class="separator:ae34b6cbb779cf4a0b673c39fe1afe26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64a1835482b922c414945f0e856adc6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a64a1835482b922c414945f0e856adc6f">getLine2</a> ()</td></tr>
-<tr class="separator:a64a1835482b922c414945f0e856adc6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a374d1f0db10e08bdf556faf4db3208bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a374d1f0db10e08bdf556faf4db3208bf">setLine2</a> ($line2)</td></tr>
-<tr class="separator:a374d1f0db10e08bdf556faf4db3208bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9ca906fce6e9fe5fab3a6b42209d6a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#ae9ca906fce6e9fe5fab3a6b42209d6a1">getCity</a> ()</td></tr>
-<tr class="separator:ae9ca906fce6e9fe5fab3a6b42209d6a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39e9794d2f98543fd616cb5b8f07c14a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a39e9794d2f98543fd616cb5b8f07c14a">setCity</a> ($city)</td></tr>
-<tr class="separator:a39e9794d2f98543fd616cb5b8f07c14a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbf787ced76807989fb3093e1772c5a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#afbf787ced76807989fb3093e1772c5a1">getState</a> ()</td></tr>
-<tr class="separator:afbf787ced76807989fb3093e1772c5a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94042b70768a686decc42594ef36bbd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a94042b70768a686decc42594ef36bbd6">setState</a> ($state)</td></tr>
-<tr class="separator:a94042b70768a686decc42594ef36bbd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad92da151b159c2bdbb64cbe7a4790d1a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#ad92da151b159c2bdbb64cbe7a4790d1a">getCountry</a> ()</td></tr>
-<tr class="separator:ad92da151b159c2bdbb64cbe7a4790d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3301ca05d64b858e6da89d51a4650c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#af3301ca05d64b858e6da89d51a4650c1">setCountry</a> ($country)</td></tr>
-<tr class="separator:af3301ca05d64b858e6da89d51a4650c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3900683cb510fd3935a81f1d2463600e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a3900683cb510fd3935a81f1d2463600e">getPincode</a> ()</td></tr>
-<tr class="separator:a3900683cb510fd3935a81f1d2463600e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa814618e1acb5b5f85d64d0aa62572da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#aa814618e1acb5b5f85d64d0aa62572da">setPincode</a> ($pincode)</td></tr>
-<tr class="separator:aa814618e1acb5b5f85d64d0aa62572da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9952b3e2d2e325e63a18c5cb00751e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#af9952b3e2d2e325e63a18c5cb00751e8">getHomeLandLine</a> ()</td></tr>
-<tr class="separator:af9952b3e2d2e325e63a18c5cb00751e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb4407f8f016593dcc95a3f769ef0205"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#adb4407f8f016593dcc95a3f769ef0205">setHomeLandLine</a> ($homeLandLine)</td></tr>
-<tr class="separator:adb4407f8f016593dcc95a3f769ef0205"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf9e438f7b393148ec25c37b931300d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#aaf9e438f7b393148ec25c37b931300d6">getOfficeLandLine</a> ()</td></tr>
-<tr class="separator:aaf9e438f7b393148ec25c37b931300d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a284010631016d354dbd62d081de4f8ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a284010631016d354dbd62d081de4f8ac">setOfficeLandLine</a> ($officeLandLine)</td></tr>
-<tr class="separator:a284010631016d354dbd62d081de4f8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8979f3ee352559717e887417999a7d6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a8979f3ee352559717e887417999a7d6d">getDateOfBirth</a> ()</td></tr>
-<tr class="separator:a8979f3ee352559717e887417999a7d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e1761ae85226dfb70d3b23912488372"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a8e1761ae85226dfb70d3b23912488372">setDateOfBirth</a> ($dateOfBirth)</td></tr>
-<tr class="separator:a8e1761ae85226dfb70d3b23912488372"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9894772b6b337c1c762cea9a6a1d466"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#ac9894772b6b337c1c762cea9a6a1d466">__construct</a> (<a class="el" href="class_user.html">User</a> $user)</td></tr>
+<tr class="separator:ac9894772b6b337c1c762cea9a6a1d466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b9bda770d4b21ffbe3a57342371afc2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a6b9bda770d4b21ffbe3a57342371afc2">getFirstName</a> ()</td></tr>
+<tr class="separator:a6b9bda770d4b21ffbe3a57342371afc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0f1e1666745314183796f6ad555a40c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#ae0f1e1666745314183796f6ad555a40c">setFirstName</a> ($firstName)</td></tr>
+<tr class="separator:ae0f1e1666745314183796f6ad555a40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f5b493d804b94aa4e1d4997987cd71a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a3f5b493d804b94aa4e1d4997987cd71a">getLastName</a> ()</td></tr>
+<tr class="separator:a3f5b493d804b94aa4e1d4997987cd71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75698f76b95542bad4be58044847bb38"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a75698f76b95542bad4be58044847bb38">setLastName</a> ($lastName)</td></tr>
+<tr class="separator:a75698f76b95542bad4be58044847bb38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39ae979c1ce8a8df0e72cde4a4ac6722"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a39ae979c1ce8a8df0e72cde4a4ac6722">getSex</a> ()</td></tr>
+<tr class="separator:a39ae979c1ce8a8df0e72cde4a4ac6722"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2ac64e9c35bcf61f322293aeddb459e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#ab2ac64e9c35bcf61f322293aeddb459e">setSex</a> ($userGender)</td></tr>
+<tr class="separator:ab2ac64e9c35bcf61f322293aeddb459e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a725fea92bbe9be7f215c7118c12a4f15"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a725fea92bbe9be7f215c7118c12a4f15">getMobile</a> ()</td></tr>
+<tr class="separator:a725fea92bbe9be7f215c7118c12a4f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a014f256afc6c8973fd691978f5377b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a9a014f256afc6c8973fd691978f5377b">setMobile</a> ($mobile)</td></tr>
+<tr class="separator:a9a014f256afc6c8973fd691978f5377b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b616cbb4c54e558cac95bb55ea8212e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a7b616cbb4c54e558cac95bb55ea8212e">getLine1</a> ()</td></tr>
+<tr class="separator:a7b616cbb4c54e558cac95bb55ea8212e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ad0b2d319a18ae12473de5c6774c66d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a0ad0b2d319a18ae12473de5c6774c66d">setLine1</a> ($line1)</td></tr>
+<tr class="separator:a0ad0b2d319a18ae12473de5c6774c66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6423b2100da47616b298be7301ef7856"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a6423b2100da47616b298be7301ef7856">getLine2</a> ()</td></tr>
+<tr class="separator:a6423b2100da47616b298be7301ef7856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a413dc8d7fc1920c7af6ead0dbe8289f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a413dc8d7fc1920c7af6ead0dbe8289f2">setLine2</a> ($line2)</td></tr>
+<tr class="separator:a413dc8d7fc1920c7af6ead0dbe8289f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41064cc8d569c00ca26592a460cab924"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a41064cc8d569c00ca26592a460cab924">getCity</a> ()</td></tr>
+<tr class="separator:a41064cc8d569c00ca26592a460cab924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e8e80007b6bdaa85ec5258150779559"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a3e8e80007b6bdaa85ec5258150779559">setCity</a> ($city)</td></tr>
+<tr class="separator:a3e8e80007b6bdaa85ec5258150779559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affc2f234793be105a2d364caa38513ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#affc2f234793be105a2d364caa38513ce">getState</a> ()</td></tr>
+<tr class="separator:affc2f234793be105a2d364caa38513ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39f66830feb3d9698fc606f37f66d174"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a39f66830feb3d9698fc606f37f66d174">setState</a> ($state)</td></tr>
+<tr class="separator:a39f66830feb3d9698fc606f37f66d174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb94817e1e9972e13deee2c86f9778e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#afb94817e1e9972e13deee2c86f9778e1">getCountry</a> ()</td></tr>
+<tr class="separator:afb94817e1e9972e13deee2c86f9778e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1f6856d9b9bfab97f95090e7eaf8b43"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#ac1f6856d9b9bfab97f95090e7eaf8b43">setCountry</a> ($country)</td></tr>
+<tr class="separator:ac1f6856d9b9bfab97f95090e7eaf8b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb72c2a98d5e4948be29b19d3d1a609"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a6fb72c2a98d5e4948be29b19d3d1a609">getPincode</a> ()</td></tr>
+<tr class="separator:a6fb72c2a98d5e4948be29b19d3d1a609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bc2c5e4994e7271b6f7673e7de487e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a5bc2c5e4994e7271b6f7673e7de487e0">setPincode</a> ($pincode)</td></tr>
+<tr class="separator:a5bc2c5e4994e7271b6f7673e7de487e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a881dd88d50da202488817f489cdaae88"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a881dd88d50da202488817f489cdaae88">getHomeLandLine</a> ()</td></tr>
+<tr class="separator:a881dd88d50da202488817f489cdaae88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a419b65592c2ef2cd2f12900d94de9047"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a419b65592c2ef2cd2f12900d94de9047">setHomeLandLine</a> ($homeLandLine)</td></tr>
+<tr class="separator:a419b65592c2ef2cd2f12900d94de9047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0398e2faa46929e5a53041be2cbbee9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#ab0398e2faa46929e5a53041be2cbbee9">getOfficeLandLine</a> ()</td></tr>
+<tr class="separator:ab0398e2faa46929e5a53041be2cbbee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5f1d857bf16302cf28380a0657a96f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#ac5f1d857bf16302cf28380a0657a96f3">setOfficeLandLine</a> ($officeLandLine)</td></tr>
+<tr class="separator:ac5f1d857bf16302cf28380a0657a96f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52485b4e31f436fad76bf9ed9906925d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a52485b4e31f436fad76bf9ed9906925d">getDateOfBirth</a> ()</td></tr>
+<tr class="separator:a52485b4e31f436fad76bf9ed9906925d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a119b60e77155681470e6fdf90e139ad9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a119b60e77155681470e6fdf90e139ad9">setDateOfBirth</a> ($dateOfBirth)</td></tr>
+<tr class="separator:a119b60e77155681470e6fdf90e139ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:a0f4201e9880fa0976d53d99e3a3ee56b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f4201e9880fa0976d53d99e3a3ee56b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$firstName</b></td></tr>
-<tr class="separator:a0f4201e9880fa0976d53d99e3a3ee56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01981c0e9934c1a2f30304a21c1083b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01981c0e9934c1a2f30304a21c1083b6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$lastName</b></td></tr>
-<tr class="separator:a01981c0e9934c1a2f30304a21c1083b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a388bdb1cf56e85c50c67a08bcc9c4d49"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a388bdb1cf56e85c50c67a08bcc9c4d49"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$sex</b></td></tr>
-<tr class="separator:a388bdb1cf56e85c50c67a08bcc9c4d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4144d0c9c54f204811328b221f06fc3d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4144d0c9c54f204811328b221f06fc3d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$mobile</b></td></tr>
-<tr class="separator:a4144d0c9c54f204811328b221f06fc3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a167f3af2989658dfe4f474180c429c7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a167f3af2989658dfe4f474180c429c7c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$line1</b></td></tr>
-<tr class="separator:a167f3af2989658dfe4f474180c429c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a163377c91e17efdee4a3cb6f03f107e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a163377c91e17efdee4a3cb6f03f107e1"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$line2</b></td></tr>
-<tr class="separator:a163377c91e17efdee4a3cb6f03f107e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b9ddd3e3a69d8901270064346bdef49"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b9ddd3e3a69d8901270064346bdef49"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$city</b></td></tr>
-<tr class="separator:a5b9ddd3e3a69d8901270064346bdef49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae82306c4f2d17d8dd5c7d8d916b33bed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae82306c4f2d17d8dd5c7d8d916b33bed"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$state</b></td></tr>
-<tr class="separator:ae82306c4f2d17d8dd5c7d8d916b33bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1437a5f6eb157f0eb267a26e0ad4f1ba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1437a5f6eb157f0eb267a26e0ad4f1ba"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$country</b></td></tr>
-<tr class="separator:a1437a5f6eb157f0eb267a26e0ad4f1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c2f76af4ba3ef13d9e3b129a928d200"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c2f76af4ba3ef13d9e3b129a928d200"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$pincode</b></td></tr>
-<tr class="separator:a9c2f76af4ba3ef13d9e3b129a928d200"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade372d650447648dd513e1dc22eee247"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade372d650447648dd513e1dc22eee247"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$homeLandLine</b></td></tr>
-<tr class="separator:ade372d650447648dd513e1dc22eee247"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79ed56bd57bcd2fac15d283ba659533f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a79ed56bd57bcd2fac15d283ba659533f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$officeLandLine</b></td></tr>
-<tr class="separator:a79ed56bd57bcd2fac15d283ba659533f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a005bf78f4fafaab22cb0b285df83122e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a005bf78f4fafaab22cb0b285df83122e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$dateOfBirth</b></td></tr>
-<tr class="separator:a005bf78f4fafaab22cb0b285df83122e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a79b6bd7a2444fcd2ed12860c9b3306fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a79b6bd7a2444fcd2ed12860c9b3306fe">$firstName</a></td></tr>
+<tr class="separator:a79b6bd7a2444fcd2ed12860c9b3306fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a677e0972d7138eaa9f0ce3b6246687c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a677e0972d7138eaa9f0ce3b6246687c6">$lastName</a></td></tr>
+<tr class="separator:a677e0972d7138eaa9f0ce3b6246687c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5714c260cb58e9b6c37a4dacbf51aa05"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a5714c260cb58e9b6c37a4dacbf51aa05">$sex</a></td></tr>
+<tr class="separator:a5714c260cb58e9b6c37a4dacbf51aa05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8153e23a70a88ebe72eb64e0ff309fff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a8153e23a70a88ebe72eb64e0ff309fff">$mobile</a></td></tr>
+<tr class="separator:a8153e23a70a88ebe72eb64e0ff309fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a2ec95b8ab7206569b5455a86f373c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a6a2ec95b8ab7206569b5455a86f373c5">$line1</a></td></tr>
+<tr class="separator:a6a2ec95b8ab7206569b5455a86f373c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a414bf5b2d406d73e1ba05ab2bb1bc362"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a414bf5b2d406d73e1ba05ab2bb1bc362">$line2</a></td></tr>
+<tr class="separator:a414bf5b2d406d73e1ba05ab2bb1bc362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7306b0fc4311cdb90d004a3702d1f10d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a7306b0fc4311cdb90d004a3702d1f10d">$city</a></td></tr>
+<tr class="separator:a7306b0fc4311cdb90d004a3702d1f10d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40e91af2390b3b451401111141292d60"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a40e91af2390b3b451401111141292d60">$state</a></td></tr>
+<tr class="separator:a40e91af2390b3b451401111141292d60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94c321e2a4449250072a50ddaea28144"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a94c321e2a4449250072a50ddaea28144">$country</a></td></tr>
+<tr class="separator:a94c321e2a4449250072a50ddaea28144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51cb75ecfb8d56e6c6cb51dfc75f777d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a51cb75ecfb8d56e6c6cb51dfc75f777d">$pincode</a></td></tr>
+<tr class="separator:a51cb75ecfb8d56e6c6cb51dfc75f777d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd774c44e8dddf767cd72ba255fb527"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a5fd774c44e8dddf767cd72ba255fb527">$homeLandLine</a></td></tr>
+<tr class="separator:a5fd774c44e8dddf767cd72ba255fb527"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b21cc9a2fbb60004be62614bc27e998"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a4b21cc9a2fbb60004be62614bc27e998">$officeLandLine</a></td></tr>
+<tr class="separator:a4b21cc9a2fbb60004be62614bc27e998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4481f17d8f60d0033f8324b183603201"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile.html#a4481f17d8f60d0033f8324b183603201">$dateOfBirth</a></td></tr>
+<tr class="separator:a4481f17d8f60d0033f8324b183603201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An inner class that contains the remaining properties of the <a class="el" href="class_user.html">User</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a449e259f0fcc2537e4ba6bc399e6a139"></a>
+<a class="anchor" id="ac9894772b6b337c1c762cea9a6a1d466"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__construct </td>
+          <td class="memname">Profile::__construct </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_user.html">User</a>&#160;</td>
           <td class="paramname"><em>$user</em></td><td>)</td>
@@ -209,12 +197,12 @@ Data Fields</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ae9ca906fce6e9fe5fab3a6b42209d6a1"></a>
+<a class="anchor" id="a41064cc8d569c00ca26592a460cab924"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getCity </td>
+          <td class="memname">Profile::getCity </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -226,12 +214,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad92da151b159c2bdbb64cbe7a4790d1a"></a>
+<a class="anchor" id="afb94817e1e9972e13deee2c86f9778e1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getCountry </td>
+          <td class="memname">Profile::getCountry </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -243,12 +231,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8979f3ee352559717e887417999a7d6d"></a>
+<a class="anchor" id="a52485b4e31f436fad76bf9ed9906925d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getDateOfBirth </td>
+          <td class="memname">Profile::getDateOfBirth </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -260,12 +248,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ace5f32fc99c7c5989f7576755fc60972"></a>
+<a class="anchor" id="a6b9bda770d4b21ffbe3a57342371afc2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getFirstName </td>
+          <td class="memname">Profile::getFirstName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -277,12 +265,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af9952b3e2d2e325e63a18c5cb00751e8"></a>
+<a class="anchor" id="a881dd88d50da202488817f489cdaae88"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getHomeLandLine </td>
+          <td class="memname">Profile::getHomeLandLine </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -294,12 +282,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a717286a8348a6cf9f6d5fecb04a55fad"></a>
+<a class="anchor" id="a3f5b493d804b94aa4e1d4997987cd71a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getLastName </td>
+          <td class="memname">Profile::getLastName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -311,12 +299,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6e252e7cda0f0824185643364c3d01db"></a>
+<a class="anchor" id="a7b616cbb4c54e558cac95bb55ea8212e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getLine1 </td>
+          <td class="memname">Profile::getLine1 </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -328,12 +316,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a64a1835482b922c414945f0e856adc6f"></a>
+<a class="anchor" id="a6423b2100da47616b298be7301ef7856"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getLine2 </td>
+          <td class="memname">Profile::getLine2 </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -345,12 +333,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad6cda0470722fc55f19e6352e771bbd8"></a>
+<a class="anchor" id="a725fea92bbe9be7f215c7118c12a4f15"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getMobile </td>
+          <td class="memname">Profile::getMobile </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -362,12 +350,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aaf9e438f7b393148ec25c37b931300d6"></a>
+<a class="anchor" id="ab0398e2faa46929e5a53041be2cbbee9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getOfficeLandLine </td>
+          <td class="memname">Profile::getOfficeLandLine </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -379,12 +367,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3900683cb510fd3935a81f1d2463600e"></a>
+<a class="anchor" id="a6fb72c2a98d5e4948be29b19d3d1a609"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getPincode </td>
+          <td class="memname">Profile::getPincode </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -396,12 +384,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aef150744e8ecbd0744b4780727fe77bb"></a>
+<a class="anchor" id="a39ae979c1ce8a8df0e72cde4a4ac6722"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getSex </td>
+          <td class="memname">Profile::getSex </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -413,12 +401,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afbf787ced76807989fb3093e1772c5a1"></a>
+<a class="anchor" id="affc2f234793be105a2d364caa38513ce"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getState </td>
+          <td class="memname">Profile::getState </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -430,12 +418,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a39e9794d2f98543fd616cb5b8f07c14a"></a>
+<a class="anchor" id="a3e8e80007b6bdaa85ec5258150779559"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setCity </td>
+          <td class="memname">Profile::setCity </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$city</em></td><td>)</td>
@@ -450,12 +438,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af3301ca05d64b858e6da89d51a4650c1"></a>
+<a class="anchor" id="ac1f6856d9b9bfab97f95090e7eaf8b43"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setCountry </td>
+          <td class="memname">Profile::setCountry </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$country</em></td><td>)</td>
@@ -470,12 +458,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8e1761ae85226dfb70d3b23912488372"></a>
+<a class="anchor" id="a119b60e77155681470e6fdf90e139ad9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setDateOfBirth </td>
+          <td class="memname">Profile::setDateOfBirth </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$dateOfBirth</em></td><td>)</td>
@@ -488,12 +476,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a83e84c312d983f847f8e48d6e457d081"></a>
+<a class="anchor" id="ae0f1e1666745314183796f6ad555a40c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setFirstName </td>
+          <td class="memname">Profile::setFirstName </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$firstName</em></td><td>)</td>
@@ -508,12 +496,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adb4407f8f016593dcc95a3f769ef0205"></a>
+<a class="anchor" id="a419b65592c2ef2cd2f12900d94de9047"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setHomeLandLine </td>
+          <td class="memname">Profile::setHomeLandLine </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$homeLandLine</em></td><td>)</td>
@@ -528,12 +516,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a90ee65f53f523c6ec0abb74c014c3e2a"></a>
+<a class="anchor" id="a75698f76b95542bad4be58044847bb38"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setLastName </td>
+          <td class="memname">Profile::setLastName </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$lastName</em></td><td>)</td>
@@ -548,12 +536,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae34b6cbb779cf4a0b673c39fe1afe26a"></a>
+<a class="anchor" id="a0ad0b2d319a18ae12473de5c6774c66d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setLine1 </td>
+          <td class="memname">Profile::setLine1 </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$line1</em></td><td>)</td>
@@ -568,12 +556,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a374d1f0db10e08bdf556faf4db3208bf"></a>
+<a class="anchor" id="a413dc8d7fc1920c7af6ead0dbe8289f2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setLine2 </td>
+          <td class="memname">Profile::setLine2 </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$line2</em></td><td>)</td>
@@ -588,12 +576,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a73d18139c1f54fbb0d00e1c633b0ff0f"></a>
+<a class="anchor" id="a9a014f256afc6c8973fd691978f5377b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setMobile </td>
+          <td class="memname">Profile::setMobile </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$mobile</em></td><td>)</td>
@@ -608,12 +596,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a284010631016d354dbd62d081de4f8ac"></a>
+<a class="anchor" id="ac5f1d857bf16302cf28380a0657a96f3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setOfficeLandLine </td>
+          <td class="memname">Profile::setOfficeLandLine </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$officeLandLine</em></td><td>)</td>
@@ -628,12 +616,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa814618e1acb5b5f85d64d0aa62572da"></a>
+<a class="anchor" id="a5bc2c5e4994e7271b6f7673e7de487e0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setPincode </td>
+          <td class="memname">Profile::setPincode </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$pincode</em></td><td>)</td>
@@ -648,12 +636,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aaa45bf435ea91fa8f5a52e63a69e11fd"></a>
+<a class="anchor" id="ab2ac64e9c35bcf61f322293aeddb459e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setSex </td>
+          <td class="memname">Profile::setSex </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$userGender</em></td><td>)</td>
@@ -668,12 +656,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a94042b70768a686decc42594ef36bbd6"></a>
+<a class="anchor" id="a39f66830feb3d9698fc606f37f66d174"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setState </td>
+          <td class="memname">Profile::setState </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$state</em></td><td>)</td>
@@ -686,10 +674,167 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a7306b0fc4311cdb90d004a3702d1f10d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Profile::$city</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a94c321e2a4449250072a50ddaea28144"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Profile::$country</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4481f17d8f60d0033f8324b183603201"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Profile::$dateOfBirth</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a79b6bd7a2444fcd2ed12860c9b3306fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Profile::$firstName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5fd774c44e8dddf767cd72ba255fb527"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Profile::$homeLandLine</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a677e0972d7138eaa9f0ce3b6246687c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Profile::$lastName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6a2ec95b8ab7206569b5455a86f373c5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Profile::$line1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a414bf5b2d406d73e1ba05ab2bb1bc362"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Profile::$line2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8153e23a70a88ebe72eb64e0ff309fff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Profile::$mobile</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4b21cc9a2fbb60004be62614bc27e998"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Profile::$officeLandLine</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a51cb75ecfb8d56e6c6cb51dfc75f777d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Profile::$pincode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5714c260cb58e9b6c37a4dacbf51aa05"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Profile::$sex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a40e91af2390b3b451401111141292d60"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Profile::$state</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:25:37 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,7 +83,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_payment-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Payment Class Reference</div>  </div>
 </div><!--header-->
@@ -91,49 +92,45 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2d53d5d99a547c3ed6be0c04748f9e1d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a2d53d5d99a547c3ed6be0c04748f9e1d">__construct</a> (<a class="el" href="class_cart.html">Cart</a> $cart)</td></tr>
-<tr class="separator:a2d53d5d99a547c3ed6be0c04748f9e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83a4c2954e4da6dad24e596265e33d0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a83a4c2954e4da6dad24e596265e33d0a">getTransactionId</a> ()</td></tr>
-<tr class="separator:a83a4c2954e4da6dad24e596265e33d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdfe179c06dfde891b92f8f93daa8bb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#afdfe179c06dfde891b92f8f93daa8bb6">setTransactionId</a> ($transactionId)</td></tr>
-<tr class="separator:afdfe179c06dfde891b92f8f93daa8bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae305b3e3acedd1fa9854e72f83af22c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#ae305b3e3acedd1fa9854e72f83af22c1">getTotalAmount</a> ()</td></tr>
-<tr class="separator:ae305b3e3acedd1fa9854e72f83af22c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56860f621c6e6e47042e41fa4e59d13b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a56860f621c6e6e47042e41fa4e59d13b">setTotalAmount</a> ($totalAmount)</td></tr>
-<tr class="separator:a56860f621c6e6e47042e41fa4e59d13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d21636071f529e2154051d3ea6e5921"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a9d21636071f529e2154051d3ea6e5921">getStatus</a> ()</td></tr>
-<tr class="separator:a9d21636071f529e2154051d3ea6e5921"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d02c100d684fe1dffc6cb3486a48511"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a7d02c100d684fe1dffc6cb3486a48511">setStatus</a> ($status)</td></tr>
-<tr class="separator:a7d02c100d684fe1dffc6cb3486a48511"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24d89b0ad05ea2e33626b1fc8ed59bc3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a24d89b0ad05ea2e33626b1fc8ed59bc3">getDate</a> ()</td></tr>
-<tr class="separator:a24d89b0ad05ea2e33626b1fc8ed59bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2570e83b20f9be514f22e3fd0b7c0d17"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a2570e83b20f9be514f22e3fd0b7c0d17">setDate</a> ($date)</td></tr>
-<tr class="separator:a2570e83b20f9be514f22e3fd0b7c0d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf179b5e627c185f843114427a98eb64"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#aaf179b5e627c185f843114427a98eb64">__construct</a> (<a class="el" href="class_cart.html">Cart</a> $cart)</td></tr>
+<tr class="separator:aaf179b5e627c185f843114427a98eb64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a351ef0a20c5baa0f6213c1ef07514f81"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a351ef0a20c5baa0f6213c1ef07514f81">getTransactionId</a> ()</td></tr>
+<tr class="separator:a351ef0a20c5baa0f6213c1ef07514f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb0e7da572de63928c71fe490dff1aca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#aeb0e7da572de63928c71fe490dff1aca">setTransactionId</a> ($transactionId)</td></tr>
+<tr class="separator:aeb0e7da572de63928c71fe490dff1aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cfb959eedb7856402cf40dac082226d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a8cfb959eedb7856402cf40dac082226d">getTotalAmount</a> ()</td></tr>
+<tr class="separator:a8cfb959eedb7856402cf40dac082226d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c69e214db0880e60391940f4ea1cbbd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a6c69e214db0880e60391940f4ea1cbbd">setTotalAmount</a> ($totalAmount)</td></tr>
+<tr class="separator:a6c69e214db0880e60391940f4ea1cbbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a522697d74b99f3651ea74198367df864"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a522697d74b99f3651ea74198367df864">getStatus</a> ()</td></tr>
+<tr class="separator:a522697d74b99f3651ea74198367df864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88c24b429f82e1c24eb18753a147ba8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a88c24b429f82e1c24eb18753a147ba8c">setStatus</a> ($status)</td></tr>
+<tr class="separator:a88c24b429f82e1c24eb18753a147ba8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9de983ee3ece6a99e33fba1517438d4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#ad9de983ee3ece6a99e33fba1517438d4">getDate</a> ()</td></tr>
+<tr class="separator:ad9de983ee3ece6a99e33fba1517438d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a695b53c7ea7084ef535d7b280fef50"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a8a695b53c7ea7084ef535d7b280fef50">setDate</a> ($date)</td></tr>
+<tr class="separator:a8a695b53c7ea7084ef535d7b280fef50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:ad140126bd86738fe3e0c2f61d2a4f512"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad140126bd86738fe3e0c2f61d2a4f512"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$transactionId</b></td></tr>
-<tr class="separator:ad140126bd86738fe3e0c2f61d2a4f512"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e0c1774fd1d5e4ab64b8b06d9cdc327"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e0c1774fd1d5e4ab64b8b06d9cdc327"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$totalAmount</b></td></tr>
-<tr class="separator:a3e0c1774fd1d5e4ab64b8b06d9cdc327"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58391ea75f2d29d5d708d7050b641c33"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58391ea75f2d29d5d708d7050b641c33"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$status</b></td></tr>
-<tr class="separator:a58391ea75f2d29d5d708d7050b641c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a481c918f8d853749e00b5942cabf599a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a481c918f8d853749e00b5942cabf599a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$date</b></td></tr>
-<tr class="separator:a481c918f8d853749e00b5942cabf599a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a8e1dd51ad7c0ddf4311d3531b0dd65f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a8e1dd51ad7c0ddf4311d3531b0dd65f5">$transactionId</a></td></tr>
+<tr class="separator:a8e1dd51ad7c0ddf4311d3531b0dd65f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75a15992fa684c138ebdac200ee1b4a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a75a15992fa684c138ebdac200ee1b4a8">$totalAmount</a></td></tr>
+<tr class="separator:a75a15992fa684c138ebdac200ee1b4a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee60f4d2fbf7c9393a7cf6e872411d68"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#aee60f4d2fbf7c9393a7cf6e872411d68">$status</a></td></tr>
+<tr class="separator:aee60f4d2fbf7c9393a7cf6e872411d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a714514f408e7e62bb6d2a5a8dd4ba04f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_payment.html#a714514f408e7e62bb6d2a5a8dd4ba04f">$date</a></td></tr>
+<tr class="separator:a714514f408e7e62bb6d2a5a8dd4ba04f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An inner class that contains the remaining properties of the <a class="el" href="class_cart.html">Cart</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a2d53d5d99a547c3ed6be0c04748f9e1d"></a>
+<a class="anchor" id="aaf179b5e627c185f843114427a98eb64"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__construct </td>
+          <td class="memname">Payment::__construct </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_cart.html">Cart</a>&#160;</td>
           <td class="paramname"><em>$cart</em></td><td>)</td>
@@ -146,12 +143,12 @@ Data Fields</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a24d89b0ad05ea2e33626b1fc8ed59bc3"></a>
+<a class="anchor" id="ad9de983ee3ece6a99e33fba1517438d4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getDate </td>
+          <td class="memname">Payment::getDate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -163,12 +160,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9d21636071f529e2154051d3ea6e5921"></a>
+<a class="anchor" id="a522697d74b99f3651ea74198367df864"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getStatus </td>
+          <td class="memname">Payment::getStatus </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -180,12 +177,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae305b3e3acedd1fa9854e72f83af22c1"></a>
+<a class="anchor" id="a8cfb959eedb7856402cf40dac082226d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getTotalAmount </td>
+          <td class="memname">Payment::getTotalAmount </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -197,12 +194,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a83a4c2954e4da6dad24e596265e33d0a"></a>
+<a class="anchor" id="a351ef0a20c5baa0f6213c1ef07514f81"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getTransactionId </td>
+          <td class="memname">Payment::getTransactionId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -214,12 +211,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2570e83b20f9be514f22e3fd0b7c0d17"></a>
+<a class="anchor" id="a8a695b53c7ea7084ef535d7b280fef50"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setDate </td>
+          <td class="memname">Payment::setDate </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$date</em></td><td>)</td>
@@ -234,12 +231,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7d02c100d684fe1dffc6cb3486a48511"></a>
+<a class="anchor" id="a88c24b429f82e1c24eb18753a147ba8c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setStatus </td>
+          <td class="memname">Payment::setStatus </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$status</em></td><td>)</td>
@@ -254,12 +251,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a56860f621c6e6e47042e41fa4e59d13b"></a>
+<a class="anchor" id="a6c69e214db0880e60391940f4ea1cbbd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setTotalAmount </td>
+          <td class="memname">Payment::setTotalAmount </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$totalAmount</em></td><td>)</td>
@@ -274,12 +271,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afdfe179c06dfde891b92f8f93daa8bb6"></a>
+<a class="anchor" id="aeb0e7da572de63928c71fe490dff1aca"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setTransactionId </td>
+          <td class="memname">Payment::setTransactionId </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$transactionId</em></td><td>)</td>
@@ -294,10 +291,59 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a714514f408e7e62bb6d2a5a8dd4ba04f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Payment::$date</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aee60f4d2fbf7c9393a7cf6e872411d68"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Payment::$status</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a75a15992fa684c138ebdac200ee1b4a8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Payment::$totalAmount</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8e1dd51ad7c0ddf4311d3531b0dd65f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Payment::$transactionId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:25:37 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

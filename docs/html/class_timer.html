@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,119 +83,388 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_timer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Timer Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for Timer:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_timer.png" usemap="#Timer_map" alt=""/>
-  <map id="Timer_map" name="Timer_map">
-<area href="class_app42_response.html" alt="App42Response" shape="rect" coords="0,0,104,24"/>
-</map>
- </div></div>
+
+<p>Inherits <a class="el" href="class_app42_response.html">App42Response</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aafd6d1ef27e6acc5833aba4012e5ee77"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafd6d1ef27e6acc5833aba4012e5ee77"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getUserName</b> ()</td></tr>
-<tr class="separator:aafd6d1ef27e6acc5833aba4012e5ee77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20f0087f72763b84d2992ba6ffee2fb2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20f0087f72763b84d2992ba6ffee2fb2"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setUserName</b> ($userName)</td></tr>
-<tr class="separator:a20f0087f72763b84d2992ba6ffee2fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d0963e68bb313b163a73f2803c64600"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d0963e68bb313b163a73f2803c64600"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getName</b> ()</td></tr>
-<tr class="separator:a3d0963e68bb313b163a73f2803c64600"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fe666694997d047711d7653eca2f132"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2fe666694997d047711d7653eca2f132"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setName</b> ($name)</td></tr>
-<tr class="separator:a2fe666694997d047711d7653eca2f132"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67ef180ed8d69dc63dacd27f4a418edd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67ef180ed8d69dc63dacd27f4a418edd"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getCurrentTime</b> ()</td></tr>
-<tr class="separator:a67ef180ed8d69dc63dacd27f4a418edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d5094a79f0f135a4ca099db012a3187"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d5094a79f0f135a4ca099db012a3187"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setCurrentTime</b> ($currentTime)</td></tr>
-<tr class="separator:a8d5094a79f0f135a4ca099db012a3187"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a009e5d1024e31957e0f239adf4970d9f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a009e5d1024e31957e0f239adf4970d9f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getTimeInSeconds</b> ()</td></tr>
-<tr class="separator:a009e5d1024e31957e0f239adf4970d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d169f1a3197de33f59e0c3107c97441"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d169f1a3197de33f59e0c3107c97441"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setTimeInSeconds</b> ($timeInSeconds)</td></tr>
-<tr class="separator:a2d169f1a3197de33f59e0c3107c97441"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a568a7fafd601b520ff8c4bd91c962e29"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a568a7fafd601b520ff8c4bd91c962e29"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getStartTime</b> ()</td></tr>
-<tr class="separator:a568a7fafd601b520ff8c4bd91c962e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a797d94d075103364029853d502987afd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a797d94d075103364029853d502987afd"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setStartTime</b> ($startTime)</td></tr>
-<tr class="separator:a797d94d075103364029853d502987afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a553a46d707ec3e83965c44c41f449f68"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a553a46d707ec3e83965c44c41f449f68"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getEndTime</b> ()</td></tr>
-<tr class="separator:a553a46d707ec3e83965c44c41f449f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eb2b91c055e79bbb232e24910b28d2e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0eb2b91c055e79bbb232e24910b28d2e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setEndTime</b> ($endTime)</td></tr>
-<tr class="separator:a0eb2b91c055e79bbb232e24910b28d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af788069ff5691b07f670a8cb5160c85d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af788069ff5691b07f670a8cb5160c85d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getIsTimerActive</b> ()</td></tr>
-<tr class="separator:af788069ff5691b07f670a8cb5160c85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af523bbb34c9ed09f75c8cda91be19f31"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af523bbb34c9ed09f75c8cda91be19f31"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setIsTimerActive</b> ($isTimerActive)</td></tr>
-<tr class="separator:af523bbb34c9ed09f75c8cda91be19f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2ce8bc77049434c7c378ed8465f9d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a4e2ce8bc77049434c7c378ed8465f9d7">getUserName</a> ()</td></tr>
+<tr class="separator:a4e2ce8bc77049434c7c378ed8465f9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99b0058e7ab121c1909d8f5b87be2612"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a99b0058e7ab121c1909d8f5b87be2612">setUserName</a> ($userName)</td></tr>
+<tr class="separator:a99b0058e7ab121c1909d8f5b87be2612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dce6455dbae836e309a67a1fa1509c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a0dce6455dbae836e309a67a1fa1509c6">getName</a> ()</td></tr>
+<tr class="separator:a0dce6455dbae836e309a67a1fa1509c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4294ed80faaa80357209a8a2036218c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#ad4294ed80faaa80357209a8a2036218c">setName</a> ($name)</td></tr>
+<tr class="separator:ad4294ed80faaa80357209a8a2036218c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a976a8047549cd5e135819cab23423338"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a976a8047549cd5e135819cab23423338">getCurrentTime</a> ()</td></tr>
+<tr class="separator:a976a8047549cd5e135819cab23423338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b860d06d04b8179ca6a41b722dcaff3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a8b860d06d04b8179ca6a41b722dcaff3">setCurrentTime</a> ($currentTime)</td></tr>
+<tr class="separator:a8b860d06d04b8179ca6a41b722dcaff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09aec75a7c3932441d5cba5e1679f6c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a09aec75a7c3932441d5cba5e1679f6c3">getTimeInSeconds</a> ()</td></tr>
+<tr class="separator:a09aec75a7c3932441d5cba5e1679f6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42ad3aa1a21bb23385f791997c490005"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a42ad3aa1a21bb23385f791997c490005">setTimeInSeconds</a> ($timeInSeconds)</td></tr>
+<tr class="separator:a42ad3aa1a21bb23385f791997c490005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4efdc8ad6c0ed0ffe2280f48332015bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a4efdc8ad6c0ed0ffe2280f48332015bb">getStartTime</a> ()</td></tr>
+<tr class="separator:a4efdc8ad6c0ed0ffe2280f48332015bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69a8e76587680c2cd4a737360350e6cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a69a8e76587680c2cd4a737360350e6cb">setStartTime</a> ($startTime)</td></tr>
+<tr class="separator:a69a8e76587680c2cd4a737360350e6cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac09b924cba506e0bca255e10648e3c8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#ac09b924cba506e0bca255e10648e3c8e">getEndTime</a> ()</td></tr>
+<tr class="separator:ac09b924cba506e0bca255e10648e3c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9905f8667c9aa570ad0fbe3a815c28fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a9905f8667c9aa570ad0fbe3a815c28fe">setEndTime</a> ($endTime)</td></tr>
+<tr class="separator:a9905f8667c9aa570ad0fbe3a815c28fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab86427ac49961cc3a68bea67b231d740"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#ab86427ac49961cc3a68bea67b231d740">getIsTimerActive</a> ()</td></tr>
+<tr class="separator:ab86427ac49961cc3a68bea67b231d740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34cd6a222c7aaf7a62426fa604cd09d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a34cd6a222c7aaf7a62426fa604cd09d1">setIsTimerActive</a> ($isTimerActive)</td></tr>
+<tr class="separator:a34cd6a222c7aaf7a62426fa604cd09d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_app42_response"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_app42_response')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_app42_response.html">App42Response</a></td></tr>
-<tr class="memitem:ac6329aaaf695e71dd106b4e4875d4c12 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6329aaaf695e71dd106b4e4875d4c12"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getTotalRecords</b> ()</td></tr>
-<tr class="separator:ac6329aaaf695e71dd106b4e4875d4c12 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71d542aefbcfb5f4c5bd4db0da7f740c inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71d542aefbcfb5f4c5bd4db0da7f740c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setTotalRecords</b> ($totalRecords)</td></tr>
-<tr class="separator:a71d542aefbcfb5f4c5bd4db0da7f740c inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d218c02b1c22595b91083316a569c17 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d218c02b1c22595b91083316a569c17"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getStrResponse</b> ()</td></tr>
-<tr class="separator:a7d218c02b1c22595b91083316a569c17 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34af678876992c78b5fde4b3dcc0f83b inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34af678876992c78b5fde4b3dcc0f83b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setStrResponse</b> ($strResponse)</td></tr>
-<tr class="separator:a34af678876992c78b5fde4b3dcc0f83b inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6d43c993a10b720dd0c65ff74aedc7b inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6d43c993a10b720dd0c65ff74aedc7b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>isResponseSuccess</b> ()</td></tr>
-<tr class="separator:aa6d43c993a10b720dd0c65ff74aedc7b inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a676d99b4903261c349d07226511f7236 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a676d99b4903261c349d07226511f7236"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setResponseSuccess</b> ($isResponseSuccess)</td></tr>
-<tr class="separator:a676d99b4903261c349d07226511f7236 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>toString</b> ()</td></tr>
-<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59691fca1114f7ec431945476fbbbedb inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a59691fca1114f7ec431945476fbbbedb">getTotalRecords</a> ()</td></tr>
+<tr class="separator:a59691fca1114f7ec431945476fbbbedb inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf9642f79cd3bb953713aae24c61c68d inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#adf9642f79cd3bb953713aae24c61c68d">setTotalRecords</a> ($totalRecords)</td></tr>
+<tr class="separator:adf9642f79cd3bb953713aae24c61c68d inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85d0a2f09c9ce3e8af8e0f5506e7b2b3 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a85d0a2f09c9ce3e8af8e0f5506e7b2b3">getStrResponse</a> ()</td></tr>
+<tr class="separator:a85d0a2f09c9ce3e8af8e0f5506e7b2b3 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a65b1890322364a445c20f8a7a6ea9 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a42a65b1890322364a445c20f8a7a6ea9">setStrResponse</a> ($strResponse)</td></tr>
+<tr class="separator:a42a65b1890322364a445c20f8a7a6ea9 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a790b0d760b2318677c26b26d2b2d409d inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a> ()</td></tr>
+<tr class="separator:a790b0d760b2318677c26b26d2b2d409d inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff474b29d8343336e17b4674422386af inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#aff474b29d8343336e17b4674422386af">setResponseSuccess</a> ($<a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a>)</td></tr>
+<tr class="separator:aff474b29d8343336e17b4674422386af inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32850bec51f0aa330085a3cd148a3a96 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a32850bec51f0aa330085a3cd148a3a96">toString</a> ()</td></tr>
+<tr class="separator:a32850bec51f0aa330085a3cd148a3a96 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:ab2fc40d43824ea3e1ce5d86dee0d763b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2fc40d43824ea3e1ce5d86dee0d763b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$name</b></td></tr>
-<tr class="separator:ab2fc40d43824ea3e1ce5d86dee0d763b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93049137e201f92ddd59be4b52c11f04"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a93049137e201f92ddd59be4b52c11f04"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$currentTime</b></td></tr>
-<tr class="separator:a93049137e201f92ddd59be4b52c11f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80cc460d9f10104a67d9c54e68681cc6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80cc460d9f10104a67d9c54e68681cc6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$timeInSeconds</b></td></tr>
-<tr class="separator:a80cc460d9f10104a67d9c54e68681cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a404df05d2efcd6bb0551ecd8e7ae2315"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a404df05d2efcd6bb0551ecd8e7ae2315"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$startTime</b></td></tr>
-<tr class="separator:a404df05d2efcd6bb0551ecd8e7ae2315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75394179c27e1af40be62e74571179a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a75394179c27e1af40be62e74571179a4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$endTime</b></td></tr>
-<tr class="separator:a75394179c27e1af40be62e74571179a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff20833df389a26c0f9384512eec4a68"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff20833df389a26c0f9384512eec4a68"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$userName</b></td></tr>
-<tr class="separator:aff20833df389a26c0f9384512eec4a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae315c6575aef0820f7e212e32fdd9df8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae315c6575aef0820f7e212e32fdd9df8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$isTimerActive</b></td></tr>
-<tr class="separator:ae315c6575aef0820f7e212e32fdd9df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a5d93f8361f751129deac681ed1185c63"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a5d93f8361f751129deac681ed1185c63">$name</a></td></tr>
+<tr class="separator:a5d93f8361f751129deac681ed1185c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00a7088b468adc1349660a3f109205d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a00a7088b468adc1349660a3f109205d8">$currentTime</a></td></tr>
+<tr class="separator:a00a7088b468adc1349660a3f109205d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a37c3fdb5a861ce90e7a6e7de6bdfec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a9a37c3fdb5a861ce90e7a6e7de6bdfec">$timeInSeconds</a></td></tr>
+<tr class="separator:a9a37c3fdb5a861ce90e7a6e7de6bdfec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac11a4c193457d007a7b5ce5f8777ac85"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#ac11a4c193457d007a7b5ce5f8777ac85">$startTime</a></td></tr>
+<tr class="separator:ac11a4c193457d007a7b5ce5f8777ac85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57e3040bd2a0070ed6e3eb14dc6fdf5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a57e3040bd2a0070ed6e3eb14dc6fdf5a">$endTime</a></td></tr>
+<tr class="separator:a57e3040bd2a0070ed6e3eb14dc6fdf5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3fcc9ea976c28441634911a3e29222f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#ad3fcc9ea976c28441634911a3e29222f">$userName</a></td></tr>
+<tr class="separator:ad3fcc9ea976c28441634911a3e29222f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff94ec3849c54fe6bdb3f71bcec2a32f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#aff94ec3849c54fe6bdb3f71bcec2a32f">$isTimerActive</a></td></tr>
+<tr class="separator:aff94ec3849c54fe6bdb3f71bcec2a32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Description of <a class="el" href="class_timer.html">Timer</a></p>
 <dl class="section author"><dt>Author</dt><dd>PRAVIN </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a976a8047549cd5e135819cab23423338"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::getCurrentTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac09b924cba506e0bca255e10648e3c8e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::getEndTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab86427ac49961cc3a68bea67b231d740"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::getIsTimerActive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0dce6455dbae836e309a67a1fa1509c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4efdc8ad6c0ed0ffe2280f48332015bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::getStartTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a09aec75a7c3932441d5cba5e1679f6c3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::getTimeInSeconds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4e2ce8bc77049434c7c378ed8465f9d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::getUserName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8b860d06d04b8179ca6a41b722dcaff3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::setCurrentTime </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$currentTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9905f8667c9aa570ad0fbe3a815c28fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::setEndTime </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$endTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a34cd6a222c7aaf7a62426fa604cd09d1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::setIsTimerActive </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$isTimerActive</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad4294ed80faaa80357209a8a2036218c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::setName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a69a8e76587680c2cd4a737360350e6cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::setStartTime </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$startTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a42ad3aa1a21bb23385f791997c490005"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::setTimeInSeconds </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$timeInSeconds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a99b0058e7ab121c1909d8f5b87be2612"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::setUserName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$userName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a00a7088b468adc1349660a3f109205d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::$currentTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a57e3040bd2a0070ed6e3eb14dc6fdf5a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::$endTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aff94ec3849c54fe6bdb3f71bcec2a32f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::$isTimerActive</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5d93f8361f751129deac681ed1185c63"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::$name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac11a4c193457d007a7b5ce5f8777ac85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::$startTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9a37c3fdb5a861ce90e7a6e7de6bdfec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::$timeInSeconds</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad3fcc9ea976c28441634911a3e29222f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Timer::$userName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:25:38 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

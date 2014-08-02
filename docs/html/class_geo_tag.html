@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -82,7 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="class_geo_tag-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">GeoTag Class Reference</div>  </div>
 </div><!--header-->
@@ -90,28 +91,67 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a84cba7c9229ba9c123b1ca154ff74590"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a84cba7c9229ba9c123b1ca154ff74590"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>_construct</b> ($lat=null, $lng=null)</td></tr>
-<tr class="separator:a84cba7c9229ba9c123b1ca154ff74590"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25b3098601cade6a6a1067a1dfae110b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geo_tag.html#a25b3098601cade6a6a1067a1dfae110b">setLat</a> ($lat)</td></tr>
-<tr class="separator:a25b3098601cade6a6a1067a1dfae110b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace4646478052fb05a9226af2f1db07fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geo_tag.html#ace4646478052fb05a9226af2f1db07fa">getLat</a> ()</td></tr>
-<tr class="separator:ace4646478052fb05a9226af2f1db07fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24f91fc3534738f0839a11cb2306b142"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geo_tag.html#a24f91fc3534738f0839a11cb2306b142">setLng</a> ($lng)</td></tr>
-<tr class="separator:a24f91fc3534738f0839a11cb2306b142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a438a7c3b088658ca987ee34416992249"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geo_tag.html#a438a7c3b088658ca987ee34416992249">getLng</a> ()</td></tr>
-<tr class="separator:a438a7c3b088658ca987ee34416992249"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f94aa39d469f7968687eff905f71fbb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f94aa39d469f7968687eff905f71fbb"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getJSONObject</b> ()</td></tr>
-<tr class="separator:a9f94aa39d469f7968687eff905f71fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f7294ff192f9a07e428f31e9826cf1d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geo_tag.html#a6f7294ff192f9a07e428f31e9826cf1d">_construct</a> ($lat=null, $lng=null)</td></tr>
+<tr class="separator:a6f7294ff192f9a07e428f31e9826cf1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54a41f8fe89deef4aee6ad942de2d3cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geo_tag.html#a54a41f8fe89deef4aee6ad942de2d3cb">setLat</a> ($lat)</td></tr>
+<tr class="separator:a54a41f8fe89deef4aee6ad942de2d3cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2e2d8180bca2d2fa4243ca562b265c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geo_tag.html#aa2e2d8180bca2d2fa4243ca562b265c3">getLat</a> ()</td></tr>
+<tr class="separator:aa2e2d8180bca2d2fa4243ca562b265c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac15946ea6aef3768eeee1f8e36013081"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geo_tag.html#ac15946ea6aef3768eeee1f8e36013081">setLng</a> ($lng)</td></tr>
+<tr class="separator:ac15946ea6aef3768eeee1f8e36013081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9103d21ebfe2b3ef2b62d4fa58a7c232"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geo_tag.html#a9103d21ebfe2b3ef2b62d4fa58a7c232">getLng</a> ()</td></tr>
+<tr class="separator:a9103d21ebfe2b3ef2b62d4fa58a7c232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdab69905f3d5857dca12bfbd90bbde0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geo_tag.html#acdab69905f3d5857dca12bfbd90bbde0">getJSONObject</a> ()</td></tr>
+<tr class="separator:acdab69905f3d5857dca12bfbd90bbde0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ace4646478052fb05a9226af2f1db07fa"></a>
+<a class="anchor" id="a6f7294ff192f9a07e428f31e9826cf1d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getLat </td>
+          <td class="memname">GeoTag::_construct </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$lat</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$lng</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acdab69905f3d5857dca12bfbd90bbde0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GeoTag::getJSONObject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa2e2d8180bca2d2fa4243ca562b265c3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GeoTag::getLat </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -123,12 +163,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a438a7c3b088658ca987ee34416992249"></a>
+<a class="anchor" id="a9103d21ebfe2b3ef2b62d4fa58a7c232"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getLng </td>
+          <td class="memname">GeoTag::getLng </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -140,12 +180,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a25b3098601cade6a6a1067a1dfae110b"></a>
+<a class="anchor" id="a54a41f8fe89deef4aee6ad942de2d3cb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setLat </td>
+          <td class="memname">GeoTag::setLat </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$lat</em></td><td>)</td>
@@ -166,12 +206,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a24f91fc3534738f0839a11cb2306b142"></a>
+<a class="anchor" id="ac15946ea6aef3768eeee1f8e36013081"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setLng </td>
+          <td class="memname">GeoTag::setLng </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$lng</em></td><td>)</td>
@@ -195,7 +235,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:25:36 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -82,54 +82,43 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="class_app42_exception-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">App42Exception Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for App42Exception:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_app42_exception.png" usemap="#App42Exception_map" alt=""/>
-  <map id="App42Exception_map" name="App42Exception_map">
-<area href="class_app42_bad_parameter_exception.html" alt="App42BadParameterException" shape="rect" coords="0,112,184,136"/>
-<area href="class_app42_limit_exception.html" alt="App42LimitException" shape="rect" coords="194,112,378,136"/>
-<area href="class_app42_not_found_exception.html" alt="App42NotFoundException" shape="rect" coords="388,112,572,136"/>
-<area href="class_app42_security_exception.html" alt="App42SecurityException" shape="rect" coords="582,112,766,136"/>
-<area href="class_configuration_exception.html" alt="ConfigurationException" shape="rect" coords="776,112,960,136"/>
-</map>
- </div></div>
+
+<p>Inherits RuntimeException.</p>
+
+<p>Inherited by <a class="el" href="class_app42_bad_parameter_exception.html">App42BadParameterException</a>, <a class="el" href="class_app42_limit_exception.html">App42LimitException</a>, <a class="el" href="class_app42_not_found_exception.html">App42NotFoundException</a>, <a class="el" href="class_app42_security_exception.html">App42SecurityException</a>, and <a class="el" href="class_configuration_exception.html">ConfigurationException</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a095c5d389db211932136b53f25f39685"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_exception.html#a095c5d389db211932136b53f25f39685">__construct</a> ()</td></tr>
-<tr class="separator:a095c5d389db211932136b53f25f39685"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0da731796782133a8a6c871755ea301"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab0da731796782133a8a6c871755ea301"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>App42Exception1</b> ($detailMessage)</td></tr>
-<tr class="separator:ab0da731796782133a8a6c871755ea301"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61587ac35fa4759d47549fd2700664fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a61587ac35fa4759d47549fd2700664fd"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>App42Exception2</b> ($httpErrorCode, $appErrorCode)</td></tr>
-<tr class="separator:a61587ac35fa4759d47549fd2700664fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9856b8739b4f4aa9bfabfa63aa23164d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9856b8739b4f4aa9bfabfa63aa23164d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>App42Exception3</b> ($detailMessage, $httpErrorCode, $appErrorCode)</td></tr>
-<tr class="separator:a9856b8739b4f4aa9bfabfa63aa23164d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bdc96d9a86abfd60c83526587ebadbc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_exception.html#a8bdc96d9a86abfd60c83526587ebadbc">setHttpErrorCode</a> ($httpErrorCode)</td></tr>
-<tr class="separator:a8bdc96d9a86abfd60c83526587ebadbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a844b333cbc152e855bfd522fa57f1084"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_exception.html#a844b333cbc152e855bfd522fa57f1084">getHttpErrorCode</a> ()</td></tr>
-<tr class="separator:a844b333cbc152e855bfd522fa57f1084"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab75c1a3b13b777c27beb875a58090838"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_exception.html#ab75c1a3b13b777c27beb875a58090838">setAppErrorCode</a> ($appErrorCode)</td></tr>
-<tr class="separator:ab75c1a3b13b777c27beb875a58090838"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65cd174f7c180c08b30c0d3232b42f71"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_exception.html#a65cd174f7c180c08b30c0d3232b42f71">getAppErrorCode</a> ()</td></tr>
-<tr class="separator:a65cd174f7c180c08b30c0d3232b42f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa33d27d6a76391e80dfe7f27d245971d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_exception.html#aa33d27d6a76391e80dfe7f27d245971d">__construct</a> ()</td></tr>
+<tr class="separator:aa33d27d6a76391e80dfe7f27d245971d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae38a258486e1a8c6531d62366816f02e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_exception.html#ae38a258486e1a8c6531d62366816f02e">App42Exception1</a> ($detailMessage)</td></tr>
+<tr class="separator:ae38a258486e1a8c6531d62366816f02e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4e13d3f8f6a1cc0761bf1b64c08c718"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_exception.html#ae4e13d3f8f6a1cc0761bf1b64c08c718">App42Exception2</a> ($httpErrorCode, $appErrorCode)</td></tr>
+<tr class="separator:ae4e13d3f8f6a1cc0761bf1b64c08c718"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a01eba16ef3239780e73f4c4dff6e75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_exception.html#a5a01eba16ef3239780e73f4c4dff6e75">App42Exception3</a> ($detailMessage, $httpErrorCode, $appErrorCode)</td></tr>
+<tr class="separator:a5a01eba16ef3239780e73f4c4dff6e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ca1212e81d9fb53bd817d1c7e196618"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_exception.html#a7ca1212e81d9fb53bd817d1c7e196618">setHttpErrorCode</a> ($httpErrorCode)</td></tr>
+<tr class="separator:a7ca1212e81d9fb53bd817d1c7e196618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3436eb857f76aa82433d0dc0b067248"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_exception.html#ab3436eb857f76aa82433d0dc0b067248">getHttpErrorCode</a> ()</td></tr>
+<tr class="separator:ab3436eb857f76aa82433d0dc0b067248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af15f1381ba3276935f88831aec84a065"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_exception.html#af15f1381ba3276935f88831aec84a065">setAppErrorCode</a> ($appErrorCode)</td></tr>
+<tr class="separator:af15f1381ba3276935f88831aec84a065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3c530ea46e10d463ff3014565742508"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_exception.html#ab3c530ea46e10d463ff3014565742508">getAppErrorCode</a> ()</td></tr>
+<tr class="separator:ab3c530ea46e10d463ff3014565742508"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a095c5d389db211932136b53f25f39685"></a>
+<a class="anchor" id="aa33d27d6a76391e80dfe7f27d245971d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__construct </td>
+          <td class="memname">App42Exception::__construct </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -148,28 +137,102 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a65cd174f7c180c08b30c0d3232b42f71"></a>
+<a class="anchor" id="ae38a258486e1a8c6531d62366816f02e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getAppErrorCode </td>
+          <td class="memname">App42Exception::App42Exception1 </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$detailMessage</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae4e13d3f8f6a1cc0761bf1b64c08c718"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Exception::App42Exception2 </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$httpErrorCode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$appErrorCode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5a01eba16ef3239780e73f4c4dff6e75"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Exception::App42Exception3 </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$detailMessage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$httpErrorCode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$appErrorCode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab3c530ea46e10d463ff3014565742508"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Exception::getAppErrorCode </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Gets the AppErrorCode for the Exception. <a class="el" href="class_app.html">App</a> error codes correspond to the error which specific to the service. This error code can help <a class="el" href="class_app.html">App</a> developers to take decisions and take action when a particular error occurs for a service </p>
+<p>Gets the AppErrorCode for the Exception. App error codes correspond to the error which specific to the service. This error code can help App developers to take decisions and take action when a particular error occurs for a service </p>
 
 </div>
 </div>
-<a class="anchor" id="a844b333cbc152e855bfd522fa57f1084"></a>
+<a class="anchor" id="ab3436eb857f76aa82433d0dc0b067248"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getHttpErrorCode </td>
+          <td class="memname">App42Exception::getHttpErrorCode </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -180,12 +243,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab75c1a3b13b777c27beb875a58090838"></a>
+<a class="anchor" id="af15f1381ba3276935f88831aec84a065"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setAppErrorCode </td>
+          <td class="memname">App42Exception::setAppErrorCode </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$appErrorCode</em></td><td>)</td>
@@ -195,19 +258,19 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Sets the AppErrorCode for the Exception </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">appErrorCode</td><td><a class="el" href="class_app.html">App</a> error codes correspond to the error which specific to the service. This error code can help <a class="el" href="class_app.html">App</a> developers to take decisions and take action when a particular error occurs for a service </td></tr>
+    <tr><td class="paramname">appErrorCode</td><td>App error codes correspond to the error which specific to the service. This error code can help App developers to take decisions and take action when a particular error occurs for a service </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="a8bdc96d9a86abfd60c83526587ebadbc"></a>
+<a class="anchor" id="a7ca1212e81d9fb53bd817d1c7e196618"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setHttpErrorCode </td>
+          <td class="memname">App42Exception::setHttpErrorCode </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$httpErrorCode</em></td><td>)</td>
@@ -227,7 +290,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:25:35 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

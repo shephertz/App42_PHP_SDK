@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,121 +83,404 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_gift-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Gift Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for Gift:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_gift.png" usemap="#Gift_map" alt=""/>
-  <map id="Gift_map" name="Gift_map">
-<area href="class_app42_response.html" alt="App42Response" shape="rect" coords="0,0,104,24"/>
-</map>
- </div></div>
+
+<p>Inherits <a class="el" href="class_app42_response.html">App42Response</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>toString</b> ()</td></tr>
-<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a346b90b05b25684ab3d2c62566270551"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a346b90b05b25684ab3d2c62566270551"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getCreatedOn</b> ()</td></tr>
-<tr class="separator:a346b90b05b25684ab3d2c62566270551"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adff89ef96f7c1e0f0752caca8ccc750b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adff89ef96f7c1e0f0752caca8ccc750b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setCreatedOn</b> ($createdOn)</td></tr>
-<tr class="separator:adff89ef96f7c1e0f0752caca8ccc750b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d0963e68bb313b163a73f2803c64600"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d0963e68bb313b163a73f2803c64600"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getName</b> ()</td></tr>
-<tr class="separator:a3d0963e68bb313b163a73f2803c64600"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fe666694997d047711d7653eca2f132"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2fe666694997d047711d7653eca2f132"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setName</b> ($name)</td></tr>
-<tr class="separator:a2fe666694997d047711d7653eca2f132"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a273f6220e7dea1423919139742e04902"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a273f6220e7dea1423919139742e04902"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getDisplayName</b> ()</td></tr>
-<tr class="separator:a273f6220e7dea1423919139742e04902"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac60edd848e67ad4f32d55a27798a2255"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac60edd848e67ad4f32d55a27798a2255"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setDisplayName</b> ($displayName)</td></tr>
-<tr class="separator:ac60edd848e67ad4f32d55a27798a2255"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a278a55b3129c24c2077ea6093cf06f6e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a278a55b3129c24c2077ea6093cf06f6e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getIcon</b> ()</td></tr>
-<tr class="separator:a278a55b3129c24c2077ea6093cf06f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a279097e114946d07f9257f4014bd45ca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a279097e114946d07f9257f4014bd45ca"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setIcon</b> ($icon)</td></tr>
-<tr class="separator:a279097e114946d07f9257f4014bd45ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e7bb35c71bf1824456ceb944cb7a845"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2e7bb35c71bf1824456ceb944cb7a845"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getDescription</b> ()</td></tr>
-<tr class="separator:a2e7bb35c71bf1824456ceb944cb7a845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31fad3e39336ea079ea758e051866627"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31fad3e39336ea079ea758e051866627"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setDescription</b> ($description)</td></tr>
-<tr class="separator:a31fad3e39336ea079ea758e051866627"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab86ba36154b20e6bbfa3ba705f12f9d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab86ba36154b20e6bbfa3ba705f12f9d6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getTag</b> ()</td></tr>
-<tr class="separator:ab86ba36154b20e6bbfa3ba705f12f9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29ac399818206c510be536c2dea9540c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29ac399818206c510be536c2dea9540c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setTag</b> ($tag)</td></tr>
-<tr class="separator:a29ac399818206c510be536c2dea9540c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5c6a2b2c05ee9237d9971ce7b976403"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5c6a2b2c05ee9237d9971ce7b976403"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getRequestsList</b> ()</td></tr>
-<tr class="separator:ae5c6a2b2c05ee9237d9971ce7b976403"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab06859c6e8f8417fdfb71333425ea388"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab06859c6e8f8417fdfb71333425ea388"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setRequestsList</b> ($request)</td></tr>
-<tr class="separator:ab06859c6e8f8417fdfb71333425ea388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa93eb9a8457ee634adfeed7b2201e292"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#aa93eb9a8457ee634adfeed7b2201e292">toString</a> ()</td></tr>
+<tr class="separator:aa93eb9a8457ee634adfeed7b2201e292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fcec7ba3045cbda4df180a3f3318095"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a8fcec7ba3045cbda4df180a3f3318095">getCreatedOn</a> ()</td></tr>
+<tr class="separator:a8fcec7ba3045cbda4df180a3f3318095"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3eead7c8cc6ef5da0bc0dfc5acf5715"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#ae3eead7c8cc6ef5da0bc0dfc5acf5715">setCreatedOn</a> ($createdOn)</td></tr>
+<tr class="separator:ae3eead7c8cc6ef5da0bc0dfc5acf5715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a2103c6d1caac834e732955ceec3f54"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a5a2103c6d1caac834e732955ceec3f54">getName</a> ()</td></tr>
+<tr class="separator:a5a2103c6d1caac834e732955ceec3f54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc23569cd6a8d06d0eb7c6f36a968c8a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#afc23569cd6a8d06d0eb7c6f36a968c8a">setName</a> ($name)</td></tr>
+<tr class="separator:afc23569cd6a8d06d0eb7c6f36a968c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c779545c49f4c0ba06c4d65ff094428"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a9c779545c49f4c0ba06c4d65ff094428">getDisplayName</a> ()</td></tr>
+<tr class="separator:a9c779545c49f4c0ba06c4d65ff094428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3722192ce547723c5b1feac0288f3472"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a3722192ce547723c5b1feac0288f3472">setDisplayName</a> ($displayName)</td></tr>
+<tr class="separator:a3722192ce547723c5b1feac0288f3472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04a98ac65e52301143f2a9ad5b1c999a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a04a98ac65e52301143f2a9ad5b1c999a">getIcon</a> ()</td></tr>
+<tr class="separator:a04a98ac65e52301143f2a9ad5b1c999a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1503781b359058f22af54f912d24a3b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a1503781b359058f22af54f912d24a3b3">setIcon</a> ($icon)</td></tr>
+<tr class="separator:a1503781b359058f22af54f912d24a3b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e0f062e771ae6ab3fb474f0caebced6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a6e0f062e771ae6ab3fb474f0caebced6">getDescription</a> ()</td></tr>
+<tr class="separator:a6e0f062e771ae6ab3fb474f0caebced6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a065b996bada22f97b2c0355cf00e9618"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a065b996bada22f97b2c0355cf00e9618">setDescription</a> ($description)</td></tr>
+<tr class="separator:a065b996bada22f97b2c0355cf00e9618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9054b3bbed8b28533d1d6d29683e25bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a9054b3bbed8b28533d1d6d29683e25bb">getTag</a> ()</td></tr>
+<tr class="separator:a9054b3bbed8b28533d1d6d29683e25bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade3db2250b64cf1528b2f1725412fa6b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#ade3db2250b64cf1528b2f1725412fa6b">setTag</a> ($tag)</td></tr>
+<tr class="separator:ade3db2250b64cf1528b2f1725412fa6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c5bdfbc34142cde777c8d9e2cf5f7d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a5c5bdfbc34142cde777c8d9e2cf5f7d7">getRequestsList</a> ()</td></tr>
+<tr class="separator:a5c5bdfbc34142cde777c8d9e2cf5f7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb54d71033646e1b70d24c064bde0e70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#acb54d71033646e1b70d24c064bde0e70">setRequestsList</a> ($request)</td></tr>
+<tr class="separator:acb54d71033646e1b70d24c064bde0e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_app42_response"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_app42_response')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_app42_response.html">App42Response</a></td></tr>
-<tr class="memitem:ac6329aaaf695e71dd106b4e4875d4c12 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6329aaaf695e71dd106b4e4875d4c12"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getTotalRecords</b> ()</td></tr>
-<tr class="separator:ac6329aaaf695e71dd106b4e4875d4c12 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71d542aefbcfb5f4c5bd4db0da7f740c inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71d542aefbcfb5f4c5bd4db0da7f740c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setTotalRecords</b> ($totalRecords)</td></tr>
-<tr class="separator:a71d542aefbcfb5f4c5bd4db0da7f740c inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d218c02b1c22595b91083316a569c17 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d218c02b1c22595b91083316a569c17"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getStrResponse</b> ()</td></tr>
-<tr class="separator:a7d218c02b1c22595b91083316a569c17 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34af678876992c78b5fde4b3dcc0f83b inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34af678876992c78b5fde4b3dcc0f83b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setStrResponse</b> ($strResponse)</td></tr>
-<tr class="separator:a34af678876992c78b5fde4b3dcc0f83b inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6d43c993a10b720dd0c65ff74aedc7b inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6d43c993a10b720dd0c65ff74aedc7b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>isResponseSuccess</b> ()</td></tr>
-<tr class="separator:aa6d43c993a10b720dd0c65ff74aedc7b inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a676d99b4903261c349d07226511f7236 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a676d99b4903261c349d07226511f7236"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setResponseSuccess</b> ($isResponseSuccess)</td></tr>
-<tr class="separator:a676d99b4903261c349d07226511f7236 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>toString</b> ()</td></tr>
-<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59691fca1114f7ec431945476fbbbedb inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a59691fca1114f7ec431945476fbbbedb">getTotalRecords</a> ()</td></tr>
+<tr class="separator:a59691fca1114f7ec431945476fbbbedb inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf9642f79cd3bb953713aae24c61c68d inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#adf9642f79cd3bb953713aae24c61c68d">setTotalRecords</a> ($totalRecords)</td></tr>
+<tr class="separator:adf9642f79cd3bb953713aae24c61c68d inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85d0a2f09c9ce3e8af8e0f5506e7b2b3 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a85d0a2f09c9ce3e8af8e0f5506e7b2b3">getStrResponse</a> ()</td></tr>
+<tr class="separator:a85d0a2f09c9ce3e8af8e0f5506e7b2b3 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a65b1890322364a445c20f8a7a6ea9 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a42a65b1890322364a445c20f8a7a6ea9">setStrResponse</a> ($strResponse)</td></tr>
+<tr class="separator:a42a65b1890322364a445c20f8a7a6ea9 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a790b0d760b2318677c26b26d2b2d409d inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a> ()</td></tr>
+<tr class="separator:a790b0d760b2318677c26b26d2b2d409d inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff474b29d8343336e17b4674422386af inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#aff474b29d8343336e17b4674422386af">setResponseSuccess</a> ($<a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a>)</td></tr>
+<tr class="separator:aff474b29d8343336e17b4674422386af inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32850bec51f0aa330085a3cd148a3a96 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a32850bec51f0aa330085a3cd148a3a96">toString</a> ()</td></tr>
+<tr class="separator:a32850bec51f0aa330085a3cd148a3a96 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:ab2fc40d43824ea3e1ce5d86dee0d763b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2fc40d43824ea3e1ce5d86dee0d763b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$name</b></td></tr>
-<tr class="separator:ab2fc40d43824ea3e1ce5d86dee0d763b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1b12cd5f2bbc3d7dcff91e4e27dfee6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1b12cd5f2bbc3d7dcff91e4e27dfee6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$displayName</b></td></tr>
-<tr class="separator:ac1b12cd5f2bbc3d7dcff91e4e27dfee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac13ca58494b5ebc7e5f1ded33256c9e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac13ca58494b5ebc7e5f1ded33256c9e9"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$icon</b></td></tr>
-<tr class="separator:ac13ca58494b5ebc7e5f1ded33256c9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87b032cba06009e3467abf1c8018d960"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87b032cba06009e3467abf1c8018d960"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$description</b></td></tr>
-<tr class="separator:a87b032cba06009e3467abf1c8018d960"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81d5015d41ed8ec66e9db8cdc5db9555"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81d5015d41ed8ec66e9db8cdc5db9555"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$tag</b></td></tr>
-<tr class="separator:a81d5015d41ed8ec66e9db8cdc5db9555"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a980da9bfdce6ade7abd3568e89f80013"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a980da9bfdce6ade7abd3568e89f80013"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$createdOn</b></td></tr>
-<tr class="separator:a980da9bfdce6ade7abd3568e89f80013"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb35c8495a232b510389fa6d7b15d38a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb35c8495a232b510389fa6d7b15d38a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$request</b> = array()</td></tr>
-<tr class="separator:abb35c8495a232b510389fa6d7b15d38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a67b2dac98e5640277068610bde175285"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a67b2dac98e5640277068610bde175285">$name</a></td></tr>
+<tr class="separator:a67b2dac98e5640277068610bde175285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e9f20634c76af14d60f934ffc0660bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a3e9f20634c76af14d60f934ffc0660bd">$displayName</a></td></tr>
+<tr class="separator:a3e9f20634c76af14d60f934ffc0660bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a206d8f4279529217085adbc9e7c0d1bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a206d8f4279529217085adbc9e7c0d1bc">$icon</a></td></tr>
+<tr class="separator:a206d8f4279529217085adbc9e7c0d1bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5be71c49dac700860e61ff4da9a8709f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a5be71c49dac700860e61ff4da9a8709f">$description</a></td></tr>
+<tr class="separator:a5be71c49dac700860e61ff4da9a8709f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba744aa61e0198675d94eb38e5445ba3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#aba744aa61e0198675d94eb38e5445ba3">$tag</a></td></tr>
+<tr class="separator:aba744aa61e0198675d94eb38e5445ba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a290c8ac83378a92988be9189adbefbb4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a290c8ac83378a92988be9189adbefbb4">$createdOn</a></td></tr>
+<tr class="separator:a290c8ac83378a92988be9189adbefbb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86e18e17efa05d81342284de17091834"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gift.html#a86e18e17efa05d81342284de17091834">$request</a> = array()</td></tr>
+<tr class="separator:a86e18e17efa05d81342284de17091834"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Description of <a class="el" href="class_gift.html">Gift</a> </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a8fcec7ba3045cbda4df180a3f3318095"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::getCreatedOn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6e0f062e771ae6ab3fb474f0caebced6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::getDescription </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9c779545c49f4c0ba06c4d65ff094428"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::getDisplayName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a04a98ac65e52301143f2a9ad5b1c999a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::getIcon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5a2103c6d1caac834e732955ceec3f54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5c5bdfbc34142cde777c8d9e2cf5f7d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::getRequestsList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9054b3bbed8b28533d1d6d29683e25bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::getTag </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae3eead7c8cc6ef5da0bc0dfc5acf5715"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::setCreatedOn </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$createdOn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a065b996bada22f97b2c0355cf00e9618"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::setDescription </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$description</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3722192ce547723c5b1feac0288f3472"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::setDisplayName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$displayName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1503781b359058f22af54f912d24a3b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::setIcon </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$icon</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afc23569cd6a8d06d0eb7c6f36a968c8a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::setName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acb54d71033646e1b70d24c064bde0e70"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::setRequestsList </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ade3db2250b64cf1528b2f1725412fa6b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::setTag </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$tag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa93eb9a8457ee634adfeed7b2201e292"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a290c8ac83378a92988be9189adbefbb4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::$createdOn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5be71c49dac700860e61ff4da9a8709f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::$description</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3e9f20634c76af14d60f934ffc0660bd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::$displayName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a206d8f4279529217085adbc9e7c0d1bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::$icon</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a67b2dac98e5640277068610bde175285"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::$name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a86e18e17efa05d81342284de17091834"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::$request = array()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aba744aa61e0198675d94eb38e5445ba3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gift::$tag</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:25:36 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

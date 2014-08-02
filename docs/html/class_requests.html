@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,7 +83,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_requests-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Requests Class Reference</div>  </div>
 </div><!--header-->
@@ -91,92 +92,444 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a59623e90d41e1ac9abafaaabb3325cac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59623e90d41e1ac9abafaaabb3325cac"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>__construct</b> (<a class="el" href="class_gift.html">Gift</a> $gift)</td></tr>
-<tr class="separator:a59623e90d41e1ac9abafaaabb3325cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>toString</b> ()</td></tr>
-<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afebcc0d238602fc3d1afb0d4c6651a38"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afebcc0d238602fc3d1afb0d4c6651a38"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getSentOn</b> ()</td></tr>
-<tr class="separator:afebcc0d238602fc3d1afb0d4c6651a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaac3c555ab163b0d1d10cfb0bca3d9f6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaac3c555ab163b0d1d10cfb0bca3d9f6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setSendedOn</b> ($sentOn)</td></tr>
-<tr class="separator:aaac3c555ab163b0d1d10cfb0bca3d9f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bcc813b51259f135a2ff7a3cdba2659"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3bcc813b51259f135a2ff7a3cdba2659"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getExpiration</b> ()</td></tr>
-<tr class="separator:a3bcc813b51259f135a2ff7a3cdba2659"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26bb008b7ee52c1ea080b1cb38dacb77"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26bb008b7ee52c1ea080b1cb38dacb77"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setExpiration</b> ($expiration)</td></tr>
-<tr class="separator:a26bb008b7ee52c1ea080b1cb38dacb77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a830b5c75df72b32396701bc563fbe3c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a830b5c75df72b32396701bc563fbe3c7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getType</b> ()</td></tr>
-<tr class="separator:a830b5c75df72b32396701bc563fbe3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade096bf521b5d05dcaff2ba1a42e9f71"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade096bf521b5d05dcaff2ba1a42e9f71"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setType</b> ($type)</td></tr>
-<tr class="separator:ade096bf521b5d05dcaff2ba1a42e9f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a448557d1caa590a39b8a6ec144b59d94"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a448557d1caa590a39b8a6ec144b59d94"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getSender</b> ()</td></tr>
-<tr class="separator:a448557d1caa590a39b8a6ec144b59d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7649262e730e1de9adea658b485ac1a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac7649262e730e1de9adea658b485ac1a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setSender</b> ($sender)</td></tr>
-<tr class="separator:ac7649262e730e1de9adea658b485ac1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14ad3e290231897f1be73086b9912fbc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14ad3e290231897f1be73086b9912fbc"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getRecipient</b> ()</td></tr>
-<tr class="separator:a14ad3e290231897f1be73086b9912fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a945ffe5b84beba10d93568796a86b5e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a945ffe5b84beba10d93568796a86b5e7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setRecipient</b> ($recipient)</td></tr>
-<tr class="separator:a945ffe5b84beba10d93568796a86b5e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7b1ab1c5a44c5672b2ffc46f7c062b1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad7b1ab1c5a44c5672b2ffc46f7c062b1"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getRequestId</b> ()</td></tr>
-<tr class="separator:ad7b1ab1c5a44c5672b2ffc46f7c062b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa20e28f4ab9f29eadf6c57bbad4e19c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa20e28f4ab9f29eadf6c57bbad4e19c4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setRequestId</b> ($requestId)</td></tr>
-<tr class="separator:aa20e28f4ab9f29eadf6c57bbad4e19c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b0e611236742aac18ba1936d03ba89a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0b0e611236742aac18ba1936d03ba89a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getMessage</b> ()</td></tr>
-<tr class="separator:a0b0e611236742aac18ba1936d03ba89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6991eb53548e7180a3a8e6f418fbb234"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6991eb53548e7180a3a8e6f418fbb234"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setMessage</b> ($message)</td></tr>
-<tr class="separator:a6991eb53548e7180a3a8e6f418fbb234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a682fc05af0f622056d7148dbfbdb8917"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a682fc05af0f622056d7148dbfbdb8917"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getReceivedOn</b> ()</td></tr>
-<tr class="separator:a682fc05af0f622056d7148dbfbdb8917"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4883aff2cc28daec6cfa491b05c2bb6b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4883aff2cc28daec6cfa491b05c2bb6b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setReceivedOn</b> ($receivedOn)</td></tr>
-<tr class="separator:a4883aff2cc28daec6cfa491b05c2bb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a7e17e2828fd89d3cdfceb32474a353"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a0a7e17e2828fd89d3cdfceb32474a353">__construct</a> (<a class="el" href="class_gift.html">Gift</a> $gift)</td></tr>
+<tr class="separator:a0a7e17e2828fd89d3cdfceb32474a353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eadcac2605951679910a414c3b61a14"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a9eadcac2605951679910a414c3b61a14">toString</a> ()</td></tr>
+<tr class="separator:a9eadcac2605951679910a414c3b61a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54152a26238b4e5f9b93d307baf8aaac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a54152a26238b4e5f9b93d307baf8aaac">getSentOn</a> ()</td></tr>
+<tr class="separator:a54152a26238b4e5f9b93d307baf8aaac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba363381a6aa2f1e579ffcb3b89518d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#aba363381a6aa2f1e579ffcb3b89518d9">setSendedOn</a> ($sentOn)</td></tr>
+<tr class="separator:aba363381a6aa2f1e579ffcb3b89518d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa50ec04fb87ddae18f6fae365f6836e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#afa50ec04fb87ddae18f6fae365f6836e">getExpiration</a> ()</td></tr>
+<tr class="separator:afa50ec04fb87ddae18f6fae365f6836e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afabae11daa013e8de08923567e477b84"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#afabae11daa013e8de08923567e477b84">setExpiration</a> ($expiration)</td></tr>
+<tr class="separator:afabae11daa013e8de08923567e477b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ee7f0fd0792cebcf05fce5ecc97767"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#af3ee7f0fd0792cebcf05fce5ecc97767">getType</a> ()</td></tr>
+<tr class="separator:af3ee7f0fd0792cebcf05fce5ecc97767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7c0f6b1a94b38d5b409ee78f6d5c8e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#af7c0f6b1a94b38d5b409ee78f6d5c8e6">setType</a> ($type)</td></tr>
+<tr class="separator:af7c0f6b1a94b38d5b409ee78f6d5c8e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7020da15a7a2c7654f7ee790c5e8bb3c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a7020da15a7a2c7654f7ee790c5e8bb3c">getSender</a> ()</td></tr>
+<tr class="separator:a7020da15a7a2c7654f7ee790c5e8bb3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa22c55218d7eeb22e2d1b037cfae8df3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#aa22c55218d7eeb22e2d1b037cfae8df3">setSender</a> ($sender)</td></tr>
+<tr class="separator:aa22c55218d7eeb22e2d1b037cfae8df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d358c8edea220a6e9ea3115ed317361"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a8d358c8edea220a6e9ea3115ed317361">getRecipient</a> ()</td></tr>
+<tr class="separator:a8d358c8edea220a6e9ea3115ed317361"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43c4cd7e7dafc2e776fc063b166a3d49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a43c4cd7e7dafc2e776fc063b166a3d49">setRecipient</a> ($recipient)</td></tr>
+<tr class="separator:a43c4cd7e7dafc2e776fc063b166a3d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2f5fe34e0c468526b61b33e2a688f4f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#ac2f5fe34e0c468526b61b33e2a688f4f">getRequestId</a> ()</td></tr>
+<tr class="separator:ac2f5fe34e0c468526b61b33e2a688f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dc468d48fafa6ef01da5311e90e6308"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a8dc468d48fafa6ef01da5311e90e6308">setRequestId</a> ($requestId)</td></tr>
+<tr class="separator:a8dc468d48fafa6ef01da5311e90e6308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36037d53dd737f78372bcfe5cb641a6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a36037d53dd737f78372bcfe5cb641a6f">getMessage</a> ()</td></tr>
+<tr class="separator:a36037d53dd737f78372bcfe5cb641a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26d23ae7f8f803f23a3db472786bcd3e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a26d23ae7f8f803f23a3db472786bcd3e">setMessage</a> ($message)</td></tr>
+<tr class="separator:a26d23ae7f8f803f23a3db472786bcd3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a093908b200eab28a803a41739f97fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a1a093908b200eab28a803a41739f97fb">getReceivedOn</a> ()</td></tr>
+<tr class="separator:a1a093908b200eab28a803a41739f97fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a062fce7d862346bf8f8932f5e749cd19"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a062fce7d862346bf8f8932f5e749cd19">setReceivedOn</a> ($receivedOn)</td></tr>
+<tr class="separator:a062fce7d862346bf8f8932f5e749cd19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:af8ae061906feacabc1f902c4bd881d15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af8ae061906feacabc1f902c4bd881d15"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$sender</b></td></tr>
-<tr class="separator:af8ae061906feacabc1f902c4bd881d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade37356d6987936d322cfbc6df38dfab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade37356d6987936d322cfbc6df38dfab"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$recipient</b></td></tr>
-<tr class="separator:ade37356d6987936d322cfbc6df38dfab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6a5dcc2780078e858666e274cd35d5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab6a5dcc2780078e858666e274cd35d5e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$expiration</b></td></tr>
-<tr class="separator:ab6a5dcc2780078e858666e274cd35d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d536d2f1d298337da678087fe0b9d30"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0d536d2f1d298337da678087fe0b9d30"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$sentOn</b></td></tr>
-<tr class="separator:a0d536d2f1d298337da678087fe0b9d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af08ad4863c91d7baccfd43e73bd6a1c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af08ad4863c91d7baccfd43e73bd6a1c7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$requestId</b></td></tr>
-<tr class="separator:af08ad4863c91d7baccfd43e73bd6a1c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a4a6fba2208984cabb3afacadf33919"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a4a6fba2208984cabb3afacadf33919"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$type</b></td></tr>
-<tr class="separator:a9a4a6fba2208984cabb3afacadf33919"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf17cb2dba2ed17cb28aa5f37deb5293"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf17cb2dba2ed17cb28aa5f37deb5293"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$message</b></td></tr>
-<tr class="separator:abf17cb2dba2ed17cb28aa5f37deb5293"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb5234172bd22db199a404cf21eb7144"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb5234172bd22db199a404cf21eb7144"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$receivedOn</b></td></tr>
-<tr class="separator:afb5234172bd22db199a404cf21eb7144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a48b654f210fda875b0d301d14ef4e459"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a48b654f210fda875b0d301d14ef4e459">$sender</a></td></tr>
+<tr class="separator:a48b654f210fda875b0d301d14ef4e459"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac52c9e52f8566a1e4952f5aef79648a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#ac52c9e52f8566a1e4952f5aef79648a5">$recipient</a></td></tr>
+<tr class="separator:ac52c9e52f8566a1e4952f5aef79648a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1648ec5e864da486ae46bb9b3aa374ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a1648ec5e864da486ae46bb9b3aa374ac">$expiration</a></td></tr>
+<tr class="separator:a1648ec5e864da486ae46bb9b3aa374ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6130722ce300fb35540a2cad4ede3d01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a6130722ce300fb35540a2cad4ede3d01">$sentOn</a></td></tr>
+<tr class="separator:a6130722ce300fb35540a2cad4ede3d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31e221d69a1c0758210e07751820156f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a31e221d69a1c0758210e07751820156f">$requestId</a></td></tr>
+<tr class="separator:a31e221d69a1c0758210e07751820156f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5021f77db76ad1e24ef54cb64731c643"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a5021f77db76ad1e24ef54cb64731c643">$type</a></td></tr>
+<tr class="separator:a5021f77db76ad1e24ef54cb64731c643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a617612eb0ee30b411946af3a1e6579c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a617612eb0ee30b411946af3a1e6579c0">$message</a></td></tr>
+<tr class="separator:a617612eb0ee30b411946af3a1e6579c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59cc7091bbd1b6129103b5a5e1f4514d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_requests.html#a59cc7091bbd1b6129103b5a5e1f4514d">$receivedOn</a></td></tr>
+<tr class="separator:a59cc7091bbd1b6129103b5a5e1f4514d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a0a7e17e2828fd89d3cdfceb32474a353"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::__construct </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_gift.html">Gift</a>&#160;</td>
+          <td class="paramname"><em>$gift</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="afa50ec04fb87ddae18f6fae365f6836e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::getExpiration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a36037d53dd737f78372bcfe5cb641a6f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::getMessage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1a093908b200eab28a803a41739f97fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::getReceivedOn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8d358c8edea220a6e9ea3115ed317361"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::getRecipient </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac2f5fe34e0c468526b61b33e2a688f4f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::getRequestId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7020da15a7a2c7654f7ee790c5e8bb3c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::getSender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a54152a26238b4e5f9b93d307baf8aaac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::getSentOn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af3ee7f0fd0792cebcf05fce5ecc97767"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afabae11daa013e8de08923567e477b84"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::setExpiration </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$expiration</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a26d23ae7f8f803f23a3db472786bcd3e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::setMessage </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a062fce7d862346bf8f8932f5e749cd19"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::setReceivedOn </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$receivedOn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a43c4cd7e7dafc2e776fc063b166a3d49"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::setRecipient </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$recipient</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8dc468d48fafa6ef01da5311e90e6308"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::setRequestId </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$requestId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aba363381a6aa2f1e579ffcb3b89518d9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::setSendedOn </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$sentOn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa22c55218d7eeb22e2d1b037cfae8df3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::setSender </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$sender</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af7c0f6b1a94b38d5b409ee78f6d5c8e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::setType </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9eadcac2605951679910a414c3b61a14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a1648ec5e864da486ae46bb9b3aa374ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::$expiration</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a617612eb0ee30b411946af3a1e6579c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::$message</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a59cc7091bbd1b6129103b5a5e1f4514d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::$receivedOn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac52c9e52f8566a1e4952f5aef79648a5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::$recipient</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a31e221d69a1c0758210e07751820156f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::$requestId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a48b654f210fda875b0d301d14ef4e459"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::$sender</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6130722ce300fb35540a2cad4ede3d01"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::$sentOn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5021f77db76ad1e24ef54cb64731c643"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Requests::$type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:25:37 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

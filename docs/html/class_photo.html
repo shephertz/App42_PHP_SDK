@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,7 +83,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_photo-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Photo Class Reference</div>  </div>
 </div><!--header-->
@@ -91,72 +92,65 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aee869b6225ef4a3fd334327d3bd39f29"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#aee869b6225ef4a3fd334327d3bd39f29">__construct</a> (<a class="el" href="class_album.html">Album</a> $album)</td></tr>
-<tr class="separator:aee869b6225ef4a3fd334327d3bd39f29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d0963e68bb313b163a73f2803c64600"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a3d0963e68bb313b163a73f2803c64600">getName</a> ()</td></tr>
-<tr class="separator:a3d0963e68bb313b163a73f2803c64600"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fe666694997d047711d7653eca2f132"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a2fe666694997d047711d7653eca2f132">setName</a> ($name)</td></tr>
-<tr class="separator:a2fe666694997d047711d7653eca2f132"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e7bb35c71bf1824456ceb944cb7a845"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a2e7bb35c71bf1824456ceb944cb7a845">getDescription</a> ()</td></tr>
-<tr class="separator:a2e7bb35c71bf1824456ceb944cb7a845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31fad3e39336ea079ea758e051866627"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a31fad3e39336ea079ea758e051866627">setDescription</a> ($description)</td></tr>
-<tr class="separator:a31fad3e39336ea079ea758e051866627"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accd14bda49a1044b4d8dd93f020f11ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#accd14bda49a1044b4d8dd93f020f11ee">getUrl</a> ()</td></tr>
-<tr class="separator:accd14bda49a1044b4d8dd93f020f11ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b6d0c531aa70b1811b166299edab8d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a0b6d0c531aa70b1811b166299edab8d0">setUrl</a> ($url)</td></tr>
-<tr class="separator:a0b6d0c531aa70b1811b166299edab8d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0b3c076d9833856e1a293d2abe3c2e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#aa0b3c076d9833856e1a293d2abe3c2e7">getTagList</a> ()</td></tr>
-<tr class="separator:aa0b3c076d9833856e1a293d2abe3c2e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb83503770b12bea712095e0363cb3db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#abb83503770b12bea712095e0363cb3db">setTagList</a> ($tagList)</td></tr>
-<tr class="separator:abb83503770b12bea712095e0363cb3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a091447bbcaa0d446868dad1498b44c01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a091447bbcaa0d446868dad1498b44c01">getTinyUrl</a> ()</td></tr>
-<tr class="separator:a091447bbcaa0d446868dad1498b44c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa324ef58c503db9ab7a00323b15f3d91"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#aa324ef58c503db9ab7a00323b15f3d91">setTinyUrl</a> ($tinyUrl)</td></tr>
-<tr class="separator:aa324ef58c503db9ab7a00323b15f3d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d578600a01ae355a813fd6e6ee96878"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a9d578600a01ae355a813fd6e6ee96878">getThumbNailUrl</a> ()</td></tr>
-<tr class="separator:a9d578600a01ae355a813fd6e6ee96878"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dd522dd00f0d15e28453b3818b1e180"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a5dd522dd00f0d15e28453b3818b1e180">setThumbNailUrl</a> ($thumbNailUrl)</td></tr>
-<tr class="separator:a5dd522dd00f0d15e28453b3818b1e180"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90d93ef21bb68ca5db35f0642b146aa5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a90d93ef21bb68ca5db35f0642b146aa5">getThumbNailTinyUrl</a> ()</td></tr>
-<tr class="separator:a90d93ef21bb68ca5db35f0642b146aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8574f19f8226154ba90f81519378c4ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a8574f19f8226154ba90f81519378c4ba">setThumbNailTinyUrl</a> ($thumbNailTinyUrl)</td></tr>
-<tr class="separator:a8574f19f8226154ba90f81519378c4ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a5558c5d549f41597377fa1ea8a1cefa3">toString</a> ()</td></tr>
-<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f8f3b208954bfb78ec1b6174e832578"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a8f8f3b208954bfb78ec1b6174e832578">__construct</a> (<a class="el" href="class_album.html">Album</a> $album)</td></tr>
+<tr class="separator:a8f8f3b208954bfb78ec1b6174e832578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bfa6ff4f9f39a1e8beb3494ede200a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a8bfa6ff4f9f39a1e8beb3494ede200a0">getName</a> ()</td></tr>
+<tr class="separator:a8bfa6ff4f9f39a1e8beb3494ede200a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b3ce0639055192f3884864b321401b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a9b3ce0639055192f3884864b321401b9">setName</a> ($name)</td></tr>
+<tr class="separator:a9b3ce0639055192f3884864b321401b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95b0b9d2c4c50317f8b80f4396662f79"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a95b0b9d2c4c50317f8b80f4396662f79">getDescription</a> ()</td></tr>
+<tr class="separator:a95b0b9d2c4c50317f8b80f4396662f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad78465285876cfcf195a468fdf50c4fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#ad78465285876cfcf195a468fdf50c4fa">setDescription</a> ($description)</td></tr>
+<tr class="separator:ad78465285876cfcf195a468fdf50c4fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af54de9c53820952e86ca88a9719f1c6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#af54de9c53820952e86ca88a9719f1c6d">getUrl</a> ()</td></tr>
+<tr class="separator:af54de9c53820952e86ca88a9719f1c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1da085e24bb59e9cfa8dcd2e8cb0ca10"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a1da085e24bb59e9cfa8dcd2e8cb0ca10">setUrl</a> ($url)</td></tr>
+<tr class="separator:a1da085e24bb59e9cfa8dcd2e8cb0ca10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8b9c2233e7e678149c06a1c8d5734bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#ad8b9c2233e7e678149c06a1c8d5734bc">getTagList</a> ()</td></tr>
+<tr class="separator:ad8b9c2233e7e678149c06a1c8d5734bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affd25dd63e3db5c21e56d109bb7c8e6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#affd25dd63e3db5c21e56d109bb7c8e6a">setTagList</a> ($tagList)</td></tr>
+<tr class="separator:affd25dd63e3db5c21e56d109bb7c8e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98703e1b6e0f2183c5a256f58e5a168f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a98703e1b6e0f2183c5a256f58e5a168f">getTinyUrl</a> ()</td></tr>
+<tr class="separator:a98703e1b6e0f2183c5a256f58e5a168f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a574b606380d60d61085d48e4667e7ea3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a574b606380d60d61085d48e4667e7ea3">setTinyUrl</a> ($tinyUrl)</td></tr>
+<tr class="separator:a574b606380d60d61085d48e4667e7ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab74d1da8f371e41bcf182c8d595aecec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#ab74d1da8f371e41bcf182c8d595aecec">getThumbNailUrl</a> ()</td></tr>
+<tr class="separator:ab74d1da8f371e41bcf182c8d595aecec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac03d7491a23f50dcacac29dd52fcc9c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#aac03d7491a23f50dcacac29dd52fcc9c">setThumbNailUrl</a> ($thumbNailUrl)</td></tr>
+<tr class="separator:aac03d7491a23f50dcacac29dd52fcc9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11515c061199bf1609078fd430af574b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a11515c061199bf1609078fd430af574b">getThumbNailTinyUrl</a> ()</td></tr>
+<tr class="separator:a11515c061199bf1609078fd430af574b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e24f8e8cde88fe5bff2b4132f2f2489"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a9e24f8e8cde88fe5bff2b4132f2f2489">setThumbNailTinyUrl</a> ($thumbNailTinyUrl)</td></tr>
+<tr class="separator:a9e24f8e8cde88fe5bff2b4132f2f2489"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83acfd4b556a8adb16de0eba2d59dff4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a83acfd4b556a8adb16de0eba2d59dff4">toString</a> ()</td></tr>
+<tr class="separator:a83acfd4b556a8adb16de0eba2d59dff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:ab2fc40d43824ea3e1ce5d86dee0d763b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2fc40d43824ea3e1ce5d86dee0d763b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$name</b></td></tr>
-<tr class="separator:ab2fc40d43824ea3e1ce5d86dee0d763b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87b032cba06009e3467abf1c8018d960"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87b032cba06009e3467abf1c8018d960"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$description</b></td></tr>
-<tr class="separator:a87b032cba06009e3467abf1c8018d960"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf215f34a917d014776ce684a9ee8909"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf215f34a917d014776ce684a9ee8909"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$url</b></td></tr>
-<tr class="separator:acf215f34a917d014776ce684a9ee8909"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c2c8dd33e943747d8c8e86be353e62b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c2c8dd33e943747d8c8e86be353e62b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$tinyUrl</b></td></tr>
-<tr class="separator:a9c2c8dd33e943747d8c8e86be353e62b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedf8cd90f5da6aaaf0536805270cde82"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aedf8cd90f5da6aaaf0536805270cde82"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$thumbNailUrl</b></td></tr>
-<tr class="separator:aedf8cd90f5da6aaaf0536805270cde82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2a4eae4a8d43d952e84e2d6cd1e839c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae2a4eae4a8d43d952e84e2d6cd1e839c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$thumbNailTinyUrl</b></td></tr>
-<tr class="separator:ae2a4eae4a8d43d952e84e2d6cd1e839c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a7f76e67efe993b1efa236de5ca34a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2a7f76e67efe993b1efa236de5ca34a3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$tagList</b> = array()</td></tr>
-<tr class="separator:a2a7f76e67efe993b1efa236de5ca34a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ad0216761e0550d8194167f3a00a7c7d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#ad0216761e0550d8194167f3a00a7c7d6">$name</a></td></tr>
+<tr class="separator:ad0216761e0550d8194167f3a00a7c7d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6bcf166e8b769cdcbbbaf93a0351e5d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#af6bcf166e8b769cdcbbbaf93a0351e5d">$description</a></td></tr>
+<tr class="separator:af6bcf166e8b769cdcbbbaf93a0351e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7db990d96f7e83acdc1af82e51f1c442"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a7db990d96f7e83acdc1af82e51f1c442">$url</a></td></tr>
+<tr class="separator:a7db990d96f7e83acdc1af82e51f1c442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abea87fc381d85bf1b650f88aeabf7d0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#abea87fc381d85bf1b650f88aeabf7d0f">$tinyUrl</a></td></tr>
+<tr class="separator:abea87fc381d85bf1b650f88aeabf7d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed925d4faeca6fba03d15a1d8e0f1be7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#aed925d4faeca6fba03d15a1d8e0f1be7">$thumbNailUrl</a></td></tr>
+<tr class="separator:aed925d4faeca6fba03d15a1d8e0f1be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a333e75298787b4a70dc1f9876a5fa815"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#a333e75298787b4a70dc1f9876a5fa815">$thumbNailTinyUrl</a></td></tr>
+<tr class="separator:a333e75298787b4a70dc1f9876a5fa815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0566c2764492da6104f7c2c4021d1f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_photo.html#ab0566c2764492da6104f7c2c4021d1f4">$tagList</a> = array()</td></tr>
+<tr class="separator:ab0566c2764492da6104f7c2c4021d1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An inner class that contains the remaining properties of the <a class="el" href="class_album.html">Album</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aee869b6225ef4a3fd334327d3bd39f29"></a>
+<a class="anchor" id="a8f8f3b208954bfb78ec1b6174e832578"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__construct </td>
+          <td class="memname">Photo::__construct </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_album.html">Album</a>&#160;</td>
           <td class="paramname"><em>$album</em></td><td>)</td>
@@ -169,12 +163,12 @@ Data Fields</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a2e7bb35c71bf1824456ceb944cb7a845"></a>
+<a class="anchor" id="a95b0b9d2c4c50317f8b80f4396662f79"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getDescription </td>
+          <td class="memname">Photo::getDescription </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -186,12 +180,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3d0963e68bb313b163a73f2803c64600"></a>
+<a class="anchor" id="a8bfa6ff4f9f39a1e8beb3494ede200a0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getName </td>
+          <td class="memname">Photo::getName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -203,12 +197,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa0b3c076d9833856e1a293d2abe3c2e7"></a>
+<a class="anchor" id="ad8b9c2233e7e678149c06a1c8d5734bc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getTagList </td>
+          <td class="memname">Photo::getTagList </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -220,12 +214,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a90d93ef21bb68ca5db35f0642b146aa5"></a>
+<a class="anchor" id="a11515c061199bf1609078fd430af574b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getThumbNailTinyUrl </td>
+          <td class="memname">Photo::getThumbNailTinyUrl </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -237,12 +231,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9d578600a01ae355a813fd6e6ee96878"></a>
+<a class="anchor" id="ab74d1da8f371e41bcf182c8d595aecec"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getThumbNailUrl </td>
+          <td class="memname">Photo::getThumbNailUrl </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -254,12 +248,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a091447bbcaa0d446868dad1498b44c01"></a>
+<a class="anchor" id="a98703e1b6e0f2183c5a256f58e5a168f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getTinyUrl </td>
+          <td class="memname">Photo::getTinyUrl </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -271,12 +265,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="accd14bda49a1044b4d8dd93f020f11ee"></a>
+<a class="anchor" id="af54de9c53820952e86ca88a9719f1c6d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getUrl </td>
+          <td class="memname">Photo::getUrl </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -288,12 +282,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a31fad3e39336ea079ea758e051866627"></a>
+<a class="anchor" id="ad78465285876cfcf195a468fdf50c4fa"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setDescription </td>
+          <td class="memname">Photo::setDescription </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$description</em></td><td>)</td>
@@ -308,12 +302,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2fe666694997d047711d7653eca2f132"></a>
+<a class="anchor" id="a9b3ce0639055192f3884864b321401b9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setName </td>
+          <td class="memname">Photo::setName </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$name</em></td><td>)</td>
@@ -328,12 +322,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abb83503770b12bea712095e0363cb3db"></a>
+<a class="anchor" id="affd25dd63e3db5c21e56d109bb7c8e6a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setTagList </td>
+          <td class="memname">Photo::setTagList </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$tagList</em></td><td>)</td>
@@ -348,12 +342,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8574f19f8226154ba90f81519378c4ba"></a>
+<a class="anchor" id="a9e24f8e8cde88fe5bff2b4132f2f2489"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setThumbNailTinyUrl </td>
+          <td class="memname">Photo::setThumbNailTinyUrl </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$thumbNailTinyUrl</em></td><td>)</td>
@@ -368,12 +362,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5dd522dd00f0d15e28453b3818b1e180"></a>
+<a class="anchor" id="aac03d7491a23f50dcacac29dd52fcc9c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setThumbNailUrl </td>
+          <td class="memname">Photo::setThumbNailUrl </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$thumbNailUrl</em></td><td>)</td>
@@ -388,12 +382,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa324ef58c503db9ab7a00323b15f3d91"></a>
+<a class="anchor" id="a574b606380d60d61085d48e4667e7ea3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setTinyUrl </td>
+          <td class="memname">Photo::setTinyUrl </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$tinyUrl</em></td><td>)</td>
@@ -408,12 +402,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0b6d0c531aa70b1811b166299edab8d0"></a>
+<a class="anchor" id="a1da085e24bb59e9cfa8dcd2e8cb0ca10"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setUrl </td>
+          <td class="memname">Photo::setUrl </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$url</em></td><td>)</td>
@@ -428,12 +422,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
+<a class="anchor" id="a83acfd4b556a8adb16de0eba2d59dff4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">toString </td>
+          <td class="memname">Photo::toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -445,10 +439,95 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="af6bcf166e8b769cdcbbbaf93a0351e5d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Photo::$description</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad0216761e0550d8194167f3a00a7c7d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Photo::$name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab0566c2764492da6104f7c2c4021d1f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Photo::$tagList = array()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a333e75298787b4a70dc1f9876a5fa815"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Photo::$thumbNailTinyUrl</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aed925d4faeca6fba03d15a1d8e0f1be7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Photo::$thumbNailUrl</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abea87fc381d85bf1b650f88aeabf7d0f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Photo::$tinyUrl</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7db990d96f7e83acdc1af82e51f1c442"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Photo::$url</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:25:37 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

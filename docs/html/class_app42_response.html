@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -82,72 +82,145 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="class_app42_response-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">App42Response Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for App42Response:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_app42_response.png" usemap="#App42Response_map" alt=""/>
-  <map id="App42Response_map" name="App42Response_map">
-<area href="class_a_b_testing.html" alt="ABTesting" shape="rect" coords="114,56,218,80"/>
-<area href="class_achievement.html" alt="Achievement" shape="rect" coords="114,112,218,136"/>
-<area href="class_album.html" alt="Album" shape="rect" coords="114,168,218,192"/>
-<area href="class_avatar.html" alt="Avatar" shape="rect" coords="114,224,218,248"/>
-<area href="class_buddy.html" alt="Buddy" shape="rect" coords="114,280,218,304"/>
-<area href="class_cart.html" alt="Cart" shape="rect" coords="114,336,218,360"/>
-<area href="class_catalogue.html" alt="Catalogue" shape="rect" coords="114,392,218,416"/>
-<area href="class_email.html" alt="Email" shape="rect" coords="114,448,218,472"/>
-<area href="class_game.html" alt="Game" shape="rect" coords="114,504,218,528"/>
-<area href="class_geo.html" alt="Geo" shape="rect" coords="114,560,218,584"/>
-<area href="class_gift.html" alt="Gift" shape="rect" coords="114,616,218,640"/>
-<area href="class_image.html" alt="Image" shape="rect" coords="114,672,218,696"/>
-<area href="class_logging.html" alt="Logging" shape="rect" coords="114,728,218,752"/>
-<area href="class_push_notification.html" alt="PushNotification" shape="rect" coords="114,784,218,808"/>
-<area href="class_queue.html" alt="Queue" shape="rect" coords="114,840,218,864"/>
-<area href="class_recommender.html" alt="Recommender" shape="rect" coords="114,896,218,920"/>
-<area href="class_review.html" alt="Review" shape="rect" coords="114,952,218,976"/>
-<area href="class_reward.html" alt="Reward" shape="rect" coords="114,1008,218,1032"/>
-<area href="class_session.html" alt="Session" shape="rect" coords="114,1064,218,1088"/>
-<area href="class_social.html" alt="Social" shape="rect" coords="114,1120,218,1144"/>
-<area href="class_storage.html" alt="Storage" shape="rect" coords="114,1176,218,1200"/>
-<area href="class_timer.html" alt="Timer" shape="rect" coords="114,1232,218,1256"/>
-<area href="class_upload.html" alt="Upload" shape="rect" coords="114,1288,218,1312"/>
-<area href="class_user.html" alt="User" shape="rect" coords="114,1344,218,1368"/>
-</map>
- </div></div>
+
+<p>Inherited by <a class="el" href="class_a_b_testing.html">ABTesting</a>, <a class="el" href="class_achievement.html">Achievement</a>, <a class="el" href="class_album.html">Album</a>, <a class="el" href="class_avatar.html">Avatar</a>, <a class="el" href="class_buddy.html">Buddy</a>, <a class="el" href="class_cart.html">Cart</a>, <a class="el" href="class_catalogue.html">Catalogue</a>, <a class="el" href="class_email.html">Email</a>, <a class="el" href="class_game.html">Game</a>, <a class="el" href="class_geo.html">Geo</a>, <a class="el" href="class_gift.html">Gift</a>, <a class="el" href="class_image.html">Image</a>, <a class="el" href="class_logging.html">Logging</a>, <a class="el" href="class_push_notification.html">PushNotification</a>, <a class="el" href="class_queue.html">Queue</a>, <a class="el" href="class_recommender.html">Recommender</a>, <a class="el" href="class_review.html">Review</a>, <a class="el" href="class_reward.html">Reward</a>, <a class="el" href="class_session.html">Session</a>, <a class="el" href="class_social.html">Social</a>, <a class="el" href="class_storage.html">Storage</a>, <a class="el" href="class_timer.html">Timer</a>, <a class="el" href="class_upload.html">Upload</a>, and <a class="el" href="class_user.html">User</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac6329aaaf695e71dd106b4e4875d4c12"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6329aaaf695e71dd106b4e4875d4c12"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getTotalRecords</b> ()</td></tr>
-<tr class="separator:ac6329aaaf695e71dd106b4e4875d4c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71d542aefbcfb5f4c5bd4db0da7f740c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71d542aefbcfb5f4c5bd4db0da7f740c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setTotalRecords</b> ($totalRecords)</td></tr>
-<tr class="separator:a71d542aefbcfb5f4c5bd4db0da7f740c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d218c02b1c22595b91083316a569c17"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d218c02b1c22595b91083316a569c17"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getStrResponse</b> ()</td></tr>
-<tr class="separator:a7d218c02b1c22595b91083316a569c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34af678876992c78b5fde4b3dcc0f83b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34af678876992c78b5fde4b3dcc0f83b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setStrResponse</b> ($strResponse)</td></tr>
-<tr class="separator:a34af678876992c78b5fde4b3dcc0f83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6d43c993a10b720dd0c65ff74aedc7b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6d43c993a10b720dd0c65ff74aedc7b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>isResponseSuccess</b> ()</td></tr>
-<tr class="separator:aa6d43c993a10b720dd0c65ff74aedc7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a676d99b4903261c349d07226511f7236"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a676d99b4903261c349d07226511f7236"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setResponseSuccess</b> ($isResponseSuccess)</td></tr>
-<tr class="separator:a676d99b4903261c349d07226511f7236"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>toString</b> ()</td></tr>
-<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59691fca1114f7ec431945476fbbbedb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a59691fca1114f7ec431945476fbbbedb">getTotalRecords</a> ()</td></tr>
+<tr class="separator:a59691fca1114f7ec431945476fbbbedb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf9642f79cd3bb953713aae24c61c68d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#adf9642f79cd3bb953713aae24c61c68d">setTotalRecords</a> ($totalRecords)</td></tr>
+<tr class="separator:adf9642f79cd3bb953713aae24c61c68d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85d0a2f09c9ce3e8af8e0f5506e7b2b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a85d0a2f09c9ce3e8af8e0f5506e7b2b3">getStrResponse</a> ()</td></tr>
+<tr class="separator:a85d0a2f09c9ce3e8af8e0f5506e7b2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a65b1890322364a445c20f8a7a6ea9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a42a65b1890322364a445c20f8a7a6ea9">setStrResponse</a> ($strResponse)</td></tr>
+<tr class="separator:a42a65b1890322364a445c20f8a7a6ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a790b0d760b2318677c26b26d2b2d409d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a> ()</td></tr>
+<tr class="separator:a790b0d760b2318677c26b26d2b2d409d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff474b29d8343336e17b4674422386af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#aff474b29d8343336e17b4674422386af">setResponseSuccess</a> ($<a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a>)</td></tr>
+<tr class="separator:aff474b29d8343336e17b4674422386af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32850bec51f0aa330085a3cd148a3a96"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a32850bec51f0aa330085a3cd148a3a96">toString</a> ()</td></tr>
+<tr class="separator:a32850bec51f0aa330085a3cd148a3a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a85d0a2f09c9ce3e8af8e0f5506e7b2b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Response::getStrResponse </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a59691fca1114f7ec431945476fbbbedb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Response::getTotalRecords </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a790b0d760b2318677c26b26d2b2d409d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Response::isResponseSuccess </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aff474b29d8343336e17b4674422386af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Response::setResponseSuccess </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$isResponseSuccess</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a42a65b1890322364a445c20f8a7a6ea9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Response::setStrResponse </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$strResponse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adf9642f79cd3bb953713aae24c61c68d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Response::setTotalRecords </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$totalRecords</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a32850bec51f0aa330085a3cd148a3a96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Response::toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:25:35 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,7 +83,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_catalogue_item-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">CatalogueItem Class Reference</div>  </div>
 </div><!--header-->
@@ -91,66 +92,76 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a14e1eb3a2c7c9e66ad3aed41923064aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14e1eb3a2c7c9e66ad3aed41923064aa"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>__construct</b> (<a class="el" href="class_category.html">Category</a> $category)</td></tr>
-<tr class="separator:a14e1eb3a2c7c9e66ad3aed41923064aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b01110117f0cd71a5a115dc8b9eab6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a5b01110117f0cd71a5a115dc8b9eab6f">getItemId</a> ()</td></tr>
-<tr class="separator:a5b01110117f0cd71a5a115dc8b9eab6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22de7a673c95892b16b497788139add1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a22de7a673c95892b16b497788139add1">setItemId</a> ($itemId)</td></tr>
-<tr class="separator:a22de7a673c95892b16b497788139add1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d0963e68bb313b163a73f2803c64600"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a3d0963e68bb313b163a73f2803c64600">getName</a> ()</td></tr>
-<tr class="separator:a3d0963e68bb313b163a73f2803c64600"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fe666694997d047711d7653eca2f132"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a2fe666694997d047711d7653eca2f132">setName</a> ($name)</td></tr>
-<tr class="separator:a2fe666694997d047711d7653eca2f132"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e7bb35c71bf1824456ceb944cb7a845"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a2e7bb35c71bf1824456ceb944cb7a845">getDescription</a> ()</td></tr>
-<tr class="separator:a2e7bb35c71bf1824456ceb944cb7a845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31fad3e39336ea079ea758e051866627"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a31fad3e39336ea079ea758e051866627">setDescription</a> ($description)</td></tr>
-<tr class="separator:a31fad3e39336ea079ea758e051866627"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accd14bda49a1044b4d8dd93f020f11ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#accd14bda49a1044b4d8dd93f020f11ee">getUrl</a> ()</td></tr>
-<tr class="separator:accd14bda49a1044b4d8dd93f020f11ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b6d0c531aa70b1811b166299edab8d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a0b6d0c531aa70b1811b166299edab8d0">setUrl</a> ($url)</td></tr>
-<tr class="separator:a0b6d0c531aa70b1811b166299edab8d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a091447bbcaa0d446868dad1498b44c01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a091447bbcaa0d446868dad1498b44c01">getTinyUrl</a> ()</td></tr>
-<tr class="separator:a091447bbcaa0d446868dad1498b44c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa324ef58c503db9ab7a00323b15f3d91"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#aa324ef58c503db9ab7a00323b15f3d91">setTinyUrl</a> ($tinyUrl)</td></tr>
-<tr class="separator:aa324ef58c503db9ab7a00323b15f3d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38146d2beb1dd6dfd0f2a5886e18a538"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a38146d2beb1dd6dfd0f2a5886e18a538">getPrice</a> ()</td></tr>
-<tr class="separator:a38146d2beb1dd6dfd0f2a5886e18a538"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e232712bdbc759793fab2cf08506c25"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a2e232712bdbc759793fab2cf08506c25">setPrice</a> ($price)</td></tr>
-<tr class="separator:a2e232712bdbc759793fab2cf08506c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a5558c5d549f41597377fa1ea8a1cefa3">toString</a> ()</td></tr>
-<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8dc92b61804296baea6e70cfbb50975"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#ac8dc92b61804296baea6e70cfbb50975">__construct</a> (<a class="el" href="class_category.html">Category</a> $category)</td></tr>
+<tr class="separator:ac8dc92b61804296baea6e70cfbb50975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a922ff9067b898cd6ebc411e65da57506"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a922ff9067b898cd6ebc411e65da57506">getItemId</a> ()</td></tr>
+<tr class="separator:a922ff9067b898cd6ebc411e65da57506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae18076db1fd3da316636b22835f33bee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#ae18076db1fd3da316636b22835f33bee">setItemId</a> ($itemId)</td></tr>
+<tr class="separator:ae18076db1fd3da316636b22835f33bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa562f4d1b9fc1abe6c1cd5110a87f34f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#aa562f4d1b9fc1abe6c1cd5110a87f34f">getName</a> ()</td></tr>
+<tr class="separator:aa562f4d1b9fc1abe6c1cd5110a87f34f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f23a0fabf5f4b74157755a0388004fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a5f23a0fabf5f4b74157755a0388004fa">setName</a> ($name)</td></tr>
+<tr class="separator:a5f23a0fabf5f4b74157755a0388004fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6464df224cdec16d91256c85145cf44e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a6464df224cdec16d91256c85145cf44e">getDescription</a> ()</td></tr>
+<tr class="separator:a6464df224cdec16d91256c85145cf44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0225905b1422ed05cd9b3be4f849634"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#af0225905b1422ed05cd9b3be4f849634">setDescription</a> ($description)</td></tr>
+<tr class="separator:af0225905b1422ed05cd9b3be4f849634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab354c99fb5748449d793d4934b8059c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#ab354c99fb5748449d793d4934b8059c2">getUrl</a> ()</td></tr>
+<tr class="separator:ab354c99fb5748449d793d4934b8059c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9378c46969bf0ef74db0ee9bc504047"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#ae9378c46969bf0ef74db0ee9bc504047">setUrl</a> ($url)</td></tr>
+<tr class="separator:ae9378c46969bf0ef74db0ee9bc504047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af00c1b197e483a1bd15b033851e7c27c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#af00c1b197e483a1bd15b033851e7c27c">getTinyUrl</a> ()</td></tr>
+<tr class="separator:af00c1b197e483a1bd15b033851e7c27c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b902805549095ec7d3675f107891a33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a4b902805549095ec7d3675f107891a33">setTinyUrl</a> ($tinyUrl)</td></tr>
+<tr class="separator:a4b902805549095ec7d3675f107891a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dbb97c1d5c44d009ef3bf3a5d7860b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a7dbb97c1d5c44d009ef3bf3a5d7860b1">getPrice</a> ()</td></tr>
+<tr class="separator:a7dbb97c1d5c44d009ef3bf3a5d7860b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50b6c2af91b9924c6c439977d0c91491"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a50b6c2af91b9924c6c439977d0c91491">setPrice</a> ($price)</td></tr>
+<tr class="separator:a50b6c2af91b9924c6c439977d0c91491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af575c18a6160939d04fc2b05fb50dbba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#af575c18a6160939d04fc2b05fb50dbba">toString</a> ()</td></tr>
+<tr class="separator:af575c18a6160939d04fc2b05fb50dbba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:aa4c0908542b0acc0aaa0aadee3df7ae5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4c0908542b0acc0aaa0aadee3df7ae5"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$itemId</b></td></tr>
-<tr class="separator:aa4c0908542b0acc0aaa0aadee3df7ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2fc40d43824ea3e1ce5d86dee0d763b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2fc40d43824ea3e1ce5d86dee0d763b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$name</b></td></tr>
-<tr class="separator:ab2fc40d43824ea3e1ce5d86dee0d763b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87b032cba06009e3467abf1c8018d960"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87b032cba06009e3467abf1c8018d960"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$description</b></td></tr>
-<tr class="separator:a87b032cba06009e3467abf1c8018d960"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf215f34a917d014776ce684a9ee8909"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf215f34a917d014776ce684a9ee8909"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$url</b></td></tr>
-<tr class="separator:acf215f34a917d014776ce684a9ee8909"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c2c8dd33e943747d8c8e86be353e62b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c2c8dd33e943747d8c8e86be353e62b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$tinyUrl</b></td></tr>
-<tr class="separator:a9c2c8dd33e943747d8c8e86be353e62b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a264091074b1a8f4ed0abefd278831f6f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a264091074b1a8f4ed0abefd278831f6f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$price</b></td></tr>
-<tr class="separator:a264091074b1a8f4ed0abefd278831f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aa80eb55feddbb24a1cf69c9a87237f2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#aa80eb55feddbb24a1cf69c9a87237f2e">$itemId</a></td></tr>
+<tr class="separator:aa80eb55feddbb24a1cf69c9a87237f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5298f95cb7aa120b305247659367838"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#ab5298f95cb7aa120b305247659367838">$name</a></td></tr>
+<tr class="separator:ab5298f95cb7aa120b305247659367838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af309016ff81ca31439607aa5d745b12d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#af309016ff81ca31439607aa5d745b12d">$description</a></td></tr>
+<tr class="separator:af309016ff81ca31439607aa5d745b12d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa152add437041a40f81b7844f5926fd4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#aa152add437041a40f81b7844f5926fd4">$url</a></td></tr>
+<tr class="separator:aa152add437041a40f81b7844f5926fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba66a07db2a8f6d5bc5be5fad2e2dc27"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#aba66a07db2a8f6d5bc5be5fad2e2dc27">$tinyUrl</a></td></tr>
+<tr class="separator:aba66a07db2a8f6d5bc5be5fad2e2dc27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a169958c3dd53d2fb9ab7568b04c0f413"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_catalogue_item.html#a169958c3dd53d2fb9ab7568b04c0f413">$price</a></td></tr>
+<tr class="separator:a169958c3dd53d2fb9ab7568b04c0f413"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An inner class that contains the remaining properties of the Catelogue. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a2e7bb35c71bf1824456ceb944cb7a845"></a>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ac8dc92b61804296baea6e70cfbb50975"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getDescription </td>
+          <td class="memname">CatalogueItem::__construct </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_category.html">Category</a>&#160;</td>
+          <td class="paramname"><em>$category</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a6464df224cdec16d91256c85145cf44e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CatalogueItem::getDescription </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -162,12 +173,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5b01110117f0cd71a5a115dc8b9eab6f"></a>
+<a class="anchor" id="a922ff9067b898cd6ebc411e65da57506"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getItemId </td>
+          <td class="memname">CatalogueItem::getItemId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -179,12 +190,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3d0963e68bb313b163a73f2803c64600"></a>
+<a class="anchor" id="aa562f4d1b9fc1abe6c1cd5110a87f34f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getName </td>
+          <td class="memname">CatalogueItem::getName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -196,12 +207,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a38146d2beb1dd6dfd0f2a5886e18a538"></a>
+<a class="anchor" id="a7dbb97c1d5c44d009ef3bf3a5d7860b1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getPrice </td>
+          <td class="memname">CatalogueItem::getPrice </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -213,12 +224,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a091447bbcaa0d446868dad1498b44c01"></a>
+<a class="anchor" id="af00c1b197e483a1bd15b033851e7c27c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getTinyUrl </td>
+          <td class="memname">CatalogueItem::getTinyUrl </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -230,12 +241,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="accd14bda49a1044b4d8dd93f020f11ee"></a>
+<a class="anchor" id="ab354c99fb5748449d793d4934b8059c2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getUrl </td>
+          <td class="memname">CatalogueItem::getUrl </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -247,12 +258,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a31fad3e39336ea079ea758e051866627"></a>
+<a class="anchor" id="af0225905b1422ed05cd9b3be4f849634"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setDescription </td>
+          <td class="memname">CatalogueItem::setDescription </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$description</em></td><td>)</td>
@@ -267,12 +278,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a22de7a673c95892b16b497788139add1"></a>
+<a class="anchor" id="ae18076db1fd3da316636b22835f33bee"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setItemId </td>
+          <td class="memname">CatalogueItem::setItemId </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$itemId</em></td><td>)</td>
@@ -287,12 +298,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2fe666694997d047711d7653eca2f132"></a>
+<a class="anchor" id="a5f23a0fabf5f4b74157755a0388004fa"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setName </td>
+          <td class="memname">CatalogueItem::setName </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$name</em></td><td>)</td>
@@ -307,12 +318,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2e232712bdbc759793fab2cf08506c25"></a>
+<a class="anchor" id="a50b6c2af91b9924c6c439977d0c91491"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setPrice </td>
+          <td class="memname">CatalogueItem::setPrice </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$price</em></td><td>)</td>
@@ -327,12 +338,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa324ef58c503db9ab7a00323b15f3d91"></a>
+<a class="anchor" id="a4b902805549095ec7d3675f107891a33"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setTinyUrl </td>
+          <td class="memname">CatalogueItem::setTinyUrl </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$tinyUrl</em></td><td>)</td>
@@ -347,12 +358,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0b6d0c531aa70b1811b166299edab8d0"></a>
+<a class="anchor" id="ae9378c46969bf0ef74db0ee9bc504047"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setUrl </td>
+          <td class="memname">CatalogueItem::setUrl </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$url</em></td><td>)</td>
@@ -367,12 +378,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
+<a class="anchor" id="af575c18a6160939d04fc2b05fb50dbba"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">toString </td>
+          <td class="memname">CatalogueItem::toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -384,10 +395,83 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="af309016ff81ca31439607aa5d745b12d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CatalogueItem::$description</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa80eb55feddbb24a1cf69c9a87237f2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CatalogueItem::$itemId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab5298f95cb7aa120b305247659367838"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CatalogueItem::$name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a169958c3dd53d2fb9ab7568b04c0f413"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CatalogueItem::$price</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aba66a07db2a8f6d5bc5be5fad2e2dc27"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CatalogueItem::$tinyUrl</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa152add437041a40f81b7844f5926fd4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CatalogueItem::$url</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:25:36 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

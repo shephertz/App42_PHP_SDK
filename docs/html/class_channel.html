@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,7 +83,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_channel-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Channel Class Reference</div>  </div>
 </div><!--header-->
@@ -91,35 +92,133 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abcc39cb65004478bb4a40bd4689f845b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abcc39cb65004478bb4a40bd4689f845b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>__construct</b> (<a class="el" href="class_push_notification.html">PushNotification</a> $pushNotification)</td></tr>
-<tr class="separator:abcc39cb65004478bb4a40bd4689f845b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d0963e68bb313b163a73f2803c64600"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d0963e68bb313b163a73f2803c64600"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getName</b> ()</td></tr>
-<tr class="separator:a3d0963e68bb313b163a73f2803c64600"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2584371ce1d71fbf121f96ae4a72483e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2584371ce1d71fbf121f96ae4a72483e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setName</b> ($channelName)</td></tr>
-<tr class="separator:a2584371ce1d71fbf121f96ae4a72483e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e7bb35c71bf1824456ceb944cb7a845"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2e7bb35c71bf1824456ceb944cb7a845"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getDescription</b> ()</td></tr>
-<tr class="separator:a2e7bb35c71bf1824456ceb944cb7a845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31fad3e39336ea079ea758e051866627"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31fad3e39336ea079ea758e051866627"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setDescription</b> ($description)</td></tr>
-<tr class="separator:a31fad3e39336ea079ea758e051866627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa61c5e60a2f14cc1c88911454961664d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_channel.html#aa61c5e60a2f14cc1c88911454961664d">__construct</a> (<a class="el" href="class_push_notification.html">PushNotification</a> $pushNotification)</td></tr>
+<tr class="separator:aa61c5e60a2f14cc1c88911454961664d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2a6e0e3a81b9a9fc3665b6c2180f132"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_channel.html#af2a6e0e3a81b9a9fc3665b6c2180f132">getName</a> ()</td></tr>
+<tr class="separator:af2a6e0e3a81b9a9fc3665b6c2180f132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59357522f8e3f8c155257acf3761bb9d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_channel.html#a59357522f8e3f8c155257acf3761bb9d">setName</a> ($channelName)</td></tr>
+<tr class="separator:a59357522f8e3f8c155257acf3761bb9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a587a34e1115439ef412ae01922a56388"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_channel.html#a587a34e1115439ef412ae01922a56388">getDescription</a> ()</td></tr>
+<tr class="separator:a587a34e1115439ef412ae01922a56388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a516309122ef2af698f2f42c717119478"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_channel.html#a516309122ef2af698f2f42c717119478">setDescription</a> ($description)</td></tr>
+<tr class="separator:a516309122ef2af698f2f42c717119478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:a1799a40e565a7ce020d9adca384900d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1799a40e565a7ce020d9adca384900d6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$channelName</b></td></tr>
-<tr class="separator:a1799a40e565a7ce020d9adca384900d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87b032cba06009e3467abf1c8018d960"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87b032cba06009e3467abf1c8018d960"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$description</b></td></tr>
-<tr class="separator:a87b032cba06009e3467abf1c8018d960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aead74ba41f46bc7c946f2ddcc484f1f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_channel.html#aead74ba41f46bc7c946f2ddcc484f1f8">$channelName</a></td></tr>
+<tr class="separator:aead74ba41f46bc7c946f2ddcc484f1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f9205ac1d998de6b8287e3a204a5bb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_channel.html#a1f9205ac1d998de6b8287e3a204a5bb6">$description</a></td></tr>
+<tr class="separator:a1f9205ac1d998de6b8287e3a204a5bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="aa61c5e60a2f14cc1c88911454961664d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Channel::__construct </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_push_notification.html">PushNotification</a>&#160;</td>
+          <td class="paramname"><em>$pushNotification</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a587a34e1115439ef412ae01922a56388"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Channel::getDescription </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af2a6e0e3a81b9a9fc3665b6c2180f132"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Channel::getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a516309122ef2af698f2f42c717119478"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Channel::setDescription </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$description</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a59357522f8e3f8c155257acf3761bb9d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Channel::setName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$channelName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="aead74ba41f46bc7c946f2ddcc484f1f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Channel::$channelName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1f9205ac1d998de6b8287e3a204a5bb6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Channel::$description</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:25:36 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

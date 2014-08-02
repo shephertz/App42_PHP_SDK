@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,72 +83,57 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_recommender-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Recommender Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for Recommender:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_recommender.png" usemap="#Recommender_map" alt=""/>
-  <map id="Recommender_map" name="Recommender_map">
-<area href="class_app42_response.html" alt="App42Response" shape="rect" coords="0,0,104,24"/>
-</map>
- </div></div>
+
+<p>Inherits <a class="el" href="class_app42_response.html">App42Response</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a603ff6a580a024d149ce71d32a6b2d58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_recommender.html#a603ff6a580a024d149ce71d32a6b2d58">getRecommendedItemList</a> ()</td></tr>
-<tr class="separator:a603ff6a580a024d149ce71d32a6b2d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdf119233cfe2f2830b65f6375ab2cd7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_recommender.html#afdf119233cfe2f2830b65f6375ab2cd7">setRecommendedItemList</a> ($recommendedItemList)</td></tr>
-<tr class="separator:afdf119233cfe2f2830b65f6375ab2cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdeebfe3fcf5806fc79c074a6a3a6eb1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_recommender.html#afdeebfe3fcf5806fc79c074a6a3a6eb1">getFileName</a> ()</td></tr>
-<tr class="separator:afdeebfe3fcf5806fc79c074a6a3a6eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85dd368290dba8a3e2da6c58a83c1d15"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_recommender.html#a85dd368290dba8a3e2da6c58a83c1d15">setFileName</a> ($fileName)</td></tr>
-<tr class="separator:a85dd368290dba8a3e2da6c58a83c1d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade19fb2deb30e5ffe4fa8a66c5ee4c65"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_recommender.html#ade19fb2deb30e5ffe4fa8a66c5ee4c65">getRecommendedItemList</a> ()</td></tr>
+<tr class="separator:ade19fb2deb30e5ffe4fa8a66c5ee4c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aca6db2922863e0e036f5af71a8377a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_recommender.html#a4aca6db2922863e0e036f5af71a8377a">setRecommendedItemList</a> ($recommendedItemList)</td></tr>
+<tr class="separator:a4aca6db2922863e0e036f5af71a8377a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac21cdc9ee6071111c4c2df67267a2a05"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_recommender.html#ac21cdc9ee6071111c4c2df67267a2a05">getFileName</a> ()</td></tr>
+<tr class="separator:ac21cdc9ee6071111c4c2df67267a2a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abea1a3c17c2176fc93c8265f85dc93ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_recommender.html#abea1a3c17c2176fc93c8265f85dc93ec">setFileName</a> ($fileName)</td></tr>
+<tr class="separator:abea1a3c17c2176fc93c8265f85dc93ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_app42_response"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_app42_response')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_app42_response.html">App42Response</a></td></tr>
-<tr class="memitem:ac6329aaaf695e71dd106b4e4875d4c12 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6329aaaf695e71dd106b4e4875d4c12"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getTotalRecords</b> ()</td></tr>
-<tr class="separator:ac6329aaaf695e71dd106b4e4875d4c12 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71d542aefbcfb5f4c5bd4db0da7f740c inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71d542aefbcfb5f4c5bd4db0da7f740c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setTotalRecords</b> ($totalRecords)</td></tr>
-<tr class="separator:a71d542aefbcfb5f4c5bd4db0da7f740c inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d218c02b1c22595b91083316a569c17 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d218c02b1c22595b91083316a569c17"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getStrResponse</b> ()</td></tr>
-<tr class="separator:a7d218c02b1c22595b91083316a569c17 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34af678876992c78b5fde4b3dcc0f83b inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34af678876992c78b5fde4b3dcc0f83b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setStrResponse</b> ($strResponse)</td></tr>
-<tr class="separator:a34af678876992c78b5fde4b3dcc0f83b inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6d43c993a10b720dd0c65ff74aedc7b inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6d43c993a10b720dd0c65ff74aedc7b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>isResponseSuccess</b> ()</td></tr>
-<tr class="separator:aa6d43c993a10b720dd0c65ff74aedc7b inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a676d99b4903261c349d07226511f7236 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a676d99b4903261c349d07226511f7236"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setResponseSuccess</b> ($isResponseSuccess)</td></tr>
-<tr class="separator:a676d99b4903261c349d07226511f7236 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>toString</b> ()</td></tr>
-<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59691fca1114f7ec431945476fbbbedb inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a59691fca1114f7ec431945476fbbbedb">getTotalRecords</a> ()</td></tr>
+<tr class="separator:a59691fca1114f7ec431945476fbbbedb inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf9642f79cd3bb953713aae24c61c68d inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#adf9642f79cd3bb953713aae24c61c68d">setTotalRecords</a> ($totalRecords)</td></tr>
+<tr class="separator:adf9642f79cd3bb953713aae24c61c68d inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85d0a2f09c9ce3e8af8e0f5506e7b2b3 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a85d0a2f09c9ce3e8af8e0f5506e7b2b3">getStrResponse</a> ()</td></tr>
+<tr class="separator:a85d0a2f09c9ce3e8af8e0f5506e7b2b3 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a65b1890322364a445c20f8a7a6ea9 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a42a65b1890322364a445c20f8a7a6ea9">setStrResponse</a> ($strResponse)</td></tr>
+<tr class="separator:a42a65b1890322364a445c20f8a7a6ea9 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a790b0d760b2318677c26b26d2b2d409d inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a> ()</td></tr>
+<tr class="separator:a790b0d760b2318677c26b26d2b2d409d inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff474b29d8343336e17b4674422386af inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#aff474b29d8343336e17b4674422386af">setResponseSuccess</a> ($<a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a>)</td></tr>
+<tr class="separator:aff474b29d8343336e17b4674422386af inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32850bec51f0aa330085a3cd148a3a96 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a32850bec51f0aa330085a3cd148a3a96">toString</a> ()</td></tr>
+<tr class="separator:a32850bec51f0aa330085a3cd148a3a96 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:a68fbc5a9273a24181c50a057d11603fa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68fbc5a9273a24181c50a057d11603fa"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$fileName</b></td></tr>
-<tr class="separator:a68fbc5a9273a24181c50a057d11603fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae05ab61c038bc9ceb6aaa9cae2ddf5d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae05ab61c038bc9ceb6aaa9cae2ddf5d4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$recommendedItemList</b> = array()</td></tr>
-<tr class="separator:ae05ab61c038bc9ceb6aaa9cae2ddf5d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ae7d1ea73303d80e94ac4547671a14e41"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_recommender.html#ae7d1ea73303d80e94ac4547671a14e41">$fileName</a></td></tr>
+<tr class="separator:ae7d1ea73303d80e94ac4547671a14e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b04bd927d2437d2568921cd5620ce9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_recommender.html#a88b04bd927d2437d2568921cd5620ce9">$recommendedItemList</a> = array()</td></tr>
+<tr class="separator:a88b04bd927d2437d2568921cd5620ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This <a class="el" href="class_recommender.html">Recommender</a> object is the value object which contains the properties of <a class="el" href="class_recommender.html">Recommender</a> along with the setter &amp; getter for those properties. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="afdeebfe3fcf5806fc79c074a6a3a6eb1"></a>
+<a class="anchor" id="ac21cdc9ee6071111c4c2df67267a2a05"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getFileName </td>
+          <td class="memname">Recommender::getFileName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -160,12 +145,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a603ff6a580a024d149ce71d32a6b2d58"></a>
+<a class="anchor" id="ade19fb2deb30e5ffe4fa8a66c5ee4c65"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getRecommendedItemList </td>
+          <td class="memname">Recommender::getRecommendedItemList </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -177,12 +162,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a85dd368290dba8a3e2da6c58a83c1d15"></a>
+<a class="anchor" id="abea1a3c17c2176fc93c8265f85dc93ec"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setFileName </td>
+          <td class="memname">Recommender::setFileName </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$fileName</em></td><td>)</td>
@@ -203,12 +188,12 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afdf119233cfe2f2830b65f6375ab2cd7"></a>
+<a class="anchor" id="a4aca6db2922863e0e036f5af71a8377a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">setRecommendedItemList </td>
+          <td class="memname">Recommender::setRecommendedItemList </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$recommendedItemList</em></td><td>)</td>
@@ -229,10 +214,35 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ae7d1ea73303d80e94ac4547671a14e41"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Recommender::$fileName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a88b04bd927d2437d2568921cd5620ce9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Recommender::$recommendedItemList = array()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:25:37 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

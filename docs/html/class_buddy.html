@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,146 +83,549 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_buddy-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Buddy Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for Buddy:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_buddy.png" usemap="#Buddy_map" alt=""/>
-  <map id="Buddy_map" name="Buddy_map">
-<area href="class_app42_response.html" alt="App42Response" shape="rect" coords="0,0,104,24"/>
-</map>
- </div></div>
+
+<p>Inherits <a class="el" href="class_app42_response.html">App42Response</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5687f36f39c8921fc7ae867f446ac5b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5687f36f39c8921fc7ae867f446ac5b3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getMessageId</b> ()</td></tr>
-<tr class="separator:a5687f36f39c8921fc7ae867f446ac5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb35a18d0d73349c5a477f734f1a36aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb35a18d0d73349c5a477f734f1a36aa"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setMessageId</b> ($messageId)</td></tr>
-<tr class="separator:afb35a18d0d73349c5a477f734f1a36aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b905d155a05da7fd046069129b2bbf5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9b905d155a05da7fd046069129b2bbf5"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getPointList</b> ()</td></tr>
-<tr class="separator:a9b905d155a05da7fd046069129b2bbf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af07d6a87d7787574b4cedd5ae8ab9dd0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af07d6a87d7787574b4cedd5ae8ab9dd0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setPointList</b> ($point)</td></tr>
-<tr class="separator:af07d6a87d7787574b4cedd5ae8ab9dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07483299b3dddf34d210dc0a858df368"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a07483299b3dddf34d210dc0a858df368"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getGroupName</b> ()</td></tr>
-<tr class="separator:a07483299b3dddf34d210dc0a858df368"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd7743bc3e5a8f3479b4896c93183abb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd7743bc3e5a8f3479b4896c93183abb"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setGroupName</b> ($groupName)</td></tr>
-<tr class="separator:acd7743bc3e5a8f3479b4896c93183abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafd6d1ef27e6acc5833aba4012e5ee77"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafd6d1ef27e6acc5833aba4012e5ee77"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getUserName</b> ()</td></tr>
-<tr class="separator:aafd6d1ef27e6acc5833aba4012e5ee77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46ae0173c80119394053f6c4c46e2301"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a46ae0173c80119394053f6c4c46e2301"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setOwnerName</b> ($ownerName)</td></tr>
-<tr class="separator:a46ae0173c80119394053f6c4c46e2301"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04afdfb22955bbccbef7429bd780f7ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a04afdfb22955bbccbef7429bd780f7ec"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getOwnerName</b> ()</td></tr>
-<tr class="separator:a04afdfb22955bbccbef7429bd780f7ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20f0087f72763b84d2992ba6ffee2fb2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20f0087f72763b84d2992ba6ffee2fb2"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setUserName</b> ($userName)</td></tr>
-<tr class="separator:a20f0087f72763b84d2992ba6ffee2fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a351b48a110aa3ea088ccd19c6f8da349"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a351b48a110aa3ea088ccd19c6f8da349"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getBuddyName</b> ()</td></tr>
-<tr class="separator:a351b48a110aa3ea088ccd19c6f8da349"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7eac44b2002c46627383661b5d675de9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7eac44b2002c46627383661b5d675de9"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setBuddyName</b> ($buddyName)</td></tr>
-<tr class="separator:a7eac44b2002c46627383661b5d675de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b0e611236742aac18ba1936d03ba89a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0b0e611236742aac18ba1936d03ba89a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getMessage</b> ()</td></tr>
-<tr class="separator:a0b0e611236742aac18ba1936d03ba89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6991eb53548e7180a3a8e6f418fbb234"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6991eb53548e7180a3a8e6f418fbb234"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setMessage</b> ($message)</td></tr>
-<tr class="separator:a6991eb53548e7180a3a8e6f418fbb234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3ab3e6435940c584d076fe9ba1a52af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad3ab3e6435940c584d076fe9ba1a52af"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getAcceptedOn</b> ()</td></tr>
-<tr class="separator:ad3ab3e6435940c584d076fe9ba1a52af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fcc72438c1a7c48485ee441a53a878a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7fcc72438c1a7c48485ee441a53a878a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setAcceptedOn</b> ($acceptedOn)</td></tr>
-<tr class="separator:a7fcc72438c1a7c48485ee441a53a878a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01c3bd2ed3da9ef931a7fda6c48f136b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01c3bd2ed3da9ef931a7fda6c48f136b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getSendedOn</b> ()</td></tr>
-<tr class="separator:a01c3bd2ed3da9ef931a7fda6c48f136b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf04b7a0918cc51fe541708ef9557116"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf04b7a0918cc51fe541708ef9557116"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setSendedOn</b> ($sendedOn)</td></tr>
-<tr class="separator:abf04b7a0918cc51fe541708ef9557116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>toString</b> ()</td></tr>
-<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f0e914c586065bcf47f67dc84323b61"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f0e914c586065bcf47f67dc84323b61"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getBuddyList</b> ()</td></tr>
-<tr class="separator:a3f0e914c586065bcf47f67dc84323b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad79c6c04b6046e8d2e96b37f37dab4af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad79c6c04b6046e8d2e96b37f37dab4af"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setBuddyList</b> ($buddyList)</td></tr>
-<tr class="separator:ad79c6c04b6046e8d2e96b37f37dab4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa66dc5ba765b7560ee60c741007628eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#aa66dc5ba765b7560ee60c741007628eb">getMessageId</a> ()</td></tr>
+<tr class="separator:aa66dc5ba765b7560ee60c741007628eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a604ef785e116ede97d3038b0ada4a0e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a604ef785e116ede97d3038b0ada4a0e8">setMessageId</a> ($messageId)</td></tr>
+<tr class="separator:a604ef785e116ede97d3038b0ada4a0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f2d46887cd4dc104eaa706239ba05e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a4f2d46887cd4dc104eaa706239ba05e5">getPointList</a> ()</td></tr>
+<tr class="separator:a4f2d46887cd4dc104eaa706239ba05e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada9d7029c9b6e64bb3aacd8f7c2e66e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#ada9d7029c9b6e64bb3aacd8f7c2e66e9">setPointList</a> ($point)</td></tr>
+<tr class="separator:ada9d7029c9b6e64bb3aacd8f7c2e66e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac92062f00030504a946a589c9fe96f54"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#ac92062f00030504a946a589c9fe96f54">getGroupName</a> ()</td></tr>
+<tr class="separator:ac92062f00030504a946a589c9fe96f54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ebb46704216e5be81eb6a3dfb959946"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a5ebb46704216e5be81eb6a3dfb959946">setGroupName</a> ($groupName)</td></tr>
+<tr class="separator:a5ebb46704216e5be81eb6a3dfb959946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03d020dcd5d15d439eef53a20c9397aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a03d020dcd5d15d439eef53a20c9397aa">getUserName</a> ()</td></tr>
+<tr class="separator:a03d020dcd5d15d439eef53a20c9397aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8bea0eab3a49b1f90948bbb9ac7f87e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#ab8bea0eab3a49b1f90948bbb9ac7f87e">setOwnerName</a> ($ownerName)</td></tr>
+<tr class="separator:ab8bea0eab3a49b1f90948bbb9ac7f87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6161d0656b58cbe5cd33dd18250dc52"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#aa6161d0656b58cbe5cd33dd18250dc52">getOwnerName</a> ()</td></tr>
+<tr class="separator:aa6161d0656b58cbe5cd33dd18250dc52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71497af33f3089088b88d7cbf5393c59"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a71497af33f3089088b88d7cbf5393c59">setUserName</a> ($userName)</td></tr>
+<tr class="separator:a71497af33f3089088b88d7cbf5393c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a07b6982a10d34cce50e9556945108a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a7a07b6982a10d34cce50e9556945108a">getBuddyName</a> ()</td></tr>
+<tr class="separator:a7a07b6982a10d34cce50e9556945108a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a633dc4f82f433d15a3918054aa4f767a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a633dc4f82f433d15a3918054aa4f767a">setBuddyName</a> ($buddyName)</td></tr>
+<tr class="separator:a633dc4f82f433d15a3918054aa4f767a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad663f70a81fa4a90ab57e0076d38e868"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#ad663f70a81fa4a90ab57e0076d38e868">getMessage</a> ()</td></tr>
+<tr class="separator:ad663f70a81fa4a90ab57e0076d38e868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95e5ce45e24bf83e5ac19b4fec3c9c92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a95e5ce45e24bf83e5ac19b4fec3c9c92">setMessage</a> ($message)</td></tr>
+<tr class="separator:a95e5ce45e24bf83e5ac19b4fec3c9c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae48331095cf7d8aefeebce1b10d90b7f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#ae48331095cf7d8aefeebce1b10d90b7f">getAcceptedOn</a> ()</td></tr>
+<tr class="separator:ae48331095cf7d8aefeebce1b10d90b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f7ace94974a9cd20b1b0433f6882147"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a6f7ace94974a9cd20b1b0433f6882147">setAcceptedOn</a> ($acceptedOn)</td></tr>
+<tr class="separator:a6f7ace94974a9cd20b1b0433f6882147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fedb663822eebf827f3feac8620043b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a1fedb663822eebf827f3feac8620043b">getSendedOn</a> ()</td></tr>
+<tr class="separator:a1fedb663822eebf827f3feac8620043b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb5d7ec64392732fb980a56f916e8fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a1bb5d7ec64392732fb980a56f916e8fc">setSendedOn</a> ($sendedOn)</td></tr>
+<tr class="separator:a1bb5d7ec64392732fb980a56f916e8fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a630e5b38a1628c2d9fdf710554a8676b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a630e5b38a1628c2d9fdf710554a8676b">toString</a> ()</td></tr>
+<tr class="separator:a630e5b38a1628c2d9fdf710554a8676b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a7e3162738b8e8fcd376e35918c71f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a9a7e3162738b8e8fcd376e35918c71f0">getBuddyList</a> ()</td></tr>
+<tr class="separator:a9a7e3162738b8e8fcd376e35918c71f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7224db93af629884765c591b3283a533"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a7224db93af629884765c591b3283a533">setBuddyList</a> ($buddyList)</td></tr>
+<tr class="separator:a7224db93af629884765c591b3283a533"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_app42_response"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_app42_response')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_app42_response.html">App42Response</a></td></tr>
-<tr class="memitem:ac6329aaaf695e71dd106b4e4875d4c12 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6329aaaf695e71dd106b4e4875d4c12"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getTotalRecords</b> ()</td></tr>
-<tr class="separator:ac6329aaaf695e71dd106b4e4875d4c12 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71d542aefbcfb5f4c5bd4db0da7f740c inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71d542aefbcfb5f4c5bd4db0da7f740c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setTotalRecords</b> ($totalRecords)</td></tr>
-<tr class="separator:a71d542aefbcfb5f4c5bd4db0da7f740c inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d218c02b1c22595b91083316a569c17 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d218c02b1c22595b91083316a569c17"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getStrResponse</b> ()</td></tr>
-<tr class="separator:a7d218c02b1c22595b91083316a569c17 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34af678876992c78b5fde4b3dcc0f83b inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34af678876992c78b5fde4b3dcc0f83b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setStrResponse</b> ($strResponse)</td></tr>
-<tr class="separator:a34af678876992c78b5fde4b3dcc0f83b inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6d43c993a10b720dd0c65ff74aedc7b inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6d43c993a10b720dd0c65ff74aedc7b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>isResponseSuccess</b> ()</td></tr>
-<tr class="separator:aa6d43c993a10b720dd0c65ff74aedc7b inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a676d99b4903261c349d07226511f7236 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a676d99b4903261c349d07226511f7236"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setResponseSuccess</b> ($isResponseSuccess)</td></tr>
-<tr class="separator:a676d99b4903261c349d07226511f7236 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>toString</b> ()</td></tr>
-<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59691fca1114f7ec431945476fbbbedb inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a59691fca1114f7ec431945476fbbbedb">getTotalRecords</a> ()</td></tr>
+<tr class="separator:a59691fca1114f7ec431945476fbbbedb inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf9642f79cd3bb953713aae24c61c68d inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#adf9642f79cd3bb953713aae24c61c68d">setTotalRecords</a> ($totalRecords)</td></tr>
+<tr class="separator:adf9642f79cd3bb953713aae24c61c68d inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85d0a2f09c9ce3e8af8e0f5506e7b2b3 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a85d0a2f09c9ce3e8af8e0f5506e7b2b3">getStrResponse</a> ()</td></tr>
+<tr class="separator:a85d0a2f09c9ce3e8af8e0f5506e7b2b3 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a65b1890322364a445c20f8a7a6ea9 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a42a65b1890322364a445c20f8a7a6ea9">setStrResponse</a> ($strResponse)</td></tr>
+<tr class="separator:a42a65b1890322364a445c20f8a7a6ea9 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a790b0d760b2318677c26b26d2b2d409d inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a> ()</td></tr>
+<tr class="separator:a790b0d760b2318677c26b26d2b2d409d inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff474b29d8343336e17b4674422386af inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#aff474b29d8343336e17b4674422386af">setResponseSuccess</a> ($<a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a>)</td></tr>
+<tr class="separator:aff474b29d8343336e17b4674422386af inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32850bec51f0aa330085a3cd148a3a96 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a32850bec51f0aa330085a3cd148a3a96">toString</a> ()</td></tr>
+<tr class="separator:a32850bec51f0aa330085a3cd148a3a96 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:aff20833df389a26c0f9384512eec4a68"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff20833df389a26c0f9384512eec4a68"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$userName</b></td></tr>
-<tr class="separator:aff20833df389a26c0f9384512eec4a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f4874c0d29c7d6df165315a9cacc9e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f4874c0d29c7d6df165315a9cacc9e8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$buddyName</b></td></tr>
-<tr class="separator:a2f4874c0d29c7d6df165315a9cacc9e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe10c3a87a52e5c028b0c386a3c92e63"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abe10c3a87a52e5c028b0c386a3c92e63"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$groupName</b></td></tr>
-<tr class="separator:abe10c3a87a52e5c028b0c386a3c92e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff761313a5d5def8fce58ab2febfa3d2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff761313a5d5def8fce58ab2febfa3d2"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$ownerName</b></td></tr>
-<tr class="separator:aff761313a5d5def8fce58ab2febfa3d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf17cb2dba2ed17cb28aa5f37deb5293"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf17cb2dba2ed17cb28aa5f37deb5293"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$message</b></td></tr>
-<tr class="separator:abf17cb2dba2ed17cb28aa5f37deb5293"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4f77555b7149afa936d6d6da04c6730"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4f77555b7149afa936d6d6da04c6730"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$sendedOn</b></td></tr>
-<tr class="separator:ac4f77555b7149afa936d6d6da04c6730"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e1cb298cbaa4509dc623fc57a3f4ff8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e1cb298cbaa4509dc623fc57a3f4ff8"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$acceptedOn</b></td></tr>
-<tr class="separator:a5e1cb298cbaa4509dc623fc57a3f4ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace4880fd0df34ae1190f153baa43cbc4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace4880fd0df34ae1190f153baa43cbc4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$messageId</b></td></tr>
-<tr class="separator:ace4880fd0df34ae1190f153baa43cbc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdeeb9e8efe05613a3aa66ca7f0a44b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afdeeb9e8efe05613a3aa66ca7f0a44b5"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$point</b> = array()</td></tr>
-<tr class="separator:afdeeb9e8efe05613a3aa66ca7f0a44b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5d261444c3a67260d54a4f05826d4e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af5d261444c3a67260d54a4f05826d4e7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$buddyList</b> = array()</td></tr>
-<tr class="separator:af5d261444c3a67260d54a4f05826d4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a3b1e89dfefcf95dc5096b7e5a103f842"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a3b1e89dfefcf95dc5096b7e5a103f842">$userName</a></td></tr>
+<tr class="separator:a3b1e89dfefcf95dc5096b7e5a103f842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7c56c29fdc63cc7954bd7f36b921e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#aee7c56c29fdc63cc7954bd7f36b921e8">$buddyName</a></td></tr>
+<tr class="separator:aee7c56c29fdc63cc7954bd7f36b921e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1408d61c3060cd1bdbee18b49fd3ef31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a1408d61c3060cd1bdbee18b49fd3ef31">$groupName</a></td></tr>
+<tr class="separator:a1408d61c3060cd1bdbee18b49fd3ef31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0eee0e11359a1402c239f91bc0dfc12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#ae0eee0e11359a1402c239f91bc0dfc12">$ownerName</a></td></tr>
+<tr class="separator:ae0eee0e11359a1402c239f91bc0dfc12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af24f4c60a445c0c82c3aafafa1d67999"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#af24f4c60a445c0c82c3aafafa1d67999">$message</a></td></tr>
+<tr class="separator:af24f4c60a445c0c82c3aafafa1d67999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a657f0e0c1bb9e0275b1de94b330262db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a657f0e0c1bb9e0275b1de94b330262db">$sendedOn</a></td></tr>
+<tr class="separator:a657f0e0c1bb9e0275b1de94b330262db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3f567b9809fd8c9f038de5c4c1eb1dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#ae3f567b9809fd8c9f038de5c4c1eb1dc">$acceptedOn</a></td></tr>
+<tr class="separator:ae3f567b9809fd8c9f038de5c4c1eb1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed6a39379b2cb87ce4bf9201ad13a4d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#aed6a39379b2cb87ce4bf9201ad13a4d7">$messageId</a></td></tr>
+<tr class="separator:aed6a39379b2cb87ce4bf9201ad13a4d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3881163257452e12d3bffa9511753189"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#a3881163257452e12d3bffa9511753189">$point</a> = array()</td></tr>
+<tr class="separator:a3881163257452e12d3bffa9511753189"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af173b096ed75da6670201532e3118a5f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy.html#af173b096ed75da6670201532e3118a5f">$buddyList</a> = array()</td></tr>
+<tr class="separator:af173b096ed75da6670201532e3118a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ae48331095cf7d8aefeebce1b10d90b7f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::getAcceptedOn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9a7e3162738b8e8fcd376e35918c71f0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::getBuddyList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7a07b6982a10d34cce50e9556945108a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::getBuddyName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac92062f00030504a946a589c9fe96f54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::getGroupName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad663f70a81fa4a90ab57e0076d38e868"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::getMessage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa66dc5ba765b7560ee60c741007628eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::getMessageId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa6161d0656b58cbe5cd33dd18250dc52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::getOwnerName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4f2d46887cd4dc104eaa706239ba05e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::getPointList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1fedb663822eebf827f3feac8620043b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::getSendedOn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a03d020dcd5d15d439eef53a20c9397aa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::getUserName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6f7ace94974a9cd20b1b0433f6882147"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::setAcceptedOn </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$acceptedOn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7224db93af629884765c591b3283a533"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::setBuddyList </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$buddyList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a633dc4f82f433d15a3918054aa4f767a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::setBuddyName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$buddyName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5ebb46704216e5be81eb6a3dfb959946"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::setGroupName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$groupName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a95e5ce45e24bf83e5ac19b4fec3c9c92"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::setMessage </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a604ef785e116ede97d3038b0ada4a0e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::setMessageId </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$messageId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab8bea0eab3a49b1f90948bbb9ac7f87e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::setOwnerName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$ownerName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ada9d7029c9b6e64bb3aacd8f7c2e66e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::setPointList </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$point</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1bb5d7ec64392732fb980a56f916e8fc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::setSendedOn </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$sendedOn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a71497af33f3089088b88d7cbf5393c59"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::setUserName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$userName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a630e5b38a1628c2d9fdf710554a8676b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ae3f567b9809fd8c9f038de5c4c1eb1dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::$acceptedOn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af173b096ed75da6670201532e3118a5f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::$buddyList = array()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aee7c56c29fdc63cc7954bd7f36b921e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::$buddyName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1408d61c3060cd1bdbee18b49fd3ef31"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::$groupName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af24f4c60a445c0c82c3aafafa1d67999"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::$message</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aed6a39379b2cb87ce4bf9201ad13a4d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::$messageId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae0eee0e11359a1402c239f91bc0dfc12"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::$ownerName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3881163257452e12d3bffa9511753189"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::$point = array()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a657f0e0c1bb9e0275b1de94b330262db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::$sendedOn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3b1e89dfefcf95dc5096b7e5a103f842"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Buddy::$userName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:25:35 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

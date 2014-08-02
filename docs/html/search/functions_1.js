@@ -1,10 +1,19 @@
 var searchData=
 [
-  ['additem',['addItem',['../class_cart_service.html#a681ec91e10e412828b2a0cbe762d66ae',1,'CartService\addItem()'],['../class_catalogue_service.html#a9c8281af7e60514137e51b878c6c6f54',1,'CatalogueService\addItem()']]],
-  ['addorupdatepreference',['addOrUpdatePreference',['../class_recommender_service.html#a02ab0bbcd370c828014625648116fa9f',1,'RecommenderService']]],
-  ['addphoto',['addPhoto',['../class_photo_service.html#af298d9c0d41a5607a7c560f241ccc62c',1,'PhotoService']]],
-  ['addscore',['addScore',['../class_score_service.html#a1967742ab084fd9c30cd13335399ac26',1,'ScoreService']]],
-  ['addtagtophoto',['addTagToPhoto',['../class_photo_service.html#a4fdde5fc13818dd5fdc9fff40cf7ce7d',1,'PhotoService']]],
-  ['assignroles',['assignRoles',['../class_user_service.html#ac892b43848dd337e5c3a061e083dae34',1,'UserService']]],
-  ['authenticate',['authenticate',['../class_user_service.html#a0399a1547a735e805f32a78dfb0c6536',1,'UserService']]]
+  ['acceptfriendrequest',['acceptFriendRequest',['../class_buddy_service.html#afbf2a3ffc5770a3c5d07266e53372e1e',1,'BuddyService']]],
+  ['acceptgiftrequest',['acceptGiftRequest',['../class_gift_service.html#a762bae760dcffc4cf70b4866f1361fcb',1,'GiftService']]],
+  ['addcomment',['addComment',['../class_review_service.html#a7e472c0c9dd22c79581109959bbaad6b',1,'ReviewService']]],
+  ['addfriendtogroup',['addFriendToGroup',['../class_buddy_service.html#a5028d3d779cc38cafebb94babe519f19',1,'BuddyService']]],
+  ['additem',['addItem',['../class_cart_service.html#aa1a40a19c296c53c13c47b4bae5d08df',1,'CartService\addItem()'],['../class_catalogue_service.html#a6bb5ee1e3ceaae9c4fa5a486043f5ed1',1,'CatalogueService\addItem()']]],
+  ['addjsonobject',['addJSONObject',['../class_score_board_service.html#a86c9fe4229b4ad3a7f42e78e741bec30',1,'ScoreBoardService\addJSONObject()'],['../class_user_service.html#a29f8135f9ca7b0018365eb1238722945',1,'UserService\addJSONObject()']]],
+  ['addorupdatekeys',['addOrUpdateKeys',['../class_storage_service.html#a46405ab7a48638fdf426fa097ddb812b',1,'StorageService']]],
+  ['addorupdatepreference',['addOrUpdatePreference',['../class_recommender_service.html#ae6362ee3f291137e9729320f2c5f39a1',1,'RecommenderService']]],
+  ['addphoto',['addPhoto',['../class_photo_service.html#af60ad1d60844a46d756c8bcc88850c7a',1,'PhotoService']]],
+  ['addscore',['addScore',['../class_score_service.html#ae5a7e261b313c108e0dc5ab9096b5b41',1,'ScoreService']]],
+  ['addtagtophoto',['addTagToPhoto',['../class_photo_service.html#a497755ecfca815c2cddc1e641316d04f',1,'PhotoService']]],
+  ['app42exception1',['App42Exception1',['../class_app42_exception.html#ae38a258486e1a8c6531d62366816f02e',1,'App42Exception']]],
+  ['app42exception2',['App42Exception2',['../class_app42_exception.html#ae4e13d3f8f6a1cc0761bf1b64c08c718',1,'App42Exception']]],
+  ['app42exception3',['App42Exception3',['../class_app42_exception.html#a5a01eba16ef3239780e73f4c4dff6e75',1,'App42Exception']]],
+  ['assignroles',['assignRoles',['../class_user_service.html#a908435adc69090194bb74e24e2d61563',1,'UserService']]],
+  ['authenticate',['authenticate',['../class_user_service.html#ae6917489c970b036b384c49ba0b44d70',1,'UserService']]]
 ];

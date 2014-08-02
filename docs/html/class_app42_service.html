@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
-      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -84,207 +84,1012 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a>  </div>
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="class_app42_service-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">App42Service Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for App42Service:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_app42_service.png" usemap="#App42Service_map" alt=""/>
-  <map id="App42Service_map" name="App42Service_map">
-<area href="class_a_b_test_service.html" alt="ABTestService" shape="rect" coords="157,56,304,80"/>
-<area href="class_achievement_service.html" alt="AchievementService" shape="rect" coords="157,112,304,136"/>
-<area href="class_album_service.html" alt="AlbumService" shape="rect" coords="157,168,304,192"/>
-<area href="class_avatar_service.html" alt="AvatarService" shape="rect" coords="157,224,304,248"/>
-<area href="class_buddy_service.html" alt="BuddyService" shape="rect" coords="157,280,304,304"/>
-<area href="class_cart_service.html" alt="CartService" shape="rect" coords="157,336,304,360"/>
-<area href="class_catalogue_service.html" alt="CatalogueService" shape="rect" coords="157,392,304,416"/>
-<area href="class_email_service.html" alt="EmailService" shape="rect" coords="157,448,304,472"/>
-<area href="class_game_service.html" alt="GameService" shape="rect" coords="157,504,304,528"/>
-<area href="class_geo_service.html" alt="GeoService" shape="rect" coords="157,560,304,584"/>
-<area href="class_gift_service.html" alt="GiftService" shape="rect" coords="157,616,304,640"/>
-<area href="class_image_processor_service.html" alt="ImageProcessorService" shape="rect" coords="157,672,304,696"/>
-<area href="class_log_service.html" alt="LogService" shape="rect" coords="157,728,304,752"/>
-<area href="class_photo_service.html" alt="PhotoService" shape="rect" coords="157,784,304,808"/>
-<area href="class_push_notification_service.html" alt="PushNotificationService" shape="rect" coords="157,840,304,864"/>
-<area href="class_queue_service.html" alt="QueueService" shape="rect" coords="157,896,304,920"/>
-<area href="class_recommender_service.html" alt="RecommenderService" shape="rect" coords="157,952,304,976"/>
-<area href="class_review_service.html" alt="ReviewService" shape="rect" coords="157,1008,304,1032"/>
-<area href="class_reward_service.html" alt="RewardService" shape="rect" coords="157,1064,304,1088"/>
-<area href="class_score_board_service.html" alt="ScoreBoardService" shape="rect" coords="157,1120,304,1144"/>
-<area href="class_score_service.html" alt="ScoreService" shape="rect" coords="157,1176,304,1200"/>
-<area href="class_session_service.html" alt="SessionService" shape="rect" coords="157,1232,304,1256"/>
-<area href="class_social_service.html" alt="SocialService" shape="rect" coords="157,1288,304,1312"/>
-<area href="class_storage_service.html" alt="StorageService" shape="rect" coords="157,1344,304,1368"/>
-<area href="class_timer_service.html" alt="TimerService" shape="rect" coords="157,1400,304,1424"/>
-<area href="class_upload_service.html" alt="UploadService" shape="rect" coords="157,1456,304,1480"/>
-<area href="class_user_service.html" alt="UserService" shape="rect" coords="157,1512,304,1536"/>
-</map>
- </div></div>
+
+<p>Inherited by <a class="el" href="class_a_b_test_service.html">ABTestService</a>, <a class="el" href="class_achievement_service.html">AchievementService</a>, <a class="el" href="class_album_service.html">AlbumService</a>, <a class="el" href="class_avatar_service.html">AvatarService</a>, <a class="el" href="class_buddy_service.html">BuddyService</a>, <a class="el" href="class_cart_service.html">CartService</a>, <a class="el" href="class_catalogue_service.html">CatalogueService</a>, <a class="el" href="class_email_service.html">EmailService</a>, <a class="el" href="class_game_service.html">GameService</a>, <a class="el" href="class_geo_service.html">GeoService</a>, <a class="el" href="class_gift_service.html">GiftService</a>, <a class="el" href="class_image_processor_service.html">ImageProcessorService</a>, <a class="el" href="class_log_service.html">LogService</a>, <a class="el" href="class_photo_service.html">PhotoService</a>, <a class="el" href="class_push_notification_service.html">PushNotificationService</a>, <a class="el" href="class_queue_service.html">QueueService</a>, <a class="el" href="class_recommender_service.html">RecommenderService</a>, <a class="el" href="class_review_service.html">ReviewService</a>, <a class="el" href="class_reward_service.html">RewardService</a>, <a class="el" href="class_score_board_service.html">ScoreBoardService</a>, <a class="el" href="class_score_service.html">ScoreService</a>, <a class="el" href="class_session_service.html">SessionService</a>, <a class="el" href="class_social_service.html">SocialService</a>, <a class="el" href="class_storage_service.html">StorageService</a>, <a class="el" href="class_timer_service.html">TimerService</a>, <a class="el" href="class_upload_service.html">UploadService</a>, and <a class="el" href="class_user_service.html">UserService</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a836e00fd26588368851502a8b45bc44d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a836e00fd26588368851502a8b45bc44d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setQuery</b> ($collectionName, $metaInfoQuery=null)</td></tr>
-<tr class="separator:a836e00fd26588368851502a8b45bc44d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5387ea261580d42d0bd7ff6b5ba73d59"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5387ea261580d42d0bd7ff6b5ba73d59"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getOrderByDescending</b> ()</td></tr>
-<tr class="separator:a5387ea261580d42d0bd7ff6b5ba73d59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab02b9620cf97db9b17adb5f50f32c318"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab02b9620cf97db9b17adb5f50f32c318"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setOrderByDescending</b> ($orderByDescending)</td></tr>
-<tr class="separator:ab02b9620cf97db9b17adb5f50f32c318"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9780762b2d514b53b7ff94bdd723877"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9780762b2d514b53b7ff94bdd723877"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getOtherMetaHeaders</b> ()</td></tr>
-<tr class="separator:aa9780762b2d514b53b7ff94bdd723877"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29d8e841ac3232d287b8b320de2d11b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29d8e841ac3232d287b8b320de2d11b5"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setOtherMetaHeaders</b> ($otherMetaHeaders)</td></tr>
-<tr class="separator:a29d8e841ac3232d287b8b320de2d11b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d51c3e492b21f3f95d9442dd766f939"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d51c3e492b21f3f95d9442dd766f939"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getOrderByAscending</b> ()</td></tr>
-<tr class="separator:a9d51c3e492b21f3f95d9442dd766f939"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad444c00f139d367ddce8d231cb835b17"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad444c00f139d367ddce8d231cb835b17"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setOrderByAscending</b> ($orderByAscending)</td></tr>
-<tr class="separator:ad444c00f139d367ddce8d231cb835b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a296b676f6eddba8991e92500d9f10dcf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a296b676f6eddba8991e92500d9f10dcf"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getAclList</b> ()</td></tr>
-<tr class="separator:a296b676f6eddba8991e92500d9f10dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62e5f07db8dc3dd2834e1f965c3aa46c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a62e5f07db8dc3dd2834e1f965c3aa46c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setAclList</b> ($aclList)</td></tr>
-<tr class="separator:a62e5f07db8dc3dd2834e1f965c3aa46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb5733f312ce812dd1f25f7cdcec9626"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb5733f312ce812dd1f25f7cdcec9626"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setSelectKeys</b> ($selectKeys)</td></tr>
-<tr class="separator:adb5733f312ce812dd1f25f7cdcec9626"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f72acc65affeafd1be08f2d5e78d480"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f72acc65affeafd1be08f2d5e78d480"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getSelectKeys</b> ()</td></tr>
-<tr class="separator:a4f72acc65affeafd1be08f2d5e78d480"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a055bcb2a2b197f7d31e1dd99d9eb62f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a055bcb2a2b197f7d31e1dd99d9eb62f7"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getEvent</b> ()</td></tr>
-<tr class="separator:a055bcb2a2b197f7d31e1dd99d9eb62f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe6cb407db7413362087bc59fb2ea061"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe6cb407db7413362087bc59fb2ea061"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setEvent</b> ($event)</td></tr>
-<tr class="separator:afe6cb407db7413362087bc59fb2ea061"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9889007e27fedadb28ae8f2fd77a569"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9889007e27fedadb28ae8f2fd77a569"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getSessionId</b> ()</td></tr>
-<tr class="separator:aa9889007e27fedadb28ae8f2fd77a569"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace8bf79f08c5588b7b15f2fc69386560"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace8bf79f08c5588b7b15f2fc69386560"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setSessionId</b> ($sessionId)</td></tr>
-<tr class="separator:ace8bf79f08c5588b7b15f2fc69386560"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe9b14b4d6f6164de201465d15eb3033"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe9b14b4d6f6164de201465d15eb3033"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getGeoTag</b> ()</td></tr>
-<tr class="separator:afe9b14b4d6f6164de201465d15eb3033"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea013acddc83b5f8f7aa785817e75520"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea013acddc83b5f8f7aa785817e75520"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setGeoTag</b> (<a class="el" href="class_geo_tag.html">GeoTag</a> $geoTag)</td></tr>
-<tr class="separator:aea013acddc83b5f8f7aa785817e75520"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad57a724c5b2397f62c52eeecfea96e84"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad57a724c5b2397f62c52eeecfea96e84"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getAdminKey</b> ()</td></tr>
-<tr class="separator:ad57a724c5b2397f62c52eeecfea96e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0111879efe3ee6fd3f8a645470ec049e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0111879efe3ee6fd3f8a645470ec049e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setAdminKey</b> ($adminKey)</td></tr>
-<tr class="separator:a0111879efe3ee6fd3f8a645470ec049e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00de3918c45aa4232c1e0c9b5bfdc86e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00de3918c45aa4232c1e0c9b5bfdc86e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getPageOffset</b> ()</td></tr>
-<tr class="separator:a00de3918c45aa4232c1e0c9b5bfdc86e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aada5a45e3550504571e9ccf812df3f53"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aada5a45e3550504571e9ccf812df3f53"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setPageOffset</b> ($pageOffset)</td></tr>
-<tr class="separator:aada5a45e3550504571e9ccf812df3f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83616fa3ef25ffd6e1560b78794c4d1c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a83616fa3ef25ffd6e1560b78794c4d1c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getPageMaxRecords</b> ()</td></tr>
-<tr class="separator:a83616fa3ef25ffd6e1560b78794c4d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e96eb9ef74fa1b6fc028edc219f7dce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e96eb9ef74fa1b6fc028edc219f7dce"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setPageMaxRecords</b> ($pageMaxRecords)</td></tr>
-<tr class="separator:a6e96eb9ef74fa1b6fc028edc219f7dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a923155f9b5794ca72f92fc57f4988f0e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a923155f9b5794ca72f92fc57f4988f0e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>getFbAccessToken</b> ()</td></tr>
-<tr class="separator:a923155f9b5794ca72f92fc57f4988f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ae76f8f7f37c435fae97133cb6fdd76"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ae76f8f7f37c435fae97133cb6fdd76"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>setFbAccessToken</b> ($fbAccessToken)</td></tr>
-<tr class="separator:a5ae76f8f7f37c435fae97133cb6fdd76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af16cac76fd184705c96df3729f33e2a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af16cac76fd184705c96df3729f33e2a0">setQuery</a> ($collectionName, $metaInfoQuery=null)</td></tr>
+<tr class="separator:af16cac76fd184705c96df3729f33e2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aba213883eb90cd675bbc4d62dc8b02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a7aba213883eb90cd675bbc4d62dc8b02">getOrderByDescending</a> ()</td></tr>
+<tr class="separator:a7aba213883eb90cd675bbc4d62dc8b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabf567a7110f4df3013fde9b62db9c3c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aabf567a7110f4df3013fde9b62db9c3c">setOrderByDescending</a> ($orderByDescending)</td></tr>
+<tr class="separator:aabf567a7110f4df3013fde9b62db9c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d4773fd2939df2e802d23d57bd91e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac1d4773fd2939df2e802d23d57bd91e6">getOtherMetaHeaders</a> ()</td></tr>
+<tr class="separator:ac1d4773fd2939df2e802d23d57bd91e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2e4ee3ff8035e12f60535dd3b224fc8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af2e4ee3ff8035e12f60535dd3b224fc8">setOtherMetaHeaders</a> ($otherMetaHeaders)</td></tr>
+<tr class="separator:af2e4ee3ff8035e12f60535dd3b224fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5662347d3af9595515dc2b039c108341"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a5662347d3af9595515dc2b039c108341">getOrderByAscending</a> ()</td></tr>
+<tr class="separator:a5662347d3af9595515dc2b039c108341"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe7f3a31f8d785957fa64bd009882110"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#abe7f3a31f8d785957fa64bd009882110">setOrderByAscending</a> ($orderByAscending)</td></tr>
+<tr class="separator:abe7f3a31f8d785957fa64bd009882110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c6632f3d744d75475db6498f1f2ad7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac0c6632f3d744d75475db6498f1f2ad7">getAclList</a> ()</td></tr>
+<tr class="separator:ac0c6632f3d744d75475db6498f1f2ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c56414cef7ad061a0fafaeb331c5605"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4c56414cef7ad061a0fafaeb331c5605">setAclList</a> ($aclList)</td></tr>
+<tr class="separator:a4c56414cef7ad061a0fafaeb331c5605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2b22e84e5388868aefad422b9781a96"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ad2b22e84e5388868aefad422b9781a96">setSelectKeys</a> ($selectKeys)</td></tr>
+<tr class="separator:ad2b22e84e5388868aefad422b9781a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6869bb6a1eefc0caa35c2c350aa18ba4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a6869bb6a1eefc0caa35c2c350aa18ba4">getSelectKeys</a> ()</td></tr>
+<tr class="separator:a6869bb6a1eefc0caa35c2c350aa18ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecc4048867786277f470e3380b4332f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aecc4048867786277f470e3380b4332f4">getEvent</a> ()</td></tr>
+<tr class="separator:aecc4048867786277f470e3380b4332f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1cba8e6564390acf0bec21221731916"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ad1cba8e6564390acf0bec21221731916">setEvent</a> ($event)</td></tr>
+<tr class="separator:ad1cba8e6564390acf0bec21221731916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a422ead5ea431da54caf4dde3979cee23"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a422ead5ea431da54caf4dde3979cee23">getSessionId</a> ()</td></tr>
+<tr class="separator:a422ead5ea431da54caf4dde3979cee23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b8c8fe1c04c339db388c286e3c9bccf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a6b8c8fe1c04c339db388c286e3c9bccf">setSessionId</a> ($sessionId)</td></tr>
+<tr class="separator:a6b8c8fe1c04c339db388c286e3c9bccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e42fd493b8a99f5e7791232d318f599"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4e42fd493b8a99f5e7791232d318f599">getGeoTag</a> ()</td></tr>
+<tr class="separator:a4e42fd493b8a99f5e7791232d318f599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ebb5486002f54ac7d773b02b52fa113"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a3ebb5486002f54ac7d773b02b52fa113">setGeoTag</a> (<a class="el" href="class_geo_tag.html">GeoTag</a> $geoTag)</td></tr>
+<tr class="separator:a3ebb5486002f54ac7d773b02b52fa113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad260577f6124b3abbe2cae2dcb6ae1b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aad260577f6124b3abbe2cae2dcb6ae1b">getAdminKey</a> ()</td></tr>
+<tr class="separator:aad260577f6124b3abbe2cae2dcb6ae1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70301cab047f53027f0fb00f204434c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a70301cab047f53027f0fb00f204434c6">setAdminKey</a> ($adminKey)</td></tr>
+<tr class="separator:a70301cab047f53027f0fb00f204434c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5fc17b16a2f64c0288bc515eeb936c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ad5fc17b16a2f64c0288bc515eeb936c2">getPageOffset</a> ()</td></tr>
+<tr class="separator:ad5fc17b16a2f64c0288bc515eeb936c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ce703a00bf3dc6ce135b61733db838b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4ce703a00bf3dc6ce135b61733db838b">setPageOffset</a> ($pageOffset)</td></tr>
+<tr class="separator:a4ce703a00bf3dc6ce135b61733db838b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf4b16477153b6488366ab5c8e86ce46"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aaf4b16477153b6488366ab5c8e86ce46">getPageMaxRecords</a> ()</td></tr>
+<tr class="separator:aaf4b16477153b6488366ab5c8e86ce46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05c8d3d207056966406e7376c4de41f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a05c8d3d207056966406e7376c4de41f3">setPageMaxRecords</a> ($pageMaxRecords)</td></tr>
+<tr class="separator:a05c8d3d207056966406e7376c4de41f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262d4787fa1f5caf3e9bbc5ee79827f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a262d4787fa1f5caf3e9bbc5ee79827f8">getFbAccessToken</a> ()</td></tr>
+<tr class="separator:a262d4787fa1f5caf3e9bbc5ee79827f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83c5efb2e559da90e1e502b4e2dfe19d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a83c5efb2e559da90e1e502b4e2dfe19d">setFbAccessToken</a> ($fbAccessToken)</td></tr>
+<tr class="separator:a83c5efb2e559da90e1e502b4e2dfe19d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a347ab67b2c6381093b98b022c5c661ab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a347ab67b2c6381093b98b022c5c661ab"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>populateSignParams</b> ()</td></tr>
-<tr class="separator:a347ab67b2c6381093b98b022c5c661ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af745c356016c20d9d05972d812abd395"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af745c356016c20d9d05972d812abd395"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>populateMetaHeaderParams</b> ()</td></tr>
-<tr class="separator:af745c356016c20d9d05972d812abd395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ee281deb9d39ff1fc3e8655c4652b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af5ee281deb9d39ff1fc3e8655c4652b1">populateSignParams</a> ()</td></tr>
+<tr class="separator:af5ee281deb9d39ff1fc3e8655c4652b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc3c5bed0ba13024cb8fc481c4a9836e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#acc3c5bed0ba13024cb8fc481c4a9836e">populateMetaHeaderParams</a> ()</td></tr>
+<tr class="separator:acc3c5bed0ba13024cb8fc481c4a9836e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a084e3db37d1b117a3cc7212cf2eed533"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a084e3db37d1b117a3cc7212cf2eed533"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$apiKey</b></td></tr>
-<tr class="separator:a084e3db37d1b117a3cc7212cf2eed533"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17c8948c68aa44fa9961ae169b6a8961"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a17c8948c68aa44fa9961ae169b6a8961"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$version</b></td></tr>
-<tr class="separator:a17c8948c68aa44fa9961ae169b6a8961"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bb2ea848560b3d375a0a55bdd13ffa1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6bb2ea848560b3d375a0a55bdd13ffa1"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$sessionId</b></td></tr>
-<tr class="separator:a6bb2ea848560b3d375a0a55bdd13ffa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfbac27769056acea55463dcc851093a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acfbac27769056acea55463dcc851093a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$adminKey</b></td></tr>
-<tr class="separator:acfbac27769056acea55463dcc851093a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac056d1399ef4e63e1157dd832fa84dca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac056d1399ef4e63e1157dd832fa84dca"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$geoTag</b></td></tr>
-<tr class="separator:ac056d1399ef4e63e1157dd832fa84dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a766bfb236de2f29a3680976ca22790d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a766bfb236de2f29a3680976ca22790d4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$secretKey</b></td></tr>
-<tr class="separator:a766bfb236de2f29a3680976ca22790d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53526464fc6c5edfdb64db50433e94ff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53526464fc6c5edfdb64db50433e94ff"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$pageOffset</b> = -1</td></tr>
-<tr class="separator:a53526464fc6c5edfdb64db50433e94ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ca9c827b0df635ea612e8cc0733f422"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ca9c827b0df635ea612e8cc0733f422"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$pageMaxRecords</b> = -1</td></tr>
-<tr class="separator:a9ca9c827b0df635ea612e8cc0733f422"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99974c69bbbb7d6aff2e481dce783c4d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99974c69bbbb7d6aff2e481dce783c4d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$fbAccessToken</b></td></tr>
-<tr class="separator:a99974c69bbbb7d6aff2e481dce783c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac20780798e1f20ce29b0bd9f2efe9e31"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac20780798e1f20ce29b0bd9f2efe9e31"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$orderByDescending</b></td></tr>
-<tr class="separator:ac20780798e1f20ce29b0bd9f2efe9e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14a86efe3d9953693c20ac2bbdc8a09e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14a86efe3d9953693c20ac2bbdc8a09e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$dataACL</b> = array()</td></tr>
-<tr class="separator:a14a86efe3d9953693c20ac2bbdc8a09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a749a54eb7daa2b8849eed0223aa414d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a749a54eb7daa2b8849eed0223aa414d5"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$event</b></td></tr>
-<tr class="separator:a749a54eb7daa2b8849eed0223aa414d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73f771753eee4eb566e8f99fa108fd8d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a73f771753eee4eb566e8f99fa108fd8d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$metaInfo</b></td></tr>
-<tr class="separator:a73f771753eee4eb566e8f99fa108fd8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab51eb644547ec0ebea769acba344a56f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab51eb644547ec0ebea769acba344a56f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$metaInfoQuery</b></td></tr>
-<tr class="separator:ab51eb644547ec0ebea769acba344a56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68f39949e76b64662a06cb56579d91c3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68f39949e76b64662a06cb56579d91c3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$dbName</b></td></tr>
-<tr class="separator:a68f39949e76b64662a06cb56579d91c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26f192c116eb83536d39c07d8ba79960"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26f192c116eb83536d39c07d8ba79960"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$collectionName</b></td></tr>
-<tr class="separator:a26f192c116eb83536d39c07d8ba79960"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af59a5f7cd609e592c41dc3643efd3c98"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af59a5f7cd609e592c41dc3643efd3c98"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$query</b></td></tr>
-<tr class="separator:af59a5f7cd609e592c41dc3643efd3c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4a1d8cd05d15973f6c190d89e3a4c92"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4a1d8cd05d15973f6c190d89e3a4c92"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$jsonObject</b></td></tr>
-<tr class="separator:af4a1d8cd05d15973f6c190d89e3a4c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae51ce0971f2c18569cb7f65b903ea2f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae51ce0971f2c18569cb7f65b903ea2f5"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$orderByAscending</b></td></tr>
-<tr class="separator:ae51ce0971f2c18569cb7f65b903ea2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1122bbf0368002ab421487bf0a630ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1122bbf0368002ab421487bf0a630ac"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$otherMetaHeaders</b> = array()</td></tr>
-<tr class="separator:ae1122bbf0368002ab421487bf0a630ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea1f7c4c54c58c138825403568a6365b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea1f7c4c54c58c138825403568a6365b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$selectKeys</b> = array()</td></tr>
-<tr class="separator:aea1f7c4c54c58c138825403568a6365b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab100f5422278c24c29ee81023499c7de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab100f5422278c24c29ee81023499c7de"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>$aclList</b> = array()</td></tr>
-<tr class="separator:ab100f5422278c24c29ee81023499c7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a85e16e017e335ee0829e1fa58e23d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4a85e16e017e335ee0829e1fa58e23d7">$apiKey</a></td></tr>
+<tr class="separator:a4a85e16e017e335ee0829e1fa58e23d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f68066c58c4b54d8f962b0a054a0851"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a0f68066c58c4b54d8f962b0a054a0851">$version</a></td></tr>
+<tr class="separator:a0f68066c58c4b54d8f962b0a054a0851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af721251abc4a951f4aaa253b9120f6ad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af721251abc4a951f4aaa253b9120f6ad">$sessionId</a></td></tr>
+<tr class="separator:af721251abc4a951f4aaa253b9120f6ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c91392ac4c21b009623a5beffd80255"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a8c91392ac4c21b009623a5beffd80255">$adminKey</a></td></tr>
+<tr class="separator:a8c91392ac4c21b009623a5beffd80255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8616722f364e0ad1367f58f50872ed4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af8616722f364e0ad1367f58f50872ed4">$geoTag</a></td></tr>
+<tr class="separator:af8616722f364e0ad1367f58f50872ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a085ae205aebcb07c76197ae7ec7142ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a085ae205aebcb07c76197ae7ec7142ab">$secretKey</a></td></tr>
+<tr class="separator:a085ae205aebcb07c76197ae7ec7142ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51459ee3c4b2c62aabf282e39f0f1a83"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a51459ee3c4b2c62aabf282e39f0f1a83">$pageOffset</a> = -1</td></tr>
+<tr class="separator:a51459ee3c4b2c62aabf282e39f0f1a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a204e3d106447f45b5021473e6b6406b4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a204e3d106447f45b5021473e6b6406b4">$pageMaxRecords</a> = -1</td></tr>
+<tr class="separator:a204e3d106447f45b5021473e6b6406b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f9aacd5fdff794f91be94eb633b4b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a98f9aacd5fdff794f91be94eb633b4b5">$fbAccessToken</a></td></tr>
+<tr class="separator:a98f9aacd5fdff794f91be94eb633b4b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6623093503e027ef497baaabb4f9faf7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a6623093503e027ef497baaabb4f9faf7">$orderByDescending</a></td></tr>
+<tr class="separator:a6623093503e027ef497baaabb4f9faf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac675a9d0b6eba267b31c03947cfa72e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac675a9d0b6eba267b31c03947cfa72e8">$dataACL</a> = array()</td></tr>
+<tr class="separator:ac675a9d0b6eba267b31c03947cfa72e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73ecf96524969c0c3e699c00614b8dd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a73ecf96524969c0c3e699c00614b8dd6">$event</a></td></tr>
+<tr class="separator:a73ecf96524969c0c3e699c00614b8dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac79098e5c5742b4408483583995f6f7c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac79098e5c5742b4408483583995f6f7c">$metaInfo</a></td></tr>
+<tr class="separator:ac79098e5c5742b4408483583995f6f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a240a9640266653243f308739079131b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a240a9640266653243f308739079131b9">$metaInfoQuery</a></td></tr>
+<tr class="separator:a240a9640266653243f308739079131b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae22bfbdac765e7203ebc67877ff8200c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ae22bfbdac765e7203ebc67877ff8200c">$dbName</a></td></tr>
+<tr class="separator:ae22bfbdac765e7203ebc67877ff8200c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabeb7b0d7a41ef8f603e9902811346a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aabeb7b0d7a41ef8f603e9902811346a6">$collectionName</a></td></tr>
+<tr class="separator:aabeb7b0d7a41ef8f603e9902811346a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab397a67d8b32f2347481c7fa61d9c02a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ab397a67d8b32f2347481c7fa61d9c02a">$query</a></td></tr>
+<tr class="separator:ab397a67d8b32f2347481c7fa61d9c02a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ec29667940fd90370bc6d3bceaab814"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a3ec29667940fd90370bc6d3bceaab814">$jsonObject</a></td></tr>
+<tr class="separator:a3ec29667940fd90370bc6d3bceaab814"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4290c36c1df9cb82e546aa91a0670272"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4290c36c1df9cb82e546aa91a0670272">$orderByAscending</a></td></tr>
+<tr class="separator:a4290c36c1df9cb82e546aa91a0670272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac64d05f614cd5b9735f201072a84a8e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac64d05f614cd5b9735f201072a84a8e9">$otherMetaHeaders</a> = array()</td></tr>
+<tr class="separator:ac64d05f614cd5b9735f201072a84a8e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae48934e5a05b376d9950874788cf4671"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ae48934e5a05b376d9950874788cf4671">$selectKeys</a> = array()</td></tr>
+<tr class="separator:ae48934e5a05b376d9950874788cf4671"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3e282d98cf9eb864baabb528c83b3de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac3e282d98cf9eb864baabb528c83b3de">$aclList</a> = array()</td></tr>
+<tr class="separator:ac3e282d98cf9eb864baabb528c83b3de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac0c6632f3d744d75475db6498f1f2ad7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::getAclList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aad260577f6124b3abbe2cae2dcb6ae1b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::getAdminKey </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aecc4048867786277f470e3380b4332f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::getEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a262d4787fa1f5caf3e9bbc5ee79827f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::getFbAccessToken </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4e42fd493b8a99f5e7791232d318f599"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::getGeoTag </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5662347d3af9595515dc2b039c108341"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::getOrderByAscending </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7aba213883eb90cd675bbc4d62dc8b02"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::getOrderByDescending </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac1d4773fd2939df2e802d23d57bd91e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::getOtherMetaHeaders </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaf4b16477153b6488366ab5c8e86ce46"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::getPageMaxRecords </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad5fc17b16a2f64c0288bc515eeb936c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::getPageOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6869bb6a1eefc0caa35c2c350aa18ba4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::getSelectKeys </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a422ead5ea431da54caf4dde3979cee23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::getSessionId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acc3c5bed0ba13024cb8fc481c4a9836e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::populateMetaHeaderParams </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af5ee281deb9d39ff1fc3e8655c4652b1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::populateSignParams </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4c56414cef7ad061a0fafaeb331c5605"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::setAclList </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$aclList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a70301cab047f53027f0fb00f204434c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::setAdminKey </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$adminKey</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad1cba8e6564390acf0bec21221731916"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::setEvent </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a83c5efb2e559da90e1e502b4e2dfe19d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::setFbAccessToken </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$fbAccessToken</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3ebb5486002f54ac7d773b02b52fa113"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::setGeoTag </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_geo_tag.html">GeoTag</a>&#160;</td>
+          <td class="paramname"><em>$geoTag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abe7f3a31f8d785957fa64bd009882110"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::setOrderByAscending </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$orderByAscending</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aabf567a7110f4df3013fde9b62db9c3c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::setOrderByDescending </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$orderByDescending</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af2e4ee3ff8035e12f60535dd3b224fc8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::setOtherMetaHeaders </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$otherMetaHeaders</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a05c8d3d207056966406e7376c4de41f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::setPageMaxRecords </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$pageMaxRecords</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4ce703a00bf3dc6ce135b61733db838b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::setPageOffset </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$pageOffset</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af16cac76fd184705c96df3729f33e2a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::setQuery </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$collectionName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$metaInfoQuery</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad2b22e84e5388868aefad422b9781a96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::setSelectKeys </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$selectKeys</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6b8c8fe1c04c339db388c286e3c9bccf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::setSessionId </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$sessionId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ac3e282d98cf9eb864baabb528c83b3de"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$aclList = array()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8c91392ac4c21b009623a5beffd80255"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$adminKey</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4a85e16e017e335ee0829e1fa58e23d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$apiKey</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aabeb7b0d7a41ef8f603e9902811346a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$collectionName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac675a9d0b6eba267b31c03947cfa72e8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$dataACL = array()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae22bfbdac765e7203ebc67877ff8200c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$dbName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a73ecf96524969c0c3e699c00614b8dd6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$event</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a98f9aacd5fdff794f91be94eb633b4b5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$fbAccessToken</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af8616722f364e0ad1367f58f50872ed4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$geoTag</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3ec29667940fd90370bc6d3bceaab814"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$jsonObject</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac79098e5c5742b4408483583995f6f7c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$metaInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a240a9640266653243f308739079131b9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$metaInfoQuery</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4290c36c1df9cb82e546aa91a0670272"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$orderByAscending</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6623093503e027ef497baaabb4f9faf7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$orderByDescending</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac64d05f614cd5b9735f201072a84a8e9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$otherMetaHeaders = array()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a204e3d106447f45b5021473e6b6406b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$pageMaxRecords = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a51459ee3c4b2c62aabf282e39f0f1a83"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$pageOffset = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab397a67d8b32f2347481c7fa61d9c02a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$query</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a085ae205aebcb07c76197ae7ec7142ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$secretKey</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae48934e5a05b376d9950874788cf4671"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$selectKeys = array()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af721251abc4a951f4aaa253b9120f6ad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$sessionId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0f68066c58c4b54d8f962b0a054a0851"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App42Service::$version</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:25:35 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
