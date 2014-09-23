@@ -1,8 +1,51 @@
+* [Release Version 2.4](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-24)
 * [Release Version 2.3](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-23)
 * [Release Version 2.2](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-22)
 * [Release Version 2.1](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-21)
 * [Release Version 2.0](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-20)
 * [Release Version 1.2](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-12)
+
+## Version 2.4
+
+**Release Date:** 23-09-2014 
+
+**Release Version:** 2.4
+
+**The following Service has been pushed to the latest :**
+
+```
+BravoBoard Service
+```
+
+**The following features have been pushed to the services :**
+
+**PUSH NOTIFICATION SERVICE**
+
+```
+getAllDevicesOfUser
+```
+
+**BUDDY SERVICE**
+
+```
+deleteAllMessages
+getBlockedBuddyList
+```
+
+**QUERY BUILDER**
+
+```
+setCreatedOn
+setUpdatedOn
+setDocumentId
+```
+
+
+**This release contains the following bug fix:**
+
+```
+None
+```
 
 ## Version 2.3
 
