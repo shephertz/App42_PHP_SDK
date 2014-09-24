@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,8 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="class_buddy_point-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">BuddyPoint Class Reference</div>  </div>
 </div><!--header-->
@@ -92,297 +91,68 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af8037feb52fbd8ff147002ab7867fdf3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#af8037feb52fbd8ff147002ab7867fdf3">__construct</a> (<a class="el" href="class_buddy.html">Buddy</a> $buddy)</td></tr>
-<tr class="separator:af8037feb52fbd8ff147002ab7867fdf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e5307465881cb7c4b936b1db10b57ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#a9e5307465881cb7c4b936b1db10b57ed">getCreatedOn</a> ()</td></tr>
-<tr class="separator:a9e5307465881cb7c4b936b1db10b57ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a966d2765d2d6290ae53d713b4452666a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#a966d2765d2d6290ae53d713b4452666a">setCreatedOn</a> ($createdOn)</td></tr>
-<tr class="separator:a966d2765d2d6290ae53d713b4452666a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace510de024d0c56f16d71c649f718be9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#ace510de024d0c56f16d71c649f718be9">getLatitude</a> ()</td></tr>
-<tr class="separator:ace510de024d0c56f16d71c649f718be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a382ce719c16ae5a8946f3e958eb352c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#a382ce719c16ae5a8946f3e958eb352c9">setLatitude</a> ($latitude)</td></tr>
-<tr class="separator:a382ce719c16ae5a8946f3e958eb352c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4bde84ae810b08893c1e36d3214c3a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#ac4bde84ae810b08893c1e36d3214c3a8">getLongitude</a> ()</td></tr>
-<tr class="separator:ac4bde84ae810b08893c1e36d3214c3a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17c4f5127c2e7423f5557d6a14392d82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#a17c4f5127c2e7423f5557d6a14392d82">setLongitude</a> ($longitude)</td></tr>
-<tr class="separator:a17c4f5127c2e7423f5557d6a14392d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc0b8794279edf6d4e185276e1a87a49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#acc0b8794279edf6d4e185276e1a87a49">getMarkerName</a> ()</td></tr>
-<tr class="separator:acc0b8794279edf6d4e185276e1a87a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7451b51ec4ca850aaa36999b581b51bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#a7451b51ec4ca850aaa36999b581b51bd">setMarkerName</a> ($markerName)</td></tr>
-<tr class="separator:a7451b51ec4ca850aaa36999b581b51bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88cfc61d248a7f58edd87158b46aa50f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#a88cfc61d248a7f58edd87158b46aa50f">getBuddyName</a> ()</td></tr>
-<tr class="separator:a88cfc61d248a7f58edd87158b46aa50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ed56fd0ba2fae269a7bff04ee62d61f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#a8ed56fd0ba2fae269a7bff04ee62d61f">setBuddyName</a> ($buddyName)</td></tr>
-<tr class="separator:a8ed56fd0ba2fae269a7bff04ee62d61f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9514f84987cad6872540708e88283882"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#a9514f84987cad6872540708e88283882">getJSONObject</a> ()</td></tr>
-<tr class="separator:a9514f84987cad6872540708e88283882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7289c4f64d78a006e5de681a1f9bb97c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7289c4f64d78a006e5de681a1f9bb97c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>__construct</b> (<a class="el" href="class_buddy.html">Buddy</a> $buddy)</td></tr>
+<tr class="separator:a7289c4f64d78a006e5de681a1f9bb97c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a346b90b05b25684ab3d2c62566270551"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a346b90b05b25684ab3d2c62566270551"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getCreatedOn</b> ()</td></tr>
+<tr class="separator:a346b90b05b25684ab3d2c62566270551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adff89ef96f7c1e0f0752caca8ccc750b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adff89ef96f7c1e0f0752caca8ccc750b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setCreatedOn</b> ($createdOn)</td></tr>
+<tr class="separator:adff89ef96f7c1e0f0752caca8ccc750b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada96fc6a273160f91e3cf4ef59efbe9a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada96fc6a273160f91e3cf4ef59efbe9a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLatitude</b> ()</td></tr>
+<tr class="separator:ada96fc6a273160f91e3cf4ef59efbe9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfbaf8d88bf4a5d9c51dad226294173d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acfbaf8d88bf4a5d9c51dad226294173d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setLatitude</b> ($latitude)</td></tr>
+<tr class="separator:acfbaf8d88bf4a5d9c51dad226294173d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa3304699a7de6311b199939e00eaf3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acaa3304699a7de6311b199939e00eaf3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLongitude</b> ()</td></tr>
+<tr class="separator:acaa3304699a7de6311b199939e00eaf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe7764c449d74a458f31ea00c4f236ad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe7764c449d74a458f31ea00c4f236ad"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setLongitude</b> ($longitude)</td></tr>
+<tr class="separator:afe7764c449d74a458f31ea00c4f236ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d24c6abfc3ae4e4c815c3e1dba2153b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d24c6abfc3ae4e4c815c3e1dba2153b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getMarkerName</b> ()</td></tr>
+<tr class="separator:a7d24c6abfc3ae4e4c815c3e1dba2153b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dd8c9303ddd32da9cdc18be0a885f32"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9dd8c9303ddd32da9cdc18be0a885f32"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setMarkerName</b> ($markerName)</td></tr>
+<tr class="separator:a9dd8c9303ddd32da9cdc18be0a885f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a351b48a110aa3ea088ccd19c6f8da349"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a351b48a110aa3ea088ccd19c6f8da349"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getBuddyName</b> ()</td></tr>
+<tr class="separator:a351b48a110aa3ea088ccd19c6f8da349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eac44b2002c46627383661b5d675de9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7eac44b2002c46627383661b5d675de9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setBuddyName</b> ($buddyName)</td></tr>
+<tr class="separator:a7eac44b2002c46627383661b5d675de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f94aa39d469f7968687eff905f71fbb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f94aa39d469f7968687eff905f71fbb"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getJSONObject</b> ()</td></tr>
+<tr class="separator:a9f94aa39d469f7968687eff905f71fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a54fac95731c89dbde08a24d2930bc53e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#a54fac95731c89dbde08a24d2930bc53e">$latitude</a></td></tr>
-<tr class="separator:a54fac95731c89dbde08a24d2930bc53e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b8e8350fadf46ca2108452d7d86fee7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#a2b8e8350fadf46ca2108452d7d86fee7">$longitude</a></td></tr>
-<tr class="separator:a2b8e8350fadf46ca2108452d7d86fee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a705456173b0e3932849339660acc4d0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#a705456173b0e3932849339660acc4d0f">$markerName</a></td></tr>
-<tr class="separator:a705456173b0e3932849339660acc4d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaea2c9023655bb47ef251a0f563eb37e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#aaea2c9023655bb47ef251a0f563eb37e">$createdOn</a></td></tr>
-<tr class="separator:aaea2c9023655bb47ef251a0f563eb37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61fb71665133739719c7a8f5560ffa49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_buddy_point.html#a61fb71665133739719c7a8f5560ffa49">$buddyName</a></td></tr>
-<tr class="separator:a61fb71665133739719c7a8f5560ffa49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:a5635a7326fb0b96e184ca6f5baa13e94"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5635a7326fb0b96e184ca6f5baa13e94"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$latitude</b></td></tr>
+<tr class="separator:a5635a7326fb0b96e184ca6f5baa13e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabb5b5c018fed3789fce382e336cfa47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aabb5b5c018fed3789fce382e336cfa47"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$longitude</b></td></tr>
+<tr class="separator:aabb5b5c018fed3789fce382e336cfa47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9278602ad1154da2f5c31d1e1ba3af1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac9278602ad1154da2f5c31d1e1ba3af1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$markerName</b></td></tr>
+<tr class="separator:ac9278602ad1154da2f5c31d1e1ba3af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a980da9bfdce6ade7abd3568e89f80013"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a980da9bfdce6ade7abd3568e89f80013"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$createdOn</b></td></tr>
+<tr class="separator:a980da9bfdce6ade7abd3568e89f80013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f4874c0d29c7d6df165315a9cacc9e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2f4874c0d29c7d6df165315a9cacc9e8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$buddyName</b></td></tr>
+<tr class="separator:a2f4874c0d29c7d6df165315a9cacc9e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="af8037feb52fbd8ff147002ab7867fdf3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::__construct </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_buddy.html">Buddy</a>&#160;</td>
-          <td class="paramname"><em>$buddy</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a88cfc61d248a7f58edd87158b46aa50f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::getBuddyName </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a9e5307465881cb7c4b936b1db10b57ed"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::getCreatedOn </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a9514f84987cad6872540708e88283882"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::getJSONObject </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ace510de024d0c56f16d71c649f718be9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::getLatitude </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac4bde84ae810b08893c1e36d3214c3a8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::getLongitude </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="acc0b8794279edf6d4e185276e1a87a49"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::getMarkerName </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8ed56fd0ba2fae269a7bff04ee62d61f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::setBuddyName </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$buddyName</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a966d2765d2d6290ae53d713b4452666a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::setCreatedOn </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$createdOn</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a382ce719c16ae5a8946f3e958eb352c9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::setLatitude </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$latitude</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a17c4f5127c2e7423f5557d6a14392d82"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::setLongitude </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$longitude</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a7451b51ec4ca850aaa36999b581b51bd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::setMarkerName </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$markerName</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a61fb71665133739719c7a8f5560ffa49"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::$buddyName</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aaea2c9023655bb47ef251a0f563eb37e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::$createdOn</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a54fac95731c89dbde08a24d2930bc53e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::$latitude</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2b8e8350fadf46ca2108452d7d86fee7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::$longitude</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a705456173b0e3932849339660acc4d0f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">BuddyPoint::$markerName</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/Buddy.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:42 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

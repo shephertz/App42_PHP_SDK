@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,8 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="class_message-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">Message Class Reference</div>  </div>
 </div><!--header-->
@@ -92,47 +91,51 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abf352d6c14f13399622802a21c3bbef4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#abf352d6c14f13399622802a21c3bbef4">__construct</a> (<a class="el" href="class_logging.html">Logging</a> $log)</td></tr>
-<tr class="separator:abf352d6c14f13399622802a21c3bbef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad55e0a6e1fc8ddca3d1c1afc211da0e3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#ad55e0a6e1fc8ddca3d1c1afc211da0e3">getMessage</a> ()</td></tr>
-<tr class="separator:ad55e0a6e1fc8ddca3d1c1afc211da0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac53d15f2101683a9a56f59da0e05afc5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#ac53d15f2101683a9a56f59da0e05afc5">setMessage</a> ($message)</td></tr>
-<tr class="separator:ac53d15f2101683a9a56f59da0e05afc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90cd6a73cd4cb9d5aa546f322049872f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#a90cd6a73cd4cb9d5aa546f322049872f">getType</a> ()</td></tr>
-<tr class="separator:a90cd6a73cd4cb9d5aa546f322049872f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a058f52c7a7e8928bde300d02793525d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#a058f52c7a7e8928bde300d02793525d9">setType</a> ($type)</td></tr>
-<tr class="separator:a058f52c7a7e8928bde300d02793525d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d91d56b336037d0683c1ea47b403c49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#a8d91d56b336037d0683c1ea47b403c49">getLogTime</a> ()</td></tr>
-<tr class="separator:a8d91d56b336037d0683c1ea47b403c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae741ef0571c37357ecbcb0522bb2d671"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#ae741ef0571c37357ecbcb0522bb2d671">setLogTime</a> ($logTime)</td></tr>
-<tr class="separator:ae741ef0571c37357ecbcb0522bb2d671"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae55267587c98f592074aa3a15d3b057e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#ae55267587c98f592074aa3a15d3b057e">getModule</a> ()</td></tr>
-<tr class="separator:ae55267587c98f592074aa3a15d3b057e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e438509c07afc0123e7a3da762b1d71"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#a3e438509c07afc0123e7a3da762b1d71">setModule</a> ($appModule)</td></tr>
-<tr class="separator:a3e438509c07afc0123e7a3da762b1d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0b0ecb191d0085d3c3cc0da6017b1fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#ab0b0ecb191d0085d3c3cc0da6017b1fc">toString</a> ()</td></tr>
-<tr class="separator:ab0b0ecb191d0085d3c3cc0da6017b1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58294f8d064313ca6f7da911ba058480"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#a58294f8d064313ca6f7da911ba058480">__construct</a> (<a class="el" href="class_logging.html">Logging</a> $log)</td></tr>
+<tr class="separator:a58294f8d064313ca6f7da911ba058480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b0e611236742aac18ba1936d03ba89a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#a0b0e611236742aac18ba1936d03ba89a">getMessage</a> ()</td></tr>
+<tr class="separator:a0b0e611236742aac18ba1936d03ba89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6991eb53548e7180a3a8e6f418fbb234"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#a6991eb53548e7180a3a8e6f418fbb234">setMessage</a> ($message)</td></tr>
+<tr class="separator:a6991eb53548e7180a3a8e6f418fbb234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a830b5c75df72b32396701bc563fbe3c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#a830b5c75df72b32396701bc563fbe3c7">getType</a> ()</td></tr>
+<tr class="separator:a830b5c75df72b32396701bc563fbe3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade096bf521b5d05dcaff2ba1a42e9f71"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#ade096bf521b5d05dcaff2ba1a42e9f71">setType</a> ($type)</td></tr>
+<tr class="separator:ade096bf521b5d05dcaff2ba1a42e9f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad153d4294dd57ed74888d7d46ff13883"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#ad153d4294dd57ed74888d7d46ff13883">getLogTime</a> ()</td></tr>
+<tr class="separator:ad153d4294dd57ed74888d7d46ff13883"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab07eb8a8a7fbd601dc02837aa5f64762"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#ab07eb8a8a7fbd601dc02837aa5f64762">setLogTime</a> ($logTime)</td></tr>
+<tr class="separator:ab07eb8a8a7fbd601dc02837aa5f64762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c6387b9047dec02c1ece587d3c2b32"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#a47c6387b9047dec02c1ece587d3c2b32">getModule</a> ()</td></tr>
+<tr class="separator:a47c6387b9047dec02c1ece587d3c2b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a521006b77fa0cc8ffdd11459b0a24421"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#a521006b77fa0cc8ffdd11459b0a24421">setModule</a> ($appModule)</td></tr>
+<tr class="separator:a521006b77fa0cc8ffdd11459b0a24421"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#a5558c5d549f41597377fa1ea8a1cefa3">toString</a> ()</td></tr>
+<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a4c1e6327dc028c4d67289784600391f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#a4c1e6327dc028c4d67289784600391f5">$message</a></td></tr>
-<tr class="separator:a4c1e6327dc028c4d67289784600391f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbb4e5414d7ddea8ad2827df3eeb2ad9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#abbb4e5414d7ddea8ad2827df3eeb2ad9">$type</a></td></tr>
-<tr class="separator:abbb4e5414d7ddea8ad2827df3eeb2ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa59e02a9c121d15de3d2454a931a168c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#aa59e02a9c121d15de3d2454a931a168c">$logTime</a></td></tr>
-<tr class="separator:aa59e02a9c121d15de3d2454a931a168c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fe671a9d56beb5fe37225b90d6117cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_message.html#a4fe671a9d56beb5fe37225b90d6117cd">$module</a></td></tr>
-<tr class="separator:a4fe671a9d56beb5fe37225b90d6117cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:abf17cb2dba2ed17cb28aa5f37deb5293"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf17cb2dba2ed17cb28aa5f37deb5293"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$message</b></td></tr>
+<tr class="separator:abf17cb2dba2ed17cb28aa5f37deb5293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a4a6fba2208984cabb3afacadf33919"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a4a6fba2208984cabb3afacadf33919"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$type</b></td></tr>
+<tr class="separator:a9a4a6fba2208984cabb3afacadf33919"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5773113df1bf6a20d8bbf7804da5a4d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5773113df1bf6a20d8bbf7804da5a4d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$logTime</b></td></tr>
+<tr class="separator:ad5773113df1bf6a20d8bbf7804da5a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac531301c55a8d8b6c7613597218ff482"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac531301c55a8d8b6c7613597218ff482"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$module</b></td></tr>
+<tr class="separator:ac531301c55a8d8b6c7613597218ff482"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An inner class that contains the remaining properties of the Log. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="abf352d6c14f13399622802a21c3bbef4"></a>
+<a class="anchor" id="a58294f8d064313ca6f7da911ba058480"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Message::__construct </td>
+          <td class="memname">__construct </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_logging.html">Logging</a>&#160;</td>
           <td class="paramname"><em>$log</em></td><td>)</td>
@@ -145,12 +148,12 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a8d91d56b336037d0683c1ea47b403c49"></a>
+<a class="anchor" id="ad153d4294dd57ed74888d7d46ff13883"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Message::getLogTime </td>
+          <td class="memname">getLogTime </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -162,12 +165,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad55e0a6e1fc8ddca3d1c1afc211da0e3"></a>
+<a class="anchor" id="a0b0e611236742aac18ba1936d03ba89a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Message::getMessage </td>
+          <td class="memname">getMessage </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -179,12 +182,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae55267587c98f592074aa3a15d3b057e"></a>
+<a class="anchor" id="a47c6387b9047dec02c1ece587d3c2b32"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Message::getModule </td>
+          <td class="memname">getModule </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -196,12 +199,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a90cd6a73cd4cb9d5aa546f322049872f"></a>
+<a class="anchor" id="a830b5c75df72b32396701bc563fbe3c7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Message::getType </td>
+          <td class="memname">getType </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -213,12 +216,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae741ef0571c37357ecbcb0522bb2d671"></a>
+<a class="anchor" id="ab07eb8a8a7fbd601dc02837aa5f64762"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Message::setLogTime </td>
+          <td class="memname">setLogTime </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$logTime</em></td><td>)</td>
@@ -239,12 +242,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac53d15f2101683a9a56f59da0e05afc5"></a>
+<a class="anchor" id="a6991eb53548e7180a3a8e6f418fbb234"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Message::setMessage </td>
+          <td class="memname">setMessage </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$message</em></td><td>)</td>
@@ -265,12 +268,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3e438509c07afc0123e7a3da762b1d71"></a>
+<a class="anchor" id="a521006b77fa0cc8ffdd11459b0a24421"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Message::setModule </td>
+          <td class="memname">setModule </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$appModule</em></td><td>)</td>
@@ -291,12 +294,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a058f52c7a7e8928bde300d02793525d9"></a>
+<a class="anchor" id="ade096bf521b5d05dcaff2ba1a42e9f71"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Message::setType </td>
+          <td class="memname">setType </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$type</em></td><td>)</td>
@@ -317,12 +320,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab0b0ecb191d0085d3c3cc0da6017b1fc"></a>
+<a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Message::toString </td>
+          <td class="memname">toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -334,59 +337,13 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="aa59e02a9c121d15de3d2454a931a168c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Message::$logTime</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4c1e6327dc028c4d67289784600391f5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Message::$message</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4fe671a9d56beb5fe37225b90d6117cd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Message::$module</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="abbb4e5414d7ddea8ad2827df3eeb2ad9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Message::$type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/Logging.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:43 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

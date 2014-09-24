@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,8 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="class_configuration-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">Configuration Class Reference</div>  </div>
 </div><!--header-->
@@ -92,47 +91,51 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2d30a6c73cb74114b089425f46f97829"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a2d30a6c73cb74114b089425f46f97829">__construct</a> (<a class="el" href="class_email.html">Email</a> $email)</td></tr>
-<tr class="separator:a2d30a6c73cb74114b089425f46f97829"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6641e559248a37f92410f65d0f9e6ae0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a6641e559248a37f92410f65d0f9e6ae0">getEmailId</a> ()</td></tr>
-<tr class="separator:a6641e559248a37f92410f65d0f9e6ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e224c9f88342320d553eafc8a2debf6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a1e224c9f88342320d553eafc8a2debf6">setEmailId</a> ($emailId)</td></tr>
-<tr class="separator:a1e224c9f88342320d553eafc8a2debf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8095385760712dde0b4bc6117fa7310"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#ab8095385760712dde0b4bc6117fa7310">getHost</a> ()</td></tr>
-<tr class="separator:ab8095385760712dde0b4bc6117fa7310"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4406ed829783b70bd566eb6d84d5225e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a4406ed829783b70bd566eb6d84d5225e">setHost</a> ($host)</td></tr>
-<tr class="separator:a4406ed829783b70bd566eb6d84d5225e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4a22f81962774060ccdc9f4e3dbfb74"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#ae4a22f81962774060ccdc9f4e3dbfb74">getPort</a> ()</td></tr>
-<tr class="separator:ae4a22f81962774060ccdc9f4e3dbfb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2dbf21153b82e1d772cdb7c8c53d2985"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a2dbf21153b82e1d772cdb7c8c53d2985">setPort</a> ($port)</td></tr>
-<tr class="separator:a2dbf21153b82e1d772cdb7c8c53d2985"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a6a04835ef4f095df3c00cf296902c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a7a6a04835ef4f095df3c00cf296902c5">getSsl</a> ()</td></tr>
-<tr class="separator:a7a6a04835ef4f095df3c00cf296902c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5511c6363ca3301a65710f9a265bc8aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a5511c6363ca3301a65710f9a265bc8aa">setSsl</a> ($ssl)</td></tr>
-<tr class="separator:a5511c6363ca3301a65710f9a265bc8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfe20dce14fd6ec8ce5d390974df8204"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#acfe20dce14fd6ec8ce5d390974df8204">toString</a> ()</td></tr>
-<tr class="separator:acfe20dce14fd6ec8ce5d390974df8204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fa131bd715830ad447074e92cea7584"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a5fa131bd715830ad447074e92cea7584">__construct</a> (<a class="el" href="class_email.html">Email</a> $email)</td></tr>
+<tr class="separator:a5fa131bd715830ad447074e92cea7584"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a966e308323e810950d280159979e7828"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a966e308323e810950d280159979e7828">getEmailId</a> ()</td></tr>
+<tr class="separator:a966e308323e810950d280159979e7828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c429def3b76a499937ce606d6f5d79b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a4c429def3b76a499937ce606d6f5d79b">setEmailId</a> ($emailId)</td></tr>
+<tr class="separator:a4c429def3b76a499937ce606d6f5d79b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39895a44b52bdced039e698588aaf18e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a39895a44b52bdced039e698588aaf18e">getHost</a> ()</td></tr>
+<tr class="separator:a39895a44b52bdced039e698588aaf18e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3796cc8d08abefbb14f15fde02b883a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a3796cc8d08abefbb14f15fde02b883a9">setHost</a> ($host)</td></tr>
+<tr class="separator:a3796cc8d08abefbb14f15fde02b883a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd4db46d3c12f47f0bee19cd2101be64"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#afd4db46d3c12f47f0bee19cd2101be64">getPort</a> ()</td></tr>
+<tr class="separator:afd4db46d3c12f47f0bee19cd2101be64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a000ce1ff20433f6ac9297e01c31d0678"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a000ce1ff20433f6ac9297e01c31d0678">setPort</a> ($port)</td></tr>
+<tr class="separator:a000ce1ff20433f6ac9297e01c31d0678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d87ad620caa5069a63826daf10efbb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a3d87ad620caa5069a63826daf10efbb6">getSsl</a> ()</td></tr>
+<tr class="separator:a3d87ad620caa5069a63826daf10efbb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6428dea4374f56ab1cb20f6e43c17239"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a6428dea4374f56ab1cb20f6e43c17239">setSsl</a> ($ssl)</td></tr>
+<tr class="separator:a6428dea4374f56ab1cb20f6e43c17239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a5558c5d549f41597377fa1ea8a1cefa3">toString</a> ()</td></tr>
+<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ae3c34c2d07a361829553a1dadec2d531"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#ae3c34c2d07a361829553a1dadec2d531">$emailId</a></td></tr>
-<tr class="separator:ae3c34c2d07a361829553a1dadec2d531"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0d2b5368b454252276c10e7ca32fd34"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#ad0d2b5368b454252276c10e7ca32fd34">$host</a></td></tr>
-<tr class="separator:ad0d2b5368b454252276c10e7ca32fd34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa78bdfabdd5ca8efd3b6af0e11f4c8d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#aa78bdfabdd5ca8efd3b6af0e11f4c8d0">$port</a></td></tr>
-<tr class="separator:aa78bdfabdd5ca8efd3b6af0e11f4c8d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73de469c4d04174f43044ea3fd161d5f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_configuration.html#a73de469c4d04174f43044ea3fd161d5f">$ssl</a></td></tr>
-<tr class="separator:a73de469c4d04174f43044ea3fd161d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:ac1020fc3200062df461605a7b0c8d077"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1020fc3200062df461605a7b0c8d077"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$emailId</b></td></tr>
+<tr class="separator:ac1020fc3200062df461605a7b0c8d077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a711797613cb863ca0756df789c396bf2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a711797613cb863ca0756df789c396bf2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$host</b></td></tr>
+<tr class="separator:a711797613cb863ca0756df789c396bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0787efab4b22e8a212882f3409d4c77"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0787efab4b22e8a212882f3409d4c77"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$port</b></td></tr>
+<tr class="separator:aa0787efab4b22e8a212882f3409d4c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10c5b56c377e4f3a08f69704e49c87e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a10c5b56c377e4f3a08f69704e49c87e6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$ssl</b></td></tr>
+<tr class="separator:a10c5b56c377e4f3a08f69704e49c87e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An inner class that contains the remaining properties of the <a class="el" href="class_email.html">Email</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a2d30a6c73cb74114b089425f46f97829"></a>
+<a class="anchor" id="a5fa131bd715830ad447074e92cea7584"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Configuration::__construct </td>
+          <td class="memname">__construct </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_email.html">Email</a>&#160;</td>
           <td class="paramname"><em>$email</em></td><td>)</td>
@@ -145,12 +148,12 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a6641e559248a37f92410f65d0f9e6ae0"></a>
+<a class="anchor" id="a966e308323e810950d280159979e7828"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Configuration::getEmailId </td>
+          <td class="memname">getEmailId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -162,12 +165,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab8095385760712dde0b4bc6117fa7310"></a>
+<a class="anchor" id="a39895a44b52bdced039e698588aaf18e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Configuration::getHost </td>
+          <td class="memname">getHost </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -179,12 +182,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae4a22f81962774060ccdc9f4e3dbfb74"></a>
+<a class="anchor" id="afd4db46d3c12f47f0bee19cd2101be64"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Configuration::getPort </td>
+          <td class="memname">getPort </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -196,12 +199,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7a6a04835ef4f095df3c00cf296902c5"></a>
+<a class="anchor" id="a3d87ad620caa5069a63826daf10efbb6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Configuration::getSsl </td>
+          <td class="memname">getSsl </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -213,12 +216,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1e224c9f88342320d553eafc8a2debf6"></a>
+<a class="anchor" id="a4c429def3b76a499937ce606d6f5d79b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Configuration::setEmailId </td>
+          <td class="memname">setEmailId </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$emailId</em></td><td>)</td>
@@ -233,12 +236,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4406ed829783b70bd566eb6d84d5225e"></a>
+<a class="anchor" id="a3796cc8d08abefbb14f15fde02b883a9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Configuration::setHost </td>
+          <td class="memname">setHost </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$host</em></td><td>)</td>
@@ -253,12 +256,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2dbf21153b82e1d772cdb7c8c53d2985"></a>
+<a class="anchor" id="a000ce1ff20433f6ac9297e01c31d0678"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Configuration::setPort </td>
+          <td class="memname">setPort </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$port</em></td><td>)</td>
@@ -273,12 +276,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5511c6363ca3301a65710f9a265bc8aa"></a>
+<a class="anchor" id="a6428dea4374f56ab1cb20f6e43c17239"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Configuration::setSsl </td>
+          <td class="memname">setSsl </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$ssl</em></td><td>)</td>
@@ -293,12 +296,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acfe20dce14fd6ec8ce5d390974df8204"></a>
+<a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Configuration::toString </td>
+          <td class="memname">toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -310,59 +313,13 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ae3c34c2d07a361829553a1dadec2d531"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Configuration::$emailId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad0d2b5368b454252276c10e7ca32fd34"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Configuration::$host</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa78bdfabdd5ca8efd3b6af0e11f4c8d0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Configuration::$port</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a73de469c4d04174f43044ea3fd161d5f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Configuration::$ssl</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/Email.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:43 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

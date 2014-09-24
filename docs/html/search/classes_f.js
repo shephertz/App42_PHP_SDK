@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['sampleapp',['SampleApp',['../class_sample_app.html',1,'']]],
   ['score',['Score',['../class_score.html',1,'']]],
   ['scoreboardservice',['ScoreBoardService',['../class_score_board_service.html',1,'']]],
   ['scorejsondocument',['ScoreJSONDocument',['../class_score_j_s_o_n_document.html',1,'']]],

@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,117 +83,127 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="class_user-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">User Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Inherits <a class="el" href="class_app42_response.html">App42Response</a>.</p>
+<div class="dynheader">
+Inheritance diagram for User:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_user.png" usemap="#User_map" alt=""/>
+  <map id="User_map" name="User_map">
+<area href="class_app42_response.html" alt="App42Response" shape="rect" coords="0,0,104,24"/>
+</map>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abbda1250e7eb330876ad19e708721cfb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#abbda1250e7eb330876ad19e708721cfb">getJsonDocList</a> ()</td></tr>
-<tr class="separator:abbda1250e7eb330876ad19e708721cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf9714b02744443796e19aceea6b9190"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#acf9714b02744443796e19aceea6b9190">setJsonDocList</a> ($jsonDocListt)</td></tr>
-<tr class="separator:acf9714b02744443796e19aceea6b9190"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2604fbb6c4ad244b86dfb1d58300ca70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a2604fbb6c4ad244b86dfb1d58300ca70">getRoleList</a> ()</td></tr>
-<tr class="separator:a2604fbb6c4ad244b86dfb1d58300ca70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb54ee2a3fd81089770acb6f26964ea3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#adb54ee2a3fd81089770acb6f26964ea3">setRoleList</a> ($roleList)</td></tr>
-<tr class="separator:adb54ee2a3fd81089770acb6f26964ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a309b68341107b1227dd6a136b767fff3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a309b68341107b1227dd6a136b767fff3">getUserName</a> ()</td></tr>
-<tr class="separator:a309b68341107b1227dd6a136b767fff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9847671b5832e4034aceb36f34567bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#af9847671b5832e4034aceb36f34567bc">setUserName</a> ($userName)</td></tr>
-<tr class="separator:af9847671b5832e4034aceb36f34567bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e71eeea3e373e90dc902cc2f318ad3d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a3e71eeea3e373e90dc902cc2f318ad3d">getPassword</a> ()</td></tr>
-<tr class="separator:a3e71eeea3e373e90dc902cc2f318ad3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadc1995517c1e8190006d0dba87b28c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#aadc1995517c1e8190006d0dba87b28c4">setPassword</a> ($password)</td></tr>
-<tr class="separator:aadc1995517c1e8190006d0dba87b28c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf082b95b344df14b9e8a6c09868dbcd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#acf082b95b344df14b9e8a6c09868dbcd">getEmail</a> ()</td></tr>
-<tr class="separator:acf082b95b344df14b9e8a6c09868dbcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a018ae17e436e09134922835cdd3235a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a018ae17e436e09134922835cdd3235a7">setEmail</a> ($email)</td></tr>
-<tr class="separator:a018ae17e436e09134922835cdd3235a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add04326316156848d19f3c7085513fe9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#add04326316156848d19f3c7085513fe9">getSessionId</a> ()</td></tr>
-<tr class="separator:add04326316156848d19f3c7085513fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8419950ccf4a1bb794e609659523542"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#af8419950ccf4a1bb794e609659523542">setSessionId</a> ($sessionId)</td></tr>
-<tr class="separator:af8419950ccf4a1bb794e609659523542"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2813639ee0f3ba0202b0705269b09b8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a2813639ee0f3ba0202b0705269b09b8c">toString</a> ()</td></tr>
-<tr class="separator:a2813639ee0f3ba0202b0705269b09b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2761eaa365fec24f369f829983dd5a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#ad2761eaa365fec24f369f829983dd5a9">getProfile</a> ()</td></tr>
-<tr class="separator:ad2761eaa365fec24f369f829983dd5a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ca39f7a7dad370ccb7b2b0f71756d95"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a7ca39f7a7dad370ccb7b2b0f71756d95">setProfile</a> (<a class="el" href="class_profile.html">Profile</a> $profile)</td></tr>
-<tr class="separator:a7ca39f7a7dad370ccb7b2b0f71756d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c25a02fb34daab48fe6bc1b99b25a39"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a7c25a02fb34daab48fe6bc1b99b25a39">isAccountLocked</a> ()</td></tr>
-<tr class="separator:a7c25a02fb34daab48fe6bc1b99b25a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8eccfbde8e6686a6954bcc095ebe4891"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a8eccfbde8e6686a6954bcc095ebe4891">setAccountLocked</a> ($accountLocked)</td></tr>
-<tr class="separator:a8eccfbde8e6686a6954bcc095ebe4891"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43720b9843d9f6c57a3400c64f9e5591"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a43720b9843d9f6c57a3400c64f9e5591">getCreatedOn</a> ()</td></tr>
-<tr class="separator:a43720b9843d9f6c57a3400c64f9e5591"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5818f83261d0fdfb0e20c72dc03fe443"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a5818f83261d0fdfb0e20c72dc03fe443">setCreatedOn</a> ($createdOn)</td></tr>
-<tr class="separator:a5818f83261d0fdfb0e20c72dc03fe443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6900743273016ed1df50e4bd583e504d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6900743273016ed1df50e4bd583e504d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getJsonDocList</b> ()</td></tr>
+<tr class="separator:a6900743273016ed1df50e4bd583e504d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef4a433397f853b137db6583437b4d6e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef4a433397f853b137db6583437b4d6e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setJsonDocList</b> ($jsonDocListt)</td></tr>
+<tr class="separator:aef4a433397f853b137db6583437b4d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3589ce7d5e9671ab9a593abdbac80818"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a3589ce7d5e9671ab9a593abdbac80818">getRoleList</a> ()</td></tr>
+<tr class="separator:a3589ce7d5e9671ab9a593abdbac80818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afed3edbfb265c13ab2c6dc4b9ddfd52d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#afed3edbfb265c13ab2c6dc4b9ddfd52d">setRoleList</a> ($roleList)</td></tr>
+<tr class="separator:afed3edbfb265c13ab2c6dc4b9ddfd52d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafd6d1ef27e6acc5833aba4012e5ee77"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#aafd6d1ef27e6acc5833aba4012e5ee77">getUserName</a> ()</td></tr>
+<tr class="separator:aafd6d1ef27e6acc5833aba4012e5ee77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20f0087f72763b84d2992ba6ffee2fb2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a20f0087f72763b84d2992ba6ffee2fb2">setUserName</a> ($userName)</td></tr>
+<tr class="separator:a20f0087f72763b84d2992ba6ffee2fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04e0957baeb7acde9c0c86556da2d43f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a04e0957baeb7acde9c0c86556da2d43f">getPassword</a> ()</td></tr>
+<tr class="separator:a04e0957baeb7acde9c0c86556da2d43f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e35c8d3dbb2c513c618a664389e0926"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a3e35c8d3dbb2c513c618a664389e0926">setPassword</a> ($password)</td></tr>
+<tr class="separator:a3e35c8d3dbb2c513c618a664389e0926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02a01849f28e2535e888ae4ec87b20f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a02a01849f28e2535e888ae4ec87b20f2">getEmail</a> ()</td></tr>
+<tr class="separator:a02a01849f28e2535e888ae4ec87b20f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ef76eef42d2624386442eeb636d338c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a5ef76eef42d2624386442eeb636d338c">setEmail</a> ($email)</td></tr>
+<tr class="separator:a5ef76eef42d2624386442eeb636d338c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9889007e27fedadb28ae8f2fd77a569"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#aa9889007e27fedadb28ae8f2fd77a569">getSessionId</a> ()</td></tr>
+<tr class="separator:aa9889007e27fedadb28ae8f2fd77a569"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace8bf79f08c5588b7b15f2fc69386560"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#ace8bf79f08c5588b7b15f2fc69386560">setSessionId</a> ($sessionId)</td></tr>
+<tr class="separator:ace8bf79f08c5588b7b15f2fc69386560"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a5558c5d549f41597377fa1ea8a1cefa3">toString</a> ()</td></tr>
+<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfc25ec9545bfee35877db62d8f87401"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#abfc25ec9545bfee35877db62d8f87401">getProfile</a> ()</td></tr>
+<tr class="separator:abfc25ec9545bfee35877db62d8f87401"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afae18a30351301052e2b898637df97a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#afae18a30351301052e2b898637df97a3">setProfile</a> (<a class="el" href="class_profile.html">Profile</a> $profile)</td></tr>
+<tr class="separator:afae18a30351301052e2b898637df97a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee3b0ce22d0f9466956a6b15a483f7fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#aee3b0ce22d0f9466956a6b15a483f7fa">isAccountLocked</a> ()</td></tr>
+<tr class="separator:aee3b0ce22d0f9466956a6b15a483f7fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1932aea6337906c5bf48df1b2d4e9d9d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a1932aea6337906c5bf48df1b2d4e9d9d">setAccountLocked</a> ($accountLocked)</td></tr>
+<tr class="separator:a1932aea6337906c5bf48df1b2d4e9d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a346b90b05b25684ab3d2c62566270551"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a346b90b05b25684ab3d2c62566270551"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getCreatedOn</b> ()</td></tr>
+<tr class="separator:a346b90b05b25684ab3d2c62566270551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adff89ef96f7c1e0f0752caca8ccc750b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#adff89ef96f7c1e0f0752caca8ccc750b">setCreatedOn</a> ($createdOn)</td></tr>
+<tr class="separator:adff89ef96f7c1e0f0752caca8ccc750b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_app42_response"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_app42_response')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_app42_response.html">App42Response</a></td></tr>
-<tr class="memitem:a59691fca1114f7ec431945476fbbbedb inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a59691fca1114f7ec431945476fbbbedb">getTotalRecords</a> ()</td></tr>
-<tr class="separator:a59691fca1114f7ec431945476fbbbedb inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf9642f79cd3bb953713aae24c61c68d inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#adf9642f79cd3bb953713aae24c61c68d">setTotalRecords</a> ($totalRecords)</td></tr>
-<tr class="separator:adf9642f79cd3bb953713aae24c61c68d inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85d0a2f09c9ce3e8af8e0f5506e7b2b3 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a85d0a2f09c9ce3e8af8e0f5506e7b2b3">getStrResponse</a> ()</td></tr>
-<tr class="separator:a85d0a2f09c9ce3e8af8e0f5506e7b2b3 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42a65b1890322364a445c20f8a7a6ea9 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a42a65b1890322364a445c20f8a7a6ea9">setStrResponse</a> ($strResponse)</td></tr>
-<tr class="separator:a42a65b1890322364a445c20f8a7a6ea9 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a790b0d760b2318677c26b26d2b2d409d inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a> ()</td></tr>
-<tr class="separator:a790b0d760b2318677c26b26d2b2d409d inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff474b29d8343336e17b4674422386af inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#aff474b29d8343336e17b4674422386af">setResponseSuccess</a> ($<a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a>)</td></tr>
-<tr class="separator:aff474b29d8343336e17b4674422386af inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32850bec51f0aa330085a3cd148a3a96 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a32850bec51f0aa330085a3cd148a3a96">toString</a> ()</td></tr>
-<tr class="separator:a32850bec51f0aa330085a3cd148a3a96 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6329aaaf695e71dd106b4e4875d4c12 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6329aaaf695e71dd106b4e4875d4c12"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getTotalRecords</b> ()</td></tr>
+<tr class="separator:ac6329aaaf695e71dd106b4e4875d4c12 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d542aefbcfb5f4c5bd4db0da7f740c inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71d542aefbcfb5f4c5bd4db0da7f740c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setTotalRecords</b> ($totalRecords)</td></tr>
+<tr class="separator:a71d542aefbcfb5f4c5bd4db0da7f740c inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d218c02b1c22595b91083316a569c17 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d218c02b1c22595b91083316a569c17"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getStrResponse</b> ()</td></tr>
+<tr class="separator:a7d218c02b1c22595b91083316a569c17 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34af678876992c78b5fde4b3dcc0f83b inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34af678876992c78b5fde4b3dcc0f83b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setStrResponse</b> ($strResponse)</td></tr>
+<tr class="separator:a34af678876992c78b5fde4b3dcc0f83b inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6d43c993a10b720dd0c65ff74aedc7b inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6d43c993a10b720dd0c65ff74aedc7b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>isResponseSuccess</b> ()</td></tr>
+<tr class="separator:aa6d43c993a10b720dd0c65ff74aedc7b inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a676d99b4903261c349d07226511f7236 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a676d99b4903261c349d07226511f7236"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setResponseSuccess</b> ($isResponseSuccess)</td></tr>
+<tr class="separator:a676d99b4903261c349d07226511f7236 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>toString</b> ()</td></tr>
+<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a4078f4642e0b4519c1b3e09e8298450d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a4078f4642e0b4519c1b3e09e8298450d">$sessionId</a></td></tr>
-<tr class="separator:a4078f4642e0b4519c1b3e09e8298450d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3d45967c88117f4eb16e9f20ac8b9df"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#ad3d45967c88117f4eb16e9f20ac8b9df">$createdOn</a></td></tr>
-<tr class="separator:ad3d45967c88117f4eb16e9f20ac8b9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcd716954f0205282a7aef4df7dbb110"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#adcd716954f0205282a7aef4df7dbb110">$userName</a></td></tr>
-<tr class="separator:adcd716954f0205282a7aef4df7dbb110"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a583a7690c8b4189cbc5e75a0db487208"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a583a7690c8b4189cbc5e75a0db487208">$password</a></td></tr>
-<tr class="separator:a583a7690c8b4189cbc5e75a0db487208"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bef7b70689d1e56cafbf750ff6a4aed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a3bef7b70689d1e56cafbf750ff6a4aed">$email</a></td></tr>
-<tr class="separator:a3bef7b70689d1e56cafbf750ff6a4aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c15abb6cbde51f1edcd4ec6fbada8b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a7c15abb6cbde51f1edcd4ec6fbada8b8">$accountLocked</a></td></tr>
-<tr class="separator:a7c15abb6cbde51f1edcd4ec6fbada8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eea5cae7dba92801a28ecca18f0b999"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a0eea5cae7dba92801a28ecca18f0b999">$profile</a></td></tr>
-<tr class="separator:a0eea5cae7dba92801a28ecca18f0b999"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab47cde807f0fcf85932226b162cb4520"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#ab47cde807f0fcf85932226b162cb4520">$role</a> = array()</td></tr>
-<tr class="separator:ab47cde807f0fcf85932226b162cb4520"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f06a6f33f2f58ae604cc1705610e50c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a7f06a6f33f2f58ae604cc1705610e50c">$jsonDocList</a> = array()</td></tr>
-<tr class="separator:a7f06a6f33f2f58ae604cc1705610e50c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:a6bb2ea848560b3d375a0a55bdd13ffa1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6bb2ea848560b3d375a0a55bdd13ffa1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$sessionId</b></td></tr>
+<tr class="separator:a6bb2ea848560b3d375a0a55bdd13ffa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a980da9bfdce6ade7abd3568e89f80013"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a980da9bfdce6ade7abd3568e89f80013"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$createdOn</b></td></tr>
+<tr class="separator:a980da9bfdce6ade7abd3568e89f80013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff20833df389a26c0f9384512eec4a68"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff20833df389a26c0f9384512eec4a68"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$userName</b></td></tr>
+<tr class="separator:aff20833df389a26c0f9384512eec4a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a607686ef9f99ea7c42f4f3dd3dbb2b0d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a607686ef9f99ea7c42f4f3dd3dbb2b0d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$password</b></td></tr>
+<tr class="separator:a607686ef9f99ea7c42f4f3dd3dbb2b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad634f418b20382e2802f80532d76d3cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad634f418b20382e2802f80532d76d3cd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$email</b></td></tr>
+<tr class="separator:ad634f418b20382e2802f80532d76d3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51b02d581005f52ab554f0abda05ad5b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51b02d581005f52ab554f0abda05ad5b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$accountLocked</b></td></tr>
+<tr class="separator:a51b02d581005f52ab554f0abda05ad5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aada8b96bccbcf78962195b117acdc07b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aada8b96bccbcf78962195b117acdc07b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$profile</b></td></tr>
+<tr class="separator:aada8b96bccbcf78962195b117acdc07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ea903cca285c7c0b4c9203932100309"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ea903cca285c7c0b4c9203932100309"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$role</b> = array()</td></tr>
+<tr class="separator:a1ea903cca285c7c0b4c9203932100309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9a98366ccbf9919fd42389a1675b30d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9a98366ccbf9919fd42389a1675b30d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$jsonDocList</b> = array()</td></tr>
+<tr class="separator:ab9a98366ccbf9919fd42389a1675b30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Creates <a class="el" href="class_user.html">User</a> for the App. App42 Cloud API's provides a complete <a class="el" href="class_user.html">User</a> Management for any Mobile or Web App. It supports <a class="el" href="class_user.html">User</a> registration, retrieval, state management e.g. lock, delete and Authentication. Along with <a class="el" href="class_user.html">User</a> management the platform provides API's for persistent SessionManagement </p><dl class="section see"><dt>See also</dt><dd>SessionManager</dd></dl>
+<div class="textblock"><p>Creates <a class="el" href="class_user.html">User</a> for the <a class="el" href="class_app.html">App</a>. App42 Cloud API's provides a complete <a class="el" href="class_user.html">User</a> Management for any Mobile or Web <a class="el" href="class_app.html">App</a>. It supports <a class="el" href="class_user.html">User</a> registration, retrieval, state management e.g. lock, delete and Authentication. Along with <a class="el" href="class_user.html">User</a> management the platform provides API's for persistent SessionManagement </p><dl class="section see"><dt>See also</dt><dd>SessionManager</dd></dl>
 <p>This <a class="el" href="class_user.html">User</a> object is the value object which contains the properties of <a class="el" href="class_user.html">User</a> along with the setter &amp; getter for those properties. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a43720b9843d9f6c57a3400c64f9e5591"></a>
+<a class="anchor" id="a02a01849f28e2535e888ae4ec87b20f2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::getCreatedOn </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="acf082b95b344df14b9e8a6c09868dbcd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">User::getEmail </td>
+          <td class="memname">getEmail </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -205,27 +215,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abbda1250e7eb330876ad19e708721cfb"></a>
+<a class="anchor" id="a04e0957baeb7acde9c0c86556da2d43f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::getJsonDocList </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a3e71eeea3e373e90dc902cc2f318ad3d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">User::getPassword </td>
+          <td class="memname">getPassword </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -237,12 +232,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad2761eaa365fec24f369f829983dd5a9"></a>
+<a class="anchor" id="abfc25ec9545bfee35877db62d8f87401"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::getProfile </td>
+          <td class="memname">getProfile </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -254,12 +249,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2604fbb6c4ad244b86dfb1d58300ca70"></a>
+<a class="anchor" id="a3589ce7d5e9671ab9a593abdbac80818"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::getRoleList </td>
+          <td class="memname">getRoleList </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -271,12 +266,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="add04326316156848d19f3c7085513fe9"></a>
+<a class="anchor" id="aa9889007e27fedadb28ae8f2fd77a569"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::getSessionId </td>
+          <td class="memname">getSessionId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -288,12 +283,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a309b68341107b1227dd6a136b767fff3"></a>
+<a class="anchor" id="aafd6d1ef27e6acc5833aba4012e5ee77"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::getUserName </td>
+          <td class="memname">getUserName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -305,12 +300,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7c25a02fb34daab48fe6bc1b99b25a39"></a>
+<a class="anchor" id="aee3b0ce22d0f9466956a6b15a483f7fa"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::isAccountLocked </td>
+          <td class="memname">isAccountLocked </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -322,12 +317,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8eccfbde8e6686a6954bcc095ebe4891"></a>
+<a class="anchor" id="a1932aea6337906c5bf48df1b2d4e9d9d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::setAccountLocked </td>
+          <td class="memname">setAccountLocked </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$accountLocked</em></td><td>)</td>
@@ -342,12 +337,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5818f83261d0fdfb0e20c72dc03fe443"></a>
+<a class="anchor" id="adff89ef96f7c1e0f0752caca8ccc750b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::setCreatedOn </td>
+          <td class="memname">setCreatedOn </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$createdOn</em></td><td>)</td>
@@ -364,12 +359,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a018ae17e436e09134922835cdd3235a7"></a>
+<a class="anchor" id="a5ef76eef42d2624386442eeb636d338c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::setEmail </td>
+          <td class="memname">setEmail </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$email</em></td><td>)</td>
@@ -384,28 +379,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acf9714b02744443796e19aceea6b9190"></a>
+<a class="anchor" id="a3e35c8d3dbb2c513c618a664389e0926"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::setJsonDocList </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$jsonDocListt</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aadc1995517c1e8190006d0dba87b28c4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">User::setPassword </td>
+          <td class="memname">setPassword </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$password</em></td><td>)</td>
@@ -420,12 +399,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7ca39f7a7dad370ccb7b2b0f71756d95"></a>
+<a class="anchor" id="afae18a30351301052e2b898637df97a3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::setProfile </td>
+          <td class="memname">setProfile </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_profile.html">Profile</a>&#160;</td>
           <td class="paramname"><em>$profile</em></td><td>)</td>
@@ -440,12 +419,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adb54ee2a3fd81089770acb6f26964ea3"></a>
+<a class="anchor" id="afed3edbfb265c13ab2c6dc4b9ddfd52d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::setRoleList </td>
+          <td class="memname">setRoleList </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$roleList</em></td><td>)</td>
@@ -460,12 +439,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af8419950ccf4a1bb794e609659523542"></a>
+<a class="anchor" id="ace8bf79f08c5588b7b15f2fc69386560"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::setSessionId </td>
+          <td class="memname">setSessionId </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$sessionId</em></td><td>)</td>
@@ -480,12 +459,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af9847671b5832e4034aceb36f34567bc"></a>
+<a class="anchor" id="a20f0087f72763b84d2992ba6ffee2fb2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::setUserName </td>
+          <td class="memname">setUserName </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$userName</em></td><td>)</td>
@@ -500,12 +479,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2813639ee0f3ba0202b0705269b09b8c"></a>
+<a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">User::toString </td>
+          <td class="memname">toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -517,119 +496,13 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a7c15abb6cbde51f1edcd4ec6fbada8b8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">User::$accountLocked</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad3d45967c88117f4eb16e9f20ac8b9df"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">User::$createdOn</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a3bef7b70689d1e56cafbf750ff6a4aed"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">User::$email</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a7f06a6f33f2f58ae604cc1705610e50c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">User::$jsonDocList = array()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a583a7690c8b4189cbc5e75a0db487208"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">User::$password</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a0eea5cae7dba92801a28ecca18f0b999"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">User::$profile</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab47cde807f0fcf85932226b162cb4520"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">User::$role = array()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4078f4642e0b4519c1b3e09e8298450d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">User::$sessionId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="adcd716954f0205282a7aef4df7dbb110"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">User::$userName</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/User.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:34 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:43 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

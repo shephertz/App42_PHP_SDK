@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,96 +83,118 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="class_review-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">Review Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Inherits <a class="el" href="class_app42_response.html">App42Response</a>.</p>
+<div class="dynheader">
+Inheritance diagram for Review:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_review.png" usemap="#Review_map" alt=""/>
+  <map id="Review_map" name="Review_map">
+<area href="class_app42_response.html" alt="App42Response" shape="rect" coords="0,0,104,24"/>
+</map>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4db2b28dbae0db2534ef09cc16e810a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a4db2b28dbae0db2534ef09cc16e810a3">getUserId</a> ()</td></tr>
-<tr class="separator:a4db2b28dbae0db2534ef09cc16e810a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a530fd5b01adab076fc50064727df40ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a530fd5b01adab076fc50064727df40ef">setUserId</a> ($userId)</td></tr>
-<tr class="separator:a530fd5b01adab076fc50064727df40ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70b7b29b1c5a075fdd62bf00b2d96ee7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a70b7b29b1c5a075fdd62bf00b2d96ee7">getItemId</a> ()</td></tr>
-<tr class="separator:a70b7b29b1c5a075fdd62bf00b2d96ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6883beaa79440e32435beb270318aaf0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a6883beaa79440e32435beb270318aaf0">setItemId</a> ($itemId)</td></tr>
-<tr class="separator:a6883beaa79440e32435beb270318aaf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d6e1786b15151da73509a118b607201"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a0d6e1786b15151da73509a118b607201">getCommentId</a> ()</td></tr>
-<tr class="separator:a0d6e1786b15151da73509a118b607201"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93287c2581244710fd74b0d0f021d3f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a93287c2581244710fd74b0d0f021d3f3">setCommentId</a> ($commentId)</td></tr>
-<tr class="separator:a93287c2581244710fd74b0d0f021d3f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac036948f37cefcc4def0d7aca22c3333"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#ac036948f37cefcc4def0d7aca22c3333">getStatus</a> ()</td></tr>
-<tr class="separator:ac036948f37cefcc4def0d7aca22c3333"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d83af5b716210a367fa531d0a8d7e71"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a4d83af5b716210a367fa531d0a8d7e71">setStatus</a> ($tatus)</td></tr>
-<tr class="separator:a4d83af5b716210a367fa531d0a8d7e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb82c53815ac403645110f918ad8e2a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#acb82c53815ac403645110f918ad8e2a5">getReviewId</a> ()</td></tr>
-<tr class="separator:acb82c53815ac403645110f918ad8e2a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc3153a276b6adc5791ce43d50a799cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#afc3153a276b6adc5791ce43d50a799cf">setReviewId</a> ($reviewId)</td></tr>
-<tr class="separator:afc3153a276b6adc5791ce43d50a799cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24a849875188f925e4aba35f1da19fd7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a24a849875188f925e4aba35f1da19fd7">getComment</a> ()</td></tr>
-<tr class="separator:a24a849875188f925e4aba35f1da19fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3865d74ba78a78307268b8c3648df9e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#ad3865d74ba78a78307268b8c3648df9e">setComment</a> ($comment)</td></tr>
-<tr class="separator:ad3865d74ba78a78307268b8c3648df9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5920ceece128b7c0d77c780c9832d3b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a5920ceece128b7c0d77c780c9832d3b9">getRating</a> ()</td></tr>
-<tr class="separator:a5920ceece128b7c0d77c780c9832d3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97811561a2eed63b0c6c008474664410"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a97811561a2eed63b0c6c008474664410">setRating</a> ($rating)</td></tr>
-<tr class="separator:a97811561a2eed63b0c6c008474664410"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a5fceddf7831bca82268a318998086d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a1a5fceddf7831bca82268a318998086d">getCreatedOn</a> ()</td></tr>
-<tr class="separator:a1a5fceddf7831bca82268a318998086d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7621645d73e90c452e07343c6e6369ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a7621645d73e90c452e07343c6e6369ef">setCreatedOn</a> ($createdOn)</td></tr>
-<tr class="separator:a7621645d73e90c452e07343c6e6369ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07807c0e6163c6e412a15d3f637dc0ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a07807c0e6163c6e412a15d3f637dc0ef">getStringView</a> ()</td></tr>
-<tr class="separator:a07807c0e6163c6e412a15d3f637dc0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05f6aa1ffae6295260d9f1cca016bf33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a05f6aa1ffae6295260d9f1cca016bf33">getUserId</a> ()</td></tr>
+<tr class="separator:a05f6aa1ffae6295260d9f1cca016bf33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad3264e2196ea03403e62460cd62ff96"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#aad3264e2196ea03403e62460cd62ff96">setUserId</a> ($userId)</td></tr>
+<tr class="separator:aad3264e2196ea03403e62460cd62ff96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b01110117f0cd71a5a115dc8b9eab6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a5b01110117f0cd71a5a115dc8b9eab6f">getItemId</a> ()</td></tr>
+<tr class="separator:a5b01110117f0cd71a5a115dc8b9eab6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22de7a673c95892b16b497788139add1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a22de7a673c95892b16b497788139add1">setItemId</a> ($itemId)</td></tr>
+<tr class="separator:a22de7a673c95892b16b497788139add1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeb8d5147e17f9279f3aadd016383861"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeeb8d5147e17f9279f3aadd016383861"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getCommentId</b> ()</td></tr>
+<tr class="separator:aeeb8d5147e17f9279f3aadd016383861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1357beaf9d27129c7d766ff66e0d6b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#ab1357beaf9d27129c7d766ff66e0d6b8">setCommentId</a> ($commentId)</td></tr>
+<tr class="separator:ab1357beaf9d27129c7d766ff66e0d6b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d21636071f529e2154051d3ea6e5921"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a9d21636071f529e2154051d3ea6e5921">getStatus</a> ()</td></tr>
+<tr class="separator:a9d21636071f529e2154051d3ea6e5921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb58bbf45f3571f34d5046f1b7bf827"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#afeb58bbf45f3571f34d5046f1b7bf827">setStatus</a> ($tatus)</td></tr>
+<tr class="separator:afeb58bbf45f3571f34d5046f1b7bf827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7d76fed59573da85882409bdfb81a6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#ad7d76fed59573da85882409bdfb81a6d">getReviewId</a> ()</td></tr>
+<tr class="separator:ad7d76fed59573da85882409bdfb81a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0f3bdfbc68d77b40c69fd257368fad7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#aa0f3bdfbc68d77b40c69fd257368fad7">setReviewId</a> ($reviewId)</td></tr>
+<tr class="separator:aa0f3bdfbc68d77b40c69fd257368fad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb57c3d1b74c19589ba1d641ea1a390e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#adb57c3d1b74c19589ba1d641ea1a390e">getComment</a> ()</td></tr>
+<tr class="separator:adb57c3d1b74c19589ba1d641ea1a390e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a169d67ad53abdd4e6d1cd931fe15e839"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a169d67ad53abdd4e6d1cd931fe15e839">setComment</a> ($comment)</td></tr>
+<tr class="separator:a169d67ad53abdd4e6d1cd931fe15e839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a209cc2a79146f673389564ea1315c2a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a209cc2a79146f673389564ea1315c2a2">getRating</a> ()</td></tr>
+<tr class="separator:a209cc2a79146f673389564ea1315c2a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bda8a5142a1c40476109d41ffac7fa6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a0bda8a5142a1c40476109d41ffac7fa6">setRating</a> ($rating)</td></tr>
+<tr class="separator:a0bda8a5142a1c40476109d41ffac7fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a346b90b05b25684ab3d2c62566270551"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a346b90b05b25684ab3d2c62566270551">getCreatedOn</a> ()</td></tr>
+<tr class="separator:a346b90b05b25684ab3d2c62566270551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adff89ef96f7c1e0f0752caca8ccc750b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#adff89ef96f7c1e0f0752caca8ccc750b">setCreatedOn</a> ($createdOn)</td></tr>
+<tr class="separator:adff89ef96f7c1e0f0752caca8ccc750b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d5198c3929ebdaa2e71d41bb529d70b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a4d5198c3929ebdaa2e71d41bb529d70b">getStringView</a> ()</td></tr>
+<tr class="separator:a4d5198c3929ebdaa2e71d41bb529d70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_app42_response"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_app42_response')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_app42_response.html">App42Response</a></td></tr>
-<tr class="memitem:a59691fca1114f7ec431945476fbbbedb inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a59691fca1114f7ec431945476fbbbedb">getTotalRecords</a> ()</td></tr>
-<tr class="separator:a59691fca1114f7ec431945476fbbbedb inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf9642f79cd3bb953713aae24c61c68d inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#adf9642f79cd3bb953713aae24c61c68d">setTotalRecords</a> ($totalRecords)</td></tr>
-<tr class="separator:adf9642f79cd3bb953713aae24c61c68d inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85d0a2f09c9ce3e8af8e0f5506e7b2b3 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a85d0a2f09c9ce3e8af8e0f5506e7b2b3">getStrResponse</a> ()</td></tr>
-<tr class="separator:a85d0a2f09c9ce3e8af8e0f5506e7b2b3 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42a65b1890322364a445c20f8a7a6ea9 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a42a65b1890322364a445c20f8a7a6ea9">setStrResponse</a> ($strResponse)</td></tr>
-<tr class="separator:a42a65b1890322364a445c20f8a7a6ea9 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a790b0d760b2318677c26b26d2b2d409d inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a> ()</td></tr>
-<tr class="separator:a790b0d760b2318677c26b26d2b2d409d inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff474b29d8343336e17b4674422386af inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#aff474b29d8343336e17b4674422386af">setResponseSuccess</a> ($<a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a>)</td></tr>
-<tr class="separator:aff474b29d8343336e17b4674422386af inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32850bec51f0aa330085a3cd148a3a96 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a32850bec51f0aa330085a3cd148a3a96">toString</a> ()</td></tr>
-<tr class="separator:a32850bec51f0aa330085a3cd148a3a96 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6329aaaf695e71dd106b4e4875d4c12 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6329aaaf695e71dd106b4e4875d4c12"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getTotalRecords</b> ()</td></tr>
+<tr class="separator:ac6329aaaf695e71dd106b4e4875d4c12 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d542aefbcfb5f4c5bd4db0da7f740c inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71d542aefbcfb5f4c5bd4db0da7f740c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setTotalRecords</b> ($totalRecords)</td></tr>
+<tr class="separator:a71d542aefbcfb5f4c5bd4db0da7f740c inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d218c02b1c22595b91083316a569c17 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d218c02b1c22595b91083316a569c17"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getStrResponse</b> ()</td></tr>
+<tr class="separator:a7d218c02b1c22595b91083316a569c17 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34af678876992c78b5fde4b3dcc0f83b inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34af678876992c78b5fde4b3dcc0f83b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setStrResponse</b> ($strResponse)</td></tr>
+<tr class="separator:a34af678876992c78b5fde4b3dcc0f83b inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6d43c993a10b720dd0c65ff74aedc7b inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6d43c993a10b720dd0c65ff74aedc7b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>isResponseSuccess</b> ()</td></tr>
+<tr class="separator:aa6d43c993a10b720dd0c65ff74aedc7b inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a676d99b4903261c349d07226511f7236 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a676d99b4903261c349d07226511f7236"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setResponseSuccess</b> ($isResponseSuccess)</td></tr>
+<tr class="separator:a676d99b4903261c349d07226511f7236 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>toString</b> ()</td></tr>
+<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:aa6e5cd858cf2d55aea80c8eb3d42904b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#aa6e5cd858cf2d55aea80c8eb3d42904b">$userId</a></td></tr>
-<tr class="separator:aa6e5cd858cf2d55aea80c8eb3d42904b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa932890f026d6c04c43e3abd1a457ed5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#aa932890f026d6c04c43e3abd1a457ed5">$itemId</a></td></tr>
-<tr class="separator:aa932890f026d6c04c43e3abd1a457ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af011ccfbf401d183870db19efc084933"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#af011ccfbf401d183870db19efc084933">$status</a></td></tr>
-<tr class="separator:af011ccfbf401d183870db19efc084933"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb6b998bdd50ce2d3c0b8842a843a9b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#abb6b998bdd50ce2d3c0b8842a843a9b5">$reviewId</a></td></tr>
-<tr class="separator:abb6b998bdd50ce2d3c0b8842a843a9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57c80a677e3ac2ca329cdad07232f94f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a57c80a677e3ac2ca329cdad07232f94f">$comment</a></td></tr>
-<tr class="separator:a57c80a677e3ac2ca329cdad07232f94f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0842cf1d84fb4529e474395d0ac493f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a0842cf1d84fb4529e474395d0ac493f2">$rating</a></td></tr>
-<tr class="separator:a0842cf1d84fb4529e474395d0ac493f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13953160d0a4afefd32341c12f90b3b4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#a13953160d0a4afefd32341c12f90b3b4">$createdOn</a></td></tr>
-<tr class="separator:a13953160d0a4afefd32341c12f90b3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7096fd540513c585919ad3d62d162ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_review.html#aa7096fd540513c585919ad3d62d162ee">$commentId</a></td></tr>
-<tr class="separator:aa7096fd540513c585919ad3d62d162ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:a84651f4070d04080f6c5fd3c98cc9104"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a84651f4070d04080f6c5fd3c98cc9104"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$userId</b></td></tr>
+<tr class="separator:a84651f4070d04080f6c5fd3c98cc9104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4c0908542b0acc0aaa0aadee3df7ae5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4c0908542b0acc0aaa0aadee3df7ae5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$itemId</b></td></tr>
+<tr class="separator:aa4c0908542b0acc0aaa0aadee3df7ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58391ea75f2d29d5d708d7050b641c33"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58391ea75f2d29d5d708d7050b641c33"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$status</b></td></tr>
+<tr class="separator:a58391ea75f2d29d5d708d7050b641c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20db85f30a58306b84a1edff65e1954e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20db85f30a58306b84a1edff65e1954e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$reviewId</b></td></tr>
+<tr class="separator:a20db85f30a58306b84a1edff65e1954e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a536677acc0163c53c067316a97456e6c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a536677acc0163c53c067316a97456e6c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$comment</b></td></tr>
+<tr class="separator:a536677acc0163c53c067316a97456e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44118acf7e954a3bc096a4af6b059c23"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44118acf7e954a3bc096a4af6b059c23"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$rating</b></td></tr>
+<tr class="separator:a44118acf7e954a3bc096a4af6b059c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a980da9bfdce6ade7abd3568e89f80013"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a980da9bfdce6ade7abd3568e89f80013"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$createdOn</b></td></tr>
+<tr class="separator:a980da9bfdce6ade7abd3568e89f80013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49916819068e77eb9292d7abd4136c54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49916819068e77eb9292d7abd4136c54"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$commentId</b></td></tr>
+<tr class="separator:a49916819068e77eb9292d7abd4136c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The service is a <a class="el" href="class_review.html">Review</a> &amp; Rating manager for any item. The item can be anything which has an id e.g. App on a AppStore/Marketplace, items in a catalogue, articles, blogs etc. It manages the comments and its associated rating. It also provides methods to fetch average, highest etc. Reviews. Reviews can be also be muted or unmuted if it has any objectionable content.</p>
+<div class="textblock"><p>The service is a <a class="el" href="class_review.html">Review</a> &amp; Rating manager for any item. The item can be anything which has an id e.g. <a class="el" href="class_app.html">App</a> on a AppStore/Marketplace, items in a catalogue, articles, blogs etc. It manages the comments and its associated rating. It also provides methods to fetch average, highest etc. Reviews. Reviews can be also be muted or unmuted if it has any objectionable content.</p>
 <p>This <a class="el" href="class_review.html">Review</a> object is the value object which contains the properties of <a class="el" href="class_review.html">Review</a> along with the setter &amp; getter for those properties. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a24a849875188f925e4aba35f1da19fd7"></a>
+<a class="anchor" id="adb57c3d1b74c19589ba1d641ea1a390e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::getComment </td>
+          <td class="memname">getComment </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -184,27 +206,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0d6e1786b15151da73509a118b607201"></a>
+<a class="anchor" id="a346b90b05b25684ab3d2c62566270551"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::getCommentId </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1a5fceddf7831bca82268a318998086d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Review::getCreatedOn </td>
+          <td class="memname">getCreatedOn </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -216,12 +223,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a70b7b29b1c5a075fdd62bf00b2d96ee7"></a>
+<a class="anchor" id="a5b01110117f0cd71a5a115dc8b9eab6f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::getItemId </td>
+          <td class="memname">getItemId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -233,12 +240,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5920ceece128b7c0d77c780c9832d3b9"></a>
+<a class="anchor" id="a209cc2a79146f673389564ea1315c2a2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::getRating </td>
+          <td class="memname">getRating </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -250,12 +257,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acb82c53815ac403645110f918ad8e2a5"></a>
+<a class="anchor" id="ad7d76fed59573da85882409bdfb81a6d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::getReviewId </td>
+          <td class="memname">getReviewId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -267,12 +274,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac036948f37cefcc4def0d7aca22c3333"></a>
+<a class="anchor" id="a9d21636071f529e2154051d3ea6e5921"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::getStatus </td>
+          <td class="memname">getStatus </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -284,12 +291,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a07807c0e6163c6e412a15d3f637dc0ef"></a>
+<a class="anchor" id="a4d5198c3929ebdaa2e71d41bb529d70b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::getStringView </td>
+          <td class="memname">getStringView </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -301,12 +308,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4db2b28dbae0db2534ef09cc16e810a3"></a>
+<a class="anchor" id="a05f6aa1ffae6295260d9f1cca016bf33"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::getUserId </td>
+          <td class="memname">getUserId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -318,12 +325,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad3865d74ba78a78307268b8c3648df9e"></a>
+<a class="anchor" id="a169d67ad53abdd4e6d1cd931fe15e839"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::setComment </td>
+          <td class="memname">setComment </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$comment</em></td><td>)</td>
@@ -344,12 +351,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a93287c2581244710fd74b0d0f021d3f3"></a>
+<a class="anchor" id="ab1357beaf9d27129c7d766ff66e0d6b8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::setCommentId </td>
+          <td class="memname">setCommentId </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$commentId</em></td><td>)</td>
@@ -370,12 +377,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7621645d73e90c452e07343c6e6369ef"></a>
+<a class="anchor" id="adff89ef96f7c1e0f0752caca8ccc750b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::setCreatedOn </td>
+          <td class="memname">setCreatedOn </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$createdOn</em></td><td>)</td>
@@ -396,12 +403,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6883beaa79440e32435beb270318aaf0"></a>
+<a class="anchor" id="a22de7a673c95892b16b497788139add1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::setItemId </td>
+          <td class="memname">setItemId </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$itemId</em></td><td>)</td>
@@ -422,12 +429,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a97811561a2eed63b0c6c008474664410"></a>
+<a class="anchor" id="a0bda8a5142a1c40476109d41ffac7fa6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::setRating </td>
+          <td class="memname">setRating </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$rating</em></td><td>)</td>
@@ -448,12 +455,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afc3153a276b6adc5791ce43d50a799cf"></a>
+<a class="anchor" id="aa0f3bdfbc68d77b40c69fd257368fad7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::setReviewId </td>
+          <td class="memname">setReviewId </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$reviewId</em></td><td>)</td>
@@ -474,12 +481,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4d83af5b716210a367fa531d0a8d7e71"></a>
+<a class="anchor" id="afeb58bbf45f3571f34d5046f1b7bf827"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::setStatus </td>
+          <td class="memname">setStatus </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$tatus</em></td><td>)</td>
@@ -500,12 +507,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a530fd5b01adab076fc50064727df40ef"></a>
+<a class="anchor" id="aad3264e2196ea03403e62460cd62ff96"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Review::setUserId </td>
+          <td class="memname">setUserId </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$userId</em></td><td>)</td>
@@ -526,107 +533,13 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a57c80a677e3ac2ca329cdad07232f94f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Review::$comment</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa7096fd540513c585919ad3d62d162ee"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Review::$commentId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a13953160d0a4afefd32341c12f90b3b4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Review::$createdOn</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa932890f026d6c04c43e3abd1a457ed5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Review::$itemId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a0842cf1d84fb4529e474395d0ac493f2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Review::$rating</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="abb6b998bdd50ce2d3c0b8842a843a9b5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Review::$reviewId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af011ccfbf401d183870db19efc084933"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Review::$status</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa6e5cd858cf2d55aea80c8eb3d42904b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Review::$userId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/Review.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:43 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

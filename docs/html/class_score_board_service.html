@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,185 +83,250 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="class_score_board_service-members.html">List of all members</a>  </div>
+<a href="#pro-attribs">Protected Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">ScoreBoardService Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Inherits <a class="el" href="class_app42_service.html">App42Service</a>.</p>
+<div class="dynheader">
+Inheritance diagram for ScoreBoardService:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_score_board_service.png" usemap="#ScoreBoardService_map" alt=""/>
+  <map id="ScoreBoardService_map" name="ScoreBoardService_map">
+<area href="class_app42_service.html" alt="App42Service" shape="rect" coords="0,0,124,24"/>
+</map>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acc6d7dcf9390d80d33374e53f17c9889"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#acc6d7dcf9390d80d33374e53f17c9889">__construct</a> ($apiKey, $secretKey)</td></tr>
-<tr class="separator:acc6d7dcf9390d80d33374e53f17c9889"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad13db0af0aae5d3f7befe20a47801c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#aad13db0af0aae5d3f7befe20a47801c0">saveUserScore</a> ($gameName, $gameUserName, $gameScore)</td></tr>
-<tr class="separator:aad13db0af0aae5d3f7befe20a47801c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac1728c6fd4faa0d1da0f69a837ff226"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#aac1728c6fd4faa0d1da0f69a837ff226">getScoresByUser</a> ($gameName, $userName)</td></tr>
-<tr class="separator:aac1728c6fd4faa0d1da0f69a837ff226"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad26080c4c8f110be72ef5af59d09726e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#ad26080c4c8f110be72ef5af59d09726e">getHighestScoreByUser</a> ($gameName, $userName)</td></tr>
-<tr class="separator:ad26080c4c8f110be72ef5af59d09726e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a54cf3beabced9840afa0133de8ba5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a0a54cf3beabced9840afa0133de8ba5a">getLowestScoreByUser</a> ($gameName, $userName)</td></tr>
-<tr class="separator:a0a54cf3beabced9840afa0133de8ba5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbd797570eb1a061054d4123d922f3bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#abbd797570eb1a061054d4123d922f3bf">getTopRankings</a> ($gameName, $startDate=null, $endDate=null)</td></tr>
-<tr class="separator:abbd797570eb1a061054d4123d922f3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60bebcef1feb50c1a2d9400bd69610e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a60bebcef1feb50c1a2d9400bd69610e6">getTopNRankings</a> ($gameName, $max)</td></tr>
-<tr class="separator:a60bebcef1feb50c1a2d9400bd69610e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89549377afcfde3d71686e2e5db2c808"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a89549377afcfde3d71686e2e5db2c808">getUserRanking</a> ($gameName, $userName)</td></tr>
-<tr class="separator:a89549377afcfde3d71686e2e5db2c808"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdb17e162ad04c64fbf273ad7f2e70aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#afdb17e162ad04c64fbf273ad7f2e70aa">getAverageScoreByUser</a> ($gameName, $userName)</td></tr>
-<tr class="separator:afdb17e162ad04c64fbf273ad7f2e70aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f5eb70f2fca949d739bd934da1452e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a9f5eb70f2fca949d739bd934da1452e4">getTopRankingsByGroup</a> ($gameName, $userList)</td></tr>
-<tr class="separator:a9f5eb70f2fca949d739bd934da1452e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f5694190005eddb7396f848ae00e69c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a5f5694190005eddb7396f848ae00e69c">getLastGameScore</a> ($userName)</td></tr>
-<tr class="separator:a5f5694190005eddb7396f848ae00e69c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31e74cdbf4bc3920ebc3067b7d46431c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a31e74cdbf4bc3920ebc3067b7d46431c">getLastScoreByUser</a> ($gameName, $userName)</td></tr>
-<tr class="separator:a31e74cdbf4bc3920ebc3067b7d46431c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a427b90af2fb66c72fc773afec3ab9764"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a427b90af2fb66c72fc773afec3ab9764">getTopNRankers</a> ($gameName, $max, $startDate=null, $endDate=null)</td></tr>
-<tr class="separator:a427b90af2fb66c72fc773afec3ab9764"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ed3b1b2f328ca8947f2619f8644a34e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a2ed3b1b2f328ca8947f2619f8644a34e">getTopNRankersByGroup</a> ($gameName, $userList)</td></tr>
-<tr class="separator:a2ed3b1b2f328ca8947f2619f8644a34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ac777ff225817c4d4e845cb2858a865"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a7ac777ff225817c4d4e845cb2858a865">editScoreValueById</a> ($scoreId, $gameScore)</td></tr>
-<tr class="separator:a7ac777ff225817c4d4e845cb2858a865"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07106641cf9869b7a9aa980f5864cd38"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a07106641cf9869b7a9aa980f5864cd38">getTopRankersFromBuddyGroup</a> ($gameName, $userName, $ownerName, $groupName)</td></tr>
-<tr class="separator:a07106641cf9869b7a9aa980f5864cd38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa797770de79ebb4715bc62bd40688f18"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#aa797770de79ebb4715bc62bd40688f18">getTopNRankersFromFacebook</a> ($gameName, $fbAccessToken, $max)</td></tr>
-<tr class="separator:aa797770de79ebb4715bc62bd40688f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a132cb4edd6083910e4fbb8a4f3120116"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a132cb4edd6083910e4fbb8a4f3120116">getTopNRankersFromFacebookByDateRange</a> ($gameName, $fbAccessToken, $startDate, $endDate, $max)</td></tr>
-<tr class="separator:a132cb4edd6083910e4fbb8a4f3120116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36febe781d5a20248660f46f7736bfe4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a36febe781d5a20248660f46f7736bfe4">getTopNTargetRankers</a> ($gameName, $max)</td></tr>
-<tr class="separator:a36febe781d5a20248660f46f7736bfe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86c9fe4229b4ad3a7f42e78e741bec30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a86c9fe4229b4ad3a7f42e78e741bec30">addJSONObject</a> ($collectionName, $obj)</td></tr>
-<tr class="separator:a86c9fe4229b4ad3a7f42e78e741bec30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9caf898a88dc45416497018ce82dcf33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a9caf898a88dc45416497018ce82dcf33">getUsersWithScoreRange</a> ($gameName, $minScore, $maxScore)</td></tr>
-<tr class="separator:a9caf898a88dc45416497018ce82dcf33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49f2ad222e06420736d750e167d55d7c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a49f2ad222e06420736d750e167d55d7c">__construct</a> ($apiKey, $secretKey)</td></tr>
+<tr class="separator:a49f2ad222e06420736d750e167d55d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a085f59ec23e4043f61e14c0649c1b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a7a085f59ec23e4043f61e14c0649c1b3">saveUserScore</a> ($gameName, $gameUserName, $gameScore)</td></tr>
+<tr class="separator:a7a085f59ec23e4043f61e14c0649c1b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cd4f45da55f6ff70c687c1c71511387"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a0cd4f45da55f6ff70c687c1c71511387">getScoresByUser</a> ($gameName, $userName)</td></tr>
+<tr class="separator:a0cd4f45da55f6ff70c687c1c71511387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e66d1ab5efddab46c2c8b1320851fce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a6e66d1ab5efddab46c2c8b1320851fce">getHighestScoreByUser</a> ($gameName, $userName)</td></tr>
+<tr class="separator:a6e66d1ab5efddab46c2c8b1320851fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d54be07a48a65d2d8fd5bc7e856cec4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a7d54be07a48a65d2d8fd5bc7e856cec4">getLowestScoreByUser</a> ($gameName, $userName)</td></tr>
+<tr class="separator:a7d54be07a48a65d2d8fd5bc7e856cec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a333c548c3731be4928bcce9919d5ef70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a333c548c3731be4928bcce9919d5ef70">getTopRankings</a> ($gameName, $startDate=null, $endDate=null)</td></tr>
+<tr class="separator:a333c548c3731be4928bcce9919d5ef70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae48afebf03f1e83ff8c07ce821d3f48a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#ae48afebf03f1e83ff8c07ce821d3f48a">getTopNRankings</a> ($gameName, $max)</td></tr>
+<tr class="separator:ae48afebf03f1e83ff8c07ce821d3f48a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e12db96d04e039467bbbf3d38b3bc27"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a4e12db96d04e039467bbbf3d38b3bc27">getUserRanking</a> ($gameName, $userName)</td></tr>
+<tr class="separator:a4e12db96d04e039467bbbf3d38b3bc27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c94ddec49518fc3deeb6d1bb2a7c150"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a8c94ddec49518fc3deeb6d1bb2a7c150">getAverageScoreByUser</a> ($gameName, $userName)</td></tr>
+<tr class="separator:a8c94ddec49518fc3deeb6d1bb2a7c150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7cd992c2639e5fd743527464688e86e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#ae7cd992c2639e5fd743527464688e86e">getTopRankingsByGroup</a> ($gameName, $userList)</td></tr>
+<tr class="separator:ae7cd992c2639e5fd743527464688e86e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a444cd229dcde91f2f4c8955bd749e999"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a444cd229dcde91f2f4c8955bd749e999">getLastGameScore</a> ($userName)</td></tr>
+<tr class="separator:a444cd229dcde91f2f4c8955bd749e999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3df851d8083e5d023808356d6029d63"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#ac3df851d8083e5d023808356d6029d63">getLastScoreByUser</a> ($gameName, $userName)</td></tr>
+<tr class="separator:ac3df851d8083e5d023808356d6029d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b8d0798d02130ed85c1d41363421751"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a6b8d0798d02130ed85c1d41363421751">getTopNRankers</a> ($gameName, $max, $startDate=null, $endDate=null)</td></tr>
+<tr class="separator:a6b8d0798d02130ed85c1d41363421751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c1ef766638a16806f3d949f38ed91e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a06c1ef766638a16806f3d949f38ed91e">getTopNRankersByGroup</a> ($gameName, $userList)</td></tr>
+<tr class="separator:a06c1ef766638a16806f3d949f38ed91e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21e671fb8da8d2bbb798434ab7056b05"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a21e671fb8da8d2bbb798434ab7056b05">editScoreValueById</a> ($scoreId, $gameScore)</td></tr>
+<tr class="separator:a21e671fb8da8d2bbb798434ab7056b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8bb6b840941d069c599348128cbfc32"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad8bb6b840941d069c599348128cbfc32"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getTopRankersFromBuddyGroup</b> ($gameName, $userName, $ownerName, $groupName)</td></tr>
+<tr class="separator:ad8bb6b840941d069c599348128cbfc32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83986af2a7966b96a93d361f2f00cf5a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a83986af2a7966b96a93d361f2f00cf5a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getTopNRankersFromFacebook</b> ($gameName, $fbAccessToken, $max)</td></tr>
+<tr class="separator:a83986af2a7966b96a93d361f2f00cf5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bda0b03fd66202309c308491e69c770"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bda0b03fd66202309c308491e69c770"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getTopNRankersFromFacebookByDateRange</b> ($gameName, $fbAccessToken, $startDate, $endDate, $max)</td></tr>
+<tr class="separator:a0bda0b03fd66202309c308491e69c770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4c81e49320391e02c79ad3bd69d15dd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4c81e49320391e02c79ad3bd69d15dd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getTopNTargetRankers</b> ($gameName, $max)</td></tr>
+<tr class="separator:ac4c81e49320391e02c79ad3bd69d15dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5821bf72489c15b04e59a24c8beb4766"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5821bf72489c15b04e59a24c8beb4766"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>addJSONObject</b> ($collectionName, $obj)</td></tr>
+<tr class="separator:a5821bf72489c15b04e59a24c8beb4766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae53051147c35a85f75e07bfa109bb1c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae53051147c35a85f75e07bfa109bb1c6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getUsersWithScoreRange</b> ($gameName, $minScore, $maxScore)</td></tr>
+<tr class="separator:ae53051147c35a85f75e07bfa109bb1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_app42_service"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_app42_service')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_app42_service.html">App42Service</a></td></tr>
-<tr class="memitem:af16cac76fd184705c96df3729f33e2a0 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af16cac76fd184705c96df3729f33e2a0">setQuery</a> ($collectionName, $metaInfoQuery=null)</td></tr>
-<tr class="separator:af16cac76fd184705c96df3729f33e2a0 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aba213883eb90cd675bbc4d62dc8b02 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a7aba213883eb90cd675bbc4d62dc8b02">getOrderByDescending</a> ()</td></tr>
-<tr class="separator:a7aba213883eb90cd675bbc4d62dc8b02 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabf567a7110f4df3013fde9b62db9c3c inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aabf567a7110f4df3013fde9b62db9c3c">setOrderByDescending</a> ($orderByDescending)</td></tr>
-<tr class="separator:aabf567a7110f4df3013fde9b62db9c3c inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1d4773fd2939df2e802d23d57bd91e6 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac1d4773fd2939df2e802d23d57bd91e6">getOtherMetaHeaders</a> ()</td></tr>
-<tr class="separator:ac1d4773fd2939df2e802d23d57bd91e6 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2e4ee3ff8035e12f60535dd3b224fc8 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af2e4ee3ff8035e12f60535dd3b224fc8">setOtherMetaHeaders</a> ($otherMetaHeaders)</td></tr>
-<tr class="separator:af2e4ee3ff8035e12f60535dd3b224fc8 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5662347d3af9595515dc2b039c108341 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a5662347d3af9595515dc2b039c108341">getOrderByAscending</a> ()</td></tr>
-<tr class="separator:a5662347d3af9595515dc2b039c108341 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe7f3a31f8d785957fa64bd009882110 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#abe7f3a31f8d785957fa64bd009882110">setOrderByAscending</a> ($orderByAscending)</td></tr>
-<tr class="separator:abe7f3a31f8d785957fa64bd009882110 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0c6632f3d744d75475db6498f1f2ad7 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac0c6632f3d744d75475db6498f1f2ad7">getAclList</a> ()</td></tr>
-<tr class="separator:ac0c6632f3d744d75475db6498f1f2ad7 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c56414cef7ad061a0fafaeb331c5605 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4c56414cef7ad061a0fafaeb331c5605">setAclList</a> ($aclList)</td></tr>
-<tr class="separator:a4c56414cef7ad061a0fafaeb331c5605 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2b22e84e5388868aefad422b9781a96 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ad2b22e84e5388868aefad422b9781a96">setSelectKeys</a> ($selectKeys)</td></tr>
-<tr class="separator:ad2b22e84e5388868aefad422b9781a96 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6869bb6a1eefc0caa35c2c350aa18ba4 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a6869bb6a1eefc0caa35c2c350aa18ba4">getSelectKeys</a> ()</td></tr>
-<tr class="separator:a6869bb6a1eefc0caa35c2c350aa18ba4 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecc4048867786277f470e3380b4332f4 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aecc4048867786277f470e3380b4332f4">getEvent</a> ()</td></tr>
-<tr class="separator:aecc4048867786277f470e3380b4332f4 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1cba8e6564390acf0bec21221731916 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ad1cba8e6564390acf0bec21221731916">setEvent</a> ($event)</td></tr>
-<tr class="separator:ad1cba8e6564390acf0bec21221731916 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a422ead5ea431da54caf4dde3979cee23 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a422ead5ea431da54caf4dde3979cee23">getSessionId</a> ()</td></tr>
-<tr class="separator:a422ead5ea431da54caf4dde3979cee23 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b8c8fe1c04c339db388c286e3c9bccf inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a6b8c8fe1c04c339db388c286e3c9bccf">setSessionId</a> ($sessionId)</td></tr>
-<tr class="separator:a6b8c8fe1c04c339db388c286e3c9bccf inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e42fd493b8a99f5e7791232d318f599 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4e42fd493b8a99f5e7791232d318f599">getGeoTag</a> ()</td></tr>
-<tr class="separator:a4e42fd493b8a99f5e7791232d318f599 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ebb5486002f54ac7d773b02b52fa113 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a3ebb5486002f54ac7d773b02b52fa113">setGeoTag</a> (<a class="el" href="class_geo_tag.html">GeoTag</a> $geoTag)</td></tr>
-<tr class="separator:a3ebb5486002f54ac7d773b02b52fa113 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad260577f6124b3abbe2cae2dcb6ae1b inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aad260577f6124b3abbe2cae2dcb6ae1b">getAdminKey</a> ()</td></tr>
-<tr class="separator:aad260577f6124b3abbe2cae2dcb6ae1b inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70301cab047f53027f0fb00f204434c6 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a70301cab047f53027f0fb00f204434c6">setAdminKey</a> ($adminKey)</td></tr>
-<tr class="separator:a70301cab047f53027f0fb00f204434c6 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5fc17b16a2f64c0288bc515eeb936c2 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ad5fc17b16a2f64c0288bc515eeb936c2">getPageOffset</a> ()</td></tr>
-<tr class="separator:ad5fc17b16a2f64c0288bc515eeb936c2 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ce703a00bf3dc6ce135b61733db838b inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4ce703a00bf3dc6ce135b61733db838b">setPageOffset</a> ($pageOffset)</td></tr>
-<tr class="separator:a4ce703a00bf3dc6ce135b61733db838b inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf4b16477153b6488366ab5c8e86ce46 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aaf4b16477153b6488366ab5c8e86ce46">getPageMaxRecords</a> ()</td></tr>
-<tr class="separator:aaf4b16477153b6488366ab5c8e86ce46 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05c8d3d207056966406e7376c4de41f3 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a05c8d3d207056966406e7376c4de41f3">setPageMaxRecords</a> ($pageMaxRecords)</td></tr>
-<tr class="separator:a05c8d3d207056966406e7376c4de41f3 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a262d4787fa1f5caf3e9bbc5ee79827f8 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a262d4787fa1f5caf3e9bbc5ee79827f8">getFbAccessToken</a> ()</td></tr>
-<tr class="separator:a262d4787fa1f5caf3e9bbc5ee79827f8 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83c5efb2e559da90e1e502b4e2dfe19d inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a83c5efb2e559da90e1e502b4e2dfe19d">setFbAccessToken</a> ($fbAccessToken)</td></tr>
-<tr class="separator:a83c5efb2e559da90e1e502b4e2dfe19d inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a836e00fd26588368851502a8b45bc44d inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a836e00fd26588368851502a8b45bc44d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setQuery</b> ($collectionName, $metaInfoQuery=null)</td></tr>
+<tr class="separator:a836e00fd26588368851502a8b45bc44d inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5387ea261580d42d0bd7ff6b5ba73d59 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5387ea261580d42d0bd7ff6b5ba73d59"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getOrderByDescending</b> ()</td></tr>
+<tr class="separator:a5387ea261580d42d0bd7ff6b5ba73d59 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab02b9620cf97db9b17adb5f50f32c318 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab02b9620cf97db9b17adb5f50f32c318"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setOrderByDescending</b> ($orderByDescending)</td></tr>
+<tr class="separator:ab02b9620cf97db9b17adb5f50f32c318 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9780762b2d514b53b7ff94bdd723877 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9780762b2d514b53b7ff94bdd723877"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getOtherMetaHeaders</b> ()</td></tr>
+<tr class="separator:aa9780762b2d514b53b7ff94bdd723877 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29d8e841ac3232d287b8b320de2d11b5 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29d8e841ac3232d287b8b320de2d11b5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setOtherMetaHeaders</b> ($otherMetaHeaders)</td></tr>
+<tr class="separator:a29d8e841ac3232d287b8b320de2d11b5 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d51c3e492b21f3f95d9442dd766f939 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d51c3e492b21f3f95d9442dd766f939"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getOrderByAscending</b> ()</td></tr>
+<tr class="separator:a9d51c3e492b21f3f95d9442dd766f939 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad444c00f139d367ddce8d231cb835b17 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad444c00f139d367ddce8d231cb835b17"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setOrderByAscending</b> ($orderByAscending)</td></tr>
+<tr class="separator:ad444c00f139d367ddce8d231cb835b17 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a296b676f6eddba8991e92500d9f10dcf inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a296b676f6eddba8991e92500d9f10dcf"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getAclList</b> ()</td></tr>
+<tr class="separator:a296b676f6eddba8991e92500d9f10dcf inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e5f07db8dc3dd2834e1f965c3aa46c inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a62e5f07db8dc3dd2834e1f965c3aa46c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setAclList</b> ($aclList)</td></tr>
+<tr class="separator:a62e5f07db8dc3dd2834e1f965c3aa46c inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb5733f312ce812dd1f25f7cdcec9626 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb5733f312ce812dd1f25f7cdcec9626"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setSelectKeys</b> ($selectKeys)</td></tr>
+<tr class="separator:adb5733f312ce812dd1f25f7cdcec9626 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f72acc65affeafd1be08f2d5e78d480 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f72acc65affeafd1be08f2d5e78d480"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getSelectKeys</b> ()</td></tr>
+<tr class="separator:a4f72acc65affeafd1be08f2d5e78d480 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a055bcb2a2b197f7d31e1dd99d9eb62f7 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a055bcb2a2b197f7d31e1dd99d9eb62f7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getEvent</b> ()</td></tr>
+<tr class="separator:a055bcb2a2b197f7d31e1dd99d9eb62f7 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe6cb407db7413362087bc59fb2ea061 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe6cb407db7413362087bc59fb2ea061"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setEvent</b> ($event)</td></tr>
+<tr class="separator:afe6cb407db7413362087bc59fb2ea061 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9889007e27fedadb28ae8f2fd77a569 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9889007e27fedadb28ae8f2fd77a569"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getSessionId</b> ()</td></tr>
+<tr class="separator:aa9889007e27fedadb28ae8f2fd77a569 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace8bf79f08c5588b7b15f2fc69386560 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace8bf79f08c5588b7b15f2fc69386560"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setSessionId</b> ($sessionId)</td></tr>
+<tr class="separator:ace8bf79f08c5588b7b15f2fc69386560 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe9b14b4d6f6164de201465d15eb3033 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe9b14b4d6f6164de201465d15eb3033"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getGeoTag</b> ()</td></tr>
+<tr class="separator:afe9b14b4d6f6164de201465d15eb3033 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea013acddc83b5f8f7aa785817e75520 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea013acddc83b5f8f7aa785817e75520"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setGeoTag</b> (<a class="el" href="class_geo_tag.html">GeoTag</a> $geoTag)</td></tr>
+<tr class="separator:aea013acddc83b5f8f7aa785817e75520 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad57a724c5b2397f62c52eeecfea96e84 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad57a724c5b2397f62c52eeecfea96e84"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getAdminKey</b> ()</td></tr>
+<tr class="separator:ad57a724c5b2397f62c52eeecfea96e84 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0111879efe3ee6fd3f8a645470ec049e inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0111879efe3ee6fd3f8a645470ec049e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setAdminKey</b> ($adminKey)</td></tr>
+<tr class="separator:a0111879efe3ee6fd3f8a645470ec049e inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00de3918c45aa4232c1e0c9b5bfdc86e inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00de3918c45aa4232c1e0c9b5bfdc86e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getPageOffset</b> ()</td></tr>
+<tr class="separator:a00de3918c45aa4232c1e0c9b5bfdc86e inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aada5a45e3550504571e9ccf812df3f53 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aada5a45e3550504571e9ccf812df3f53"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setPageOffset</b> ($pageOffset)</td></tr>
+<tr class="separator:aada5a45e3550504571e9ccf812df3f53 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83616fa3ef25ffd6e1560b78794c4d1c inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a83616fa3ef25ffd6e1560b78794c4d1c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getPageMaxRecords</b> ()</td></tr>
+<tr class="separator:a83616fa3ef25ffd6e1560b78794c4d1c inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e96eb9ef74fa1b6fc028edc219f7dce inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e96eb9ef74fa1b6fc028edc219f7dce"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setPageMaxRecords</b> ($pageMaxRecords)</td></tr>
+<tr class="separator:a6e96eb9ef74fa1b6fc028edc219f7dce inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a923155f9b5794ca72f92fc57f4988f0e inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a923155f9b5794ca72f92fc57f4988f0e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getFbAccessToken</b> ()</td></tr>
+<tr class="separator:a923155f9b5794ca72f92fc57f4988f0e inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ae76f8f7f37c435fae97133cb6fdd76 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ae76f8f7f37c435fae97133cb6fdd76"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setFbAccessToken</b> ($fbAccessToken)</td></tr>
+<tr class="separator:a5ae76f8f7f37c435fae97133cb6fdd76 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ac776ac0cc34ad3b62cdf5ce3325a68fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#ac776ac0cc34ad3b62cdf5ce3325a68fa">$version</a> = &quot;1.0&quot;</td></tr>
-<tr class="separator:ac776ac0cc34ad3b62cdf5ce3325a68fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96b1ed04094caf8da15a864266987f61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a96b1ed04094caf8da15a864266987f61">$resource</a> = &quot;game/scoreboard&quot;</td></tr>
-<tr class="separator:a96b1ed04094caf8da15a864266987f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a6eb9e277fb47473943a063e23e0307"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a8a6eb9e277fb47473943a063e23e0307">$content_type</a> = &quot;application/json&quot;</td></tr>
-<tr class="separator:a8a6eb9e277fb47473943a063e23e0307"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a084412f994e4a961cb5dc63471fa0739"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_score_board_service.html#a084412f994e4a961cb5dc63471fa0739">$accept</a> = &quot;application/json&quot;</td></tr>
-<tr class="separator:a084412f994e4a961cb5dc63471fa0739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17c8948c68aa44fa9961ae169b6a8961"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a17c8948c68aa44fa9961ae169b6a8961"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$version</b> = &quot;1.0&quot;</td></tr>
+<tr class="separator:a17c8948c68aa44fa9961ae169b6a8961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd4c7b8b084214b8d2533ba07fce6b83"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd4c7b8b084214b8d2533ba07fce6b83"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$resource</b> = &quot;game/scoreboard&quot;</td></tr>
+<tr class="separator:abd4c7b8b084214b8d2533ba07fce6b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae754d6373f275e781f47c8bc9b994b6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae754d6373f275e781f47c8bc9b994b6d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$content_type</b> = &quot;application/json&quot;</td></tr>
+<tr class="separator:ae754d6373f275e781f47c8bc9b994b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75fc18c4ff06288ff9fdf8aba9bd1081"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a75fc18c4ff06288ff9fdf8aba9bd1081"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$accept</b> = &quot;application/json&quot;</td></tr>
+<tr class="separator:a75fc18c4ff06288ff9fdf8aba9bd1081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_app42_service"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_app42_service')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_app42_service.html">App42Service</a></td></tr>
-<tr class="memitem:a4a85e16e017e335ee0829e1fa58e23d7 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4a85e16e017e335ee0829e1fa58e23d7">$apiKey</a></td></tr>
-<tr class="separator:a4a85e16e017e335ee0829e1fa58e23d7 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f68066c58c4b54d8f962b0a054a0851 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a0f68066c58c4b54d8f962b0a054a0851">$version</a></td></tr>
-<tr class="separator:a0f68066c58c4b54d8f962b0a054a0851 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af721251abc4a951f4aaa253b9120f6ad inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af721251abc4a951f4aaa253b9120f6ad">$sessionId</a></td></tr>
-<tr class="separator:af721251abc4a951f4aaa253b9120f6ad inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c91392ac4c21b009623a5beffd80255 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a8c91392ac4c21b009623a5beffd80255">$adminKey</a></td></tr>
-<tr class="separator:a8c91392ac4c21b009623a5beffd80255 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8616722f364e0ad1367f58f50872ed4 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af8616722f364e0ad1367f58f50872ed4">$geoTag</a></td></tr>
-<tr class="separator:af8616722f364e0ad1367f58f50872ed4 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a085ae205aebcb07c76197ae7ec7142ab inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a085ae205aebcb07c76197ae7ec7142ab">$secretKey</a></td></tr>
-<tr class="separator:a085ae205aebcb07c76197ae7ec7142ab inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51459ee3c4b2c62aabf282e39f0f1a83 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a51459ee3c4b2c62aabf282e39f0f1a83">$pageOffset</a> = -1</td></tr>
-<tr class="separator:a51459ee3c4b2c62aabf282e39f0f1a83 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a204e3d106447f45b5021473e6b6406b4 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a204e3d106447f45b5021473e6b6406b4">$pageMaxRecords</a> = -1</td></tr>
-<tr class="separator:a204e3d106447f45b5021473e6b6406b4 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98f9aacd5fdff794f91be94eb633b4b5 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a98f9aacd5fdff794f91be94eb633b4b5">$fbAccessToken</a></td></tr>
-<tr class="separator:a98f9aacd5fdff794f91be94eb633b4b5 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6623093503e027ef497baaabb4f9faf7 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a6623093503e027ef497baaabb4f9faf7">$orderByDescending</a></td></tr>
-<tr class="separator:a6623093503e027ef497baaabb4f9faf7 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac675a9d0b6eba267b31c03947cfa72e8 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac675a9d0b6eba267b31c03947cfa72e8">$dataACL</a> = array()</td></tr>
-<tr class="separator:ac675a9d0b6eba267b31c03947cfa72e8 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73ecf96524969c0c3e699c00614b8dd6 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a73ecf96524969c0c3e699c00614b8dd6">$event</a></td></tr>
-<tr class="separator:a73ecf96524969c0c3e699c00614b8dd6 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac79098e5c5742b4408483583995f6f7c inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac79098e5c5742b4408483583995f6f7c">$metaInfo</a></td></tr>
-<tr class="separator:ac79098e5c5742b4408483583995f6f7c inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a240a9640266653243f308739079131b9 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a240a9640266653243f308739079131b9">$metaInfoQuery</a></td></tr>
-<tr class="separator:a240a9640266653243f308739079131b9 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae22bfbdac765e7203ebc67877ff8200c inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ae22bfbdac765e7203ebc67877ff8200c">$dbName</a></td></tr>
-<tr class="separator:ae22bfbdac765e7203ebc67877ff8200c inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabeb7b0d7a41ef8f603e9902811346a6 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aabeb7b0d7a41ef8f603e9902811346a6">$collectionName</a></td></tr>
-<tr class="separator:aabeb7b0d7a41ef8f603e9902811346a6 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab397a67d8b32f2347481c7fa61d9c02a inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ab397a67d8b32f2347481c7fa61d9c02a">$query</a></td></tr>
-<tr class="separator:ab397a67d8b32f2347481c7fa61d9c02a inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ec29667940fd90370bc6d3bceaab814 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a3ec29667940fd90370bc6d3bceaab814">$jsonObject</a></td></tr>
-<tr class="separator:a3ec29667940fd90370bc6d3bceaab814 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4290c36c1df9cb82e546aa91a0670272 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4290c36c1df9cb82e546aa91a0670272">$orderByAscending</a></td></tr>
-<tr class="separator:a4290c36c1df9cb82e546aa91a0670272 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac64d05f614cd5b9735f201072a84a8e9 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac64d05f614cd5b9735f201072a84a8e9">$otherMetaHeaders</a> = array()</td></tr>
-<tr class="separator:ac64d05f614cd5b9735f201072a84a8e9 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae48934e5a05b376d9950874788cf4671 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ae48934e5a05b376d9950874788cf4671">$selectKeys</a> = array()</td></tr>
-<tr class="separator:ae48934e5a05b376d9950874788cf4671 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3e282d98cf9eb864baabb528c83b3de inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac3e282d98cf9eb864baabb528c83b3de">$aclList</a> = array()</td></tr>
-<tr class="separator:ac3e282d98cf9eb864baabb528c83b3de inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a084e3db37d1b117a3cc7212cf2eed533 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a084e3db37d1b117a3cc7212cf2eed533"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$apiKey</b></td></tr>
+<tr class="separator:a084e3db37d1b117a3cc7212cf2eed533 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17c8948c68aa44fa9961ae169b6a8961 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a17c8948c68aa44fa9961ae169b6a8961"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$version</b></td></tr>
+<tr class="separator:a17c8948c68aa44fa9961ae169b6a8961 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb2ea848560b3d375a0a55bdd13ffa1 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6bb2ea848560b3d375a0a55bdd13ffa1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$sessionId</b></td></tr>
+<tr class="separator:a6bb2ea848560b3d375a0a55bdd13ffa1 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfbac27769056acea55463dcc851093a inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acfbac27769056acea55463dcc851093a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$adminKey</b></td></tr>
+<tr class="separator:acfbac27769056acea55463dcc851093a inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac056d1399ef4e63e1157dd832fa84dca inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac056d1399ef4e63e1157dd832fa84dca"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$geoTag</b></td></tr>
+<tr class="separator:ac056d1399ef4e63e1157dd832fa84dca inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a766bfb236de2f29a3680976ca22790d4 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a766bfb236de2f29a3680976ca22790d4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$secretKey</b></td></tr>
+<tr class="separator:a766bfb236de2f29a3680976ca22790d4 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53526464fc6c5edfdb64db50433e94ff inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53526464fc6c5edfdb64db50433e94ff"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$pageOffset</b> = -1</td></tr>
+<tr class="separator:a53526464fc6c5edfdb64db50433e94ff inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ca9c827b0df635ea612e8cc0733f422 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ca9c827b0df635ea612e8cc0733f422"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$pageMaxRecords</b> = -1</td></tr>
+<tr class="separator:a9ca9c827b0df635ea612e8cc0733f422 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99974c69bbbb7d6aff2e481dce783c4d inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99974c69bbbb7d6aff2e481dce783c4d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$fbAccessToken</b></td></tr>
+<tr class="separator:a99974c69bbbb7d6aff2e481dce783c4d inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac20780798e1f20ce29b0bd9f2efe9e31 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac20780798e1f20ce29b0bd9f2efe9e31"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$orderByDescending</b></td></tr>
+<tr class="separator:ac20780798e1f20ce29b0bd9f2efe9e31 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14a86efe3d9953693c20ac2bbdc8a09e inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14a86efe3d9953693c20ac2bbdc8a09e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$dataACL</b> = array()</td></tr>
+<tr class="separator:a14a86efe3d9953693c20ac2bbdc8a09e inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a749a54eb7daa2b8849eed0223aa414d5 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a749a54eb7daa2b8849eed0223aa414d5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$event</b></td></tr>
+<tr class="separator:a749a54eb7daa2b8849eed0223aa414d5 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f771753eee4eb566e8f99fa108fd8d inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a73f771753eee4eb566e8f99fa108fd8d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$metaInfo</b></td></tr>
+<tr class="separator:a73f771753eee4eb566e8f99fa108fd8d inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab51eb644547ec0ebea769acba344a56f inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab51eb644547ec0ebea769acba344a56f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$metaInfoQuery</b></td></tr>
+<tr class="separator:ab51eb644547ec0ebea769acba344a56f inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68f39949e76b64662a06cb56579d91c3 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68f39949e76b64662a06cb56579d91c3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$dbName</b></td></tr>
+<tr class="separator:a68f39949e76b64662a06cb56579d91c3 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26f192c116eb83536d39c07d8ba79960 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26f192c116eb83536d39c07d8ba79960"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$collectionName</b></td></tr>
+<tr class="separator:a26f192c116eb83536d39c07d8ba79960 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af59a5f7cd609e592c41dc3643efd3c98 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af59a5f7cd609e592c41dc3643efd3c98"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$query</b></td></tr>
+<tr class="separator:af59a5f7cd609e592c41dc3643efd3c98 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4a1d8cd05d15973f6c190d89e3a4c92 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4a1d8cd05d15973f6c190d89e3a4c92"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$jsonObject</b></td></tr>
+<tr class="separator:af4a1d8cd05d15973f6c190d89e3a4c92 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae51ce0971f2c18569cb7f65b903ea2f5 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae51ce0971f2c18569cb7f65b903ea2f5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$orderByAscending</b></td></tr>
+<tr class="separator:ae51ce0971f2c18569cb7f65b903ea2f5 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1122bbf0368002ab421487bf0a630ac inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1122bbf0368002ab421487bf0a630ac"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$otherMetaHeaders</b> = array()</td></tr>
+<tr class="separator:ae1122bbf0368002ab421487bf0a630ac inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea1f7c4c54c58c138825403568a6365b inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea1f7c4c54c58c138825403568a6365b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$selectKeys</b> = array()</td></tr>
+<tr class="separator:aea1f7c4c54c58c138825403568a6365b inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab100f5422278c24c29ee81023499c7de inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab100f5422278c24c29ee81023499c7de"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$aclList</b> = array()</td></tr>
+<tr class="separator:ab100f5422278c24c29ee81023499c7de inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_class_app42_service"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_app42_service')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_app42_service.html">App42Service</a></td></tr>
-<tr class="memitem:af5ee281deb9d39ff1fc3e8655c4652b1 inherit pro_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af5ee281deb9d39ff1fc3e8655c4652b1">populateSignParams</a> ()</td></tr>
-<tr class="separator:af5ee281deb9d39ff1fc3e8655c4652b1 inherit pro_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc3c5bed0ba13024cb8fc481c4a9836e inherit pro_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#acc3c5bed0ba13024cb8fc481c4a9836e">populateMetaHeaderParams</a> ()</td></tr>
-<tr class="separator:acc3c5bed0ba13024cb8fc481c4a9836e inherit pro_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a347ab67b2c6381093b98b022c5c661ab inherit pro_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a347ab67b2c6381093b98b022c5c661ab"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>populateSignParams</b> ()</td></tr>
+<tr class="separator:a347ab67b2c6381093b98b022c5c661ab inherit pro_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af745c356016c20d9d05972d812abd395 inherit pro_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af745c356016c20d9d05972d812abd395"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>populateMetaHeaderParams</b> ()</td></tr>
+<tr class="separator:af745c356016c20d9d05972d812abd395 inherit pro_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>ScoreBoard allows storing, retrieving, querying and ranking scores for users and Games across <a class="el" href="class_game.html">Game</a> <a class="el" href="class_session.html">Session</a>. The <a class="el" href="class_game.html">Game</a> service allows <a class="el" href="class_game.html">Game</a>, <a class="el" href="class_user.html">User</a>, <a class="el" href="class_score.html">Score</a> and ScoreBoard Management on the Cloud. The service allows <a class="el" href="class_game.html">Game</a> Developer to create a <a class="el" href="class_game.html">Game</a> and then do in <a class="el" href="class_game.html">Game</a> Scoring using the <a class="el" href="class_score.html">Score</a> service. It also allows to maintain a Scoreboard across game sessions using the ScoreBoard service. One can query for average or highest score for user for a <a class="el" href="class_game.html">Game</a> and highest and average score across users for a <a class="el" href="class_game.html">Game</a>. It also gives ranking of the user against other users for a particular game. The <a class="el" href="class_reward.html">Reward</a> and RewardPoints allows the <a class="el" href="class_game.html">Game</a> Developer to assign rewards to a user and redeem the rewards. E.g. One can give Swords or Energy etc. The services <a class="el" href="class_game.html">Game</a>, <a class="el" href="class_score.html">Score</a>, ScoreBoard, <a class="el" href="class_reward.html">Reward</a>, RewardPoints can be used in Conjunction for complete <a class="el" href="class_game.html">Game</a> Scoring and <a class="el" href="class_reward.html">Reward</a> Management.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_game.html">Game</a>, RewardPoint, RewardPoint, <a class="el" href="class_score.html">Score</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="acc6d7dcf9390d80d33374e53f17c9889"></a>
+<a class="anchor" id="a49f2ad222e06420736d750e167d55d7c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::__construct </td>
+          <td class="memname">__construct </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$apiKey</em>, </td>
@@ -291,38 +356,12 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a86c9fe4229b4ad3a7f42e78e741bec30"></a>
+<a class="anchor" id="a21e671fb8da8d2bbb798434ab7056b05"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::addJSONObject </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$collectionName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$obj</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a7ac777ff225817c4d4e845cb2858a865"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScoreBoardService::editScoreValueById </td>
+          <td class="memname">editScoreValueById </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$scoreId</em>, </td>
@@ -357,12 +396,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afdb17e162ad04c64fbf273ad7f2e70aa"></a>
+<a class="anchor" id="a8c94ddec49518fc3deeb6d1bb2a7c150"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::getAverageScoreByUser </td>
+          <td class="memname">getAverageScoreByUser </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$gameName</em>, </td>
@@ -398,12 +437,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad26080c4c8f110be72ef5af59d09726e"></a>
+<a class="anchor" id="a6e66d1ab5efddab46c2c8b1320851fce"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::getHighestScoreByUser </td>
+          <td class="memname">getHighestScoreByUser </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$gameName</em>, </td>
@@ -439,12 +478,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5f5694190005eddb7396f848ae00e69c"></a>
+<a class="anchor" id="a444cd229dcde91f2f4c8955bd749e999"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::getLastGameScore </td>
+          <td class="memname">getLastGameScore </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$userName</em></td><td>)</td>
@@ -466,12 +505,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a31e74cdbf4bc3920ebc3067b7d46431c"></a>
+<a class="anchor" id="ac3df851d8083e5d023808356d6029d63"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::getLastScoreByUser </td>
+          <td class="memname">getLastScoreByUser </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$gameName</em>, </td>
@@ -507,12 +546,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0a54cf3beabced9840afa0133de8ba5a"></a>
+<a class="anchor" id="a7d54be07a48a65d2d8fd5bc7e856cec4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::getLowestScoreByUser </td>
+          <td class="memname">getLowestScoreByUser </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$gameName</em>, </td>
@@ -548,12 +587,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aac1728c6fd4faa0d1da0f69a837ff226"></a>
+<a class="anchor" id="a0cd4f45da55f6ff70c687c1c71511387"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::getScoresByUser </td>
+          <td class="memname">getScoresByUser </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$gameName</em>, </td>
@@ -589,12 +628,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a427b90af2fb66c72fc773afec3ab9764"></a>
+<a class="anchor" id="a6b8d0798d02130ed85c1d41363421751"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::getTopNRankers </td>
+          <td class="memname">getTopNRankers </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$gameName</em>, </td>
@@ -652,12 +691,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2ed3b1b2f328ca8947f2619f8644a34e"></a>
+<a class="anchor" id="a06c1ef766638a16806f3d949f38ed91e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::getTopNRankersByGroup </td>
+          <td class="memname">getTopNRankersByGroup </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$gameName</em>, </td>
@@ -686,88 +725,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa797770de79ebb4715bc62bd40688f18"></a>
+<a class="anchor" id="ae48afebf03f1e83ff8c07ce821d3f48a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::getTopNRankersFromFacebook </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$gameName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$fbAccessToken</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a132cb4edd6083910e4fbb8a4f3120116"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScoreBoardService::getTopNRankersFromFacebookByDateRange </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$gameName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$fbAccessToken</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$startDate</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$endDate</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a60bebcef1feb50c1a2d9400bd69610e6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScoreBoardService::getTopNRankings </td>
+          <td class="memname">getTopNRankings </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$gameName</em>, </td>
@@ -803,76 +766,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a36febe781d5a20248660f46f7736bfe4"></a>
+<a class="anchor" id="a333c548c3731be4928bcce9919d5ef70"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::getTopNTargetRankers </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$gameName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a07106641cf9869b7a9aa980f5864cd38"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScoreBoardService::getTopRankersFromBuddyGroup </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$gameName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$userName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$ownerName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$groupName</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="abbd797570eb1a061054d4123d922f3bf"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScoreBoardService::getTopRankings </td>
+          <td class="memname">getTopRankings </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$gameName</em>, </td>
@@ -926,12 +825,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9f5eb70f2fca949d739bd934da1452e4"></a>
+<a class="anchor" id="ae7cd992c2639e5fd743527464688e86e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::getTopRankingsByGroup </td>
+          <td class="memname">getTopRankingsByGroup </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$gameName</em>, </td>
@@ -967,12 +866,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a89549377afcfde3d71686e2e5db2c808"></a>
+<a class="anchor" id="a4e12db96d04e039467bbbf3d38b3bc27"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::getUserRanking </td>
+          <td class="memname">getUserRanking </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$gameName</em>, </td>
@@ -1008,44 +907,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9caf898a88dc45416497018ce82dcf33"></a>
+<a class="anchor" id="a7a085f59ec23e4043f61e14c0649c1b3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ScoreBoardService::getUsersWithScoreRange </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$gameName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$minScore</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$maxScore</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aad13db0af0aae5d3f7befe20a47801c0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScoreBoardService::saveUserScore </td>
+          <td class="memname">saveUserScore </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$gameName</em>, </td>
@@ -1091,91 +958,13 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a084412f994e4a961cb5dc63471fa0739"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScoreBoardService::$accept = &quot;application/json&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8a6eb9e277fb47473943a063e23e0307"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScoreBoardService::$content_type = &quot;application/json&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a96b1ed04094caf8da15a864266987f61"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScoreBoardService::$resource = &quot;game/scoreboard&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac776ac0cc34ad3b62cdf5ce3325a68fa"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScoreBoardService::$version = &quot;1.0&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/ScoreBoardService.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:43 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

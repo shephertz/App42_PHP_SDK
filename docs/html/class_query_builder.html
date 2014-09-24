@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,8 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="class_query_builder-members.html">List of all members</a>  </div>
+<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">QueryBuilder Class Reference</div>  </div>
 </div><!--header-->
@@ -92,143 +91,38 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acae5e41e4d6bc7e738ec2893243d2201"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_query_builder.html#acae5e41e4d6bc7e738ec2893243d2201">build</a> ($key, $value, $op)</td></tr>
-<tr class="separator:acae5e41e4d6bc7e738ec2893243d2201"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93ecdb87753be4d68b04a06f86137e53"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_query_builder.html#a93ecdb87753be4d68b04a06f86137e53">compoundOperator</a> ($q1, $op, $q2)</td></tr>
-<tr class="separator:a93ecdb87753be4d68b04a06f86137e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c7a50916a85211b37db596b5cc07613"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_query_builder.html#a2c7a50916a85211b37db596b5cc07613">buildGeoQuery</a> (<a class="el" href="class_geo_tag.html">GeoTag</a> $geoTag, $op, $maxDistance)</td></tr>
-<tr class="separator:a2c7a50916a85211b37db596b5cc07613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a908461230597f7b7ca9972fc4463e98f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a908461230597f7b7ca9972fc4463e98f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>build</b> ($key, $value, $op)</td></tr>
+<tr class="separator:a908461230597f7b7ca9972fc4463e98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510d7ec95d940932b9218e23f46e246f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a510d7ec95d940932b9218e23f46e246f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>compoundOperator</b> ($q1, $op, $q2)</td></tr>
+<tr class="separator:a510d7ec95d940932b9218e23f46e246f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13d209afb6c48a39e4fcf1ad9c999a07"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13d209afb6c48a39e4fcf1ad9c999a07"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>buildGeoQuery</b> (<a class="el" href="class_geo_tag.html">GeoTag</a> $geoTag, $op, $maxDistance)</td></tr>
+<tr class="separator:a13d209afb6c48a39e4fcf1ad9c999a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a2239dfc1562fa5e60a0420f5957cd070"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_query_builder.html#a2239dfc1562fa5e60a0420f5957cd070">setLoggedInUser</a> ($logged)</td></tr>
-<tr class="separator:a2239dfc1562fa5e60a0420f5957cd070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37820d07167f942e0315ce7998a6a47f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37820d07167f942e0315ce7998a6a47f"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>setLoggedInUser</b> ($logged)</td></tr>
+<tr class="separator:a37820d07167f942e0315ce7998a6a47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ff62ea254a1567f72ea60aa82a57c8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a60ff62ea254a1567f72ea60aa82a57c8"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>setCreatedOn</b> ($date, $op)</td></tr>
+<tr class="separator:a60ff62ea254a1567f72ea60aa82a57c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18ac85f2f7d0bfd41eaa5d620a6d334f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a18ac85f2f7d0bfd41eaa5d620a6d334f"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>setUpdatedOn</b> ($date, $op)</td></tr>
+<tr class="separator:a18ac85f2f7d0bfd41eaa5d620a6d334f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e182c29067a5255cceeaec03a3f1d73"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9e182c29067a5255cceeaec03a3f1d73"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>setDocumentId</b> ($docid)</td></tr>
+<tr class="separator:a9e182c29067a5255cceeaec03a3f1d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="acae5e41e4d6bc7e738ec2893243d2201"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QueryBuilder::build </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$op</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2c7a50916a85211b37db596b5cc07613"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QueryBuilder::buildGeoQuery </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_geo_tag.html">GeoTag</a>&#160;</td>
-          <td class="paramname"><em>$geoTag</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$op</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$maxDistance</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a93ecdb87753be4d68b04a06f86137e53"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QueryBuilder::compoundOperator </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$q1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$op</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$q2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2239dfc1562fa5e60a0420f5957cd070"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static QueryBuilder::setLoggedInUser </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$logged</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/QueryBuilder.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:43 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

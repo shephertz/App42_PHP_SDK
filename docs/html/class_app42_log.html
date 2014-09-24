@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -82,8 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="class_app42_log-members.html">List of all members</a>  </div>
+<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">App42Log Class Reference</div>  </div>
 </div><!--header-->
@@ -91,167 +90,32 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a2b4decd87475926e3c11c46f4598b784"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_log.html#a2b4decd87475926e3c11c46f4598b784">isDebug</a> ()</td></tr>
-<tr class="separator:a2b4decd87475926e3c11c46f4598b784"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ed670859dca7d7dd09392c793315b49"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_log.html#a5ed670859dca7d7dd09392c793315b49">setDebug</a> ($<a class="el" href="class_app42_log.html#a3ab233d6e68c34e8f05e13078bafb6dc">debug</a>)</td></tr>
-<tr class="separator:a5ed670859dca7d7dd09392c793315b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb892ea9f0213b57faaac4d38651831b"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_log.html#afb892ea9f0213b57faaac4d38651831b">info</a> ($msg)</td></tr>
-<tr class="separator:afb892ea9f0213b57faaac4d38651831b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ab233d6e68c34e8f05e13078bafb6dc"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_log.html#a3ab233d6e68c34e8f05e13078bafb6dc">debug</a> ($msg)</td></tr>
-<tr class="separator:a3ab233d6e68c34e8f05e13078bafb6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4db27828410a806ad3cdc64d39a09562"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_log.html#a4db27828410a806ad3cdc64d39a09562">error</a> ($msg)</td></tr>
-<tr class="separator:a4db27828410a806ad3cdc64d39a09562"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae63f1a47c2c92ae01ee3fc0bfdf6489a"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_log.html#ae63f1a47c2c92ae01ee3fc0bfdf6489a">fatal</a> ($msg)</td></tr>
-<tr class="separator:ae63f1a47c2c92ae01ee3fc0bfdf6489a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8002f7699e4d9352ddefb8613fe11d15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8002f7699e4d9352ddefb8613fe11d15"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>isDebug</b> ()</td></tr>
+<tr class="separator:a8002f7699e4d9352ddefb8613fe11d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5fb476445cbb3a16f3432b22f5abf4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aae5fb476445cbb3a16f3432b22f5abf4"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>setDebug</b> ($debug)</td></tr>
+<tr class="separator:aae5fb476445cbb3a16f3432b22f5abf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeec13bdc86154c5a25384a40f7485075"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeec13bdc86154c5a25384a40f7485075"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>info</b> ($msg)</td></tr>
+<tr class="separator:aeec13bdc86154c5a25384a40f7485075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8b3566574ed36b500a4e3693e67833b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae8b3566574ed36b500a4e3693e67833b"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>debug</b> ($msg)</td></tr>
+<tr class="separator:ae8b3566574ed36b500a4e3693e67833b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac19c4289d1c6d3e161ab92636b5d18be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac19c4289d1c6d3e161ab92636b5d18be"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>error</b> ($msg)</td></tr>
+<tr class="separator:ac19c4289d1c6d3e161ab92636b5d18be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ca514c43a9307e79b597e646f26f7ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ca514c43a9307e79b597e646f26f7ed"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>fatal</b> ($msg)</td></tr>
+<tr class="separator:a8ca514c43a9307e79b597e646f26f7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a3ab233d6e68c34e8f05e13078bafb6dc"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static App42Log::debug </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$msg</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4db27828410a806ad3cdc64d39a09562"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static App42Log::error </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$msg</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae63f1a47c2c92ae01ee3fc0bfdf6489a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static App42Log::fatal </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$msg</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="afb892ea9f0213b57faaac4d38651831b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static App42Log::info </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$msg</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2b4decd87475926e3c11c46f4598b784"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static App42Log::isDebug </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a5ed670859dca7d7dd09392c793315b49"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static App42Log::setDebug </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$debug</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/App42Log.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:42 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

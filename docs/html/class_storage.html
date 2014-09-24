@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,71 +83,91 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="class_storage-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">Storage Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Inherits <a class="el" href="class_app42_response.html">App42Response</a>.</p>
+<div class="dynheader">
+Inheritance diagram for Storage:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_storage.png" usemap="#Storage_map" alt=""/>
+  <map id="Storage_map" name="Storage_map">
+<area href="class_app42_response.html" alt="App42Response" shape="rect" coords="0,0,104,24"/>
+</map>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acd2f6c047b42c9838c40aa7d18ad30af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#acd2f6c047b42c9838c40aa7d18ad30af">getDbName</a> ()</td></tr>
-<tr class="separator:acd2f6c047b42c9838c40aa7d18ad30af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d2b4088ca3794a1f6f28b743853095e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#a6d2b4088ca3794a1f6f28b743853095e">setDbName</a> ($dbName)</td></tr>
-<tr class="separator:a6d2b4088ca3794a1f6f28b743853095e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd78b42e548f4bc0e6be312dd5668d14"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#abd78b42e548f4bc0e6be312dd5668d14">getCollectionName</a> ()</td></tr>
-<tr class="separator:abd78b42e548f4bc0e6be312dd5668d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a763c459550a9a5f7c48e3b3be35becd0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#a763c459550a9a5f7c48e3b3be35becd0">setCollectionName</a> ($collectionName)</td></tr>
-<tr class="separator:a763c459550a9a5f7c48e3b3be35becd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a2bc571b8e04b621e4787228f3603bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#a7a2bc571b8e04b621e4787228f3603bf">getJsonDocList</a> ()</td></tr>
-<tr class="separator:a7a2bc571b8e04b621e4787228f3603bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56206a1857120b76a09708adf2d2eaf2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#a56206a1857120b76a09708adf2d2eaf2">setJsonDocList</a> ($jsonDocList)</td></tr>
-<tr class="separator:a56206a1857120b76a09708adf2d2eaf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab116474942b5813c95aaab15dba9888d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#ab116474942b5813c95aaab15dba9888d">getRecordCount</a> ()</td></tr>
-<tr class="separator:ab116474942b5813c95aaab15dba9888d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20a30b6db6805eea7a0763e1c4df60b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#a20a30b6db6805eea7a0763e1c4df60b5">setRecordCount</a> ($recordCount)</td></tr>
-<tr class="separator:a20a30b6db6805eea7a0763e1c4df60b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4949c3e4d80c0d275c80e0c1c3b5b280"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#a4949c3e4d80c0d275c80e0c1c3b5b280">getDbName</a> ()</td></tr>
+<tr class="separator:a4949c3e4d80c0d275c80e0c1c3b5b280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55e274fa64c9f7618333cb9e9d4bc1ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#a55e274fa64c9f7618333cb9e9d4bc1ed">setDbName</a> ($dbName)</td></tr>
+<tr class="separator:a55e274fa64c9f7618333cb9e9d4bc1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc1c8c1be2025b9b2aa1795c902b9b55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#adc1c8c1be2025b9b2aa1795c902b9b55">getCollectionName</a> ()</td></tr>
+<tr class="separator:adc1c8c1be2025b9b2aa1795c902b9b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93f30d41eaac30ca2bf538f09d466f31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#a93f30d41eaac30ca2bf538f09d466f31">setCollectionName</a> ($collectionName)</td></tr>
+<tr class="separator:a93f30d41eaac30ca2bf538f09d466f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6900743273016ed1df50e4bd583e504d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#a6900743273016ed1df50e4bd583e504d">getJsonDocList</a> ()</td></tr>
+<tr class="separator:a6900743273016ed1df50e4bd583e504d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae178908f40250667f1b8ad5336e3e57f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#ae178908f40250667f1b8ad5336e3e57f">setJsonDocList</a> ($jsonDocList)</td></tr>
+<tr class="separator:ae178908f40250667f1b8ad5336e3e57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f27c312baf244b90e1ba0200e3719e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f27c312baf244b90e1ba0200e3719e3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getRecordCount</b> ()</td></tr>
+<tr class="separator:a4f27c312baf244b90e1ba0200e3719e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaf5bd20d0cd4bc9a871b935d25bcb0a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adaf5bd20d0cd4bc9a871b935d25bcb0a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setRecordCount</b> ($recordCount)</td></tr>
+<tr class="separator:adaf5bd20d0cd4bc9a871b935d25bcb0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_app42_response"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_app42_response')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_app42_response.html">App42Response</a></td></tr>
-<tr class="memitem:a59691fca1114f7ec431945476fbbbedb inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a59691fca1114f7ec431945476fbbbedb">getTotalRecords</a> ()</td></tr>
-<tr class="separator:a59691fca1114f7ec431945476fbbbedb inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf9642f79cd3bb953713aae24c61c68d inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#adf9642f79cd3bb953713aae24c61c68d">setTotalRecords</a> ($totalRecords)</td></tr>
-<tr class="separator:adf9642f79cd3bb953713aae24c61c68d inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85d0a2f09c9ce3e8af8e0f5506e7b2b3 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a85d0a2f09c9ce3e8af8e0f5506e7b2b3">getStrResponse</a> ()</td></tr>
-<tr class="separator:a85d0a2f09c9ce3e8af8e0f5506e7b2b3 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42a65b1890322364a445c20f8a7a6ea9 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a42a65b1890322364a445c20f8a7a6ea9">setStrResponse</a> ($strResponse)</td></tr>
-<tr class="separator:a42a65b1890322364a445c20f8a7a6ea9 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a790b0d760b2318677c26b26d2b2d409d inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a> ()</td></tr>
-<tr class="separator:a790b0d760b2318677c26b26d2b2d409d inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff474b29d8343336e17b4674422386af inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#aff474b29d8343336e17b4674422386af">setResponseSuccess</a> ($<a class="el" href="class_app42_response.html#a790b0d760b2318677c26b26d2b2d409d">isResponseSuccess</a>)</td></tr>
-<tr class="separator:aff474b29d8343336e17b4674422386af inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32850bec51f0aa330085a3cd148a3a96 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_response.html#a32850bec51f0aa330085a3cd148a3a96">toString</a> ()</td></tr>
-<tr class="separator:a32850bec51f0aa330085a3cd148a3a96 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6329aaaf695e71dd106b4e4875d4c12 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6329aaaf695e71dd106b4e4875d4c12"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getTotalRecords</b> ()</td></tr>
+<tr class="separator:ac6329aaaf695e71dd106b4e4875d4c12 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d542aefbcfb5f4c5bd4db0da7f740c inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71d542aefbcfb5f4c5bd4db0da7f740c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setTotalRecords</b> ($totalRecords)</td></tr>
+<tr class="separator:a71d542aefbcfb5f4c5bd4db0da7f740c inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d218c02b1c22595b91083316a569c17 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d218c02b1c22595b91083316a569c17"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getStrResponse</b> ()</td></tr>
+<tr class="separator:a7d218c02b1c22595b91083316a569c17 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34af678876992c78b5fde4b3dcc0f83b inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a34af678876992c78b5fde4b3dcc0f83b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setStrResponse</b> ($strResponse)</td></tr>
+<tr class="separator:a34af678876992c78b5fde4b3dcc0f83b inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6d43c993a10b720dd0c65ff74aedc7b inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6d43c993a10b720dd0c65ff74aedc7b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>isResponseSuccess</b> ()</td></tr>
+<tr class="separator:aa6d43c993a10b720dd0c65ff74aedc7b inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a676d99b4903261c349d07226511f7236 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a676d99b4903261c349d07226511f7236"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setResponseSuccess</b> ($isResponseSuccess)</td></tr>
+<tr class="separator:a676d99b4903261c349d07226511f7236 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3 inherit pub_methods_class_app42_response"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>toString</b> ()</td></tr>
+<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3 inherit pub_methods_class_app42_response"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a9dfe7afabc99eb60f3f83ca2f545ea55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#a9dfe7afabc99eb60f3f83ca2f545ea55">$dbName</a></td></tr>
-<tr class="separator:a9dfe7afabc99eb60f3f83ca2f545ea55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1ca1fd6637f39e15df7ebb120ba5b14"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#aa1ca1fd6637f39e15df7ebb120ba5b14">$collectionName</a></td></tr>
-<tr class="separator:aa1ca1fd6637f39e15df7ebb120ba5b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e3fe2bdf18d4a0ffab43c8ebcf170b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#a9e3fe2bdf18d4a0ffab43c8ebcf170b2">$jsonDocList</a> = array()</td></tr>
-<tr class="separator:a9e3fe2bdf18d4a0ffab43c8ebcf170b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add89c47b47b457422d688fa861e8a72d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#add89c47b47b457422d688fa861e8a72d">$docId</a></td></tr>
-<tr class="separator:add89c47b47b457422d688fa861e8a72d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9441c699b5c3cbbe150c2c3bd46a860"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_storage.html#ab9441c699b5c3cbbe150c2c3bd46a860">$recordCount</a></td></tr>
-<tr class="separator:ab9441c699b5c3cbbe150c2c3bd46a860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:a68f39949e76b64662a06cb56579d91c3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68f39949e76b64662a06cb56579d91c3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$dbName</b></td></tr>
+<tr class="separator:a68f39949e76b64662a06cb56579d91c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26f192c116eb83536d39c07d8ba79960"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26f192c116eb83536d39c07d8ba79960"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$collectionName</b></td></tr>
+<tr class="separator:a26f192c116eb83536d39c07d8ba79960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9a98366ccbf9919fd42389a1675b30d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9a98366ccbf9919fd42389a1675b30d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$jsonDocList</b> = array()</td></tr>
+<tr class="separator:ab9a98366ccbf9919fd42389a1675b30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71453266cc5ab314d1778727ee8f5fe2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71453266cc5ab314d1778727ee8f5fe2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$docId</b></td></tr>
+<tr class="separator:a71453266cc5ab314d1778727ee8f5fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d22843c441ace003e5ed767ef5f5017"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d22843c441ace003e5ed767ef5f5017"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$recordCount</b></td></tr>
+<tr class="separator:a4d22843c441ace003e5ed767ef5f5017"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This <a class="el" href="class_storage.html">Storage</a> object is the value object which contains the properties of <a class="el" href="class_storage.html">Storage</a> along with the setter &amp; getter for those properties. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="abd78b42e548f4bc0e6be312dd5668d14"></a>
+<a class="anchor" id="adc1c8c1be2025b9b2aa1795c902b9b55"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Storage::getCollectionName </td>
+          <td class="memname">getCollectionName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -159,12 +179,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acd2f6c047b42c9838c40aa7d18ad30af"></a>
+<a class="anchor" id="a4949c3e4d80c0d275c80e0c1c3b5b280"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Storage::getDbName </td>
+          <td class="memname">getDbName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -176,12 +196,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7a2bc571b8e04b621e4787228f3603bf"></a>
+<a class="anchor" id="a6900743273016ed1df50e4bd583e504d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Storage::getJsonDocList </td>
+          <td class="memname">getJsonDocList </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -193,27 +213,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab116474942b5813c95aaab15dba9888d"></a>
+<a class="anchor" id="a93f30d41eaac30ca2bf538f09d466f31"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Storage::getRecordCount </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a763c459550a9a5f7c48e3b3be35becd0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Storage::setCollectionName </td>
+          <td class="memname">setCollectionName </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$collectionName</em></td><td>)</td>
@@ -228,12 +233,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6d2b4088ca3794a1f6f28b743853095e"></a>
+<a class="anchor" id="a55e274fa64c9f7618333cb9e9d4bc1ed"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Storage::setDbName </td>
+          <td class="memname">setDbName </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$dbName</em></td><td>)</td>
@@ -248,12 +253,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a56206a1857120b76a09708adf2d2eaf2"></a>
+<a class="anchor" id="ae178908f40250667f1b8ad5336e3e57f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Storage::setJsonDocList </td>
+          <td class="memname">setJsonDocList </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$jsonDocList</em></td><td>)</td>
@@ -268,87 +273,13 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a20a30b6db6805eea7a0763e1c4df60b5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Storage::setRecordCount </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$recordCount</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="aa1ca1fd6637f39e15df7ebb120ba5b14"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Storage::$collectionName</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a9dfe7afabc99eb60f3f83ca2f545ea55"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Storage::$dbName</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="add89c47b47b457422d688fa861e8a72d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Storage::$docId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a9e3fe2bdf18d4a0ffab43c8ebcf170b2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Storage::$jsonDocList = array()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab9441c699b5c3cbbe150c2c3bd46a860"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Storage::$recordCount</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/Storage.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:43 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

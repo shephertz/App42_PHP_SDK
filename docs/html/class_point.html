@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,8 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="class_point-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">Point Class Reference</div>  </div>
 </div><!--header-->
@@ -92,45 +91,50 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae976f601bce8ee918515f624dc9258ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#ae976f601bce8ee918515f624dc9258ca">__construct</a> (<a class="el" href="class_geo.html">Geo</a> $geo, $arg1=null, $arg2=null, $arg3=null)</td></tr>
-<tr class="separator:ae976f601bce8ee918515f624dc9258ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7811437cf755a79544b9741c3c185d0b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a7811437cf755a79544b9741c3c185d0b">PointWithoutParameter</a> (<a class="el" href="class_geo.html">Geo</a> $geo)</td></tr>
-<tr class="separator:a7811437cf755a79544b9741c3c185d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e17e0732f4615e6ac1b0e1cb0f1c0d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a8e17e0732f4615e6ac1b0e1cb0f1c0d5">PointWithParameters</a> (<a class="el" href="class_geo.html">Geo</a> $geo, $lat, $lng, $marker)</td></tr>
-<tr class="separator:a8e17e0732f4615e6ac1b0e1cb0f1c0d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a46e7cbad234351511bd63ffd0a3803"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a6a46e7cbad234351511bd63ffd0a3803">getLat</a> ()</td></tr>
-<tr class="separator:a6a46e7cbad234351511bd63ffd0a3803"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48db87cf0ad910bca1c5bf7b6723e272"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a48db87cf0ad910bca1c5bf7b6723e272">setLat</a> ($lat)</td></tr>
-<tr class="separator:a48db87cf0ad910bca1c5bf7b6723e272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9351306725303ea59c21c0bcfd9afce0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a9351306725303ea59c21c0bcfd9afce0">getLng</a> ()</td></tr>
-<tr class="separator:a9351306725303ea59c21c0bcfd9afce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b4270aa2a7e8367d0309041e2bb48fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a1b4270aa2a7e8367d0309041e2bb48fb">setLng</a> ($lng)</td></tr>
-<tr class="separator:a1b4270aa2a7e8367d0309041e2bb48fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a839c9d3ebb9145c7cf62f0c42388afab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a839c9d3ebb9145c7cf62f0c42388afab">getMarker</a> ()</td></tr>
-<tr class="separator:a839c9d3ebb9145c7cf62f0c42388afab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30d916045fbf1fb310a445e987296141"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a30d916045fbf1fb310a445e987296141">setMarker</a> ($marker)</td></tr>
-<tr class="separator:a30d916045fbf1fb310a445e987296141"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a781f367a43ae54825cdac8cf2a3899c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a781f367a43ae54825cdac8cf2a3899c7">toString</a> ()</td></tr>
-<tr class="separator:a781f367a43ae54825cdac8cf2a3899c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93a33b81f5f5807d670888c5b1eb721b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a93a33b81f5f5807d670888c5b1eb721b">__construct</a> (<a class="el" href="class_geo.html">Geo</a> $geo, $arg1=null, $arg2=null, $arg3=null)</td></tr>
+<tr class="separator:a93a33b81f5f5807d670888c5b1eb721b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8df251eef51ebf2619f5e125b7a5744"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af8df251eef51ebf2619f5e125b7a5744"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PointWithoutParameter</b> (<a class="el" href="class_geo.html">Geo</a> $geo)</td></tr>
+<tr class="separator:af8df251eef51ebf2619f5e125b7a5744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ed1e48e735fe646c44122ebf3f98abc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ed1e48e735fe646c44122ebf3f98abc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PointWithParameters</b> (<a class="el" href="class_geo.html">Geo</a> $geo, $lat, $lng, $marker)</td></tr>
+<tr class="separator:a5ed1e48e735fe646c44122ebf3f98abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace4646478052fb05a9226af2f1db07fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#ace4646478052fb05a9226af2f1db07fa">getLat</a> ()</td></tr>
+<tr class="separator:ace4646478052fb05a9226af2f1db07fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b3098601cade6a6a1067a1dfae110b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a25b3098601cade6a6a1067a1dfae110b">setLat</a> ($lat)</td></tr>
+<tr class="separator:a25b3098601cade6a6a1067a1dfae110b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a438a7c3b088658ca987ee34416992249"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a438a7c3b088658ca987ee34416992249">getLng</a> ()</td></tr>
+<tr class="separator:a438a7c3b088658ca987ee34416992249"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24f91fc3534738f0839a11cb2306b142"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a24f91fc3534738f0839a11cb2306b142">setLng</a> ($lng)</td></tr>
+<tr class="separator:a24f91fc3534738f0839a11cb2306b142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a04a0eb21cd8fe73a9e02ac94824b48"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a4a04a0eb21cd8fe73a9e02ac94824b48">getMarker</a> ()</td></tr>
+<tr class="separator:a4a04a0eb21cd8fe73a9e02ac94824b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0f2f172f10d36d59a41310c41d88f6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#ad0f2f172f10d36d59a41310c41d88f6a">setMarker</a> ($marker)</td></tr>
+<tr class="separator:ad0f2f172f10d36d59a41310c41d88f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a5558c5d549f41597377fa1ea8a1cefa3">toString</a> ()</td></tr>
+<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a4f5cb53a2613248901bea84f128e7da8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a4f5cb53a2613248901bea84f128e7da8">$lat</a></td></tr>
-<tr class="separator:a4f5cb53a2613248901bea84f128e7da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a884b3c4bf87f7dfa24844c2d794e4473"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#a884b3c4bf87f7dfa24844c2d794e4473">$lng</a></td></tr>
-<tr class="separator:a884b3c4bf87f7dfa24844c2d794e4473"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9a277d7bcf46974bffbf9409deb0d76"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_point.html#ad9a277d7bcf46974bffbf9409deb0d76">$marker</a></td></tr>
-<tr class="separator:ad9a277d7bcf46974bffbf9409deb0d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:af498b42b83afed4dfe0af05fd802776c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af498b42b83afed4dfe0af05fd802776c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$lat</b></td></tr>
+<tr class="separator:af498b42b83afed4dfe0af05fd802776c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab27bfa6a9380a8d89e1a8e001b276410"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab27bfa6a9380a8d89e1a8e001b276410"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$lng</b></td></tr>
+<tr class="separator:ab27bfa6a9380a8d89e1a8e001b276410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad34fbf53cda6bd8a3a9c46764d534fa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aad34fbf53cda6bd8a3a9c46764d534fa"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$marker</b></td></tr>
+<tr class="separator:aad34fbf53cda6bd8a3a9c46764d534fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An inner class that contains the remaining properties of the <a class="el" href="class_geo.html">Geo</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ae976f601bce8ee918515f624dc9258ca"></a>
+<a class="anchor" id="a93a33b81f5f5807d670888c5b1eb721b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Point::__construct </td>
+          <td class="memname">__construct </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_geo.html">Geo</a>&#160;</td>
           <td class="paramname"><em>$geo</em>, </td>
@@ -165,12 +169,12 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a6a46e7cbad234351511bd63ffd0a3803"></a>
+<a class="anchor" id="ace4646478052fb05a9226af2f1db07fa"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Point::getLat </td>
+          <td class="memname">getLat </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -182,12 +186,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9351306725303ea59c21c0bcfd9afce0"></a>
+<a class="anchor" id="a438a7c3b088658ca987ee34416992249"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Point::getLng </td>
+          <td class="memname">getLng </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -199,12 +203,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a839c9d3ebb9145c7cf62f0c42388afab"></a>
+<a class="anchor" id="a4a04a0eb21cd8fe73a9e02ac94824b48"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Point::getMarker </td>
+          <td class="memname">getMarker </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -216,66 +220,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7811437cf755a79544b9741c3c185d0b"></a>
+<a class="anchor" id="a25b3098601cade6a6a1067a1dfae110b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Point::PointWithoutParameter </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_geo.html">Geo</a>&#160;</td>
-          <td class="paramname"><em>$geo</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8e17e0732f4615e6ac1b0e1cb0f1c0d5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Point::PointWithParameters </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_geo.html">Geo</a>&#160;</td>
-          <td class="paramname"><em>$geo</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$lat</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$lng</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$marker</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a48db87cf0ad910bca1c5bf7b6723e272"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Point::setLat </td>
+          <td class="memname">setLat </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$lat</em></td><td>)</td>
@@ -296,12 +246,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1b4270aa2a7e8367d0309041e2bb48fb"></a>
+<a class="anchor" id="a24f91fc3534738f0839a11cb2306b142"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Point::setLng </td>
+          <td class="memname">setLng </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$lng</em></td><td>)</td>
@@ -322,12 +272,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a30d916045fbf1fb310a445e987296141"></a>
+<a class="anchor" id="ad0f2f172f10d36d59a41310c41d88f6a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Point::setMarker </td>
+          <td class="memname">setMarker </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$marker</em></td><td>)</td>
@@ -348,12 +298,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a781f367a43ae54825cdac8cf2a3899c7"></a>
+<a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Point::toString </td>
+          <td class="memname">toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -365,47 +315,13 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a4f5cb53a2613248901bea84f128e7da8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Point::$lat</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a884b3c4bf87f7dfa24844c2d794e4473"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Point::$lng</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad9a277d7bcf46974bffbf9409deb0d76"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Point::$marker</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/Geo.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:43 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

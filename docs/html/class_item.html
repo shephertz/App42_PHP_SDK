@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,8 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="class_item-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">Item Class Reference</div>  </div>
 </div><!--header-->
@@ -92,59 +91,65 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aec8fe42a990a79d76e77a10ce225d6bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#aec8fe42a990a79d76e77a10ce225d6bd">__construct</a> (<a class="el" href="class_cart.html">Cart</a> $cart)</td></tr>
-<tr class="separator:aec8fe42a990a79d76e77a10ce225d6bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad98cdff914fb33438342ac489e4cd449"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#ad98cdff914fb33438342ac489e4cd449">getItemId</a> ()</td></tr>
-<tr class="separator:ad98cdff914fb33438342ac489e4cd449"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa60efa10935915b731dab36d04ca6821"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#aa60efa10935915b731dab36d04ca6821">setItemId</a> ($itemId)</td></tr>
-<tr class="separator:aa60efa10935915b731dab36d04ca6821"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa728a4fe124d7a0ebe8019a19ceffcb1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#aa728a4fe124d7a0ebe8019a19ceffcb1">getQuantity</a> ()</td></tr>
-<tr class="separator:aa728a4fe124d7a0ebe8019a19ceffcb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13792c7078c8a428e6b249131f07ba72"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a13792c7078c8a428e6b249131f07ba72">setQuantity</a> ($quantity)</td></tr>
-<tr class="separator:a13792c7078c8a428e6b249131f07ba72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ad7dfdddd451fe766b1ba453933d184"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a9ad7dfdddd451fe766b1ba453933d184">getName</a> ()</td></tr>
-<tr class="separator:a9ad7dfdddd451fe766b1ba453933d184"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35f4682eda0cc0fc65565ef61283aec9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a35f4682eda0cc0fc65565ef61283aec9">setName</a> ($name)</td></tr>
-<tr class="separator:a35f4682eda0cc0fc65565ef61283aec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a630740af04dd797efbf23aca6d2e9ff1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a630740af04dd797efbf23aca6d2e9ff1">getImage</a> ()</td></tr>
-<tr class="separator:a630740af04dd797efbf23aca6d2e9ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8f6c508398ebb2032c6e1583f4143cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#aa8f6c508398ebb2032c6e1583f4143cc">setImage</a> ($image)</td></tr>
-<tr class="separator:aa8f6c508398ebb2032c6e1583f4143cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd772332507cb93b308d7d7707b841e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#acd772332507cb93b308d7d7707b841e6">getPrice</a> ()</td></tr>
-<tr class="separator:acd772332507cb93b308d7d7707b841e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acae9558f7ab43beee2e12c5ba80bd720"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#acae9558f7ab43beee2e12c5ba80bd720">setPrice</a> ($price)</td></tr>
-<tr class="separator:acae9558f7ab43beee2e12c5ba80bd720"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6ddca2067b34c8108fe98e0b242e746"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#ac6ddca2067b34c8108fe98e0b242e746">getTotalAmount</a> ()</td></tr>
-<tr class="separator:ac6ddca2067b34c8108fe98e0b242e746"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbc85a387781e753c4ba5452a27c757f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#adbc85a387781e753c4ba5452a27c757f">setTotalAmount</a> ($totalAmount)</td></tr>
-<tr class="separator:adbc85a387781e753c4ba5452a27c757f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcf99bac485c8cbf1bf0f626d4c14f1d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#adcf99bac485c8cbf1bf0f626d4c14f1d">toString</a> ()</td></tr>
-<tr class="separator:adcf99bac485c8cbf1bf0f626d4c14f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d53d5d99a547c3ed6be0c04748f9e1d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a2d53d5d99a547c3ed6be0c04748f9e1d">__construct</a> (<a class="el" href="class_cart.html">Cart</a> $cart)</td></tr>
+<tr class="separator:a2d53d5d99a547c3ed6be0c04748f9e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b01110117f0cd71a5a115dc8b9eab6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a5b01110117f0cd71a5a115dc8b9eab6f">getItemId</a> ()</td></tr>
+<tr class="separator:a5b01110117f0cd71a5a115dc8b9eab6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22de7a673c95892b16b497788139add1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a22de7a673c95892b16b497788139add1">setItemId</a> ($itemId)</td></tr>
+<tr class="separator:a22de7a673c95892b16b497788139add1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abae8ce0df3d9f49efcba4904a2d030a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#abae8ce0df3d9f49efcba4904a2d030a6">getQuantity</a> ()</td></tr>
+<tr class="separator:abae8ce0df3d9f49efcba4904a2d030a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77b9e38b40fb75050257ec6cd18bb1a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a77b9e38b40fb75050257ec6cd18bb1a9">setQuantity</a> ($quantity)</td></tr>
+<tr class="separator:a77b9e38b40fb75050257ec6cd18bb1a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d0963e68bb313b163a73f2803c64600"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a3d0963e68bb313b163a73f2803c64600">getName</a> ()</td></tr>
+<tr class="separator:a3d0963e68bb313b163a73f2803c64600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe666694997d047711d7653eca2f132"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a2fe666694997d047711d7653eca2f132">setName</a> ($name)</td></tr>
+<tr class="separator:a2fe666694997d047711d7653eca2f132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af8add37797384585cae101fb8cbfe7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a2af8add37797384585cae101fb8cbfe7">getImage</a> ()</td></tr>
+<tr class="separator:a2af8add37797384585cae101fb8cbfe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af785d0fb8da1ba24ec74c2f9f7e27c0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#af785d0fb8da1ba24ec74c2f9f7e27c0a">setImage</a> ($image)</td></tr>
+<tr class="separator:af785d0fb8da1ba24ec74c2f9f7e27c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38146d2beb1dd6dfd0f2a5886e18a538"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a38146d2beb1dd6dfd0f2a5886e18a538">getPrice</a> ()</td></tr>
+<tr class="separator:a38146d2beb1dd6dfd0f2a5886e18a538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e232712bdbc759793fab2cf08506c25"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a2e232712bdbc759793fab2cf08506c25">setPrice</a> ($price)</td></tr>
+<tr class="separator:a2e232712bdbc759793fab2cf08506c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae305b3e3acedd1fa9854e72f83af22c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#ae305b3e3acedd1fa9854e72f83af22c1">getTotalAmount</a> ()</td></tr>
+<tr class="separator:ae305b3e3acedd1fa9854e72f83af22c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56860f621c6e6e47042e41fa4e59d13b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a56860f621c6e6e47042e41fa4e59d13b">setTotalAmount</a> ($totalAmount)</td></tr>
+<tr class="separator:a56860f621c6e6e47042e41fa4e59d13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a5558c5d549f41597377fa1ea8a1cefa3">toString</a> ()</td></tr>
+<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:af3210915dd79f5c5e798f4a90fb7be5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#af3210915dd79f5c5e798f4a90fb7be5a">$itemId</a></td></tr>
-<tr class="separator:af3210915dd79f5c5e798f4a90fb7be5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab384e7d3584919a9a0b31537aaadd4d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#ab384e7d3584919a9a0b31537aaadd4d7">$quantity</a></td></tr>
-<tr class="separator:ab384e7d3584919a9a0b31537aaadd4d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7d78ead3ccd406c670352b612b07766"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#ac7d78ead3ccd406c670352b612b07766">$name</a></td></tr>
-<tr class="separator:ac7d78ead3ccd406c670352b612b07766"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05ddacbf94483d985cbe8eda57d4abd3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a05ddacbf94483d985cbe8eda57d4abd3">$image</a></td></tr>
-<tr class="separator:a05ddacbf94483d985cbe8eda57d4abd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f0828cda4c173de7330d817358c668f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a1f0828cda4c173de7330d817358c668f">$price</a></td></tr>
-<tr class="separator:a1f0828cda4c173de7330d817358c668f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10da1972d07597da96f9f1d14e5cc3e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a10da1972d07597da96f9f1d14e5cc3e8">$totalAmount</a></td></tr>
-<tr class="separator:a10da1972d07597da96f9f1d14e5cc3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:aa4c0908542b0acc0aaa0aadee3df7ae5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa4c0908542b0acc0aaa0aadee3df7ae5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$itemId</b></td></tr>
+<tr class="separator:aa4c0908542b0acc0aaa0aadee3df7ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d55a203c1637a8bee49083254bb6574"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0d55a203c1637a8bee49083254bb6574"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$quantity</b></td></tr>
+<tr class="separator:a0d55a203c1637a8bee49083254bb6574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2fc40d43824ea3e1ce5d86dee0d763b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2fc40d43824ea3e1ce5d86dee0d763b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$name</b></td></tr>
+<tr class="separator:ab2fc40d43824ea3e1ce5d86dee0d763b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac6146b4cdec66c94263ddb55afd5946"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac6146b4cdec66c94263ddb55afd5946"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$image</b></td></tr>
+<tr class="separator:aac6146b4cdec66c94263ddb55afd5946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a264091074b1a8f4ed0abefd278831f6f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a264091074b1a8f4ed0abefd278831f6f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$price</b></td></tr>
+<tr class="separator:a264091074b1a8f4ed0abefd278831f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e0c1774fd1d5e4ab64b8b06d9cdc327"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e0c1774fd1d5e4ab64b8b06d9cdc327"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$totalAmount</b></td></tr>
+<tr class="separator:a3e0c1774fd1d5e4ab64b8b06d9cdc327"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An inner class that contains the remaining properties of the <a class="el" href="class_cart.html">Cart</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aec8fe42a990a79d76e77a10ce225d6bd"></a>
+<a class="anchor" id="a2d53d5d99a547c3ed6be0c04748f9e1d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Item::__construct </td>
+          <td class="memname">__construct </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_cart.html">Cart</a>&#160;</td>
           <td class="paramname"><em>$cart</em></td><td>)</td>
@@ -157,12 +162,12 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a630740af04dd797efbf23aca6d2e9ff1"></a>
+<a class="anchor" id="a2af8add37797384585cae101fb8cbfe7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Item::getImage </td>
+          <td class="memname">getImage </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -174,12 +179,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad98cdff914fb33438342ac489e4cd449"></a>
+<a class="anchor" id="a5b01110117f0cd71a5a115dc8b9eab6f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Item::getItemId </td>
+          <td class="memname">getItemId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -191,12 +196,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9ad7dfdddd451fe766b1ba453933d184"></a>
+<a class="anchor" id="a3d0963e68bb313b163a73f2803c64600"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Item::getName </td>
+          <td class="memname">getName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -208,12 +213,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acd772332507cb93b308d7d7707b841e6"></a>
+<a class="anchor" id="a38146d2beb1dd6dfd0f2a5886e18a538"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Item::getPrice </td>
+          <td class="memname">getPrice </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -225,12 +230,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa728a4fe124d7a0ebe8019a19ceffcb1"></a>
+<a class="anchor" id="abae8ce0df3d9f49efcba4904a2d030a6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Item::getQuantity </td>
+          <td class="memname">getQuantity </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -242,12 +247,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac6ddca2067b34c8108fe98e0b242e746"></a>
+<a class="anchor" id="ae305b3e3acedd1fa9854e72f83af22c1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Item::getTotalAmount </td>
+          <td class="memname">getTotalAmount </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -259,12 +264,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa8f6c508398ebb2032c6e1583f4143cc"></a>
+<a class="anchor" id="af785d0fb8da1ba24ec74c2f9f7e27c0a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Item::setImage </td>
+          <td class="memname">setImage </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$image</em></td><td>)</td>
@@ -279,12 +284,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa60efa10935915b731dab36d04ca6821"></a>
+<a class="anchor" id="a22de7a673c95892b16b497788139add1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Item::setItemId </td>
+          <td class="memname">setItemId </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$itemId</em></td><td>)</td>
@@ -299,12 +304,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a35f4682eda0cc0fc65565ef61283aec9"></a>
+<a class="anchor" id="a2fe666694997d047711d7653eca2f132"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Item::setName </td>
+          <td class="memname">setName </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$name</em></td><td>)</td>
@@ -319,12 +324,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acae9558f7ab43beee2e12c5ba80bd720"></a>
+<a class="anchor" id="a2e232712bdbc759793fab2cf08506c25"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Item::setPrice </td>
+          <td class="memname">setPrice </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$price</em></td><td>)</td>
@@ -339,12 +344,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a13792c7078c8a428e6b249131f07ba72"></a>
+<a class="anchor" id="a77b9e38b40fb75050257ec6cd18bb1a9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Item::setQuantity </td>
+          <td class="memname">setQuantity </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$quantity</em></td><td>)</td>
@@ -359,12 +364,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adbc85a387781e753c4ba5452a27c757f"></a>
+<a class="anchor" id="a56860f621c6e6e47042e41fa4e59d13b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Item::setTotalAmount </td>
+          <td class="memname">setTotalAmount </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$totalAmount</em></td><td>)</td>
@@ -379,12 +384,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adcf99bac485c8cbf1bf0f626d4c14f1d"></a>
+<a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Item::toString </td>
+          <td class="memname">toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -396,83 +401,13 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a05ddacbf94483d985cbe8eda57d4abd3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Item::$image</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af3210915dd79f5c5e798f4a90fb7be5a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Item::$itemId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac7d78ead3ccd406c670352b612b07766"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Item::$name</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1f0828cda4c173de7330d817358c668f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Item::$price</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab384e7d3584919a9a0b31537aaadd4d7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Item::$quantity</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a10da1972d07597da96f9f1d14e5cc3e8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Item::$totalAmount</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/Cart.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:43 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

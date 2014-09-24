@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -84,207 +84,274 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="class_user_service-members.html">List of all members</a>  </div>
+<a href="#pro-attribs">Protected Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">UserService Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Inherits <a class="el" href="class_app42_service.html">App42Service</a>.</p>
+<div class="dynheader">
+Inheritance diagram for UserService:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_user_service.png" usemap="#UserService_map" alt=""/>
+  <map id="UserService_map" name="UserService_map">
+<area href="class_app42_service.html" alt="App42Service" shape="rect" coords="0,0,93,24"/>
+</map>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a612583ded1832ff376ef5715295b59f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a612583ded1832ff376ef5715295b59f8">__construct</a> ($apiKey, $secretKey)</td></tr>
-<tr class="separator:a612583ded1832ff376ef5715295b59f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a491dac74719c43b6f420f93d827337"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a2a491dac74719c43b6f420f93d827337">createUser</a> ($uName, $pwd, $emailAddress, $roleList=null)</td></tr>
-<tr class="separator:a2a491dac74719c43b6f420f93d827337"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a908435adc69090194bb74e24e2d61563"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a908435adc69090194bb74e24e2d61563">assignRoles</a> ($uName, $roleList)</td></tr>
-<tr class="separator:a908435adc69090194bb74e24e2d61563"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b75e280835f8460866b2d5237986124"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a5b75e280835f8460866b2d5237986124">getRolesByUser</a> ($userName)</td></tr>
-<tr class="separator:a5b75e280835f8460866b2d5237986124"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe1490d39181f736543ef762cc21be47"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#abe1490d39181f736543ef762cc21be47">getUsersByRole</a> ($role)</td></tr>
-<tr class="separator:abe1490d39181f736543ef762cc21be47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae33c7b7db14af29e609cc21be9756e17"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#ae33c7b7db14af29e609cc21be9756e17">createOrUpdateProfile</a> (<a class="el" href="class_user.html">User</a> $user)</td></tr>
-<tr class="separator:ae33c7b7db14af29e609cc21be9756e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6917489c970b036b384c49ba0b44d70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#ae6917489c970b036b384c49ba0b44d70">authenticate</a> ($uName, $pwd)</td></tr>
-<tr class="separator:ae6917489c970b036b384c49ba0b44d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13212d12022cffc54b97a834f7f76a04"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a13212d12022cffc54b97a834f7f76a04">updateEmail</a> ($uName, $emailAddress)</td></tr>
-<tr class="separator:a13212d12022cffc54b97a834f7f76a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a189737bf8b703121aef382c6f75baf8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a189737bf8b703121aef382c6f75baf8c">getUser</a> ($userName)</td></tr>
-<tr class="separator:a189737bf8b703121aef382c6f75baf8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3a6eeea8ee943c55a41794d0d8e34e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#ac3a6eeea8ee943c55a41794d0d8e34e0">getUserByEmailId</a> ($emailId)</td></tr>
-<tr class="separator:ac3a6eeea8ee943c55a41794d0d8e34e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a897117605d0acca99c90950f32dad4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a3a897117605d0acca99c90950f32dad4">getAllUsers</a> ($max=null, $offset=null)</td></tr>
-<tr class="separator:a3a897117605d0acca99c90950f32dad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af602f5495d021594cafd6250bed4a654"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#af602f5495d021594cafd6250bed4a654">getAllUsersCount</a> ()</td></tr>
-<tr class="separator:af602f5495d021594cafd6250bed4a654"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4783e0987d29af6b221292e47d694291"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a4783e0987d29af6b221292e47d694291">getLockedUsers</a> ($max=null, $offset=null)</td></tr>
-<tr class="separator:a4783e0987d29af6b221292e47d694291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a92b205cdd778921b671499c2c4e7dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a8a92b205cdd778921b671499c2c4e7dd">getLockedUsersCount</a> ()</td></tr>
-<tr class="separator:a8a92b205cdd778921b671499c2c4e7dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a140fe64ea9c62da48a3774f5892d2d11"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a140fe64ea9c62da48a3774f5892d2d11">deleteUser</a> ($userName)</td></tr>
-<tr class="separator:a140fe64ea9c62da48a3774f5892d2d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a391bf2cd2f9dd274438c87cf22fed0af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a391bf2cd2f9dd274438c87cf22fed0af">unlockUser</a> ($uName)</td></tr>
-<tr class="separator:a391bf2cd2f9dd274438c87cf22fed0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80a673b24923b4d3e1685500e6708918"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a80a673b24923b4d3e1685500e6708918">lockUser</a> ($uName)</td></tr>
-<tr class="separator:a80a673b24923b4d3e1685500e6708918"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d67bd56a9ed57a61afe05ff54c55462"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a7d67bd56a9ed57a61afe05ff54c55462">changeUserPassword</a> ($uName, $oldPwd, $newPwd)</td></tr>
-<tr class="separator:a7d67bd56a9ed57a61afe05ff54c55462"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac5d78d13eee29be2883a739e08d0f7f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#aac5d78d13eee29be2883a739e08d0f7f">revokeRole</a> ($userName, $role)</td></tr>
-<tr class="separator:aac5d78d13eee29be2883a739e08d0f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a151399918a2e9a07a98b7d02492e5c76"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a151399918a2e9a07a98b7d02492e5c76">revokeAllRoles</a> ($userName)</td></tr>
-<tr class="separator:a151399918a2e9a07a98b7d02492e5c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c8ce8e93cbe4015c38341bd12ee4481"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a9c8ce8e93cbe4015c38341bd12ee4481">resetUserPassword</a> ($uName)</td></tr>
-<tr class="separator:a9c8ce8e93cbe4015c38341bd12ee4481"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d6a1f30d5061559f8d91d051b00d22e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a2d6a1f30d5061559f8d91d051b00d22e">getUsersByProfileData</a> (<a class="el" href="class_profile.html">Profile</a> $profileData)</td></tr>
-<tr class="separator:a2d6a1f30d5061559f8d91d051b00d22e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e54d3e9eda5ccb76ed317caa61a731d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a7e54d3e9eda5ccb76ed317caa61a731d">logout</a> ($sessionId)</td></tr>
-<tr class="separator:a7e54d3e9eda5ccb76ed317caa61a731d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29f8135f9ca7b0018365eb1238722945"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a29f8135f9ca7b0018365eb1238722945">addJSONObject</a> ($collectionName, $obj)</td></tr>
-<tr class="separator:a29f8135f9ca7b0018365eb1238722945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a377e760329a7148b108dcf0e04273b42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a377e760329a7148b108dcf0e04273b42">fillParamsWithProfileData</a> (<a class="el" href="class_profile.html">Profile</a> $profileData)</td></tr>
-<tr class="separator:a377e760329a7148b108dcf0e04273b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57e73d364bb312392f5a375bdf0465ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a57e73d364bb312392f5a375bdf0465ec">createUserWithProfile</a> ($uName, $pwd, $emailAddress, <a class="el" href="class_profile.html">Profile</a> $profile)</td></tr>
-<tr class="separator:a57e73d364bb312392f5a375bdf0465ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8755b320e63d5cf99ddb0323f46950f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a8755b320e63d5cf99ddb0323f46950f5">getUsersByGroup</a> ($users)</td></tr>
-<tr class="separator:a8755b320e63d5cf99ddb0323f46950f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49f2ad222e06420736d750e167d55d7c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a49f2ad222e06420736d750e167d55d7c">__construct</a> ($apiKey, $secretKey)</td></tr>
+<tr class="separator:a49f2ad222e06420736d750e167d55d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d19c5ab1596e9c4cc4a253654fcea23"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a2d19c5ab1596e9c4cc4a253654fcea23">createUser</a> ($uName, $pwd, $emailAddress, $roleList=null)</td></tr>
+<tr class="separator:a2d19c5ab1596e9c4cc4a253654fcea23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac892b43848dd337e5c3a061e083dae34"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#ac892b43848dd337e5c3a061e083dae34">assignRoles</a> ($uName, $roleList)</td></tr>
+<tr class="separator:ac892b43848dd337e5c3a061e083dae34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0124d32cb11b6abbb656bef29ed9843b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a0124d32cb11b6abbb656bef29ed9843b">getRolesByUser</a> ($userName)</td></tr>
+<tr class="separator:a0124d32cb11b6abbb656bef29ed9843b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe4c3335ae7c1069496dce920ee95016"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#abe4c3335ae7c1069496dce920ee95016">getUsersByRole</a> ($role)</td></tr>
+<tr class="separator:abe4c3335ae7c1069496dce920ee95016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172bef4b570888f19cace199307d7ff9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a172bef4b570888f19cace199307d7ff9">createOrUpdateProfile</a> (<a class="el" href="class_user.html">User</a> $user)</td></tr>
+<tr class="separator:a172bef4b570888f19cace199307d7ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0399a1547a735e805f32a78dfb0c6536"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a0399a1547a735e805f32a78dfb0c6536">authenticate</a> ($uName, $pwd)</td></tr>
+<tr class="separator:a0399a1547a735e805f32a78dfb0c6536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b7f98f3ebdf1b742227dcf817ff383e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a7b7f98f3ebdf1b742227dcf817ff383e">updateEmail</a> ($uName, $emailAddress)</td></tr>
+<tr class="separator:a7b7f98f3ebdf1b742227dcf817ff383e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dde309a8616ea08b90afedc4cc0535b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a9dde309a8616ea08b90afedc4cc0535b">getUser</a> ($userName)</td></tr>
+<tr class="separator:a9dde309a8616ea08b90afedc4cc0535b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a7cb1fc1db34a0f256ecd8d400269a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a7a7cb1fc1db34a0f256ecd8d400269a0">getUserByEmailId</a> ($emailId)</td></tr>
+<tr class="separator:a7a7cb1fc1db34a0f256ecd8d400269a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf8a1ca4140b4ca6379eed1266625ecc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#abf8a1ca4140b4ca6379eed1266625ecc">getAllUsers</a> ($max=null, $offset=null)</td></tr>
+<tr class="separator:abf8a1ca4140b4ca6379eed1266625ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aa2ae795472c60841fbc5f285a2fd63"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a9aa2ae795472c60841fbc5f285a2fd63">getAllUsersCount</a> ()</td></tr>
+<tr class="separator:a9aa2ae795472c60841fbc5f285a2fd63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad7ca18b49e223009c0759a5b02d3bc1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#aad7ca18b49e223009c0759a5b02d3bc1">getLockedUsers</a> ($max=null, $offset=null)</td></tr>
+<tr class="separator:aad7ca18b49e223009c0759a5b02d3bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e776606f52f13787ae537ce25092ddb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a2e776606f52f13787ae537ce25092ddb">getLockedUsersCount</a> ()</td></tr>
+<tr class="separator:a2e776606f52f13787ae537ce25092ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2686e125d02a182347c15dead8636740"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a2686e125d02a182347c15dead8636740">deleteUser</a> ($userName)</td></tr>
+<tr class="separator:a2686e125d02a182347c15dead8636740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7651c03b89750f99981976ef7fd3725e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a7651c03b89750f99981976ef7fd3725e">unlockUser</a> ($uName)</td></tr>
+<tr class="separator:a7651c03b89750f99981976ef7fd3725e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a482854ed5da446e1249bc1919f688d6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a482854ed5da446e1249bc1919f688d6d">lockUser</a> ($uName)</td></tr>
+<tr class="separator:a482854ed5da446e1249bc1919f688d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af17489c1b9cb60869820c197a123907d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#af17489c1b9cb60869820c197a123907d">changeUserPassword</a> ($uName, $oldPwd, $newPwd)</td></tr>
+<tr class="separator:af17489c1b9cb60869820c197a123907d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1614e4a23175ff9fc041e4e0e28d8e42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a1614e4a23175ff9fc041e4e0e28d8e42">revokeRole</a> ($userName, $role)</td></tr>
+<tr class="separator:a1614e4a23175ff9fc041e4e0e28d8e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a697bfef929fe31dbd34540bb096f88ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a697bfef929fe31dbd34540bb096f88ef">revokeAllRoles</a> ($userName)</td></tr>
+<tr class="separator:a697bfef929fe31dbd34540bb096f88ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32b211833333d3eb2a867bd58d79113a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a32b211833333d3eb2a867bd58d79113a">resetUserPassword</a> ($uName)</td></tr>
+<tr class="separator:a32b211833333d3eb2a867bd58d79113a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9f0031b88ff72c012208e05ea0fa230"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#aa9f0031b88ff72c012208e05ea0fa230">getUsersByProfileData</a> (<a class="el" href="class_profile.html">Profile</a> $profileData)</td></tr>
+<tr class="separator:aa9f0031b88ff72c012208e05ea0fa230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fdad8528118567bdd587b37592c25b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7fdad8528118567bdd587b37592c25b8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>logout</b> ($sessionId)</td></tr>
+<tr class="separator:a7fdad8528118567bdd587b37592c25b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5821bf72489c15b04e59a24c8beb4766"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5821bf72489c15b04e59a24c8beb4766"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>addJSONObject</b> ($collectionName, $obj)</td></tr>
+<tr class="separator:a5821bf72489c15b04e59a24c8beb4766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed8ac40cf520379acad52833dc333fca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#aed8ac40cf520379acad52833dc333fca">fillParamsWithProfileData</a> (<a class="el" href="class_profile.html">Profile</a> $profileData)</td></tr>
+<tr class="separator:aed8ac40cf520379acad52833dc333fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b02edf7fc8f66f998acf2c3e7c0c135"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b02edf7fc8f66f998acf2c3e7c0c135"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>createUserWithProfile</b> ($uName, $pwd, $emailAddress, <a class="el" href="class_profile.html">Profile</a> $profile)</td></tr>
+<tr class="separator:a3b02edf7fc8f66f998acf2c3e7c0c135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcb905dd54bb435639a6184758a45b2c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abcb905dd54bb435639a6184758a45b2c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getUsersByGroup</b> ($users)</td></tr>
+<tr class="separator:abcb905dd54bb435639a6184758a45b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_app42_service"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_app42_service')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_app42_service.html">App42Service</a></td></tr>
-<tr class="memitem:af16cac76fd184705c96df3729f33e2a0 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af16cac76fd184705c96df3729f33e2a0">setQuery</a> ($collectionName, $metaInfoQuery=null)</td></tr>
-<tr class="separator:af16cac76fd184705c96df3729f33e2a0 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aba213883eb90cd675bbc4d62dc8b02 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a7aba213883eb90cd675bbc4d62dc8b02">getOrderByDescending</a> ()</td></tr>
-<tr class="separator:a7aba213883eb90cd675bbc4d62dc8b02 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabf567a7110f4df3013fde9b62db9c3c inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aabf567a7110f4df3013fde9b62db9c3c">setOrderByDescending</a> ($orderByDescending)</td></tr>
-<tr class="separator:aabf567a7110f4df3013fde9b62db9c3c inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1d4773fd2939df2e802d23d57bd91e6 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac1d4773fd2939df2e802d23d57bd91e6">getOtherMetaHeaders</a> ()</td></tr>
-<tr class="separator:ac1d4773fd2939df2e802d23d57bd91e6 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2e4ee3ff8035e12f60535dd3b224fc8 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af2e4ee3ff8035e12f60535dd3b224fc8">setOtherMetaHeaders</a> ($otherMetaHeaders)</td></tr>
-<tr class="separator:af2e4ee3ff8035e12f60535dd3b224fc8 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5662347d3af9595515dc2b039c108341 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a5662347d3af9595515dc2b039c108341">getOrderByAscending</a> ()</td></tr>
-<tr class="separator:a5662347d3af9595515dc2b039c108341 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe7f3a31f8d785957fa64bd009882110 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#abe7f3a31f8d785957fa64bd009882110">setOrderByAscending</a> ($orderByAscending)</td></tr>
-<tr class="separator:abe7f3a31f8d785957fa64bd009882110 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0c6632f3d744d75475db6498f1f2ad7 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac0c6632f3d744d75475db6498f1f2ad7">getAclList</a> ()</td></tr>
-<tr class="separator:ac0c6632f3d744d75475db6498f1f2ad7 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c56414cef7ad061a0fafaeb331c5605 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4c56414cef7ad061a0fafaeb331c5605">setAclList</a> ($aclList)</td></tr>
-<tr class="separator:a4c56414cef7ad061a0fafaeb331c5605 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2b22e84e5388868aefad422b9781a96 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ad2b22e84e5388868aefad422b9781a96">setSelectKeys</a> ($selectKeys)</td></tr>
-<tr class="separator:ad2b22e84e5388868aefad422b9781a96 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6869bb6a1eefc0caa35c2c350aa18ba4 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a6869bb6a1eefc0caa35c2c350aa18ba4">getSelectKeys</a> ()</td></tr>
-<tr class="separator:a6869bb6a1eefc0caa35c2c350aa18ba4 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecc4048867786277f470e3380b4332f4 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aecc4048867786277f470e3380b4332f4">getEvent</a> ()</td></tr>
-<tr class="separator:aecc4048867786277f470e3380b4332f4 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1cba8e6564390acf0bec21221731916 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ad1cba8e6564390acf0bec21221731916">setEvent</a> ($event)</td></tr>
-<tr class="separator:ad1cba8e6564390acf0bec21221731916 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a422ead5ea431da54caf4dde3979cee23 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a422ead5ea431da54caf4dde3979cee23">getSessionId</a> ()</td></tr>
-<tr class="separator:a422ead5ea431da54caf4dde3979cee23 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b8c8fe1c04c339db388c286e3c9bccf inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a6b8c8fe1c04c339db388c286e3c9bccf">setSessionId</a> ($sessionId)</td></tr>
-<tr class="separator:a6b8c8fe1c04c339db388c286e3c9bccf inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e42fd493b8a99f5e7791232d318f599 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4e42fd493b8a99f5e7791232d318f599">getGeoTag</a> ()</td></tr>
-<tr class="separator:a4e42fd493b8a99f5e7791232d318f599 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ebb5486002f54ac7d773b02b52fa113 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a3ebb5486002f54ac7d773b02b52fa113">setGeoTag</a> (<a class="el" href="class_geo_tag.html">GeoTag</a> $geoTag)</td></tr>
-<tr class="separator:a3ebb5486002f54ac7d773b02b52fa113 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad260577f6124b3abbe2cae2dcb6ae1b inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aad260577f6124b3abbe2cae2dcb6ae1b">getAdminKey</a> ()</td></tr>
-<tr class="separator:aad260577f6124b3abbe2cae2dcb6ae1b inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70301cab047f53027f0fb00f204434c6 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a70301cab047f53027f0fb00f204434c6">setAdminKey</a> ($adminKey)</td></tr>
-<tr class="separator:a70301cab047f53027f0fb00f204434c6 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5fc17b16a2f64c0288bc515eeb936c2 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ad5fc17b16a2f64c0288bc515eeb936c2">getPageOffset</a> ()</td></tr>
-<tr class="separator:ad5fc17b16a2f64c0288bc515eeb936c2 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ce703a00bf3dc6ce135b61733db838b inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4ce703a00bf3dc6ce135b61733db838b">setPageOffset</a> ($pageOffset)</td></tr>
-<tr class="separator:a4ce703a00bf3dc6ce135b61733db838b inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf4b16477153b6488366ab5c8e86ce46 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aaf4b16477153b6488366ab5c8e86ce46">getPageMaxRecords</a> ()</td></tr>
-<tr class="separator:aaf4b16477153b6488366ab5c8e86ce46 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05c8d3d207056966406e7376c4de41f3 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a05c8d3d207056966406e7376c4de41f3">setPageMaxRecords</a> ($pageMaxRecords)</td></tr>
-<tr class="separator:a05c8d3d207056966406e7376c4de41f3 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a262d4787fa1f5caf3e9bbc5ee79827f8 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a262d4787fa1f5caf3e9bbc5ee79827f8">getFbAccessToken</a> ()</td></tr>
-<tr class="separator:a262d4787fa1f5caf3e9bbc5ee79827f8 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83c5efb2e559da90e1e502b4e2dfe19d inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a83c5efb2e559da90e1e502b4e2dfe19d">setFbAccessToken</a> ($fbAccessToken)</td></tr>
-<tr class="separator:a83c5efb2e559da90e1e502b4e2dfe19d inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a836e00fd26588368851502a8b45bc44d inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a836e00fd26588368851502a8b45bc44d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setQuery</b> ($collectionName, $metaInfoQuery=null)</td></tr>
+<tr class="separator:a836e00fd26588368851502a8b45bc44d inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5387ea261580d42d0bd7ff6b5ba73d59 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5387ea261580d42d0bd7ff6b5ba73d59"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getOrderByDescending</b> ()</td></tr>
+<tr class="separator:a5387ea261580d42d0bd7ff6b5ba73d59 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab02b9620cf97db9b17adb5f50f32c318 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab02b9620cf97db9b17adb5f50f32c318"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setOrderByDescending</b> ($orderByDescending)</td></tr>
+<tr class="separator:ab02b9620cf97db9b17adb5f50f32c318 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9780762b2d514b53b7ff94bdd723877 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9780762b2d514b53b7ff94bdd723877"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getOtherMetaHeaders</b> ()</td></tr>
+<tr class="separator:aa9780762b2d514b53b7ff94bdd723877 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29d8e841ac3232d287b8b320de2d11b5 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29d8e841ac3232d287b8b320de2d11b5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setOtherMetaHeaders</b> ($otherMetaHeaders)</td></tr>
+<tr class="separator:a29d8e841ac3232d287b8b320de2d11b5 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d51c3e492b21f3f95d9442dd766f939 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d51c3e492b21f3f95d9442dd766f939"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getOrderByAscending</b> ()</td></tr>
+<tr class="separator:a9d51c3e492b21f3f95d9442dd766f939 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad444c00f139d367ddce8d231cb835b17 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad444c00f139d367ddce8d231cb835b17"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setOrderByAscending</b> ($orderByAscending)</td></tr>
+<tr class="separator:ad444c00f139d367ddce8d231cb835b17 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a296b676f6eddba8991e92500d9f10dcf inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a296b676f6eddba8991e92500d9f10dcf"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getAclList</b> ()</td></tr>
+<tr class="separator:a296b676f6eddba8991e92500d9f10dcf inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e5f07db8dc3dd2834e1f965c3aa46c inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a62e5f07db8dc3dd2834e1f965c3aa46c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setAclList</b> ($aclList)</td></tr>
+<tr class="separator:a62e5f07db8dc3dd2834e1f965c3aa46c inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb5733f312ce812dd1f25f7cdcec9626 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb5733f312ce812dd1f25f7cdcec9626"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setSelectKeys</b> ($selectKeys)</td></tr>
+<tr class="separator:adb5733f312ce812dd1f25f7cdcec9626 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f72acc65affeafd1be08f2d5e78d480 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f72acc65affeafd1be08f2d5e78d480"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getSelectKeys</b> ()</td></tr>
+<tr class="separator:a4f72acc65affeafd1be08f2d5e78d480 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a055bcb2a2b197f7d31e1dd99d9eb62f7 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a055bcb2a2b197f7d31e1dd99d9eb62f7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getEvent</b> ()</td></tr>
+<tr class="separator:a055bcb2a2b197f7d31e1dd99d9eb62f7 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe6cb407db7413362087bc59fb2ea061 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe6cb407db7413362087bc59fb2ea061"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setEvent</b> ($event)</td></tr>
+<tr class="separator:afe6cb407db7413362087bc59fb2ea061 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9889007e27fedadb28ae8f2fd77a569 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9889007e27fedadb28ae8f2fd77a569"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getSessionId</b> ()</td></tr>
+<tr class="separator:aa9889007e27fedadb28ae8f2fd77a569 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace8bf79f08c5588b7b15f2fc69386560 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace8bf79f08c5588b7b15f2fc69386560"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setSessionId</b> ($sessionId)</td></tr>
+<tr class="separator:ace8bf79f08c5588b7b15f2fc69386560 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe9b14b4d6f6164de201465d15eb3033 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe9b14b4d6f6164de201465d15eb3033"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getGeoTag</b> ()</td></tr>
+<tr class="separator:afe9b14b4d6f6164de201465d15eb3033 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea013acddc83b5f8f7aa785817e75520 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea013acddc83b5f8f7aa785817e75520"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setGeoTag</b> (<a class="el" href="class_geo_tag.html">GeoTag</a> $geoTag)</td></tr>
+<tr class="separator:aea013acddc83b5f8f7aa785817e75520 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad57a724c5b2397f62c52eeecfea96e84 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad57a724c5b2397f62c52eeecfea96e84"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getAdminKey</b> ()</td></tr>
+<tr class="separator:ad57a724c5b2397f62c52eeecfea96e84 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0111879efe3ee6fd3f8a645470ec049e inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0111879efe3ee6fd3f8a645470ec049e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setAdminKey</b> ($adminKey)</td></tr>
+<tr class="separator:a0111879efe3ee6fd3f8a645470ec049e inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00de3918c45aa4232c1e0c9b5bfdc86e inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00de3918c45aa4232c1e0c9b5bfdc86e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getPageOffset</b> ()</td></tr>
+<tr class="separator:a00de3918c45aa4232c1e0c9b5bfdc86e inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aada5a45e3550504571e9ccf812df3f53 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aada5a45e3550504571e9ccf812df3f53"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setPageOffset</b> ($pageOffset)</td></tr>
+<tr class="separator:aada5a45e3550504571e9ccf812df3f53 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83616fa3ef25ffd6e1560b78794c4d1c inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a83616fa3ef25ffd6e1560b78794c4d1c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getPageMaxRecords</b> ()</td></tr>
+<tr class="separator:a83616fa3ef25ffd6e1560b78794c4d1c inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e96eb9ef74fa1b6fc028edc219f7dce inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e96eb9ef74fa1b6fc028edc219f7dce"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setPageMaxRecords</b> ($pageMaxRecords)</td></tr>
+<tr class="separator:a6e96eb9ef74fa1b6fc028edc219f7dce inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a923155f9b5794ca72f92fc57f4988f0e inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a923155f9b5794ca72f92fc57f4988f0e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getFbAccessToken</b> ()</td></tr>
+<tr class="separator:a923155f9b5794ca72f92fc57f4988f0e inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ae76f8f7f37c435fae97133cb6fdd76 inherit pub_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ae76f8f7f37c435fae97133cb6fdd76"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setFbAccessToken</b> ($fbAccessToken)</td></tr>
+<tr class="separator:a5ae76f8f7f37c435fae97133cb6fdd76 inherit pub_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a42649fef9aa14b88a40e42b1a13d669e"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a42649fef9aa14b88a40e42b1a13d669e">$MALE</a> = &quot;Male&quot;</td></tr>
-<tr class="separator:a42649fef9aa14b88a40e42b1a13d669e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67607ffb500a2fd6d268ce877c8b357c"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a67607ffb500a2fd6d268ce877c8b357c">$FEMALE</a> = &quot;Female&quot;</td></tr>
-<tr class="separator:a67607ffb500a2fd6d268ce877c8b357c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77bc41101672c1e89c8575238cf33550"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77bc41101672c1e89c8575238cf33550"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>$MALE</b> = &quot;Male&quot;</td></tr>
+<tr class="separator:a77bc41101672c1e89c8575238cf33550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fb4ccd0fab13c8c3c254201f7677d82"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2fb4ccd0fab13c8c3c254201f7677d82"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>$FEMALE</b> = &quot;Female&quot;</td></tr>
+<tr class="separator:a2fb4ccd0fab13c8c3c254201f7677d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a3967a5fb5d4eb29b2647c7df429a9a0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#a3967a5fb5d4eb29b2647c7df429a9a0f">$resource</a> = &quot;user&quot;</td></tr>
-<tr class="separator:a3967a5fb5d4eb29b2647c7df429a9a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9057335365cdd2847760140d0d72fa3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#ab9057335365cdd2847760140d0d72fa3">$url</a></td></tr>
-<tr class="separator:ab9057335365cdd2847760140d0d72fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad83768d7ce5d6b9881efd414b60f5224"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#ad83768d7ce5d6b9881efd414b60f5224">$version</a> = &quot;1.0&quot;</td></tr>
-<tr class="separator:ad83768d7ce5d6b9881efd414b60f5224"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abee961a30f72092a1406c3c32d66d3e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#abee961a30f72092a1406c3c32d66d3e8">$content_type</a> = &quot;application/json&quot;</td></tr>
-<tr class="separator:abee961a30f72092a1406c3c32d66d3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7254208311d993f8a7caf0d9eea04f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#ac7254208311d993f8a7caf0d9eea04f0">$accept</a> = &quot;application/json&quot;</td></tr>
-<tr class="separator:ac7254208311d993f8a7caf0d9eea04f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab68fef82cf64d26465bb88ded0685a8d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_service.html#ab68fef82cf64d26465bb88ded0685a8d">$sessionURL</a></td></tr>
-<tr class="separator:ab68fef82cf64d26465bb88ded0685a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd4c7b8b084214b8d2533ba07fce6b83"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd4c7b8b084214b8d2533ba07fce6b83"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$resource</b> = &quot;user&quot;</td></tr>
+<tr class="separator:abd4c7b8b084214b8d2533ba07fce6b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf215f34a917d014776ce684a9ee8909"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf215f34a917d014776ce684a9ee8909"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$url</b></td></tr>
+<tr class="separator:acf215f34a917d014776ce684a9ee8909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17c8948c68aa44fa9961ae169b6a8961"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a17c8948c68aa44fa9961ae169b6a8961"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$version</b> = &quot;1.0&quot;</td></tr>
+<tr class="separator:a17c8948c68aa44fa9961ae169b6a8961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae754d6373f275e781f47c8bc9b994b6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae754d6373f275e781f47c8bc9b994b6d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$content_type</b> = &quot;application/json&quot;</td></tr>
+<tr class="separator:ae754d6373f275e781f47c8bc9b994b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75fc18c4ff06288ff9fdf8aba9bd1081"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a75fc18c4ff06288ff9fdf8aba9bd1081"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$accept</b> = &quot;application/json&quot;</td></tr>
+<tr class="separator:a75fc18c4ff06288ff9fdf8aba9bd1081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedf4e9ab2dfedd4d20ad1f15d08777d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aedf4e9ab2dfedd4d20ad1f15d08777d3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$sessionURL</b></td></tr>
+<tr class="separator:aedf4e9ab2dfedd4d20ad1f15d08777d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_app42_service"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_app42_service')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_app42_service.html">App42Service</a></td></tr>
-<tr class="memitem:a4a85e16e017e335ee0829e1fa58e23d7 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4a85e16e017e335ee0829e1fa58e23d7">$apiKey</a></td></tr>
-<tr class="separator:a4a85e16e017e335ee0829e1fa58e23d7 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f68066c58c4b54d8f962b0a054a0851 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a0f68066c58c4b54d8f962b0a054a0851">$version</a></td></tr>
-<tr class="separator:a0f68066c58c4b54d8f962b0a054a0851 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af721251abc4a951f4aaa253b9120f6ad inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af721251abc4a951f4aaa253b9120f6ad">$sessionId</a></td></tr>
-<tr class="separator:af721251abc4a951f4aaa253b9120f6ad inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c91392ac4c21b009623a5beffd80255 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a8c91392ac4c21b009623a5beffd80255">$adminKey</a></td></tr>
-<tr class="separator:a8c91392ac4c21b009623a5beffd80255 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8616722f364e0ad1367f58f50872ed4 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af8616722f364e0ad1367f58f50872ed4">$geoTag</a></td></tr>
-<tr class="separator:af8616722f364e0ad1367f58f50872ed4 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a085ae205aebcb07c76197ae7ec7142ab inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a085ae205aebcb07c76197ae7ec7142ab">$secretKey</a></td></tr>
-<tr class="separator:a085ae205aebcb07c76197ae7ec7142ab inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51459ee3c4b2c62aabf282e39f0f1a83 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a51459ee3c4b2c62aabf282e39f0f1a83">$pageOffset</a> = -1</td></tr>
-<tr class="separator:a51459ee3c4b2c62aabf282e39f0f1a83 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a204e3d106447f45b5021473e6b6406b4 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a204e3d106447f45b5021473e6b6406b4">$pageMaxRecords</a> = -1</td></tr>
-<tr class="separator:a204e3d106447f45b5021473e6b6406b4 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98f9aacd5fdff794f91be94eb633b4b5 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a98f9aacd5fdff794f91be94eb633b4b5">$fbAccessToken</a></td></tr>
-<tr class="separator:a98f9aacd5fdff794f91be94eb633b4b5 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6623093503e027ef497baaabb4f9faf7 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a6623093503e027ef497baaabb4f9faf7">$orderByDescending</a></td></tr>
-<tr class="separator:a6623093503e027ef497baaabb4f9faf7 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac675a9d0b6eba267b31c03947cfa72e8 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac675a9d0b6eba267b31c03947cfa72e8">$dataACL</a> = array()</td></tr>
-<tr class="separator:ac675a9d0b6eba267b31c03947cfa72e8 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73ecf96524969c0c3e699c00614b8dd6 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a73ecf96524969c0c3e699c00614b8dd6">$event</a></td></tr>
-<tr class="separator:a73ecf96524969c0c3e699c00614b8dd6 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac79098e5c5742b4408483583995f6f7c inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac79098e5c5742b4408483583995f6f7c">$metaInfo</a></td></tr>
-<tr class="separator:ac79098e5c5742b4408483583995f6f7c inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a240a9640266653243f308739079131b9 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a240a9640266653243f308739079131b9">$metaInfoQuery</a></td></tr>
-<tr class="separator:a240a9640266653243f308739079131b9 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae22bfbdac765e7203ebc67877ff8200c inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ae22bfbdac765e7203ebc67877ff8200c">$dbName</a></td></tr>
-<tr class="separator:ae22bfbdac765e7203ebc67877ff8200c inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabeb7b0d7a41ef8f603e9902811346a6 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#aabeb7b0d7a41ef8f603e9902811346a6">$collectionName</a></td></tr>
-<tr class="separator:aabeb7b0d7a41ef8f603e9902811346a6 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab397a67d8b32f2347481c7fa61d9c02a inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ab397a67d8b32f2347481c7fa61d9c02a">$query</a></td></tr>
-<tr class="separator:ab397a67d8b32f2347481c7fa61d9c02a inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ec29667940fd90370bc6d3bceaab814 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a3ec29667940fd90370bc6d3bceaab814">$jsonObject</a></td></tr>
-<tr class="separator:a3ec29667940fd90370bc6d3bceaab814 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4290c36c1df9cb82e546aa91a0670272 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#a4290c36c1df9cb82e546aa91a0670272">$orderByAscending</a></td></tr>
-<tr class="separator:a4290c36c1df9cb82e546aa91a0670272 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac64d05f614cd5b9735f201072a84a8e9 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac64d05f614cd5b9735f201072a84a8e9">$otherMetaHeaders</a> = array()</td></tr>
-<tr class="separator:ac64d05f614cd5b9735f201072a84a8e9 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae48934e5a05b376d9950874788cf4671 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ae48934e5a05b376d9950874788cf4671">$selectKeys</a> = array()</td></tr>
-<tr class="separator:ae48934e5a05b376d9950874788cf4671 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3e282d98cf9eb864baabb528c83b3de inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#ac3e282d98cf9eb864baabb528c83b3de">$aclList</a> = array()</td></tr>
-<tr class="separator:ac3e282d98cf9eb864baabb528c83b3de inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a084e3db37d1b117a3cc7212cf2eed533 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a084e3db37d1b117a3cc7212cf2eed533"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$apiKey</b></td></tr>
+<tr class="separator:a084e3db37d1b117a3cc7212cf2eed533 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17c8948c68aa44fa9961ae169b6a8961 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a17c8948c68aa44fa9961ae169b6a8961"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$version</b></td></tr>
+<tr class="separator:a17c8948c68aa44fa9961ae169b6a8961 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb2ea848560b3d375a0a55bdd13ffa1 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6bb2ea848560b3d375a0a55bdd13ffa1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$sessionId</b></td></tr>
+<tr class="separator:a6bb2ea848560b3d375a0a55bdd13ffa1 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfbac27769056acea55463dcc851093a inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acfbac27769056acea55463dcc851093a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$adminKey</b></td></tr>
+<tr class="separator:acfbac27769056acea55463dcc851093a inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac056d1399ef4e63e1157dd832fa84dca inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac056d1399ef4e63e1157dd832fa84dca"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$geoTag</b></td></tr>
+<tr class="separator:ac056d1399ef4e63e1157dd832fa84dca inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a766bfb236de2f29a3680976ca22790d4 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a766bfb236de2f29a3680976ca22790d4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$secretKey</b></td></tr>
+<tr class="separator:a766bfb236de2f29a3680976ca22790d4 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53526464fc6c5edfdb64db50433e94ff inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53526464fc6c5edfdb64db50433e94ff"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$pageOffset</b> = -1</td></tr>
+<tr class="separator:a53526464fc6c5edfdb64db50433e94ff inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ca9c827b0df635ea612e8cc0733f422 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ca9c827b0df635ea612e8cc0733f422"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$pageMaxRecords</b> = -1</td></tr>
+<tr class="separator:a9ca9c827b0df635ea612e8cc0733f422 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99974c69bbbb7d6aff2e481dce783c4d inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99974c69bbbb7d6aff2e481dce783c4d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$fbAccessToken</b></td></tr>
+<tr class="separator:a99974c69bbbb7d6aff2e481dce783c4d inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac20780798e1f20ce29b0bd9f2efe9e31 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac20780798e1f20ce29b0bd9f2efe9e31"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$orderByDescending</b></td></tr>
+<tr class="separator:ac20780798e1f20ce29b0bd9f2efe9e31 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14a86efe3d9953693c20ac2bbdc8a09e inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14a86efe3d9953693c20ac2bbdc8a09e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$dataACL</b> = array()</td></tr>
+<tr class="separator:a14a86efe3d9953693c20ac2bbdc8a09e inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a749a54eb7daa2b8849eed0223aa414d5 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a749a54eb7daa2b8849eed0223aa414d5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$event</b></td></tr>
+<tr class="separator:a749a54eb7daa2b8849eed0223aa414d5 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f771753eee4eb566e8f99fa108fd8d inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a73f771753eee4eb566e8f99fa108fd8d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$metaInfo</b></td></tr>
+<tr class="separator:a73f771753eee4eb566e8f99fa108fd8d inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab51eb644547ec0ebea769acba344a56f inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab51eb644547ec0ebea769acba344a56f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$metaInfoQuery</b></td></tr>
+<tr class="separator:ab51eb644547ec0ebea769acba344a56f inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68f39949e76b64662a06cb56579d91c3 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68f39949e76b64662a06cb56579d91c3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$dbName</b></td></tr>
+<tr class="separator:a68f39949e76b64662a06cb56579d91c3 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26f192c116eb83536d39c07d8ba79960 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26f192c116eb83536d39c07d8ba79960"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$collectionName</b></td></tr>
+<tr class="separator:a26f192c116eb83536d39c07d8ba79960 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af59a5f7cd609e592c41dc3643efd3c98 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af59a5f7cd609e592c41dc3643efd3c98"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$query</b></td></tr>
+<tr class="separator:af59a5f7cd609e592c41dc3643efd3c98 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4a1d8cd05d15973f6c190d89e3a4c92 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4a1d8cd05d15973f6c190d89e3a4c92"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$jsonObject</b></td></tr>
+<tr class="separator:af4a1d8cd05d15973f6c190d89e3a4c92 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae51ce0971f2c18569cb7f65b903ea2f5 inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae51ce0971f2c18569cb7f65b903ea2f5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$orderByAscending</b></td></tr>
+<tr class="separator:ae51ce0971f2c18569cb7f65b903ea2f5 inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1122bbf0368002ab421487bf0a630ac inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1122bbf0368002ab421487bf0a630ac"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$otherMetaHeaders</b> = array()</td></tr>
+<tr class="separator:ae1122bbf0368002ab421487bf0a630ac inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea1f7c4c54c58c138825403568a6365b inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea1f7c4c54c58c138825403568a6365b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$selectKeys</b> = array()</td></tr>
+<tr class="separator:aea1f7c4c54c58c138825403568a6365b inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab100f5422278c24c29ee81023499c7de inherit pro_attribs_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab100f5422278c24c29ee81023499c7de"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$aclList</b> = array()</td></tr>
+<tr class="separator:ab100f5422278c24c29ee81023499c7de inherit pro_attribs_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_class_app42_service"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_app42_service')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_app42_service.html">App42Service</a></td></tr>
-<tr class="memitem:af5ee281deb9d39ff1fc3e8655c4652b1 inherit pro_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#af5ee281deb9d39ff1fc3e8655c4652b1">populateSignParams</a> ()</td></tr>
-<tr class="separator:af5ee281deb9d39ff1fc3e8655c4652b1 inherit pro_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc3c5bed0ba13024cb8fc481c4a9836e inherit pro_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_service.html#acc3c5bed0ba13024cb8fc481c4a9836e">populateMetaHeaderParams</a> ()</td></tr>
-<tr class="separator:acc3c5bed0ba13024cb8fc481c4a9836e inherit pro_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a347ab67b2c6381093b98b022c5c661ab inherit pro_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a347ab67b2c6381093b98b022c5c661ab"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>populateSignParams</b> ()</td></tr>
+<tr class="separator:a347ab67b2c6381093b98b022c5c661ab inherit pro_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af745c356016c20d9d05972d812abd395 inherit pro_methods_class_app42_service"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af745c356016c20d9d05972d812abd395"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>populateMetaHeaderParams</b> ()</td></tr>
+<tr class="separator:af745c356016c20d9d05972d812abd395 inherit pro_methods_class_app42_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Creates <a class="el" href="class_user.html">User</a> for the App. App42 Cloud API's provides a complete <a class="el" href="class_user.html">User</a> Management for any Mobile or Web App. It supports <a class="el" href="class_user.html">User</a> registration, retrieval, state management e.g. lock, delete and Authentication. Along with <a class="el" href="class_user.html">User</a> management the platform provides API's for persistent SessionManagement </p><dl class="section see"><dt>See also</dt><dd>SessionManager </dd></dl>
+<div class="textblock"><p>Creates <a class="el" href="class_user.html">User</a> for the <a class="el" href="class_app.html">App</a>. App42 Cloud API's provides a complete <a class="el" href="class_user.html">User</a> Management for any Mobile or Web <a class="el" href="class_app.html">App</a>. It supports <a class="el" href="class_user.html">User</a> registration, retrieval, state management e.g. lock, delete and Authentication. Along with <a class="el" href="class_user.html">User</a> management the platform provides API's for persistent SessionManagement </p><dl class="section see"><dt>See also</dt><dd>SessionManager </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a612583ded1832ff376ef5715295b59f8"></a>
+<a class="anchor" id="a49f2ad222e06420736d750e167d55d7c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::__construct </td>
+          <td class="memname">__construct </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$apiKey</em>, </td>
@@ -315,38 +382,12 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a29f8135f9ca7b0018365eb1238722945"></a>
+<a class="anchor" id="ac892b43848dd337e5c3a061e083dae34"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::addJSONObject </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$collectionName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$obj</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a908435adc69090194bb74e24e2d61563"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">UserService::assignRoles </td>
+          <td class="memname">assignRoles </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$uName</em>, </td>
@@ -382,12 +423,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae6917489c970b036b384c49ba0b44d70"></a>
+<a class="anchor" id="a0399a1547a735e805f32a78dfb0c6536"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::authenticate </td>
+          <td class="memname">authenticate </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$uName</em>, </td>
@@ -409,7 +450,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uName</td><td><ul>
-<li>UserName which should be unique for the App </li>
+<li>UserName which should be unique for the <a class="el" href="class_app.html">App</a> </li>
 </ul>
 </td></tr>
     <tr><td class="paramname">pwd</td><td><ul>
@@ -419,17 +460,16 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_app42_response.html">App42Response</a> Object if authenticated successfully.</dd></dl>
-<p>if authentication fails or username/password is blank or null </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_app42_response.html">App42Response</a> Object if authenticated successfully. <pre class="fragment">        if authentication fails or username/password is blank or null</pre> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a7d67bd56a9ed57a61afe05ff54c55462"></a>
+<a class="anchor" id="af17489c1b9cb60869820c197a123907d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::changeUserPassword </td>
+          <td class="memname">changeUserPassword </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$uName</em>, </td>
@@ -457,7 +497,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uName</td><td><ul>
-<li>UserName which should be unique for the App </li>
+<li>UserName which should be unique for the <a class="el" href="class_app.html">App</a> </li>
 </ul>
 </td></tr>
     <tr><td class="paramname">oldPwd</td><td><ul>
@@ -475,12 +515,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae33c7b7db14af29e609cc21be9756e17"></a>
+<a class="anchor" id="a172bef4b570888f19cace199307d7ff9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::createOrUpdateProfile </td>
+          <td class="memname">createOrUpdateProfile </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_user.html">User</a>&#160;</td>
           <td class="paramname"><em>$user</em></td><td>)</td>
@@ -503,12 +543,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2a491dac74719c43b6f420f93d827337"></a>
+<a class="anchor" id="a2d19c5ab1596e9c4cc4a253654fcea23"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::createUser </td>
+          <td class="memname">createUser </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$uName</em>, </td>
@@ -583,50 +623,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a57e73d364bb312392f5a375bdf0465ec"></a>
+<a class="anchor" id="a2686e125d02a182347c15dead8636740"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::createUserWithProfile </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$uName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$pwd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$emailAddress</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_profile.html">Profile</a>&#160;</td>
-          <td class="paramname"><em>$profile</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a140fe64ea9c62da48a3774f5892d2d11"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">UserService::deleteUser </td>
+          <td class="memname">deleteUser </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$userName</em></td><td>)</td>
@@ -638,7 +640,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">userName</td><td><ul>
-<li>UserName which should be unique for the App</li>
+<li>UserName which should be unique for the <a class="el" href="class_app.html">App</a></li>
 </ul>
 </td></tr>
   </table>
@@ -648,12 +650,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a377e760329a7148b108dcf0e04273b42"></a>
+<a class="anchor" id="aed8ac40cf520379acad52833dc333fca"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::fillParamsWithProfileData </td>
+          <td class="memname">fillParamsWithProfileData </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_profile.html">Profile</a>&#160;</td>
           <td class="paramname"><em>$profileData</em></td><td>)</td>
@@ -675,12 +677,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3a897117605d0acca99c90950f32dad4"></a>
+<a class="anchor" id="abf8a1ca4140b4ca6379eed1266625ecc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::getAllUsers </td>
+          <td class="memname">getAllUsers </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$max</em> = <code>null</code>, </td>
@@ -718,12 +720,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af602f5495d021594cafd6250bed4a654"></a>
+<a class="anchor" id="a9aa2ae795472c60841fbc5f285a2fd63"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::getAllUsersCount </td>
+          <td class="memname">getAllUsersCount </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -735,12 +737,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4783e0987d29af6b221292e47d694291"></a>
+<a class="anchor" id="aad7ca18b49e223009c0759a5b02d3bc1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::getLockedUsers </td>
+          <td class="memname">getLockedUsers </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$max</em> = <code>null</code>, </td>
@@ -778,12 +780,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8a92b205cdd778921b671499c2c4e7dd"></a>
+<a class="anchor" id="a2e776606f52f13787ae537ce25092ddb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::getLockedUsersCount </td>
+          <td class="memname">getLockedUsersCount </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -795,12 +797,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5b75e280835f8460866b2d5237986124"></a>
+<a class="anchor" id="a0124d32cb11b6abbb656bef29ed9843b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::getRolesByUser </td>
+          <td class="memname">getRolesByUser </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$userName</em></td><td>)</td>
@@ -822,12 +824,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a189737bf8b703121aef382c6f75baf8c"></a>
+<a class="anchor" id="a9dde309a8616ea08b90afedc4cc0535b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::getUser </td>
+          <td class="memname">getUser </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$userName</em></td><td>)</td>
@@ -849,12 +851,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac3a6eeea8ee943c55a41794d0d8e34e0"></a>
+<a class="anchor" id="a7a7cb1fc1db34a0f256ecd8d400269a0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::getUserByEmailId </td>
+          <td class="memname">getUserByEmailId </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$emailId</em></td><td>)</td>
@@ -876,28 +878,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8755b320e63d5cf99ddb0323f46950f5"></a>
+<a class="anchor" id="aa9f0031b88ff72c012208e05ea0fa230"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::getUsersByGroup </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$users</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2d6a1f30d5061559f8d91d051b00d22e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">UserService::getUsersByProfileData </td>
+          <td class="memname">getUsersByProfileData </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_profile.html">Profile</a>&#160;</td>
           <td class="paramname"><em>$profileData</em></td><td>)</td>
@@ -919,12 +905,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abe1490d39181f736543ef762cc21be47"></a>
+<a class="anchor" id="abe4c3335ae7c1069496dce920ee95016"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::getUsersByRole </td>
+          <td class="memname">getUsersByRole </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$role</em></td><td>)</td>
@@ -946,12 +932,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a80a673b24923b4d3e1685500e6708918"></a>
+<a class="anchor" id="a482854ed5da446e1249bc1919f688d6d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::lockUser </td>
+          <td class="memname">lockUser </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$uName</em></td><td>)</td>
@@ -959,11 +945,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Locks the user based on the userName. Apps can use these feature to lock a user because of reasons specific to their usercase e.g. If payment not received and the App wants the user to be inactive</p>
+<p>Locks the user based on the userName. Apps can use these feature to lock a user because of reasons specific to their usercase e.g. If payment not received and the <a class="el" href="class_app.html">App</a> wants the user to be inactive</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uName</td><td><ul>
-<li>UserName which should be unique for the App</li>
+<li>UserName which should be unique for the <a class="el" href="class_app.html">App</a></li>
 </ul>
 </td></tr>
   </table>
@@ -973,28 +959,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7e54d3e9eda5ccb76ed317caa61a731d"></a>
+<a class="anchor" id="a32b211833333d3eb2a867bd58d79113a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::logout </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$sessionId</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a9c8ce8e93cbe4015c38341bd12ee4481"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">UserService::resetUserPassword </td>
+          <td class="memname">resetUserPassword </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$uName</em></td><td>)</td>
@@ -1006,7 +976,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uName</td><td><ul>
-<li>UserName which should be unique for the App</li>
+<li>UserName which should be unique for the <a class="el" href="class_app.html">App</a></li>
 </ul>
 </td></tr>
   </table>
@@ -1016,12 +986,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a151399918a2e9a07a98b7d02492e5c76"></a>
+<a class="anchor" id="a697bfef929fe31dbd34540bb096f88ef"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::revokeAllRoles </td>
+          <td class="memname">revokeAllRoles </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$userName</em></td><td>)</td>
@@ -1043,12 +1013,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aac5d78d13eee29be2883a739e08d0f7f"></a>
+<a class="anchor" id="a1614e4a23175ff9fc041e4e0e28d8e42"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::revokeRole </td>
+          <td class="memname">revokeRole </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$userName</em>, </td>
@@ -1084,12 +1054,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a391bf2cd2f9dd274438c87cf22fed0af"></a>
+<a class="anchor" id="a7651c03b89750f99981976ef7fd3725e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::unlockUser </td>
+          <td class="memname">unlockUser </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$uName</em></td><td>)</td>
@@ -1097,11 +1067,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Unlocks the user based on the userName. App developers can use this feature to unlock a user because of reasons specific to their usercase e.g. When payment received, the App developer wants the user to be active.</p>
+<p>Unlocks the user based on the userName. <a class="el" href="class_app.html">App</a> developers can use this feature to unlock a user because of reasons specific to their usercase e.g. When payment received, the <a class="el" href="class_app.html">App</a> developer wants the user to be active.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uName</td><td><ul>
-<li>UserName which should be unique for the App</li>
+<li>UserName which should be unique for the <a class="el" href="class_app.html">App</a></li>
 </ul>
 </td></tr>
   </table>
@@ -1111,12 +1081,12 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a13212d12022cffc54b97a834f7f76a04"></a>
+<a class="anchor" id="a7b7f98f3ebdf1b742227dcf817ff383e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UserService::updateEmail </td>
+          <td class="memname">updateEmail </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$uName</em>, </td>
@@ -1138,7 +1108,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uName</td><td><ul>
-<li>UserName which should be unique for the App </li>
+<li>UserName which should be unique for the <a class="el" href="class_app.html">App</a> </li>
 </ul>
 </td></tr>
     <tr><td class="paramname">emailAddress</td><td><ul>
@@ -1152,171 +1122,13 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ac7254208311d993f8a7caf0d9eea04f0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">UserService::$accept = &quot;application/json&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="abee961a30f72092a1406c3c32d66d3e8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">UserService::$content_type = &quot;application/json&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a67607ffb500a2fd6d268ce877c8b357c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">UserService::$FEMALE = &quot;Female&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a42649fef9aa14b88a40e42b1a13d669e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">UserService::$MALE = &quot;Male&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a3967a5fb5d4eb29b2647c7df429a9a0f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">UserService::$resource = &quot;user&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab68fef82cf64d26465bb88ded0685a8d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">UserService::$sessionURL</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab9057335365cdd2847760140d0d72fa3"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">UserService::$url</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad83768d7ce5d6b9881efd414b60f5224"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">UserService::$version = &quot;1.0&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/UserService.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:34 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:43 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

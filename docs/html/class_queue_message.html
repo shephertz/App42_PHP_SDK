@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,8 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="class_queue_message-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">QueueMessage Class Reference</div>  </div>
 </div><!--header-->
@@ -92,41 +91,44 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2057fae5c57c7cbfda062b525a42a871"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#a2057fae5c57c7cbfda062b525a42a871">__construct</a> (<a class="el" href="class_queue.html">Queue</a> $queue)</td></tr>
-<tr class="separator:a2057fae5c57c7cbfda062b525a42a871"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5c62aaee5d11225f68e98a77c7fc5a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#af5c62aaee5d11225f68e98a77c7fc5a3">getCorrelationId</a> ()</td></tr>
-<tr class="separator:af5c62aaee5d11225f68e98a77c7fc5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae234c6d7b3473646e6636132c5909669"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#ae234c6d7b3473646e6636132c5909669">setCorrelationId</a> ($correlationId)</td></tr>
-<tr class="separator:ae234c6d7b3473646e6636132c5909669"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8596a935a49c2ef44808ac3258d2db2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#a8596a935a49c2ef44808ac3258d2db2d">getPayLoad</a> ()</td></tr>
-<tr class="separator:a8596a935a49c2ef44808ac3258d2db2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace3b6fadef6385b1ead6c701f4adc52b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#ace3b6fadef6385b1ead6c701f4adc52b">setPayLoad</a> ($payLoad)</td></tr>
-<tr class="separator:ace3b6fadef6385b1ead6c701f4adc52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab579445bdb68f934698c8add9f92306c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#ab579445bdb68f934698c8add9f92306c">getMessageId</a> ()</td></tr>
-<tr class="separator:ab579445bdb68f934698c8add9f92306c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab46dacc4d39ed956dd1aa7d0ad44e734"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#ab46dacc4d39ed956dd1aa7d0ad44e734">setMessageId</a> ($messageId)</td></tr>
-<tr class="separator:ab46dacc4d39ed956dd1aa7d0ad44e734"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f0b79cf00c39ea46cb8ac769e4c1d63"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#a9f0b79cf00c39ea46cb8ac769e4c1d63">toString</a> ()</td></tr>
-<tr class="separator:a9f0b79cf00c39ea46cb8ac769e4c1d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a638917e21ed8dba0215842d8406069a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#a638917e21ed8dba0215842d8406069a2">__construct</a> (<a class="el" href="class_queue.html">Queue</a> $queue)</td></tr>
+<tr class="separator:a638917e21ed8dba0215842d8406069a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1279e776b9fa05f90c29652d63688d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#ab1279e776b9fa05f90c29652d63688d1">getCorrelationId</a> ()</td></tr>
+<tr class="separator:ab1279e776b9fa05f90c29652d63688d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4e800d324b4e8ee4c06de6e74c182e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#ad4e800d324b4e8ee4c06de6e74c182e9">setCorrelationId</a> ($correlationId)</td></tr>
+<tr class="separator:ad4e800d324b4e8ee4c06de6e74c182e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f2f98529411adf607679e8b70a6f2ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#a6f2f98529411adf607679e8b70a6f2ac">getPayLoad</a> ()</td></tr>
+<tr class="separator:a6f2f98529411adf607679e8b70a6f2ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe551080199cf8b2fc18b83b1bae40a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#a2fe551080199cf8b2fc18b83b1bae40a">setPayLoad</a> ($payLoad)</td></tr>
+<tr class="separator:a2fe551080199cf8b2fc18b83b1bae40a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5687f36f39c8921fc7ae867f446ac5b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#a5687f36f39c8921fc7ae867f446ac5b3">getMessageId</a> ()</td></tr>
+<tr class="separator:a5687f36f39c8921fc7ae867f446ac5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb35a18d0d73349c5a477f734f1a36aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#afb35a18d0d73349c5a477f734f1a36aa">setMessageId</a> ($messageId)</td></tr>
+<tr class="separator:afb35a18d0d73349c5a477f734f1a36aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#a5558c5d549f41597377fa1ea8a1cefa3">toString</a> ()</td></tr>
+<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ac4384c04044a8927cbb65e3f212d0561"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#ac4384c04044a8927cbb65e3f212d0561">$correlationId</a></td></tr>
-<tr class="separator:ac4384c04044a8927cbb65e3f212d0561"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b4415ff071669e253450a459fac811a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#a8b4415ff071669e253450a459fac811a">$payLoad</a></td></tr>
-<tr class="separator:a8b4415ff071669e253450a459fac811a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe3b8691f21f5d6bfeacca5f749c99f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_queue_message.html#afe3b8691f21f5d6bfeacca5f749c99f1">$messageId</a></td></tr>
-<tr class="separator:afe3b8691f21f5d6bfeacca5f749c99f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:ae2b5592dd6c4d62b432f96e5bfdd907e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae2b5592dd6c4d62b432f96e5bfdd907e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$correlationId</b></td></tr>
+<tr class="separator:ae2b5592dd6c4d62b432f96e5bfdd907e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc9496e79d005f29c075b14983ff1b1c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc9496e79d005f29c075b14983ff1b1c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$payLoad</b></td></tr>
+<tr class="separator:afc9496e79d005f29c075b14983ff1b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace4880fd0df34ae1190f153baa43cbc4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace4880fd0df34ae1190f153baa43cbc4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$messageId</b></td></tr>
+<tr class="separator:ace4880fd0df34ae1190f153baa43cbc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An inner class that contains the remaining properties of the <a class="el" href="class_queue.html">Queue</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a2057fae5c57c7cbfda062b525a42a871"></a>
+<a class="anchor" id="a638917e21ed8dba0215842d8406069a2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QueueMessage::__construct </td>
+          <td class="memname">__construct </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_queue.html">Queue</a>&#160;</td>
           <td class="paramname"><em>$queue</em></td><td>)</td>
@@ -139,12 +141,12 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="af5c62aaee5d11225f68e98a77c7fc5a3"></a>
+<a class="anchor" id="ab1279e776b9fa05f90c29652d63688d1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QueueMessage::getCorrelationId </td>
+          <td class="memname">getCorrelationId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -156,12 +158,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab579445bdb68f934698c8add9f92306c"></a>
+<a class="anchor" id="a5687f36f39c8921fc7ae867f446ac5b3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QueueMessage::getMessageId </td>
+          <td class="memname">getMessageId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -173,12 +175,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8596a935a49c2ef44808ac3258d2db2d"></a>
+<a class="anchor" id="a6f2f98529411adf607679e8b70a6f2ac"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QueueMessage::getPayLoad </td>
+          <td class="memname">getPayLoad </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -190,12 +192,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae234c6d7b3473646e6636132c5909669"></a>
+<a class="anchor" id="ad4e800d324b4e8ee4c06de6e74c182e9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QueueMessage::setCorrelationId </td>
+          <td class="memname">setCorrelationId </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$correlationId</em></td><td>)</td>
@@ -216,12 +218,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab46dacc4d39ed956dd1aa7d0ad44e734"></a>
+<a class="anchor" id="afb35a18d0d73349c5a477f734f1a36aa"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QueueMessage::setMessageId </td>
+          <td class="memname">setMessageId </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$messageId</em></td><td>)</td>
@@ -242,12 +244,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ace3b6fadef6385b1ead6c701f4adc52b"></a>
+<a class="anchor" id="a2fe551080199cf8b2fc18b83b1bae40a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QueueMessage::setPayLoad </td>
+          <td class="memname">setPayLoad </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$payLoad</em></td><td>)</td>
@@ -268,12 +270,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9f0b79cf00c39ea46cb8ac769e4c1d63"></a>
+<a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QueueMessage::toString </td>
+          <td class="memname">toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -285,47 +287,13 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ac4384c04044a8927cbb65e3f212d0561"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QueueMessage::$correlationId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="afe3b8691f21f5d6bfeacca5f749c99f1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QueueMessage::$messageId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8b4415ff071669e253450a459fac811a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QueueMessage::$payLoad</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/queue.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:43 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

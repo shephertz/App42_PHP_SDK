@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,8 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="class_app42_config-members.html">List of all members</a>  </div>
+<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">App42Config Class Reference</div>  </div>
 </div><!--header-->
@@ -92,319 +91,62 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4806fb29520aca0e89a24f15f760ca39"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#a4806fb29520aca0e89a24f15f760ca39">__construct</a> ()</td></tr>
-<tr class="separator:a4806fb29520aca0e89a24f15f760ca39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c2a382a67da049e8e94e8986d9c3bcf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#a1c2a382a67da049e8e94e8986d9c3bcf">setProperties</a> ($confProps)</td></tr>
-<tr class="separator:a1c2a382a67da049e8e94e8986d9c3bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a493d92ec1db2356cc2f6f43dc9dd63ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#a493d92ec1db2356cc2f6f43dc9dd63ce">getProperties</a> ()</td></tr>
-<tr class="separator:a493d92ec1db2356cc2f6f43dc9dd63ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60abf5ea2583f064f82c8f3e5e46e01a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#a60abf5ea2583f064f82c8f3e5e46e01a">setProtocol</a> ($protocol)</td></tr>
-<tr class="separator:a60abf5ea2583f064f82c8f3e5e46e01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abee364a022506c12f6bb0094a7a711b4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#abee364a022506c12f6bb0094a7a711b4">getProtocol</a> ()</td></tr>
-<tr class="separator:abee364a022506c12f6bb0094a7a711b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a530af91147e94c78ee060d51f62c23d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#a530af91147e94c78ee060d51f62c23d1">setServerName</a> ($serverName)</td></tr>
-<tr class="separator:a530af91147e94c78ee060d51f62c23d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac48cf9d31556e41d1f27bdd7d3ef6ec5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#ac48cf9d31556e41d1f27bdd7d3ef6ec5">getServerName</a> ()</td></tr>
-<tr class="separator:ac48cf9d31556e41d1f27bdd7d3ef6ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a574f55df51bf409dd8510de7cd0e1faa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#a574f55df51bf409dd8510de7cd0e1faa">setBaseURL</a> ($protocol, $host, $port)</td></tr>
-<tr class="separator:a574f55df51bf409dd8510de7cd0e1faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29cb1ac76397d1414d5178a5ca42d404"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#a29cb1ac76397d1414d5178a5ca42d404">getBaseURL</a> ()</td></tr>
-<tr class="separator:a29cb1ac76397d1414d5178a5ca42d404"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a312d932f5c0830552a8e38a742212cb7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#a312d932f5c0830552a8e38a742212cb7">setContentType</a> ($contentType)</td></tr>
-<tr class="separator:a312d932f5c0830552a8e38a742212cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a327cc937e5675942b949223cb9a0f206"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#a327cc937e5675942b949223cb9a0f206">getContentType</a> ()</td></tr>
-<tr class="separator:a327cc937e5675942b949223cb9a0f206"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd0c8e1b99949629aa5ae35ecdbdb466"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#abd0c8e1b99949629aa5ae35ecdbdb466">setAccept</a> ($accept)</td></tr>
-<tr class="separator:abd0c8e1b99949629aa5ae35ecdbdb466"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38f5ed96ee5bfadf2bbad30d50bf23ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#a38f5ed96ee5bfadf2bbad30d50bf23ce">getAccept</a> ()</td></tr>
-<tr class="separator:a38f5ed96ee5bfadf2bbad30d50bf23ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac03c7c70f79504cb913236261a4193c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#ac03c7c70f79504cb913236261a4193c2">getCustomCodeURL</a> ()</td></tr>
-<tr class="separator:ac03c7c70f79504cb913236261a4193c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36eac21261526f4c0377bb284bb703da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#a36eac21261526f4c0377bb284bb703da">setCustomCodeURL</a> ($customCodeURL)</td></tr>
-<tr class="separator:a36eac21261526f4c0377bb284bb703da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da9cfa34e711012af867bde3e369eef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6da9cfa34e711012af867bde3e369eef"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setProperties</b> ($confProps)</td></tr>
+<tr class="separator:a6da9cfa34e711012af867bde3e369eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad92c14b6c86304d3f1fb86b2936d3408"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad92c14b6c86304d3f1fb86b2936d3408"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getProperties</b> ()</td></tr>
+<tr class="separator:ad92c14b6c86304d3f1fb86b2936d3408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2238ca228e0bb56ca0ae233893c0b91"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae2238ca228e0bb56ca0ae233893c0b91"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setProtocol</b> ($protocol)</td></tr>
+<tr class="separator:ae2238ca228e0bb56ca0ae233893c0b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2caee71cf780f7242c4a5c0261f2b97"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2caee71cf780f7242c4a5c0261f2b97"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getProtocol</b> ()</td></tr>
+<tr class="separator:ab2caee71cf780f7242c4a5c0261f2b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a146501775d8513fd0633992c7ac86d86"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a146501775d8513fd0633992c7ac86d86"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setServerName</b> ($serverName)</td></tr>
+<tr class="separator:a146501775d8513fd0633992c7ac86d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8e894c5cd9aeeb004efbd032fb1dfc9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae8e894c5cd9aeeb004efbd032fb1dfc9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getServerName</b> ()</td></tr>
+<tr class="separator:ae8e894c5cd9aeeb004efbd032fb1dfc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77e7c846f78f107e69cfc4f3da9432fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77e7c846f78f107e69cfc4f3da9432fc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setBaseURL</b> ($protocol, $host, $port)</td></tr>
+<tr class="separator:a77e7c846f78f107e69cfc4f3da9432fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae55da8dc3cff0839c2f0bab9082a33c3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae55da8dc3cff0839c2f0bab9082a33c3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getBaseURL</b> ()</td></tr>
+<tr class="separator:ae55da8dc3cff0839c2f0bab9082a33c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a945b1a5744b810fcb31a05f827356cfa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a945b1a5744b810fcb31a05f827356cfa"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setContentType</b> ($contentType)</td></tr>
+<tr class="separator:a945b1a5744b810fcb31a05f827356cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa843137beb02bc2516fe0551c00ff7d7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa843137beb02bc2516fe0551c00ff7d7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getContentType</b> ()</td></tr>
+<tr class="separator:aa843137beb02bc2516fe0551c00ff7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44b73d734682a05093f9670c0dd82e66"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44b73d734682a05093f9670c0dd82e66"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setAccept</b> ($accept)</td></tr>
+<tr class="separator:a44b73d734682a05093f9670c0dd82e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77a626e2e034a997640b15e913c9aa5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77a626e2e034a997640b15e913c9aa5e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getAccept</b> ()</td></tr>
+<tr class="separator:a77a626e2e034a997640b15e913c9aa5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44b9203da26f6f6d1c4606d9442e82a7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44b9203da26f6f6d1c4606d9442e82a7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getCustomCodeURL</b> ()</td></tr>
+<tr class="separator:a44b9203da26f6f6d1c4606d9442e82a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a579f959c802ae3f2287563737f573520"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a579f959c802ae3f2287563737f573520"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setCustomCodeURL</b> ($customCodeURL)</td></tr>
+<tr class="separator:a579f959c802ae3f2287563737f573520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a6f49510cbcc1543572e865e9ea3a3624"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app42_config.html#a6f49510cbcc1543572e865e9ea3a3624">getInstance</a> ()</td></tr>
-<tr class="separator:a6f49510cbcc1543572e865e9ea3a3624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac93fbec81f07e5d15f80db907e63dc10"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac93fbec81f07e5d15f80db907e63dc10"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>getInstance</b> ()</td></tr>
+<tr class="separator:ac93fbec81f07e5d15f80db907e63dc10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a4806fb29520aca0e89a24f15f760ca39"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::__construct </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a38f5ed96ee5bfadf2bbad30d50bf23ce"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::getAccept </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a29cb1ac76397d1414d5178a5ca42d404"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::getBaseURL </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a327cc937e5675942b949223cb9a0f206"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::getContentType </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac03c7c70f79504cb913236261a4193c2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::getCustomCodeURL </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a6f49510cbcc1543572e865e9ea3a3624"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static App42Config::getInstance </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a493d92ec1db2356cc2f6f43dc9dd63ce"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::getProperties </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="abee364a022506c12f6bb0094a7a711b4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::getProtocol </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac48cf9d31556e41d1f27bdd7d3ef6ec5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::getServerName </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="abd0c8e1b99949629aa5ae35ecdbdb466"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::setAccept </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$accept</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a574f55df51bf409dd8510de7cd0e1faa"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::setBaseURL </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$protocol</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$host</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$port</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a312d932f5c0830552a8e38a742212cb7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::setContentType </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$contentType</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a36eac21261526f4c0377bb284bb703da"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::setCustomCodeURL </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$customCodeURL</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1c2a382a67da049e8e94e8986d9c3bcf"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::setProperties </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$confProps</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a60abf5ea2583f064f82c8f3e5e46e01a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::setProtocol </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$protocol</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a530af91147e94c78ee060d51f62c23d1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">App42Config::setServerName </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$serverName</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/App42Config.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:42 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

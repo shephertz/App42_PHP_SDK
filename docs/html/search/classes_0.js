@@ -7,6 +7,7 @@ var searchData=
   ['acl',['ACL',['../class_a_c_l.html',1,'']]],
   ['album',['Album',['../class_album.html',1,'']]],
   ['albumservice',['AlbumService',['../class_album_service.html',1,'']]],
+  ['app',['App',['../class_app.html',1,'']]],
   ['app42api',['App42API',['../class_app42_a_p_i.html',1,'']]],
   ['app42badparameterexception',['App42BadParameterException',['../class_app42_bad_parameter_exception.html',1,'']]],
   ['app42config',['App42Config',['../class_app42_config.html',1,'']]],

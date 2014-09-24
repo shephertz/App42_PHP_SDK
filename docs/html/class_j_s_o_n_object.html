@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -82,137 +82,53 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="class_j_s_o_n_object-members.html">List of all members</a>  </div>
+<a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">JSONObject Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Inherits stdClass.</p>
+<div class="dynheader">
+Inheritance diagram for JSONObject:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_j_s_o_n_object.png" usemap="#JSONObject_map" alt=""/>
+  <map id="JSONObject_map" name="JSONObject_map">
+</map>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a15cebbd6eaf13959f99fa065c59a54d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_object.html#a15cebbd6eaf13959f99fa065c59a54d8">__construct</a> ($o=null)</td></tr>
-<tr class="separator:a15cebbd6eaf13959f99fa065c59a54d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c085322f7455cfdc49e20118e5ba03c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_object.html#a9c085322f7455cfdc49e20118e5ba03c">__toString</a> ()</td></tr>
-<tr class="separator:a9c085322f7455cfdc49e20118e5ba03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43c6b0dc178804c2552eda5a22828d0e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_object.html#a43c6b0dc178804c2552eda5a22828d0e">has</a> ($name)</td></tr>
-<tr class="separator:a43c6b0dc178804c2552eda5a22828d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdfbd4ed9bf7b2d1ac5f91be40505286"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_object.html#acdfbd4ed9bf7b2d1ac5f91be40505286">__get</a> ($name)</td></tr>
-<tr class="separator:acdfbd4ed9bf7b2d1ac5f91be40505286"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ba5a9b00b4fabcdc90b825279ec8690"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_object.html#a3ba5a9b00b4fabcdc90b825279ec8690">put</a> ($key, $value)</td></tr>
-<tr class="separator:a3ba5a9b00b4fabcdc90b825279ec8690"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0db379d956385c3819ff77f8865168d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_object.html#a0db379d956385c3819ff77f8865168d6">getJSONArray</a> ($name)</td></tr>
-<tr class="separator:a0db379d956385c3819ff77f8865168d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6db80bed4ccb71d8737392192144b5b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_object.html#ab6db80bed4ccb71d8737392192144b5b">remove</a> ($key)</td></tr>
-<tr class="separator:ab6db80bed4ccb71d8737392192144b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b6cdb53ff57c450a4269cb243837a67"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_object.html#a9b6cdb53ff57c450a4269cb243837a67">getNames</a> ($o)</td></tr>
-<tr class="separator:a9b6cdb53ff57c450a4269cb243837a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9043680c03da5cd8c9d1544ae047ff54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9043680c03da5cd8c9d1544ae047ff54"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>__construct</b> ($o=null)</td></tr>
+<tr class="separator:a9043680c03da5cd8c9d1544ae047ff54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7516ca30af0db3cdbf9a7739b48ce91d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7516ca30af0db3cdbf9a7739b48ce91d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>__toString</b> ()</td></tr>
+<tr class="separator:a7516ca30af0db3cdbf9a7739b48ce91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a623d004aa083376c599112f235c0af9d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a623d004aa083376c599112f235c0af9d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>has</b> ($name)</td></tr>
+<tr class="separator:a623d004aa083376c599112f235c0af9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc8e9e31bb15c8a44c3210ec551407c8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc8e9e31bb15c8a44c3210ec551407c8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>__get</b> ($name)</td></tr>
+<tr class="separator:abc8e9e31bb15c8a44c3210ec551407c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4956d7576397b75ff7168a8861a1655"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_object.html#af4956d7576397b75ff7168a8861a1655">put</a> ($key, $value)</td></tr>
+<tr class="separator:af4956d7576397b75ff7168a8861a1655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a811737e7e3fce04290c95338c08169a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a811737e7e3fce04290c95338c08169a1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getJSONArray</b> ($name)</td></tr>
+<tr class="separator:a811737e7e3fce04290c95338c08169a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95483af4e2c07dc9893fe058b026bd5d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a95483af4e2c07dc9893fe058b026bd5d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> ($key)</td></tr>
+<tr class="separator:a95483af4e2c07dc9893fe058b026bd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d7de00dd7955482e9cda95d37dc1fb0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d7de00dd7955482e9cda95d37dc1fb0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getNames</b> ($o)</td></tr>
+<tr class="separator:a5d7de00dd7955482e9cda95d37dc1fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a15cebbd6eaf13959f99fa065c59a54d8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONObject::__construct </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$o</em> = <code>null</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="acdfbd4ed9bf7b2d1ac5f91be40505286"></a>
+<a class="anchor" id="af4956d7576397b75ff7168a8861a1655"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">JSONObject::__get </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a9c085322f7455cfdc49e20118e5ba03c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONObject::__toString </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a0db379d956385c3819ff77f8865168d6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONObject::getJSONArray </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a9b6cdb53ff57c450a4269cb243837a67"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONObject::getNames </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$o</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a43c6b0dc178804c2552eda5a22828d0e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONObject::has </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a3ba5a9b00b4fabcdc90b825279ec8690"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONObject::put </td>
+          <td class="memname">put </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$key</em>, </td>
@@ -248,26 +164,13 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab6db80bed4ccb71d8737392192144b5b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONObject::remove </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$key</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/JSONObject.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:43 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

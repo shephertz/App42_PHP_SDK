@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,8 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="class_util-members.html">List of all members</a>  </div>
+<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Util Class Reference</div>  </div>
 </div><!--header-->
@@ -92,45 +91,52 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6dafb0ad825a3d15806917be88ec1107"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#a6dafb0ad825a3d15806917be88ec1107">__construct</a> ($apiKey, $secretKey)</td></tr>
-<tr class="separator:a6dafb0ad825a3d15806917be88ec1107"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6a1674f3610446de81bece582625ac9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#ab6a1674f3610446de81bece582625ac9">sign</a> ($params)</td></tr>
-<tr class="separator:ab6a1674f3610446de81bece582625ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a234a58b99a03c94414dc5917f2362661"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#a234a58b99a03c94414dc5917f2362661">sortAndConvertTableToString</a> ($params)</td></tr>
-<tr class="separator:a234a58b99a03c94414dc5917f2362661"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49f2ad222e06420736d750e167d55d7c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#a49f2ad222e06420736d750e167d55d7c">__construct</a> ($apiKey, $secretKey)</td></tr>
+<tr class="separator:a49f2ad222e06420736d750e167d55d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa37702d993eaa917ef46f1751dcee902"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#aa37702d993eaa917ef46f1751dcee902">sign</a> ($params)</td></tr>
+<tr class="separator:aa37702d993eaa917ef46f1751dcee902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2103f7166f0cb8a71b58453d7e6829e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#ae2103f7166f0cb8a71b58453d7e6829e">sortAndConvertTableToString</a> ($params)</td></tr>
+<tr class="separator:ae2103f7166f0cb8a71b58453d7e6829e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a31c21ba8f8cf2c46580eb5c867deb4c6"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#a31c21ba8f8cf2c46580eb5c867deb4c6">throwExceptionIfNullOrBlank</a> ($obj, $name)</td></tr>
-<tr class="separator:a31c21ba8f8cf2c46580eb5c867deb4c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a026b59ec862b1d1736c76f429bc16f58"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#a026b59ec862b1d1736c76f429bc16f58">validateDate</a> ($date, $format= 'YYYY-MM-DD')</td></tr>
-<tr class="separator:a026b59ec862b1d1736c76f429bc16f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af00565078361140d3f20884fa6fa71c8"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#af00565078361140d3f20884fa6fa71c8">validateMax</a> ($max)</td></tr>
-<tr class="separator:af00565078361140d3f20884fa6fa71c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab403cb1f5825a56b2ce23f0187892422"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#ab403cb1f5825a56b2ce23f0187892422">throwExceptionIfEmailNotValid</a> ($email)</td></tr>
-<tr class="separator:ab403cb1f5825a56b2ce23f0187892422"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac55b47828b16263493a7f2c37ec51d54"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#ac55b47828b16263493a7f2c37ec51d54">encodeParams</a> ($object)</td></tr>
-<tr class="separator:ac55b47828b16263493a7f2c37ec51d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac261ac7f44c92db3e53eb195ae401295"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#ac261ac7f44c92db3e53eb195ae401295">throwExceptionIfNotValidImageExtension</a> ($imagePath, $name)</td></tr>
-<tr class="separator:ac261ac7f44c92db3e53eb195ae401295"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7b42f92143bd4b623a5eedb6751637b"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#ae7b42f92143bd4b623a5eedb6751637b">throwExceptionIfHowManyNotValid</a> ($howMany)</td></tr>
-<tr class="separator:ae7b42f92143bd4b623a5eedb6751637b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab892384ee95f4f3d425e11e1d5b99272"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#ab892384ee95f4f3d425e11e1d5b99272">getUTCFormattedTimestamp</a> ()</td></tr>
-<tr class="separator:ab892384ee95f4f3d425e11e1d5b99272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eae0831deb9fc08aefbdedf1a6e3d6b"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#a1eae0831deb9fc08aefbdedf1a6e3d6b">getUTCFormattedTimestamps</a> ($date)</td></tr>
-<tr class="separator:a1eae0831deb9fc08aefbdedf1a6e3d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80d5c924e390acb9c0496522e56acd3e"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#a80d5c924e390acb9c0496522e56acd3e">throwExceptionIfLongValueIsNegativeOrEqualToZero</a> ($obj, $name)</td></tr>
-<tr class="separator:a80d5c924e390acb9c0496522e56acd3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed0318e18b5ba31f7100912883beb556"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aed0318e18b5ba31f7100912883beb556"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>throwExceptionIfNullOrBlank</b> ($obj, $name)</td></tr>
+<tr class="separator:aed0318e18b5ba31f7100912883beb556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9494b483ab756dc9b70c6eaea29dc62d"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#a9494b483ab756dc9b70c6eaea29dc62d">validateDate</a> ($date, $format= 'YYYY-MM-DD')</td></tr>
+<tr class="separator:a9494b483ab756dc9b70c6eaea29dc62d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c462f515699699033b67922641f3273"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c462f515699699033b67922641f3273"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>validateMax</b> ($max)</td></tr>
+<tr class="separator:a6c462f515699699033b67922641f3273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2acd93887ed9df760deb6dadae0e1bc2"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#a2acd93887ed9df760deb6dadae0e1bc2">throwExceptionIfEmailNotValid</a> ($email)</td></tr>
+<tr class="separator:a2acd93887ed9df760deb6dadae0e1bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39bff3577b4794efd90304b5e3ae5dd9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39bff3577b4794efd90304b5e3ae5dd9"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>encodeParams</b> ($object)</td></tr>
+<tr class="separator:a39bff3577b4794efd90304b5e3ae5dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3450daac414f5bc1bf222640f8ab6079"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_util.html#a3450daac414f5bc1bf222640f8ab6079">throwExceptionIfNotValidImageExtension</a> ($imagePath, $name)</td></tr>
+<tr class="separator:a3450daac414f5bc1bf222640f8ab6079"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad509cd3200204c988b12f93822df19a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad509cd3200204c988b12f93822df19a1"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>throwExceptionIfHowManyNotValid</b> ($howMany)</td></tr>
+<tr class="separator:ad509cd3200204c988b12f93822df19a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a517f121e47b1c7fc4738599e29ece725"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a517f121e47b1c7fc4738599e29ece725"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>getUTCFormattedTimestamp</b> ()</td></tr>
+<tr class="separator:a517f121e47b1c7fc4738599e29ece725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63a3a4b8f9a5cdb3755fdc3e2724ea97"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63a3a4b8f9a5cdb3755fdc3e2724ea97"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>getUTCFormattedTimestamps</b> ($date)</td></tr>
+<tr class="separator:a63a3a4b8f9a5cdb3755fdc3e2724ea97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1468a1168693d0951e9a69d52ab13b73"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1468a1168693d0951e9a69d52ab13b73"></a>
+static&#160;</td><td class="memItemRight" valign="bottom"><b>throwExceptionIfLongValueIsNegativeOrEqualToZero</b> ($obj, $name)</td></tr>
+<tr class="separator:a1468a1168693d0951e9a69d52ab13b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A Singleton class which holds all the configuration. Users of the App42 Cloud API. should never need to use it directly. All methods which are required for the user are available on <a class="el" href="class_service_a_p_i.html">ServiceAPI</a> </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a6dafb0ad825a3d15806917be88ec1107"></a>
+<a class="anchor" id="a49f2ad222e06420736d750e167d55d7c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Util::__construct </td>
+          <td class="memname">__construct </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$apiKey</em>, </td>
@@ -159,83 +165,12 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ac55b47828b16263493a7f2c37ec51d54"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static Util::encodeParams </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$object</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab892384ee95f4f3d425e11e1d5b99272"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static Util::getUTCFormattedTimestamp </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1eae0831deb9fc08aefbdedf1a6e3d6b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static Util::getUTCFormattedTimestamps </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$date</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab6a1674f3610446de81bece582625ac9"></a>
+<a class="anchor" id="aa37702d993eaa917ef46f1751dcee902"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Util::sign </td>
+          <td class="memname">sign </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$params</em></td><td>)</td>
@@ -254,12 +189,12 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a234a58b99a03c94414dc5917f2362661"></a>
+<a class="anchor" id="ae2103f7166f0cb8a71b58453d7e6829e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Util::sortAndConvertTableToString </td>
+          <td class="memname">sortAndConvertTableToString </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$params</em></td><td>)</td>
@@ -276,7 +211,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab403cb1f5825a56b2ce23f0187892422"></a>
+<a class="anchor" id="a2acd93887ed9df760deb6dadae0e1bc2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -284,7 +219,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Util::throwExceptionIfEmailNotValid </td>
+          <td class="memname">static throwExceptionIfEmailNotValid </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$email</em></td><td>)</td>
@@ -301,7 +236,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae7b42f92143bd4b623a5eedb6751637b"></a>
+<a class="anchor" id="a3450daac414f5bc1bf222640f8ab6079"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -309,65 +244,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Util::throwExceptionIfHowManyNotValid </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$howMany</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a80d5c924e390acb9c0496522e56acd3e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static Util::throwExceptionIfLongValueIsNegativeOrEqualToZero </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$obj</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$name</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac261ac7f44c92db3e53eb195ae401295"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static Util::throwExceptionIfNotValidImageExtension </td>
+          <td class="memname">static throwExceptionIfNotValidImageExtension </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$imagePath</em>, </td>
@@ -394,7 +271,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a31c21ba8f8cf2c46580eb5c867deb4c6"></a>
+<a class="anchor" id="a9494b483ab756dc9b70c6eaea29dc62d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -402,41 +279,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Util::throwExceptionIfNullOrBlank </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$obj</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$name</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a026b59ec862b1d1736c76f429bc16f58"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static Util::validateDate </td>
+          <td class="memname">static validateDate </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$date</em>, </td>
@@ -463,34 +306,13 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af00565078361140d3f20884fa6fa71c8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static Util::validateMax </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$max</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/Util.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:34 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:43 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

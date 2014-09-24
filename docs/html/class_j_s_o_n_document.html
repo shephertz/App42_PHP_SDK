@@ -38,7 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -59,10 +59,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
+      <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,8 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="class_j_s_o_n_document-members.html">List of all members</a>  </div>
+<a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">JSONDocument Class Reference</div>  </div>
 </div><!--header-->
@@ -92,63 +91,79 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa25e9d9e90e18babca7ef1c9e6220d2b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#aa25e9d9e90e18babca7ef1c9e6220d2b">__construct</a> (<a class="el" href="class_storage.html">Storage</a> $storage)</td></tr>
-<tr class="separator:aa25e9d9e90e18babca7ef1c9e6220d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed66d8d325d8f48f94db8c2268e36a9b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#aed66d8d325d8f48f94db8c2268e36a9b">getJsonDoc</a> ()</td></tr>
-<tr class="separator:aed66d8d325d8f48f94db8c2268e36a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31f7b97eb01788e0730717d7d6fbd84f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a31f7b97eb01788e0730717d7d6fbd84f">setJsonDoc</a> ($jsonDoc)</td></tr>
-<tr class="separator:a31f7b97eb01788e0730717d7d6fbd84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2383dce3933f6cca996d3b89c841c245"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a2383dce3933f6cca996d3b89c841c245">getDocId</a> ()</td></tr>
-<tr class="separator:a2383dce3933f6cca996d3b89c841c245"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a3586008f9d1d0fce219a8002784eb2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a4a3586008f9d1d0fce219a8002784eb2">setDocId</a> ($docId)</td></tr>
-<tr class="separator:a4a3586008f9d1d0fce219a8002784eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab033ef8c25b76483b99657673f982192"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#ab033ef8c25b76483b99657673f982192">getUpdatedAt</a> ()</td></tr>
-<tr class="separator:ab033ef8c25b76483b99657673f982192"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42c7a66f2fe0a3f460f6a3286a6b3ec8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a42c7a66f2fe0a3f460f6a3286a6b3ec8">setUpdatedAt</a> ($updatedAt)</td></tr>
-<tr class="separator:a42c7a66f2fe0a3f460f6a3286a6b3ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a163c7275069e0e47b33e0d173b953ca9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a163c7275069e0e47b33e0d173b953ca9">getCreatedAt</a> ()</td></tr>
-<tr class="separator:a163c7275069e0e47b33e0d173b953ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a972d3cc5534a0d24a1fd4a19b6994ba8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a972d3cc5534a0d24a1fd4a19b6994ba8">setCreatedAt</a> ($createdAt)</td></tr>
-<tr class="separator:a972d3cc5534a0d24a1fd4a19b6994ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae99b8eae9947e9c41d1dec893a25f34e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#ae99b8eae9947e9c41d1dec893a25f34e">getEvent</a> ()</td></tr>
-<tr class="separator:ae99b8eae9947e9c41d1dec893a25f34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a1762c9e5f3dc629c1820fc45a033fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a4a1762c9e5f3dc629c1820fc45a033fc">setEvent</a> ($event)</td></tr>
-<tr class="separator:a4a1762c9e5f3dc629c1820fc45a033fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbfc10631dff566b19e4993a5b0dec29"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#acbfc10631dff566b19e4993a5b0dec29">getOwner</a> ()</td></tr>
-<tr class="separator:acbfc10631dff566b19e4993a5b0dec29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace744005309be6efc17d1f0f025982ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#ace744005309be6efc17d1f0f025982ba">setOwner</a> ($owner)</td></tr>
-<tr class="separator:ace744005309be6efc17d1f0f025982ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85c919a385f5c8da3b4caf630143341c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a85c919a385f5c8da3b4caf630143341c">getLocation</a> ()</td></tr>
-<tr class="separator:a85c919a385f5c8da3b4caf630143341c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb5e8dfe5ac672e0d17195759884194f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#abb5e8dfe5ac672e0d17195759884194f">setLocation</a> (<a class="el" href="class_geo_tag.html">GeoTag</a> $loc)</td></tr>
-<tr class="separator:abb5e8dfe5ac672e0d17195759884194f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47ad7806ea18234feba6b79358c38c77"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a47ad7806ea18234feba6b79358c38c77">toString</a> ()</td></tr>
-<tr class="separator:a47ad7806ea18234feba6b79358c38c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb738068014212d513d98072b6cc6934"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#afb738068014212d513d98072b6cc6934">__construct</a> (<a class="el" href="class_storage.html">Storage</a> $storage)</td></tr>
+<tr class="separator:afb738068014212d513d98072b6cc6934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5b452f6f5fd02ada80f134039354e3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#aae5b452f6f5fd02ada80f134039354e3">getJsonDoc</a> ()</td></tr>
+<tr class="separator:aae5b452f6f5fd02ada80f134039354e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f08feb6a944164520c4929531ca57b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a1f08feb6a944164520c4929531ca57b9">setJsonDoc</a> ($jsonDoc)</td></tr>
+<tr class="separator:a1f08feb6a944164520c4929531ca57b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87d709928426d7537de30a368b3cf4ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a87d709928426d7537de30a368b3cf4ab">getDocId</a> ()</td></tr>
+<tr class="separator:a87d709928426d7537de30a368b3cf4ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a717889281baa3c165b58e34efce28fdb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a717889281baa3c165b58e34efce28fdb">setDocId</a> ($docId)</td></tr>
+<tr class="separator:a717889281baa3c165b58e34efce28fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a789bc1a92b41cf8c0958231bc1f27131"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a789bc1a92b41cf8c0958231bc1f27131"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getUpdatedAt</b> ()</td></tr>
+<tr class="separator:a789bc1a92b41cf8c0958231bc1f27131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a154a3aa07459e180aee80106b8060cbd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a154a3aa07459e180aee80106b8060cbd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setUpdatedAt</b> ($updatedAt)</td></tr>
+<tr class="separator:a154a3aa07459e180aee80106b8060cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f0455d4aafe27d1b0720c3bcfff2847"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f0455d4aafe27d1b0720c3bcfff2847"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getCreatedAt</b> ()</td></tr>
+<tr class="separator:a0f0455d4aafe27d1b0720c3bcfff2847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab2c0066b72ff0696fde86c1d5b74538"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aab2c0066b72ff0696fde86c1d5b74538"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setCreatedAt</b> ($createdAt)</td></tr>
+<tr class="separator:aab2c0066b72ff0696fde86c1d5b74538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a055bcb2a2b197f7d31e1dd99d9eb62f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a055bcb2a2b197f7d31e1dd99d9eb62f7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getEvent</b> ()</td></tr>
+<tr class="separator:a055bcb2a2b197f7d31e1dd99d9eb62f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe6cb407db7413362087bc59fb2ea061"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe6cb407db7413362087bc59fb2ea061"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setEvent</b> ($event)</td></tr>
+<tr class="separator:afe6cb407db7413362087bc59fb2ea061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf7c472f5ffc30ad0aa95c63cd2b8f6c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf7c472f5ffc30ad0aa95c63cd2b8f6c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getOwner</b> ()</td></tr>
+<tr class="separator:adf7c472f5ffc30ad0aa95c63cd2b8f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82ce128013db19b0bfd2807b833a9e8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82ce128013db19b0bfd2807b833a9e8b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setOwner</b> ($owner)</td></tr>
+<tr class="separator:a82ce128013db19b0bfd2807b833a9e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a270a747ff748def87f313beeef64f3b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a270a747ff748def87f313beeef64f3b3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>getLocation</b> ()</td></tr>
+<tr class="separator:a270a747ff748def87f313beeef64f3b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2617a76670c483c3be4f034f0512ab5f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2617a76670c483c3be4f034f0512ab5f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>setLocation</b> (<a class="el" href="class_geo_tag.html">GeoTag</a> $loc)</td></tr>
+<tr class="separator:a2617a76670c483c3be4f034f0512ab5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a5558c5d549f41597377fa1ea8a1cefa3">toString</a> ()</td></tr>
+<tr class="separator:a5558c5d549f41597377fa1ea8a1cefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a1803f70b155dd861913caf237dbb457c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a1803f70b155dd861913caf237dbb457c">$jsonDoc</a></td></tr>
-<tr class="separator:a1803f70b155dd861913caf237dbb457c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a930be5131e4a16ebcabc36ac5b6b58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a7a930be5131e4a16ebcabc36ac5b6b58">$docId</a></td></tr>
-<tr class="separator:a7a930be5131e4a16ebcabc36ac5b6b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24f1643cdeec3c564900c7d673d7933c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a24f1643cdeec3c564900c7d673d7933c">$createdAt</a></td></tr>
-<tr class="separator:a24f1643cdeec3c564900c7d673d7933c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d6c407b76df7770f53ea0841a0177e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a0d6c407b76df7770f53ea0841a0177e1">$updatedAt</a></td></tr>
-<tr class="separator:a0d6c407b76df7770f53ea0841a0177e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63b1e9bd103da0a1029efa9127b26d41"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a63b1e9bd103da0a1029efa9127b26d41">$event</a></td></tr>
-<tr class="separator:a63b1e9bd103da0a1029efa9127b26d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c95cc94952b083cc82b08b884b45e5d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_j_s_o_n_document.html#a6c95cc94952b083cc82b08b884b45e5d">$loc</a></td></tr>
-<tr class="separator:a6c95cc94952b083cc82b08b884b45e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Data Fields</h2></td></tr>
+<tr class="memitem:a4d62ac3263d2cb954738686e2e2bef82"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d62ac3263d2cb954738686e2e2bef82"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$jsonDoc</b></td></tr>
+<tr class="separator:a4d62ac3263d2cb954738686e2e2bef82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71453266cc5ab314d1778727ee8f5fe2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71453266cc5ab314d1778727ee8f5fe2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$docId</b></td></tr>
+<tr class="separator:a71453266cc5ab314d1778727ee8f5fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbf65a0b1bfe2811cae2555c3f4669eb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afbf65a0b1bfe2811cae2555c3f4669eb"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$createdAt</b></td></tr>
+<tr class="separator:afbf65a0b1bfe2811cae2555c3f4669eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa123aef6032e0c497c4c4250f7cb7ef2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa123aef6032e0c497c4c4250f7cb7ef2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$updatedAt</b></td></tr>
+<tr class="separator:aa123aef6032e0c497c4c4250f7cb7ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a749a54eb7daa2b8849eed0223aa414d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a749a54eb7daa2b8849eed0223aa414d5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$event</b></td></tr>
+<tr class="separator:a749a54eb7daa2b8849eed0223aa414d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b64ac9a38b866d891fcb47ca45c0b3d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b64ac9a38b866d891fcb47ca45c0b3d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>$loc</b></td></tr>
+<tr class="separator:a5b64ac9a38b866d891fcb47ca45c0b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An inner class that contains the remaining properties of the <a class="el" href="class_storage.html">Storage</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aa25e9d9e90e18babca7ef1c9e6220d2b"></a>
+<a class="anchor" id="afb738068014212d513d98072b6cc6934"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">JSONDocument::__construct </td>
+          <td class="memname">__construct </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_storage.html">Storage</a>&#160;</td>
           <td class="paramname"><em>$storage</em></td><td>)</td>
@@ -161,27 +176,12 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a163c7275069e0e47b33e0d173b953ca9"></a>
+<a class="anchor" id="a87d709928426d7537de30a368b3cf4ab"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">JSONDocument::getCreatedAt </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2383dce3933f6cca996d3b89c841c245"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::getDocId </td>
+          <td class="memname">getDocId </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -193,27 +193,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae99b8eae9947e9c41d1dec893a25f34e"></a>
+<a class="anchor" id="aae5b452f6f5fd02ada80f134039354e3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">JSONDocument::getEvent </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aed66d8d325d8f48f94db8c2268e36a9b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::getJsonDoc </td>
+          <td class="memname">getJsonDoc </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -225,73 +210,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a85c919a385f5c8da3b4caf630143341c"></a>
+<a class="anchor" id="a717889281baa3c165b58e34efce28fdb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">JSONDocument::getLocation </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="acbfc10631dff566b19e4993a5b0dec29"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::getOwner </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab033ef8c25b76483b99657673f982192"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::getUpdatedAt </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a972d3cc5534a0d24a1fd4a19b6994ba8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::setCreatedAt </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$createdAt</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4a3586008f9d1d0fce219a8002784eb2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::setDocId </td>
+          <td class="memname">setDocId </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$docId</em></td><td>)</td>
@@ -306,28 +230,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4a1762c9e5f3dc629c1820fc45a033fc"></a>
+<a class="anchor" id="a1f08feb6a944164520c4929531ca57b9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">JSONDocument::setEvent </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$event</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a31f7b97eb01788e0730717d7d6fbd84f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::setJsonDoc </td>
+          <td class="memname">setJsonDoc </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$jsonDoc</em></td><td>)</td>
@@ -342,60 +250,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abb5e8dfe5ac672e0d17195759884194f"></a>
+<a class="anchor" id="a5558c5d549f41597377fa1ea8a1cefa3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">JSONDocument::setLocation </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_geo_tag.html">GeoTag</a>&#160;</td>
-          <td class="paramname"><em>$loc</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ace744005309be6efc17d1f0f025982ba"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::setOwner </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$owner</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a42c7a66f2fe0a3f460f6a3286a6b3ec8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::setUpdatedAt </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$updatedAt</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a47ad7806ea18234feba6b79358c38c77"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::toString </td>
+          <td class="memname">toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -407,83 +267,13 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a24f1643cdeec3c564900c7d673d7933c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::$createdAt</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a7a930be5131e4a16ebcabc36ac5b6b58"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::$docId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a63b1e9bd103da0a1029efa9127b26d41"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::$event</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1803f70b155dd861913caf237dbb457c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::$jsonDoc</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a6c95cc94952b083cc82b08b884b45e5d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::$loc</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a0d6c407b76df7770f53ea0841a0177e1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">JSONDocument::$updatedAt</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>E:/Samita_work/gitProject_API/App42_php_api/Storage.php</li>
+</ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Aug 1 2014 12:54:33 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 24 2014 06:34:43 for App42_Php_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
