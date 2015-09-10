@@ -32,6 +32,8 @@ $userService = App42API::buildUserService();
 //Similarly you can build other services like App42API::buildXXXXService()
 ```
 
-# For curl settings: # 
+# For curl settings: 
+```
 i. Open php.ini and search with keyword "curl".
 ii. Remove ";" before extension=php_curl.dll
+```
