@@ -1,3 +1,4 @@
+* [Release Version 2.6](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-26)
 * [Release Version 2.5](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-25)
 * [Release Version 2.4](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-24)
 * [Release Version 2.3](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-23)
@@ -6,6 +7,17 @@
 * [Release Version 2.0](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-20)
 * [Release Version 1.2](https://github.com/shephertz/App42_PHP_SDK/blob/master/Change%20Log.md#version-12)
 
+## Version 2.6
+
+**Release Date:** 28-04-2016
+
+**Release Version:** 2.6
+
+**This release contains the following bug fix:**
+
+```
+Date bug fix in Push
+```
 
 ## Version 2.5
 
